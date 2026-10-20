@@ -1,0 +1,23 @@
+# data and samples
+data/
+samples/
+EMBER2024/
+*.npz
+*.dat
+*.jsonl
+*.parquet
+
+# generated artifacts
+vm_pack/
+vm_pack.zip
+handoff/
+src/models/block_clf.txt
+
+# environment and caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.env
