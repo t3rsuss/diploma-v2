@@ -97,6 +97,8 @@ def analyze(path, run_v1=True):
     elif (m_cls and m_score >= THETA
           and not (m_label == "txt" and f_cls in TEXT_FAMILY and f_conf >= 0.6)):
         fmt, src, conf = m_cls, "Magika", m_score
+    elif m_cls is None and m_label not in ("unknown", "error") and m_score >= THETA:
+        fmt, src, conf = m_label, "Magika (поза словником моделі)", m_score
     else:
         fmt, src, conf = f_cls, "модель фрагментів", f_conf
 
