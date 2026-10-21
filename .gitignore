@@ -21,3 +21,6 @@ venv/
 .pytest_cache/
 .vscode/
 .env
+
+results/corpus_manifest*.csv
+results/e1_diagnose.txt
