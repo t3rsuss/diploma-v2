@@ -1,4 +1,5 @@
-﻿r"""rebin: відновлення структури невідомого бінарного формату за трасуванням програми-читача.
+from recovery_audit import audit_intervals
+r"""rebin: відновлення структури невідомого бінарного формату за трасуванням програми-читача.
 
 Приклади:
   python rebin.py data/corpus/png --format png
@@ -78,6 +79,14 @@ def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_00
     if len(samples) < 5:
         raise SystemExit(f"замало придатних файлів: {len(samples)} (потрібно хоча б 5)")
     inferred = INF.infer(samples)
+
+    audits = []
+    for name, (data, log), fields in zip(names, samples, inferred):
+        audit = audit_intervals(
+            [(start, end) for start, end, role in fields],
+            len(data),
+        )
+        audits.append({"file": name, **audit})
     roles = collections.Counter()
     for fields in inferred:
         for a, b, r in fields:
@@ -91,6 +100,8 @@ def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_00
     return {
         "files": len(samples),
         "example_file": names[0],
+        "interval_audit": audits[0],
+        "interval_audits": audits,
         "points": [
             {"context": r[0], "files_share": round(r[1], 3), "per_file": round(r[2], 2), "length": r[3],
              "length_share": round(r[4], 3), "role": r[6]}

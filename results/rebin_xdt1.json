@@ -1,209 +1,428 @@
 {
- "files": 20,
- "example_file": "sample_19.xdt",
- "points": [
-  {
-   "context": "xdt_reader.parse_file:24",
-   "files_share": 1.0,
-   "per_file": 6.15,
-   "length": 1,
-   "length_share": 1.0,
-   "role": "повторюване поле запису"
+  "files": 20,
+  "example_file": "sample_19.xdt",
+  "interval_audit": {
+    "file": "sample_19.xdt",
+    "file_size": 611,
+    "covered_bytes": 611,
+    "coverage": 1.0,
+    "overlap_bytes": 0,
+    "uncovered_intervals": [],
+    "overlap_intervals": [],
+    "invalid_intervals": []
   },
-  {
-   "context": "xdt_reader.parse_file:25",
-   "files_share": 1.0,
-   "per_file": 6.15,
-   "length": 2,
-   "length_share": 1.0,
-   "role": "повторюване поле запису"
+  "interval_audits": [
+    {
+      "file": "sample_19.xdt",
+      "file_size": 611,
+      "covered_bytes": 611,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_05.xdt",
+      "file_size": 787,
+      "covered_bytes": 787,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_14.xdt",
+      "file_size": 1700,
+      "covered_bytes": 1700,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_04.xdt",
+      "file_size": 442,
+      "covered_bytes": 442,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_09.xdt",
+      "file_size": 1217,
+      "covered_bytes": 1217,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_13.xdt",
+      "file_size": 603,
+      "covered_bytes": 603,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_15.xdt",
+      "file_size": 614,
+      "covered_bytes": 614,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_18.xdt",
+      "file_size": 949,
+      "covered_bytes": 949,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_06.xdt",
+      "file_size": 1020,
+      "covered_bytes": 1020,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_12.xdt",
+      "file_size": 984,
+      "covered_bytes": 984,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_17.xdt",
+      "file_size": 365,
+      "covered_bytes": 365,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_10.xdt",
+      "file_size": 1363,
+      "covered_bytes": 1363,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_01.xdt",
+      "file_size": 1165,
+      "covered_bytes": 1165,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_11.xdt",
+      "file_size": 1109,
+      "covered_bytes": 1109,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_02.xdt",
+      "file_size": 1450,
+      "covered_bytes": 1450,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_16.xdt",
+      "file_size": 899,
+      "covered_bytes": 899,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_07.xdt",
+      "file_size": 607,
+      "covered_bytes": 607,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_08.xdt",
+      "file_size": 1019,
+      "covered_bytes": 1019,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_00.xdt",
+      "file_size": 1168,
+      "covered_bytes": 1168,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    },
+    {
+      "file": "sample_03.xdt",
+      "file_size": 1114,
+      "covered_bytes": 1114,
+      "coverage": 1.0,
+      "overlap_bytes": 0,
+      "uncovered_intervals": [],
+      "overlap_intervals": [],
+      "invalid_intervals": []
+    }
+  ],
+  "points": [
+    {
+      "context": "xdt_reader.parse_file:24",
+      "files_share": 1.0,
+      "per_file": 6.15,
+      "length": 1,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "xdt_reader.parse_file:25",
+      "files_share": 1.0,
+      "per_file": 6.15,
+      "length": 2,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "xdt_reader.parse_file:26",
+      "files_share": 1.0,
+      "per_file": 6.15,
+      "length": 20,
+      "length_share": 0.033,
+      "role": "блок змінної довжини"
+    },
+    {
+      "context": "xdt_reader.parse_file:15",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 12,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    },
+    {
+      "context": "xdt_reader.parse_file:28",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 4,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    }
+  ],
+  "role_byte_share": {
+    "дані (блок)": 0.9627,
+    "довжина": 0.0128,
+    "тип запису": 0.0064,
+    "константа": 0.0063,
+    "змінне поле": 0.0056,
+    "CRC-32": 0.0042,
+    "лічильник": 0.0021
   },
-  {
-   "context": "xdt_reader.parse_file:26",
-   "files_share": 1.0,
-   "per_file": 6.15,
-   "length": 20,
-   "length_share": 0.033,
-   "role": "блок змінної довжини"
-  },
-  {
-   "context": "xdt_reader.parse_file:15",
-   "files_share": 1.0,
-   "per_file": 1.0,
-   "length": 12,
-   "length_share": 1.0,
-   "role": "поле на фіксованій позиції"
-  },
-  {
-   "context": "xdt_reader.parse_file:28",
-   "files_share": 1.0,
-   "per_file": 1.0,
-   "length": 4,
-   "length_share": 1.0,
-   "role": "повторюване поле запису"
+  "example_fields": [
+    {
+      "start": 0,
+      "end": 6,
+      "size": 6,
+      "role": "константа",
+      "context": "xdt_reader.parse_file:15",
+      "hex": "584454310100"
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "size": 2,
+      "role": "лічильник",
+      "context": "xdt_reader.parse_file:15",
+      "hex": "0500"
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "size": 4,
+      "role": "змінне поле",
+      "context": "xdt_reader.parse_file:15",
+      "hex": "a1fe4a38"
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "size": 1,
+      "role": "тип запису",
+      "context": "xdt_reader.parse_file:24",
+      "hex": "07"
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "size": 2,
+      "role": "довжина",
+      "context": "xdt_reader.parse_file:25",
+      "hex": "ac00"
+    },
+    {
+      "start": 15,
+      "end": 187,
+      "size": 172,
+      "role": "дані (блок)",
+      "context": "xdt_reader.parse_file:26",
+      "hex": "084228434b3a0713"
+    },
+    {
+      "start": 187,
+      "end": 188,
+      "size": 1,
+      "role": "тип запису",
+      "context": "xdt_reader.parse_file:24",
+      "hex": "01"
+    },
+    {
+      "start": 188,
+      "end": 190,
+      "size": 2,
+      "role": "довжина",
+      "context": "xdt_reader.parse_file:25",
+      "hex": "9100"
+    },
+    {
+      "start": 190,
+      "end": 335,
+      "size": 145,
+      "role": "дані (блок)",
+      "context": "xdt_reader.parse_file:26",
+      "hex": "f94306b81a4e40c2"
+    },
+    {
+      "start": 335,
+      "end": 336,
+      "size": 1,
+      "role": "тип запису",
+      "context": "xdt_reader.parse_file:24",
+      "hex": "07"
+    },
+    {
+      "start": 336,
+      "end": 338,
+      "size": 2,
+      "role": "довжина",
+      "context": "xdt_reader.parse_file:25",
+      "hex": "aa00"
+    },
+    {
+      "start": 338,
+      "end": 508,
+      "size": 170,
+      "role": "дані (блок)",
+      "context": "xdt_reader.parse_file:26",
+      "hex": "f096674f3370e43d"
+    },
+    {
+      "start": 508,
+      "end": 509,
+      "size": 1,
+      "role": "тип запису",
+      "context": "xdt_reader.parse_file:24",
+      "hex": "01"
+    },
+    {
+      "start": 509,
+      "end": 511,
+      "size": 2,
+      "role": "довжина",
+      "context": "xdt_reader.parse_file:25",
+      "hex": "1700"
+    },
+    {
+      "start": 511,
+      "end": 534,
+      "size": 23,
+      "role": "дані (блок)",
+      "context": "xdt_reader.parse_file:26",
+      "hex": "6bae0c247f1b9fe8"
+    },
+    {
+      "start": 534,
+      "end": 535,
+      "size": 1,
+      "role": "тип запису",
+      "context": "xdt_reader.parse_file:24",
+      "hex": "03"
+    },
+    {
+      "start": 535,
+      "end": 537,
+      "size": 2,
+      "role": "довжина",
+      "context": "xdt_reader.parse_file:25",
+      "hex": "4600"
+    },
+    {
+      "start": 537,
+      "end": 607,
+      "size": 70,
+      "role": "дані (блок)",
+      "context": "xdt_reader.parse_file:26",
+      "hex": "5711d9f4e2c86802"
+    },
+    {
+      "start": 607,
+      "end": 611,
+      "size": 4,
+      "role": "CRC-32",
+      "context": "xdt_reader.parse_file:28",
+      "hex": "99f092ab"
+    }
+  ],
+  "reader": "xdt1",
+  "smoke_test": {
+    "analyzed_files": 20,
+    "example_size": 611,
+    "example_intervals_contiguous": true,
+    "note": "Checks execution and interval consistency for one example; does not measure semantic accuracy."
   }
- ],
- "role_byte_share": {
-  "дані (блок)": 0.9627,
-  "довжина": 0.0128,
-  "тип запису": 0.0064,
-  "константа": 0.0063,
-  "змінне поле": 0.0056,
-  "CRC-32": 0.0042,
-  "лічильник": 0.0021
- },
- "example_fields": [
-  {
-   "start": 0,
-   "end": 6,
-   "size": 6,
-   "role": "константа",
-   "context": "xdt_reader.parse_file:15",
-   "hex": "584454310100"
-  },
-  {
-   "start": 6,
-   "end": 8,
-   "size": 2,
-   "role": "лічильник",
-   "context": "xdt_reader.parse_file:15",
-   "hex": "0500"
-  },
-  {
-   "start": 8,
-   "end": 12,
-   "size": 4,
-   "role": "змінне поле",
-   "context": "xdt_reader.parse_file:15",
-   "hex": "a1fe4a38"
-  },
-  {
-   "start": 12,
-   "end": 13,
-   "size": 1,
-   "role": "тип запису",
-   "context": "xdt_reader.parse_file:24",
-   "hex": "07"
-  },
-  {
-   "start": 13,
-   "end": 15,
-   "size": 2,
-   "role": "довжина",
-   "context": "xdt_reader.parse_file:25",
-   "hex": "ac00"
-  },
-  {
-   "start": 15,
-   "end": 187,
-   "size": 172,
-   "role": "дані (блок)",
-   "context": "xdt_reader.parse_file:26",
-   "hex": "084228434b3a0713"
-  },
-  {
-   "start": 187,
-   "end": 188,
-   "size": 1,
-   "role": "тип запису",
-   "context": "xdt_reader.parse_file:24",
-   "hex": "01"
-  },
-  {
-   "start": 188,
-   "end": 190,
-   "size": 2,
-   "role": "довжина",
-   "context": "xdt_reader.parse_file:25",
-   "hex": "9100"
-  },
-  {
-   "start": 190,
-   "end": 335,
-   "size": 145,
-   "role": "дані (блок)",
-   "context": "xdt_reader.parse_file:26",
-   "hex": "f94306b81a4e40c2"
-  },
-  {
-   "start": 335,
-   "end": 336,
-   "size": 1,
-   "role": "тип запису",
-   "context": "xdt_reader.parse_file:24",
-   "hex": "07"
-  },
-  {
-   "start": 336,
-   "end": 338,
-   "size": 2,
-   "role": "довжина",
-   "context": "xdt_reader.parse_file:25",
-   "hex": "aa00"
-  },
-  {
-   "start": 338,
-   "end": 508,
-   "size": 170,
-   "role": "дані (блок)",
-   "context": "xdt_reader.parse_file:26",
-   "hex": "f096674f3370e43d"
-  },
-  {
-   "start": 508,
-   "end": 509,
-   "size": 1,
-   "role": "тип запису",
-   "context": "xdt_reader.parse_file:24",
-   "hex": "01"
-  },
-  {
-   "start": 509,
-   "end": 511,
-   "size": 2,
-   "role": "довжина",
-   "context": "xdt_reader.parse_file:25",
-   "hex": "1700"
-  },
-  {
-   "start": 511,
-   "end": 534,
-   "size": 23,
-   "role": "дані (блок)",
-   "context": "xdt_reader.parse_file:26",
-   "hex": "6bae0c247f1b9fe8"
-  },
-  {
-   "start": 534,
-   "end": 535,
-   "size": 1,
-   "role": "тип запису",
-   "context": "xdt_reader.parse_file:24",
-   "hex": "03"
-  },
-  {
-   "start": 535,
-   "end": 537,
-   "size": 2,
-   "role": "довжина",
-   "context": "xdt_reader.parse_file:25",
-   "hex": "4600"
-  },
-  {
-   "start": 537,
-   "end": 607,
-   "size": 70,
-   "role": "дані (блок)",
-   "context": "xdt_reader.parse_file:26",
-   "hex": "5711d9f4e2c86802"
-  },
-  {
-   "start": 607,
-   "end": 611,
-   "size": 4,
-   "role": "CRC-32",
-   "context": "xdt_reader.parse_file:28",
-   "hex": "99f092ab"
-  }
- ]
 }
