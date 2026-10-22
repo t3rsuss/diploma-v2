@@ -1,4 +1,4 @@
-﻿import collections
+import collections
 import pathlib
 import random
 import sys
@@ -67,42 +67,109 @@ def evaluate_rule(logs, datas, key, shift=0):
     return occ, hit
 
 
+
+def select_rules(logs, datas):
+    S, V = learn(logs, datas)
+    candidates_all = [
+        key for key, (occ, hit) in S.items()
+        if occ >= LEARN_MIN_OCC and hit / occ >= LEARN_MIN_SUPPORT
+    ]
+    varying = [key for key in candidates_all if len(V[key]) > 1]
+    constants = [key for key in candidates_all if len(V[key]) == 1]
+    varying.sort(key=lambda key: (
+        -S[key][1] / S[key][0],
+        -S[key][0],
+        key
+    ))
+    return varying, constants, S
+
+
+def overlaps(a, b):
+    return (
+        a[:2] == b[:2]
+        and a[2] < b[2] + b[3]
+        and b[2] < a[2] + a[3]
+    )
+
+
 def run(name, logs, datas):
     h = len(logs) // 2
-    LA, DA, LB, DB = logs[:h], datas[:h], logs[h:], datas[h:]
-    S, V = learn(LA, DA)
-    rules = [k for k, (o, m) in S.items() if o >= LEARN_MIN_OCC and m / o >= LEARN_MIN_SUPPORT]
-    varying = [k for k in rules if len(V[k]) > 1]
-    const = [k for k in rules if len(V[k]) == 1]
+    LA, DA = logs[:h], datas[:h]
+    LB, DB = logs[h:], datas[h:]
+
+    rules, constants, S = select_rules(LA, DA)
     rows = []
-    for key in varying:
-        o, h_ = evaluate_rule(LB, DB, key)
-        if o < 3:
-            continue
+    total_occ = total_hit = 0
+    evaluated = passed = 0
+    ctrl_occ = ctrl_hit = 0
+
+    print(f"\n{name}: навчання {len(LA)}, перевірка {len(LB)} файлів")
+    print(
+        f"  змінних гіпотез: {len(rules)}; "
+        f"сталих кандидатів, не включених до перевірки: {len(constants)}"
+    )
+    print("  Вибір гіпотез виконано тільки на навчальній частині.")
+    print("  Перекриті гіпотези збережено; це не кількість різних полів.")
+
+    for key in rules:
+        occ, hit = evaluate_rule(LB, DB, key)
         co, ch = evaluate_rule(LB, DB, key, shift=1)
-        rows.append((key, S[key][1] / S[key][0], h_ / o, o, ch / co if co else None))
-    kept = []
-    for r in sorted(rows, key=lambda r: (-r[2], -r[0][3], r[0][0], r[0][2])):
-        a, b = r[0][2], r[0][2] + r[0][3]
-        if any(q[0][0] == r[0][0] and q[0][1] == r[0][1] and a < q[0][2] + q[0][3] and q[0][2] < b for q in kept):
-            continue
-        kept.append(r)
-    rows = sorted(kept, key=lambda r: (-r[3], r[0][0], r[0][2]))
-    held = [r for r in rows if r[2] >= PASS_ACC]
-    part = [r for r in rows if PART_ACC <= r[2] < PASS_ACC]
-    ctrl = [r[4] for r in rows if r[4] is not None]
-    print(f"\n{name}: навчання {len(LA)} файлів, перевірка {len(LB)}")
-    print(f"  правил-кандидатів (збіг >= {LEARN_MIN_SUPPORT:.0%}): {len(rules)}; з постійним значенням (підозрілі): {len(const)}; зі змінним значенням: {len(varying)}")
-    print(f"  полів довжини після злиття ширин: {len(rows)}; тримають >= {PASS_ACC:.0%}: {len(held)}, частково ({PART_ACC:.0%}-{PASS_ACC:.0%}): {len(part)}", end="")
-    if rows:
-        print(f"; середня точність {100 * sum(r[2] for r in rows) / len(rows):.1f} %", end="")
-    if ctrl:
-        print(f"; контроль (зсув на 1 байт) {100 * sum(ctrl) / len(ctrl):.1f} %", end="")
-    print()
-    print(f"  {'точка читання':38s}{'довж.':>6s}{'зсув':>5s}{'шир.':>5s}{'порядок':>8s}{'навч.':>7s}{'перев.':>8s}{'випадків':>9s}")
-    for key, tr, te, o, _ in rows[:10]:
-        print(f"  {key[0][:38]:38s}{key[1]:6d}{key[2]:5d}{key[3]:5d}{key[4]:>8s}{100 * tr:6.0f}%{100 * te:7.0f}%{o:9d}")
-    return len(rows), len(held)
+        ambiguous = any(
+            other != key and overlaps(key, other)
+            for other in rules
+        )
+        train_occ, train_hit = S[key]
+        rate = hit / occ if occ else None
+
+        rows.append((key, train_hit / train_occ, occ, hit, rate, ambiguous))
+        total_occ += occ
+        total_hit += hit
+        ctrl_occ += co
+        ctrl_hit += ch
+
+        if occ >= 3:
+            evaluated += 1
+            passed += rate >= PASS_ACC
+
+    print(
+        f"  гіпотез із >=3 перевірочними випадками: {evaluated}; "
+        f"із часткою виконання >= {PASS_ACC:.0%}: {passed}"
+    )
+
+    if total_occ:
+        print(
+            f"  виконано перевірок: {total_hit}/{total_occ} "
+            f"({100 * total_hit / total_occ:.1f} %)"
+        )
+        print("  Агрегат враховує перекриті гіпотези, тому не є точністю полів.")
+
+    if ctrl_occ:
+        print(
+            f"  контроль зі зсувом +1: {ctrl_hit}/{ctrl_occ} "
+            f"({100 * ctrl_hit / ctrl_occ:.1f} %)"
+        )
+    else:
+        print("  контроль зі зсувом +1: немає допустимих перевірок")
+
+    print(
+        f"  {'точка читання':38s}"
+        f"{'чит.':>6s}{'зсув':>5s}{'шир.':>5s}"
+        f"{'порядок':>8s}{'навч.':>8s}"
+        f"{'збіг/усі':>12s}{'перев.':>9s}  перекриття"
+    )
+
+    for key, tr, occ, hit, rate, ambiguous in rows:
+        result = f"{100 * rate:.1f}%" if rate is not None else "n/a"
+        counts = f"{hit}/{occ}"
+        print(
+            f"  {key[0][:38]:38s}"
+            f"{key[1]:6d}{key[2]:5d}{key[3]:5d}"
+            f"{key[4]:>8s}{100 * tr:7.1f}%"
+            f"{counts:>12s}{result:>9s}  "
+            f"{'так' if ambiguous else 'ні'}"
+        )
+
+    return len(rules), passed
 
 
 def main(fmts):
