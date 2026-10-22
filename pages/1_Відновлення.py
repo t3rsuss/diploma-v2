@@ -1,4 +1,4 @@
-﻿import hashlib
+import hashlib
 import json
 import pathlib
 import sys
@@ -33,7 +33,7 @@ st.info(
 with st.form("recovery_form"):
     fmt = st.selectbox(
         "Встановлений читач",
-        ["png", "gif", "ico", "wav", "gz", "docx"],
+        ["png", "gif", "ico", "wav", "gz", "docx", "xdt1"],
     )
     uploads = st.file_uploader(
         "Зразки одного формату: від 5 до 30 файлів",
@@ -86,7 +86,8 @@ if submitted:
 
                         report = analyze(
                             [folder],
-                            fmt=fmt,
+                            fmt=None if fmt == "xdt1" else fmt,
+                            reader="demo.xdt_reader:parse_file" if fmt == "xdt1" else None,
                             limit=30,
                             min_size=64,
                             max_size=300_000,
