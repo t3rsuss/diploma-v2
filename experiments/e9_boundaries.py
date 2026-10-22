@@ -8,15 +8,14 @@ import statistics
 BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
 with contextlib.redirect_stdout(io.StringIO()):
     g = runpy.run_path(str(BASE / "experiments" / "e8_viterbi.py"), run_name="e8")
-viterbi, tune, ev, STEP, score, res, LAMS = (g[k] for k in ("viterbi", "tune", "ev", "STEP", "score", "res", "LAMS"))
+viterbi, tune, ev, STEP, score, res = (g[k] for k in ("viterbi", "tune", "ev", "STEP", "score", "res"))
 
 print("Розширена сітка λ (парні файли)")
 for lam in (32, 48, 64, 96):
     res[lam] = score(tune, lambda im, l=lam: viterbi(im["lp"], l))
     print(f"  λ={lam:3d}: байти {res[lam][0]:.1f}, точн. {res[lam][2]:.1f}, повнота {res[lam][3]:.1f}, F1 {res[lam][4]:.2f}")
-top = max(v[4] for v in res.values())
-best = min(l for l, v in res.items() if v[4] >= top - 0.01)
-print(f"Обрано λ = {best} (макс. F1 на парних {top:.3f})\n")
+best = max(res, key=lambda l: res[l][4])
+print(f"Обрано λ = {best} (макс. F1 на парних {res[best][4]:.3f})\n")
 
 MAGIC = {
     "pdf": [b"%PDF-"], "ole2": [b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"], "gif": [b"GIF8"],
@@ -27,16 +26,14 @@ R = 6144
 
 
 def restore(im):
-    parts = {}
+    spans = []
     n = 0
     for k, w in enumerate(im["wins"]):
-        o = min(max(k * STEP - 1024, 0), max(10**12, 0))
         o = max(k * STEP - 1024, 0)
-        parts[k] = (o, w)
-    ends = [o + len(w) for o, w in parts.values()]
-    n = max(ends)
+        spans.append((o, w))
+        n = max(n, o + len(w))
     buf = bytearray(n)
-    for o, w in parts.values():
+    for o, w in spans:
         buf[o:o + len(w)] = w
     return bytes(buf)
 

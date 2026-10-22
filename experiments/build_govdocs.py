@@ -86,6 +86,11 @@ def save(rows, name):
 seen = set()
 dev, rej_dev = scan(GD / "dev", seen)
 test, rej_test = scan(GD / "test", seen)
+for extra, tgt, rej in (("dev_extra", dev, rej_dev), ("test_extra", test, rej_test)):
+    if (GD / extra).exists():
+        r, rj = scan(GD / extra, seen)
+        tgt.extend(r)
+        rej.update(rj)
 save(dev, "govdocs_dev.csv")
 save(test, "govdocs_test.csv")
 
