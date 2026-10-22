@@ -1,0 +1,521 @@
+{
+  "files": 27,
+  "example_file": "a762a3621325.png",
+  "points": [
+    {
+      "context": "PngImagePlugin._open:783",
+      "files_share": 1.0,
+      "per_file": 4.19,
+      "length": 8,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.crc:220",
+      "files_share": 1.0,
+      "per_file": 3.19,
+      "length": 4,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.load_read:1025",
+      "files_share": 1.0,
+      "per_file": 1.15,
+      "length": 65536,
+      "length_share": 0.129,
+      "role": "блок змінної довжини"
+    },
+    {
+      "context": "Image.open:3650",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 16,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    },
+    {
+      "context": "PngImagePlugin._open:767",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 8,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    },
+    {
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 13,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    },
+    {
+      "context": "PngImagePlugin.load_end:1034",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 4,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.load_end:1037",
+      "files_share": 1.0,
+      "per_file": 1.0,
+      "length": 8,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.chunk_pHYs:561",
+      "files_share": 0.667,
+      "per_file": 1.0,
+      "length": 9,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    },
+    {
+      "context": "PngImagePlugin.chunk_sRGB:549",
+      "files_share": 0.481,
+      "per_file": 1.0,
+      "length": 1,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.chunk_gAMA:527",
+      "files_share": 0.444,
+      "per_file": 1.0,
+      "length": 4,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.chunk_PLTE:496",
+      "files_share": 0.222,
+      "per_file": 1.0,
+      "length": 93,
+      "length_share": 0.167,
+      "role": "блок змінної довжини"
+    },
+    {
+      "context": "PngImagePlugin.chunk_tRNS:504",
+      "files_share": 0.222,
+      "per_file": 1.0,
+      "length": 30,
+      "length_share": 0.167,
+      "role": "блок змінної довжини"
+    },
+    {
+      "context": "PngImagePlugin.chunk_cHRM:536",
+      "files_share": 0.074,
+      "per_file": 1.0,
+      "length": 32,
+      "length_share": 1.0,
+      "role": "повторюване поле запису"
+    },
+    {
+      "context": "PngImagePlugin.chunk_iCCP:430",
+      "files_share": 0.037,
+      "per_file": 1.0,
+      "length": 2486,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    },
+    {
+      "context": "PngImagePlugin.chunk_tEXt:579",
+      "files_share": 0.037,
+      "per_file": 1.0,
+      "length": 24,
+      "length_share": 1.0,
+      "role": "поле на фіксованій позиції"
+    }
+  ],
+  "role_byte_share": {
+    "дані (блок)": 0.9944,
+    "змінне поле": 0.0018,
+    "константа": 0.0017,
+    "довжина": 0.001,
+    "CRC-32": 0.001
+  },
+  "example_fields": [
+    {
+      "start": 0,
+      "end": 8,
+      "size": 8,
+      "role": "константа",
+      "context": "PngImagePlugin._open:767",
+      "hex": "89504e470d0a1a0a"
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "size": 4,
+      "role": "довжина",
+      "context": "PngImagePlugin._open:783",
+      "hex": "0000000d"
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "size": 4,
+      "role": "константа",
+      "context": "PngImagePlugin._open:783",
+      "hex": "49484452"
+    },
+    {
+      "start": 16,
+      "end": 18,
+      "size": 2,
+      "role": "константа",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "0000"
+    },
+    {
+      "start": 18,
+      "end": 20,
+      "size": 2,
+      "role": "змінне поле",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "0257"
+    },
+    {
+      "start": 20,
+      "end": 22,
+      "size": 2,
+      "role": "константа",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "0000"
+    },
+    {
+      "start": 22,
+      "end": 24,
+      "size": 2,
+      "role": "змінне поле",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "0128"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "size": 1,
+      "role": "довжина",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "08"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "size": 1,
+      "role": "змінне поле",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "06"
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "size": 3,
+      "role": "константа",
+      "context": "PngImagePlugin.chunk_IHDR:458",
+      "hex": "000000"
+    },
+    {
+      "start": 29,
+      "end": 33,
+      "size": 4,
+      "role": "CRC-32",
+      "context": "PngImagePlugin.crc:220",
+      "hex": "75a7d40d"
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "size": 4,
+      "role": "довжина",
+      "context": "PngImagePlugin._open:783",
+      "hex": "00000009"
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "size": 4,
+      "role": "змінне поле",
+      "context": "PngImagePlugin._open:783",
+      "hex": "70485973"
+    },
+    {
+      "start": 41,
+      "end": 50,
+      "size": 9,
+      "role": "змінне поле",
+      "context": "PngImagePlugin.chunk_pHYs:561",
+      "hex": "00000b1300000b13"
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "size": 4,
+      "role": "CRC-32",
+      "context": "PngImagePlugin.crc:220",
+      "hex": "009a9c18"
+    },
+    {
+      "start": 54,
+      "end": 62,
+      "size": 8,
+      "role": "змінне поле",
+      "context": "PngImagePlugin._open:783",
+      "hex": "0000000173524742"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "size": 1,
+      "role": "змінне поле",
+      "context": "PngImagePlugin.chunk_sRGB:549",
+      "hex": "00"
+    },
+    {
+      "start": 63,
+      "end": 67,
+      "size": 4,
+      "role": "CRC-32",
+      "context": "PngImagePlugin.crc:220",
+      "hex": "aece1ce9"
+    },
+    {
+      "start": 67,
+      "end": 71,
+      "size": 4,
+      "role": "довжина",
+      "context": "PngImagePlugin._open:783",
+      "hex": "00000004"
+    },
+    {
+      "start": 71,
+      "end": 75,
+      "size": 4,
+      "role": "змінне поле",
+      "context": "PngImagePlugin._open:783",
+      "hex": "67414d41"
+    },
+    {
+      "start": 75,
+      "end": 79,
+      "size": 4,
+      "role": "дані (блок)",
+      "context": "PngImagePlugin.chunk_gAMA:527",
+      "hex": "0000b18f"
+    },
+    {
+      "start": 79,
+      "end": 83,
+      "size": 4,
+      "role": "CRC-32",
+      "context": "PngImagePlugin.crc:220",
+      "hex": "0bfc6105"
+    },
+    {
+      "start": 83,
+      "end": 85,
+      "size": 2,
+      "role": "змінне поле",
+      "context": "PngImagePlugin._open:783",
+      "hex": "0001"
+    },
+    {
+      "start": 85,
+      "end": 87,
+      "size": 2,
+      "role": "довжина",
+      "context": "PngImagePlugin._open:783",
+      "hex": "b0f8"
+    },
+    {
+      "start": 87,
+      "end": 91,
+      "size": 4,
+      "role": "змінне поле",
+      "context": "PngImagePlugin._open:783",
+      "hex": "49444154"
+    },
+    {
+      "start": 91,
+      "end": 65627,
+      "size": 65536,
+      "role": "дані (блок)",
+      "context": "PngImagePlugin.load_read:1025",
+      "hex": "7801ecfdcbae764d"
+    },
+    {
+      "start": 65627,
+      "end": 110931,
+      "size": 45304,
+      "role": "дані (блок)",
+      "context": "PngImagePlugin.load_read:1025",
+      "hex": "c86ff9cd3f247fc7"
+    },
+    {
+      "start": 110931,
+      "end": 110935,
+      "size": 4,
+      "role": "CRC-32",
+      "context": "PngImagePlugin.load_end:1034",
+      "hex": "bf2d89e7"
+    },
+    {
+      "start": 110935,
+      "end": 110943,
+      "size": 8,
+      "role": "константа",
+      "context": "PngImagePlugin.load_end:1037",
+      "hex": "0000000049454e44"
+    }
+  ],
+  "reader": "png",
+  "uploaded_unique_files": 27,
+  "input_manifest": [
+    {
+      "name": "0ef84d951ad3.png",
+      "size": 9689,
+      "sha256": "0ef84d951ad329208ba49b1406db67e37ee6f10b39c62591eeac03fa1ae0ac5e"
+    },
+    {
+      "name": "7cc4d54237b4.png",
+      "size": 1579,
+      "sha256": "7cc4d54237b438b5b3e2b50db674c3d1eabe646ba864c0bacce82b52beee18bf"
+    },
+    {
+      "name": "31c332f584ad.png",
+      "size": 12820,
+      "sha256": "31c332f584ad99ce6392b9418ea328607d9b03cfe5b63c7304ef9ea08356ff7a"
+    },
+    {
+      "name": "43c31d2748eb.png",
+      "size": 7742,
+      "sha256": "43c31d2748eb156aec465b5df64741b3c289ea3ab5aa3f9d13ebfb700d6345bd"
+    },
+    {
+      "name": "057a3eb3ae48.png",
+      "size": 788,
+      "sha256": "057a3eb3ae48ff6764b7c294daee8108f224ee8f74b3c9aa90fd6e4ffc6cf09b"
+    },
+    {
+      "name": "95c436b59012.png",
+      "size": 1704,
+      "sha256": "95c436b590125b3984a111fc7feea0f960f0fdf494f7a4eb635b109cec81b4d0"
+    },
+    {
+      "name": "306ddc11ee16.png",
+      "size": 726,
+      "sha256": "306ddc11ee16832534cec6d8fe8eb6012ec38ca301e1e54e47cd6b163f0420a6"
+    },
+    {
+      "name": "540a0a9da01a.png",
+      "size": 3130,
+      "sha256": "540a0a9da01a17a9630dbc081b498550fa39d59d8fe2721c1488a5291b78afbf"
+    },
+    {
+      "name": "685e2ed6e72f.png",
+      "size": 2032,
+      "sha256": "685e2ed6e72f7096aee52164092d56ec9c6367071a8618934504b8b9965029d0"
+    },
+    {
+      "name": "697b7c7c588f.png",
+      "size": 644,
+      "sha256": "697b7c7c588f7f0081ab958be93249f53c9ac9031af0ce53236279b1613c3d9b"
+    },
+    {
+      "name": "968a878fc01e.png",
+      "size": 161467,
+      "sha256": "968a878fc01ea8dd9f330014b672b7cb763e7f38a05a84d42f81b1b73568eba8"
+    },
+    {
+      "name": "4938ed44d7d6.png",
+      "size": 2097,
+      "sha256": "4938ed44d7d63f44ca959eafb942be36459939a9c679bfcbf4f5c837fdf3475c"
+    },
+    {
+      "name": "8330ffcbc367.png",
+      "size": 750,
+      "sha256": "8330ffcbc367813596bd03139c5c2708b000035c59ff474fb1415411c238b86d"
+    },
+    {
+      "name": "77399f902895.png",
+      "size": 799,
+      "sha256": "77399f9028951a317fc15ea675a4ecffdd0735128a74a58f25e9cf59c61a6f92"
+    },
+    {
+      "name": "697345f970a6.png",
+      "size": 1446,
+      "sha256": "697345f970a6c9a82b94591bcf1685001da52027de4bae3046fcb71da64912e1"
+    },
+    {
+      "name": "a28b6322227f.png",
+      "size": 926,
+      "sha256": "a28b6322227f124b0ec66c75a3a7000d3606bc5dbc530f5c443243b6e186a115"
+    },
+    {
+      "name": "a762a3621325.png",
+      "size": 110947,
+      "sha256": "a762a3621325936fe61573071ee54a4e342ce403d389b9ee43a273107cd858bc"
+    },
+    {
+      "name": "b08e6affc79e.png",
+      "size": 583,
+      "sha256": "b08e6affc79e8517325b44c8fe719570f60bd38571a7142d030ef40c38a67c97"
+    },
+    {
+      "name": "bcb72c9edec7.png",
+      "size": 28500,
+      "sha256": "bcb72c9edec7d4062fb7e87897908fff97477c1057fe5d2b1b89471345ee05af"
+    },
+    {
+      "name": "bd57f34d8302.png",
+      "size": 688,
+      "sha256": "bd57f34d8302fa1a64895552a2744ca8d00e5806ed2dca5dae294f4b5f2fda4e"
+    },
+    {
+      "name": "be5fc037c77d.png",
+      "size": 2782,
+      "sha256": "be5fc037c77dd90611a1b500a1bb6bf48b4119765f26339ef83dafb47314f326"
+    },
+    {
+      "name": "c08b1b157991.png",
+      "size": 563,
+      "sha256": "c08b1b157991539aabaf7936f8bb618a6c5cea0e2cfafd7b0723bc7e9461e091"
+    },
+    {
+      "name": "d1e149dcb378.png",
+      "size": 610,
+      "sha256": "d1e149dcb3784d5b22da5d58bf651fcc5ecf6395debd83aa1a8063bdd14e9cd4"
+    },
+    {
+      "name": "d491a77afbbe.png",
+      "size": 788,
+      "sha256": "d491a77afbbe0912164f3501f1eaea0ce11010fc6e0963d65db341718bdd7853"
+    },
+    {
+      "name": "d977d8ab2178.png",
+      "size": 817,
+      "sha256": "d977d8ab2178e83cfc8e795350625ba041318092d84ff10762214477bdf7b1eb"
+    },
+    {
+      "name": "ecd0726058ec.png",
+      "size": 67049,
+      "sha256": "ecd0726058ec1b67e38b0687246c262d8017e9932d23991052de2802d0d56755"
+    },
+    {
+      "name": "edded01d34a8.png",
+      "size": 1295,
+      "sha256": "edded01d34a8248d0003c4d75b59183529f544dd9d61c226c2c91e1c8147e7ea"
+    }
+  ],
+  "limitations": [
+    "Ролі та межі полів є евристичними гіпотезами.",
+    "Опис полів показано для одного прикладу.",
+    "Це не згенерований незалежний парсер.",
+    "Перевірка E19 не інтегрована в цей звіт.",
+    "Трасування не відображає внутрішні операції нативного декодера."
+  ]
+}
