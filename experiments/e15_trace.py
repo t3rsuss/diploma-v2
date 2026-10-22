@@ -18,11 +18,12 @@ BASE = pathlib.Path(__file__).resolve().parents[1]
 GEN = BASE / "kaitai_dbg"
 sys.path.append(str(GEN))
 sys.setrecursionlimit(10000)
-BS, BLOB, MAX_BYTES, PER_CLASS, MIN_COV, SEED = 256, 64, 300_000, 40, 0.98, 42
+BS, BLOB, MAX_BYTES, PER_CLASS, MIN_COV, SEED, MAX_FIELDS = 256, 64, 150_000, 30, 0.98, 42, 30_000
 FORMATS = {
     "png": ("png", "Png"), "gif": ("gif", "Gif"), "ico": ("ico", "Ico"), "wav": ("wav", "Wav"),
     "gz": ("gzip", "Gzip"), "docx": ("zip", "Zip"),
 }
+WANT = [a for a in sys.argv[1:] if a in FORMATS] or list(FORMATS)
 
 
 class TraceIO(io.BytesIO):
@@ -30,10 +31,15 @@ class TraceIO(io.BytesIO):
         super().__init__(data)
         self.log = []
 
+    def _rec(self, pos, n):
+        self.log.append((pos, n))
+        if len(self.log) > 200_000:
+            raise RuntimeError("надто багато читань")
+
     def read(self, size=-1):
         pos = self.tell()
         out = super().read(size)
-        self.log.append((pos, len(out)))
+        self._rec(pos, len(out))
         return out
 
     def read1(self, size=-1):
@@ -42,13 +48,13 @@ class TraceIO(io.BytesIO):
     def readline(self, size=-1):
         pos = self.tell()
         out = super().readline(size)
-        self.log.append((pos, len(out)))
+        self._rec(pos, len(out))
         return out
 
     def readinto(self, b):
         pos = self.tell()
         n = super().readinto(b) or 0
-        self.log.append((pos, n))
+        self._rec(pos, n)
         return n
 
 
@@ -88,6 +94,8 @@ def touch(obj):
 
 
 def visit(val, parent, base, s, e, out, seen):
+    if len(out) > MAX_FIELDS:
+        raise RuntimeError("надто багато полів")
     if isinstance(val, KaitaiStruct):
         if id(val) in seen:
             return
@@ -221,9 +229,10 @@ for name in ("govdocs_dev.csv", "govdocs_test.csv"):
 
 rng = random.Random(SEED)
 print(f"{'формат':7s}{'файлів':>7s}{'прочит.,%':>10s}{'меж: P0':>9s}{'R0':>6s}{'P2':>6s}{'R2':>6s}"
-      f"{'F1 структ.':>12s}{'F1 меж±1':>10s}{'F1 меж±4':>10s}")
+      f"{'F1 структ.':>12s}{'F1 меж±1':>10s}{'F1 меж±4':>10s}", flush=True)
 macro = collections.defaultdict(list)
-for c, (mod, cls) in FORMATS.items():
+for c in WANT:
+    mod, cls = FORMATS[c]
     Parser = load(mod, cls)
     lst = sorted(files[c])
     rng.shuffle(lst)
@@ -239,6 +248,7 @@ for c, (mod, cls) in FORMATS.items():
             if not (1024 <= p.stat().st_size <= MAX_BYTES):
                 continue
             data = p.read_bytes()
+            print(f"  {c}: {p.name}", file=sys.stderr, flush=True)
             obj = Parser(KaitaiStream(BytesIO(data)))
             obj._read()
             rngs = []
@@ -274,7 +284,7 @@ for c, (mod, cls) in FORMATS.items():
             bf[t][1] += len(pb)
             bf[t][2] += len(tb)
     if not n_ok:
-        print(f"{c:7s}{0:7d}")
+        print(f"{c:7s}{0:7d}", flush=True)
         continue
 
     def pr(t):
@@ -291,6 +301,6 @@ for c, (mod, cls) in FORMATS.items():
     macro["b4"].append(b4)
     print(f"{c:7s}{n_ok:7d}{np.mean(read_frac):10.1f}{p0:9.2f}{r0:6.2f}{p2:6.2f}{r2:6.2f}{fs:12.2f}{b1:10.2f}{b4:10.2f}",
           flush=True)
-print(f"\nМакро: F1 структури {np.mean(macro['fs']):.2f}, F1 меж ±1 блок {np.mean(macro['b1']):.2f}, "
-      f"±4 блоки {np.mean(macro['b4']):.2f}")
-print("Порівняння зі статистикою вмісту (e14): F1 структури 0,21; F1 меж ±1 блок 0,24; ±4 блоки 0,25")
+if macro["fs"]:
+    print(f"\nМакро: F1 структури {np.mean(macro['fs']):.2f}, F1 меж ±1 блок {np.mean(macro['b1']):.2f}, "
+          f"±4 блоки {np.mean(macro['b4']):.2f}")
