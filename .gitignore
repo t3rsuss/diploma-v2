@@ -24,3 +24,4 @@ venv/
 
 results/corpus_manifest*.csv
 results/e1_diagnose.txt
+tools/
