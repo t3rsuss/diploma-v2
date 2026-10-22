@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import hashlib
 import io
@@ -6,7 +6,7 @@ import pathlib
 import sys
 import zipfile
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE))
 from src.triage.fragment import check_content
 

@@ -1,0 +1,908 @@
+format,sha256,size,ext,encoding,src
+bmp,93c081791cfb78972e13a6a61f3893fbcaee48efc852ff2261c09e9b637aca20,786486,bmp,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\resource\game-icon.bmp
+bmp,745444a752b73b8549e018422b41eafc1190b1a1b9dd7dace66a713c95419623,159656,bmp,,C:\Program Files (x86)\Steam\steamapps\common\BioShock 2 Remastered\ContentBaked\pc\System\Logos\StartupLogo.bmp
+bmp,c2a476c2475c545b177b9cef192389fa8e3703ba9578380af18e61972ecc52cd,1034456,bmp,,C:\Program Files (x86)\Steam\steamapps\common\BioShock Remastered\ContentBaked\pc\System\Logos\EdSplash.bmp
+bmp,483e36535d66dd3fd63faa1ea00867a7d1274564591ee1d0738bb3275e9d5557,530456,bmp,,C:\Program Files (x86)\Steam\steamapps\common\Back 4 Blood\Gobi\Content\Splash\Splash.bmp
+bmp,7defe1d24a2679053712293e6f642490266ccf62ae0da3b9bdf98ba355752970,9272,bmp,,C:\Program Files\Windows Media Player\Network Sharing\wmpnss_color48.bmp
+bmp,04dbe582a8a6504258a91320bc20d6da6103c8db34c396816b1f3b40a81b8aac,130678,bmp,,C:\Program Files (x86)\Steam\steamapps\common\BioShock 2 Remastered\ContentBaked\pc\System\Logos\EdSplash.bmp
+bmp,15c3865444346a5f871931bb777eaeb5816539174eb5a3c1088bdac77ac89c39,29288,bmp,,C:\Program Files (x86)\Steam\steamapps\common\BioShock Remastered\ContentBaked\pc\System\Logos\StartupLogo.bmp
+bmp,5e52850de9e4776f473c7ac9d23a3d230acc23d916c17df146f6f221a4a72a31,4152,bmp,,C:\Program Files\Windows Media Player\Network Sharing\wmpnss_color32.bmp
+bmp,4f416b4863b236a1cf471ee78bce0dd458ee2de3c5672972fba9153b6d697411,262198,bmp,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\DiscoveryOverlay\Assets\cursor-default-glow.bmp
+elf,af74c4504c0f8c13e14d45374991ea4065687d53991473f8e017ec46a17e8b70,1024,,,C:\Users\vlad\miniconda3\pkgs\packaging-26.3-py311haa95532_0\info\test\tests\musllinux\glibc-x86_64
+elf,03c992f2c9a4aaaddb5aae577b6c69ab76975dd9ecda3f600492d8e9347ce5b3,1024,,,C:\Users\vlad\miniconda3\pkgs\packaging-26.3-py311haa95532_0\info\test\tests\musllinux\musl-x86_64
+elf,306ea35d3c8675b2e44aeab5be5858f9af10db6992406a0d53a59453b02babb7,1233912,,,C:\Program Files\WSL\tools\bsdtar
+elf,296ef64fa17fe7a8ae48af17f45effd52e023653552435f9a6cc8159ad656e94,1024,,,C:\Users\vlad\miniconda3\pkgs\packaging-26.3-py311haa95532_0\info\test\tests\musllinux\musl-aarch64
+elf,85b16a3cdca2973c1146ce11394030beb7560b4643b5b7d35d2e391b107d3926,872044,,,C:\Program Files (x86)\VMware\VMware Workstation\tools-upgraders\vmware-tools-upgrader-32
+elf,762f5b4b06a2539f3bdcb43c674e68bfe183c36a0453b6c1aefed7ac7e36f060,1024,,,C:\Users\vlad\miniconda3\pkgs\packaging-26.3-py314haa95532_0\info\test\tests\musllinux\musl-i386
+elf,b3d78d409a4dbbe8612551fc0c0d746d3e58d7997ee7eba78ce1064d77cfa8c3,801840,so,,C:\Program Files\WSL\lib\libd3d12.so
+elf,9c55f691941896cc0b121880d749cf04923d6611621e8116e13d7f025715daab,1377456,so,,C:\Windows\System32\DriverStore\FileRepository\u0401688.inf_amd64_27c8303ccb24675b\B401510\libamdenc64.so
+elf,9b2be781d42bdd73e8887366698e2c56d03c815a9be6f8d47dfeac22e0104fb7,2836528,,,C:\Program Files\WSL\tools\init
+elf,33d43d8c39c21d796c61203f9f67b5f255150be65454e577f73132016d505941,918184,,,C:\Program Files (x86)\VMware\VMware Workstation\tools-upgraders\vmware-tools-upgrader-64
+elf,94862dca4e0579b8d4549a827d359e7c901209e1d71291914eeadaecf1918ac9,3887048,,,C:\Users\vlad\.vscode\extensions\ms-python.vscode-pylance-2026.4.1\dist\bundled\bin\linux-arm64\pylance-service
+elf,5ef2af36d09b881e31cf1481cd5ba94df08c1c4b646f5bd10b35e76dd280dec2,4956360,,,C:\Users\vlad\.vscode\extensions\ms-python.vscode-pylance-2026.4.1\dist\bundled\bin\linux-x64\pylance-service
+elf,83d1671a839bcf71709349e77cd68341515df2e63080765618876996a0f4190c,942048,so,,C:\Program Files\WSL\lib\libdxcore.so
+gif,cc2a58bb213acc385612759aae47a977bfad23700d9463557bea85a01b97f5bb,2944,gif,,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\P1100SIG.GIF
+gif,d1cfc97e7e44f3949569893cdadc4f071914ccce3852ed41ec8752e8133ab5da,1420,gif,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ASP.NETWebAdminFiles\Images\HelpIcon_solid.gif
+gif,64ed55f1c8f15df3c664c45a2085a6e2df34bef7982d9df399a590391a50d338,101906,gif,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\streamlit\static\static\media\fireworks.B4d-_KUe.gif
+gif,b324f5c1ed94fe6047b27380188a628f0101a45d1974db83b17c8be2f6507bc4,1439,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\QUAD\PREVIEW.GIF
+gif,663ef670503628720fd9026ee1db5a502838661af99dba6f6f107f01217bc206,880,gif,,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Images\yellowCORNER.gif
+gif,d73f2eb0a3779af79250bfb7d5be1a7aaa7f630380409068476f5acd20ad1568,26479,gif,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\media\HelloFaceAnimation.gif
+gif,3e928bbab08d67eadf530bbc4987bc74cc9cfd82b83e27f301817d4c9706f5d9,1347,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\ECLIPSE\PREVIEW.GIF
+gif,db223d088b0b41ea77614ec7fbfcde1132f68b2e1c3e40c7c1871a541df625ac,11042,gif,,C:\Users\vlad\.pplx\users\82fd384d011e93bf\template\managed-python\cpython-3.12.12-windows-x86_64-none\tcl\tix8.4.3\demos\bitmaps\tix.gif
+gif,af64ad86ad19e643ce61654ef6e90dd2a585a0543b760324e1a47120d27b19b2,1364,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\NETWORK\PREVIEW.GIF
+gif,f692a508b09704e2f42edd6158f66da169cd8c732f5980f3f4917955a6b34c6e,1522,gif,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\tracked-send\images\themes\dark\adobe_spinner.gif
+gif,dbffa7b8a3f3f82ffc6ad56fb3686448dd61acc5b370664953b775a38c8ff01c,945,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\CANYON\PREVIEW.GIF
+gif,6dec4036e3c28c7ea6958c3fb62130e16328da85d2aef91d061e4d7204f2a347,760410,gif,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\DiscoveryOverlay\Assets\FirstRunExperience\FirstRunExperienceFull_LIGHT.gif
+gif,f71bd4f94f292936fdc91542e68a3aca1c762598f7e9568625f3470a77c20c70,380938,gif,,C:\Windows\SystemResources\Windows.UI.ControlCenter\Assets\Images\StudioEffectsBackgroundBlur_Emotion.gif
+gif,f0fb02ee401bc09af0862e05046e38d65cd1bda1540d43590f430535f0ee0e05,4991,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\SUMIPNTG\PREVIEW.GIF
+gif,9df7b3d6323ca7ab634eecdf86c402b40b2d7f5a96b38121942654f9207dd58f,3611,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\SATIN\PREVIEW.GIF
+gif,286f932683b66eef06db303a7b06cb2c4a58e90df376af1241e390d8e1741d47,3214561,gif,,C:\Windows\SystemResources\Windows.UI.ControlCenter\Assets\Images\StudioEffectsOnByDefaultToast.gif
+gif,d153285c008adfcf12990fdcd1f1523456c1ac763da06b9e731a6f91b427e005,2668,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\WATER\PREVIEW.GIF
+gif,62866e95501c436b329a15432355743c6efd64a37cfb65bcece465ab63ecf240,2981,gif,,C:\Users\vlad\miniconda3\pkgs\tk-8.6.15-hf199647_0\Library\lib\tk8.6\images\pwrdLogo175.gif
+gif,c2106ba8df447c7966ed8a8c553342a4879f365de9c11b4c9bc9a4c407f12813,1560,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\BLUECALM\PREVIEW.GIF
+gif,6bd361c3dd468c7fe41a2b88bff119bc886e6a0198c259053b5e88cf346816a8,59144,gif,,C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\media\CortanaAnimation.gif
+gif,0f404764d07a6ae2ef9e1e0e8eaac278b7d488d61cf1c084146f2f33b485f2ed,11000,gif,,C:\Users\vlad\.pplx\users\82fd384d011e93bf\template\managed-python\cpython-3.12.12-windows-x86_64-none\tcl\tk8.6\images\logoLarge.gif
+gif,2e1bdcf8236713f50a48fbaf1ab85d90d78f87a40a6a59be4629d563c2d6a293,1737,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\STRTEDGE\PREVIEW.GIF
+gif,4d0bd3228ab4cc3e5159f4337be969ec7b7334e265c99b7633e3daf3c3fcfb62,3889,gif,,C:\Users\vlad\miniconda3\pkgs\tk-8.6.15-hf199647_0\Library\lib\tk8.6\images\logoMed.gif
+gif,272561ac48179bfc9f2dc3cc808e451fdcfc64504f7528eef5b3bee979c8af50,1666,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\RADIAL\PREVIEW.GIF
+gif,07decfa421e1f457c1be398ade6e4c31e89cd4f16a9e2db85e39c67d13619ca5,84031,gif,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Cortana.UI\Assets\search.gif
+gif,f3af62927dbcbce5e3e0e917208ed584361997c496db39b89302f79bf34012b0,1347,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\EDGE\PREVIEW.GIF
+gif,5fd9be94341d4907d014e92c7b35ca8ec8f14a18e31fa7601690fb24c042f76b,80176,gif,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\model_editor\clothchain_extrudetwist.gif
+gif,72f6b34d3c8f424ff0a290a793fcfbf34fd5630a916cd02e0a5dda0144b5957f,2341,gif,,C:\Program Files\Git\ucrt64\lib\tk8.6\images\logo100.gif
+gif,dd7648d32094ef14bae42ed234478aa9b5cc7ff0582b1376eb880e53bfb85c83,2209,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\SONORA\PREVIEW.GIF
+gif,bf29c94949f125a04fee6bdf93ba8f358f26e9e39aa7a4977466834b3133fcb7,51559,gif,,C:\Program Files\Git\ucrt64\lib\tk8.6\demos\images\earth.gif
+gif,e538f8f4934ca6e1ce29416d292171f28e67da6c72ed9d236ba42f37445ea41e,5473,gif,,C:\Program Files\Git\ucrt64\lib\tk8.6\images\tai-ku.gif
+gif,b1f2dcdb59a14305b5dd99b1405eecb3c5f5cb314e6fb332b5d271c892cf390e,5120,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\EXPEDITN\PREVIEW.GIF
+gif,37484901eb40eefa846308e1da3ff6f240ea98f769a2afc3cf4fdba00327ecbe,1388,gif,,C:\Users\vlad\.pplx\users\82fd384d011e93bf\template\managed-python\cpython-3.12.12-windows-x86_64-none\Lib\idlelib\Icons\idle_48.gif
+gif,b73789ec8550a808d7ee60f0005c99551bad4291540dc685f3e3a10f9476fe5e,3970,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\RICEPAPR\PREVIEW.GIF
+gif,932f09e581f848d37ef85a76df16f29129337a9946680d2f04ed6a05e37c2711,75033,gif,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\model_editor\clothchain_simple.gif
+gif,5bfe72549c20a483866cf4e437d119f11a0e02f7847f9829ab2ae10137ae6beb,243815,gif,,C:\Windows\System32\@facial-recognition-windows-hello.gif
+gif,3b5ec97c4cc74ceabe4cfb588b118ab72eb90f9911f89ef29dfa143d371339db,497150,gif,,C:\Users\vlad\.vscode\extensions\ms-toolsai.jupyter-2025.9.1-win32-x64\resources\walkthroughs\dataviewerdark.gif
+gif,54fddb86fe4da9331170f7125ada181e9311dd6a8ed35bbaf9ef9a055ebb5ee5,10800,gif,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\images\progress_spinner_dark.gif
+gif,e97023b97278ed6328e14cdca748a5e1208a4829e9aba56ab39c07880f50c7ca,1423,gif,,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\THEMES16\REFINED\PREVIEW.GIF
+gif,9801daf9c762f44d665886c458ac31a7b9c17111b519cca8a401b81e679c13d6,481524,gif,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\ob-preview\images\themeless\edit_pdf_gif_Exp.gif
+gz,2c4226550827ceff3509c67179c473e14385cee206536362e57c5e0dfc7751bf,4344,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_40589\data-v1-dl-4644182.arff.gz
+gz,1e6a38d79d8f9e53a2ce11b68b4153062d4e96ec0b368d02b2e64f1b33c51693,551,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_292\api-v1-jd-292.json.gz
+gz,5c0ac70295dc59e982c361394ae420bc5827f1409b4a61bf637333f7e38bae88,3710,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\altair\datasets\_metadata\metadata.csv.gz
+gz,91313261d3c3000485517f0d8b2af2e6644317e63e2ecae14808dbbb8e779af0,19313,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\pyarrow\tests\data\orc\decimal.jsn.gz
+gz,82f899edc59cb41fdd671b256a228e5e06dfc5e24c92712e75005b251b000865,1108,gz,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\sklearn\datasets\tests\data\openml\id_1119\api-v1-jdf-1119.json.gz
+gz,a1d38fdd601b67bb9c6d16152f53ddf166a0cfcfef4fa86438e899bfe449226c,1798,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_561\api-v1-jd-561.json.gz
+gz,c9f2b86140095899ea89f2f107e18bd51889c62ce01cee248b82617f2082bf64,5509,gz,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000051\dist\en-us_web\office-online-strings\en-US\transcription-strings.min.js.gz
+gz,afe4736924606638984e573235191025d419c545d31dc8874c96b72f5ec5db73,2342,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_61\data-v1-dl-61.arff.gz
+gz,22b8b49a17178863832dbbb646946b38f0f879cb1cd5cb3e7490e62a055fc623,70835,gz,,C:\Users\vlad\miniconda3\pkgs\tk-9.0.4-hd2208ad_1\Library\lib\tcl9.0\cookiejar0.2\public_suffix_list.dat.gz
+gz,424cd47c12a51c7bb8d8169fac80fb5601f152bd78468b241d4b115bf7d22f20,1121,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_61\api-v1-jdq-61.json.gz
+gz,32ad4d40318875d10f22a603fdc0060df96a509350b2f5bfcbe443347a3530b8,581,gz,,C:\Program Files (x86)\Steam\resource\filter_banned_english.txt.gz
+gz,ef7cbcb58c2edcfea45c058b751faf7783e710462a924e9aacad8d47a7e9f94b,1549,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_1119\api-v1-jdq-1119.json.gz
+gz,a167fb78147766d380f75393bdd790258a2cd5a9f9ea6b06b09c2118e6a7de5a,182453,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\pyarrow\tests\data\orc\TestOrcFile.testDate1900.jsn.gz
+gz,d56ae75c3a83a0d10f60e657d50e56af6e3addbf2f555e9fc385a6e52e1b32de,800,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\joblib\test\data\joblib_0.11.0_compressed_pickle_py36_np111.gz
+gz,a672d435b97a6033dfd1d2a5c823d237ad1865101bd5e403cd99b5be0ba4e03b,1363,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_2\api-v1-jd-2.json.gz
+gz,f046328396ed4ca2e3f0ee368cbcfd93850b7f14217a4a462685aa461884b0e0,1274,gz,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000109\dist\assets\icon-16.png.gz
+gz,cfe8945b949770b0da42daf58ce67d1c5fee25cf7b4fd145161837c2abc09429,1841,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_1\data-v1-dl-1.arff.gz
+gz,826bab057a3929f41189bc51afa0a1752695e63ccf20e128ca6129e9e3321fc2,856,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_40589\api-v1-jdf-40589.json.gz
+gz,278a52a52d569f07d14c6a7877b104762c77daac429fb1fd9817a0378d6ec634,805,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_62\api-v1-jdq-62.json.gz
+gz,4fcb215595bb8223321943f0df50f5a5013445bf1819d53d3cb5bfa90d9e79c0,595,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_42074\api-v1-jd-42074.json.gz
+gz,ff285b08c55f8c97ce4ea7012743af2495c9f1291785f163722bd36f6af6d3bf,6964,gz,,C:\Users\vlad\miniconda3\pkgs\unearth-0.18.2-py314haa95532_0\info\test\tests\fixtures\files\first-2.0.2.tar.gz
+gz,418447e90d83486568ae3092a960b18d358230e24ac9ec38365daa99f415bd0f,769,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\joblib\test\data\joblib_0.10.0_compressed_pickle_py27_np16.gz
+gz,09ef19cfad25c5de487ddbaef3c4d068ca3063777730a288dfd6f5096a0c6f46,1407,gz,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\sklearn\datasets\tests\data\openml\id_3\api-v1-jdq-3.json.gz
+gz,7fc0ded571454b1982210d3bb43f0aca44eae01a0b8654a3b24022bdb6b38009,7073,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\data\diabetes_data_raw.csv.gz
+gz,59d1aa6b02d2358c16fa9e4fbeff523a3bd10ebd38c7c371911fa8335e7bdcbf,598,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_40589\api-v1-jd-40589.json.gz
+gz,8742a74bd5bc120acd9186c8a8737cb420ed9b009fade00b24e7ce5217797f2c,722,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_42074\api-v1-jdq-42074.json.gz
+gz,862e08520a2433a495a3bd3ae9fd9e6c7c540a9c632db29bb8252784cbdad779,1786,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_1\api-v1-jd-1.json.gz
+gz,a966dad58cf5fbc914a374ad5556c0414f5ed962237ed55a379fe96e308d00de,889,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_1\api-v1-jdf-1.json.gz
+gz,88fcdc3a6fed5697f36dc262f69bfffb814767ce336ff28a21def3aac937b08c,886,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_40675\api-v1-jdq-40675.json.gz
+gz,e96142b5e00dfec2617b0c22d7192b340ae2c28ec3ffc3a894c5be746b970a59,3303,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_561\data-v1-dl-52739.arff.gz
+gz,d0f7973193eb35d19e99d1d8bca3c7f3a8b8d0410508af34ad571aee8ec5ab05,913,gz,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\sklearn\datasets\tests\data\openml\id_40589\api-v1-jdq-40589.json.gz
+gz,32b424d64f62b7e71cb24d29fd53938ad5664d608055a67ab2b2af4369f8b89e,33229,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\matplotlib\mpl-data\sample_data\s1045.ima.gz
+gz,7ef3551ad47d48023c5a1f1cf077047a9a4b95544bb91d4a86097f8b574f8d07,656,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_62\api-v1-jd-62.json.gz
+gz,6493b85dec5ea3361fde5fc67ac7e1876b16fe941480176b2279c2bc6b5bbf4d,2399,gz,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000051\dist\en-us_web\assets\MicPermissionsDialogImage.svg.gz
+gz,b7ee24adabd4aaed6419b43fe9d3f86d55fcf4bee0f1698ae21d86c2701314e3,2532,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_292\data-v1-dl-49822.arff.gz
+gz,f623e777c0a36ae6c82fae10a7c2088cb383298ea244595bf8dc95449c9be4c4,2326,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_42074\data-v1-dl-21552912.arff.gz
+gz,6931af256195fcdd2e47dd8b0f9edf16fbf03b198e77b70e3dfd9877cdf09515,1190,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_1119\data-v1-dl-54002.arff.gz
+gz,516e961f519876e5f89b339a0364a08dd64160ac3a4d76d5ec62955bfd6d6ce5,32243,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\sklearn\datasets\tests\data\openml\id_40945\data-v1-dl-16826755.arff.gz
+gz,32f017779bf18c79e61f3c790372a6ea0ae757adea2bffb34fca252be0dc8d32,663,gz,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000109\dist\manifest.xml.gz
+gz,d3ea52e7b6e968de0d884df1288193596fa95b803db4f92a18279a7398004475,156400,gz,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\dateutil\zoneinfo\dateutil-zoneinfo.tar.gz
+html,f58f2e6358a152d85aa3a63475a3ee3d0769ee1252ac8c519baa55e2010dfc5a,552,html,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000084\fluidhost\index.html
+html,ea2910aa8e3359ceaa47afef1a267c0cd629ff30feca9113d4c7ca827d708e52,3631,html,utf-8,C:\Program Files (x86)\VideoLAN\VLC\lua\http\view.html
+html,f7c94e5a136e0cbd371110e692845e2fff8abf41ce7f29c4c6c7142c2ed3a283,33688,html,utf-8,C:\Program Files\Git\ucrt64\share\doc\git-doc\technical\scalar.html
+html,d48d307ab44b2ff1bdcfe384bf6fa6b351eb5ff9c45a5038a77c678e0b5db356,4138,htm,utf-8-bom,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\Simplified_Chinese\P1100OS.HTM
+html,866096924a0966c9da836ff97bb2c9cb3c5297e85ae2febd8810188dbe003b36,7664,html,utf-8,C:\Program Files (x86)\VMware\VMware VIX\doc\lang\c\functions\opclassList.html
+html,5573eb986bb7cf3b587d6093183b4c1010ac37d8f837b4d124072b85b155e0f8,5518,htm,utf-8-bom,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\Thai\P1100OS.HTM
+html,3102cec0048148d22b5ba5628d744a7eae55efdae50a7dbb59070682fdb7d660,30638,html,utf-8-bom,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Legal\es_ES\license.html
+html,dab6cf7086a3efd296ace3e35f7bcd0f98ffa8e7915166d36ab7725fdf464e0f,857,html,utf-8,C:\Program Files\HP\HP LaserJet P1100 Series\C_help\animations\CPSim\th\cps.html
+html,53ebb1c102e7d7e0f805097e9a233a1baa54285b0e17c1bf61566cfaf6bc8203,2132,html,utf-8-bom,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\network\network.html
+html,47c407f67e59365466f81d2568ab3cc48f31985a9d9161111da51ad3b0e90e49,63496,html,utf-8,C:\Program Files\Git\ucrt64\share\doc\git-doc\technical\large-object-promisors.html
+html,4c451929805bbd5f46ac11bdb0b8da38a13936cc76fa587d7061e0610eed42a3,1886,html,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\fa000000124\OfflineFiles\taskpane_31836458a5f8b49ed37ea1ab168b4c3e.html
+html,8c9eddeb2b1f3d6d406cac5628756de1b53db0f526aedf8aeb71bae23158ec93,2937,html,utf-8-bom,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\inclusiveOobe\view\learnmore-page.html
+html,e901d75e63c4f1b006507584ca9970807ab80e7f89cbf90b9df75f44fba5d322,4609,html,utf-8,C:\Program Files\DigiDNA\iMazing\Resources\NotesResources\note-view.html
+html,5f7a674e1c6b0a3edb3532ee9276b8f5b694526a7f47597e7b972bbd197907fb,32203,html,utf-8-bom,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Legal\fi_FI\license.html
+html,b9e58796b684364a19ca9d00652efb60fd7e4b9194a080a983667a13370b3963,11464,html,utf-8,C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\webapps\inclusiveOobe\view\autopilot\autopilotespprogress-main.html
+html,20d7736efda52f34d030e35a0ddee3179b44cd4a12106df7fabe1b4b92bfaaed,4323,htm,utf-8-bom,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\Latviski\P1100OS.HTM
+html,fe2b9e8347fd4c5a979ddd0a8f502b28acfd05ae9c688ef367a5a8ca73615eb3,99622,html,utf-8,C:\Program Files\Git\ucrt64\share\doc\git-doc\git-diff-index.html
+html,0a51d360b893589899e37689c40f08a7d3132555f29942962a3096ef02f40589,5454,html,utf-8,C:\Program Files (x86)\VideoLAN\VLC\lua\http\mobile.html
+html,df28491b123ea6c1ff9f8273b9e27af2aad75ff87ff46584a35ffe708b3bf257,4376,htm,utf-8-bom,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\English\P1100OS.HTM
+html,73acdadc24c9621d2d4e8787ec0d95f5f1804add4336f4156ee5f10bc226b889,6060,html,utf-8-bom,C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\views\sqsaLocalAccount.html
+html,c3b8ed2671c0293ad850859e9de6500f0f8af8c1b423211cd576776370abc4dc,1919,html,utf-8-bom,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\webapps\inclusiveOobe\view\oobeprivacysettings-aadc-main.html
+html,04bbefec58e81617436d0fa8b8b304621870f6d4345f82b27f96f555d0929a9c,3693,html,utf-8,C:\Program Files\Wireshark\Wireshark User's Guide\PreAck.html
+html,e70513c9ed4fb3cac5411a0f8e800e14a0e2a95ebe8de9c0bef049e25592bae5,174528,htm,utf-16-bom,C:\Program Files\Microsoft Office\Office16\OSPP.HTM
+html,89f2aca9a2d7d10117e9ed30fa99c700cdf2712995db3bbc7835a84a271418e1,36366,html,utf-8-bom,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Legal\he_IL\license.html
+html,c795ce0be8891eeb942942363e8f3f37a2d74908160ca46992e12641b314e81f,50434,html,utf-8-bom,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\dom\dom.html
+html,5563c40a35a2915767ed42ee824640b5907780efe38e7adc0b0e4ca11c0edbdb,9082,html,utf-8,C:\Program Files\Wireshark\Wireshark User's Guide\ChStatEndpoints.html
+html,716fff99dd817ec3e44e5873eaad862462f90aac6862387613c4faf1a6a5ea72,185332,html,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000050\dist\en-us_web\NOTICE.html
+html,5e7844f03373ea4fac73e8c0e752bac4b96f3183cd36584941f97d6b563b072d,4639,htm,utf-8-bom,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\Arabic\P1100OS.HTM
+html,7c0d3de0dff4b9eb474b3299fe272513b2357c1f0d7591f8bd774f63e5e71e39,8597,html,utf-8,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\VisualProfiler\VisualProfiler.html
+html,68eca561b841ea52844ecccfe06a0fe0a4c64ca92efd42283d4c9773746b55e1,31021,html,utf-8,C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\webapps\inclusiveOobe\view\autopilot\troubleshootingdiagnostics-lite-main.html
+html,a6dda000c69171072dde3a37dad62471caaa9ad687f03e746f87bcd7bd853448,1659,html,utf-8,C:\Program Files (x86)\VMware\VMware VIX\doc\tasks_toc.html
+html,eeb0e7392cae0476ad10c852bc88d712e7dd2aead31fa29c8e54434b2f06814b,42168,html,utf-8-bom,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Legal\ar_AE\license.html
+html,122aec203531e2448e62ce884a4af5290bf6d6d99b16f73eed77bd0a542c707e,4412,htm,utf-8-bom,C:\Windows\System32\DriverStore\FileRepository\hp1100.inf_amd64_56c36f106bed03b4\Polski\P1100OS.HTM
+html,ab668ef3cb4847bfdd9ed20e2e69e02c7c35eebb034a37aead85f88481de40cd,9750,html,utf-8,C:\Program Files\Git\ucrt64\share\doc\xz\api\lzma_8h.html
+html,aa62393ddbd97751d0c7de33f3988aacbb686f08adbb5e14ad803cdd9f6a4ed2,728,html,utf-8-bom,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\scoobe\view\scoobeanimation.html
+html,af5d66af85fb40c977619c64aceb8cbc478ad2678452207ff6600c5e8b920137,5063,html,utf-8,C:\Program Files (x86)\VMware\VMware VIX\doc\lang\c\functions\VixVM_Pause.html
+html,d4211232246963068519e531bce60c89675f69854c64e50b984fe4882b7b3f06,2993,htm,utf-8,C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\ErrorWV2.htm
+html,feb053385d6e2dd17f5d61aafe79dc94106bf7f2d30a8c572a200f402783c0db,31136,html,utf-8,C:\Program Files\Git\ucrt64\share\doc\git-doc\git-get-tar-commit-id.html
+html,9e42ff56d1f264b90bb7bef533e6b61ec9f9ed968eebfcabae233dfff75d116b,1320,html,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000051\dist\en-us_web\login.html
+html,4b773c71bbc50856fa8ebb4f7bb5b565e2cae914d0afae203bb70d1148ecdf09,9756,html,utf-8-bom,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\memoryAnalyzer\memoryAnalyzer.html
+ico,da8cd804f1a2880513fded78cdf83e0e78c67d79b2bb46c5ddeaa6a87fab2d36,76228,ico,,C:\Program Files (x86)\Steam\public\steam_voice.ico
+ico,f0ad91763d2ea07c9c2da3bfc9cc1e84de2e2de2ce3334060277053a8c3f6f83,43006,ico,,C:\Windows\UUS\amd64\WindowsUpdateWarning.ico
+ico,ace2a41690aa00aa2a454b49c22402efc307bc52208dee475b00b72b617f6f4f,147940,ico,,C:\Program Files (x86)\NVIDIA Corporation\PhysX\Engine\A_Ball_Trans.ico
+ico,d744c4dcd0368caf78105387bdabf35858d8be24dde5a82437ea7bd955082cc3,10462,ico,,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\assets\tray_icons\icons\disconnected_dark.ico
+ico,cf60f075127cb8ba00001357fae27f82eecce3543547b470b61eb07ea787f804,24589,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\animation\graph_editor_appicon.ico
+ico,cc118b61e529fa68c9aaff88829b7065a0b2ca77cad8e535e3f76eb8da65aed1,61814,ico,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\FeatureDiscoverability\Assets\Narrator_Assets\Narrator.ico
+ico,69c12cb174ccbbf92b9c39532b576703bc058c7fd3e58f28bb723621f64d687d,766,ico,,C:\Program Files\Microsoft Office\root\Office16\GRAPH.ICO
+ico,d1e5bfc3ac45668ff58bd5436a2c733a5bae63b3b33975b7e597aa70afaf4c04,23815,ico,,C:\Program Files\DigiDNA\iMazing\Resources\CloudTemplate.ico
+ico,f358343f8d2239e316e12130eb0cb8efbcb696705a82444eb46ceadf0d9a2650,25214,ico,,C:\Program Files\Microsoft Office\root\vfs\Common AppData\Microsoft\OFFICE\MySite.ico
+ico,843c8f0e062592dcb256d5b8d5509e6ba67f926365bb32f0a746fe386eb71945,372526,ico,,C:\Program Files (x86)\Steam\steam\games\ced140f69b589a85e1f6ebd5121311d17559bd23.ico
+ico,8453b3366e0230e5fe39651284c50d6902499a7c26803811f093c389c59507e4,1289,ico,,C:\Program Files\WSL\wslsettings\Assets\wslbw.ico
+ico,ec5be6e9959a7ca7deb511946a60beea08627494c0ed5d9131231b4c0c5dde9a,51406,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\vdata_editor\appicon.ico
+ico,bcda7bb353a47f0ef79e6deda52a2a2e65633587a9849838a3152559b34db869,1150,ico,,C:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\Scripts\TechnicalDocumentation\favicon.ico
+ico,7853db1279208ab7b0b5353b6244e2acd30c3cb304e61f3aa2c0861449a1b805,410598,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\responserules_editor\appicon.ico
+ico,3114451f95c7fb8d7d884a19c724f6c7ff906b6d9bec1bf7c6300d2cca4f43a6,4710,ico,,C:\Program Files\Microsoft Office\root\Office16\1058\DataServices\FOLDER.ICO
+ico,a2ddcbfcae32ac6bce9c6dc8ca23c4acd8a1821ab1903dcc9929d3832900ec3b,115610,ico,,C:\Program Files\DigiDNA\iMazing\Resources\CallVoiceMissed_Color.ico
+ico,d59c2569a95b5f4412982a06e3d1ea33e2a5bcec0b5f1ca25d5416c9dc798994,48115,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\sfm\sfm_app.ico
+ico,aebd87be2179c45d1a5c621ebac5be2fe53330a8655eefaf1ff6cf6f2133f824,74786,ico,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackup\Assets\foldermusic.ico
+ico,6382e657cc30f7a6be9065efc8f38246fd058216f8391cff54f2d6fa9a0d0a0d,43006,ico,,C:\Windows\UUS\amd64\WindowsUpdateImportant.ico
+ico,5de41363f5f06a3a2fb517ab570a61138891849f46510b8465c41da02ef49912,1150,ico,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\jupyter_server\static\favicons\favicon-busy-1.ico
+ico,7f13eeb5dca39d05e24b9eb069c6dcb2748633822d67288a8bf8b7e21cdddf55,57746,ico,,C:\Users\vlad\.pplx\users\82fd384d011e93bf\template\managed-python\cpython-3.12.12-windows-x86_64-none\Lib\idlelib\Icons\idle.ico
+ico,cc392b05e7428a52d41c242cee9a523b8c6fada850d8daa4e55b60841b849401,237530,ico,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\DiscoveryHub\Assets\GetStarted.ico
+ico,fafdf81d1d5c874bc6fc385f0cafe1fc23ded7208781fe59ee525b887e063989,75626,ico,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackup\Assets\downloads.ico
+ico,3fb2dd4b42809e465328689308f615810222e29c9f50aff3125896335673ab20,80086,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\vconsole\appicon_dev.ico
+ico,55deedcee07368c762a27255d43cd0f94abf69b8e3542cd3d225eb0ebfb5f2a3,36781,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\vconsole\appicon.ico
+ico,8532f31dddf493292d006689cc3262510d8efe20abd77b4ea4ade57b536385a3,7886,ico,,C:\Program Files\OpenVPN Connect\resources\app.asar.unpacked\Connected.ico
+ico,0070763f4752ce40ee026ed681238a534189985c072283dd814aae11f34cd935,10462,ico,,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\assets\tray_icons\icons\attention.ico
+ico,b6f0864dba0dc78bf4d551073d793493169659bd2d45349b9b5ccfce4cdeed23,5430,ico,,C:\Program Files\Internet Explorer\images\bing.ico
+ico,dd2152de9cfa51cc2c62aca32b8ae48930ddd5c21dad75e24734e7e9d750b44b,60332,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\pulse_editor\appicon.ico
+ico,799a44962cbd87de2ff0c035a4bc49dd24b71e60518171402d09f97c3abdcdde,44747,ico,,C:\Users\vlad\miniconda3\Menu\anaconda_powershell_prompt.ico
+ico,e241b25f2ede007749465ec75fe682a46fcc9a1f3a73658d468f57f37625017b,64582,ico,,C:\Program Files\WSL\wslsettings\Assets\wsl.ico
+ico,56b4034e739254648f5388d0d1feab5c0a9d91677341ccff727c97eb9e3eec0e,3638,ico,,C:\Program Files\Git\ucrt64\share\git-gui\lib\git-gui.ico
+ico,fb40c912b218a71bd7bc1aeef5530165df60d0b4f896929f989b8ff37a98d459,133872,ico,,C:\Program Files\Notepad++\updater\updater.ico
+ico,150c470f9943b806b44312efdec85755f22f8d7d52b31f93a9af3c43e8627381,75809,ico,,C:\Users\vlad\miniconda3\DLLs\py.ico
+ico,749c8cb417e2c185f89bce10fbcfa515676c3cfdfdb3e54bd5a0d3e452a5959c,49446,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\assetbrowser\appicon.ico
+ico,9d0b685df90c80488c67aff8a77ae5f81fd01b14734fade33d1f0acb4b725b1a,31051,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\model_editor\appicon.ico
+ico,c29089114c62e3340823960626523ccb4462ce90f251ecaf059c4605fcf449b8,87436,ico,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\FeatureDiscoverability\Assets\Magnifier_Assets\Magnifier.ico
+ico,6df178118169a0724bc4300f24102b34a0b20c4f47f30dbad326d25f0cb47e56,5430,ico,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\images\postprocessingeditor\appicon.ico
+ico,aa718fa7ffafcd7c79627524ac849ecb17489e8f48cf03bb8fef39b0a8f0285b,27882,ico,,C:\Program Files\OpenVPN Connect\resources\app.asar.unpacked\white_connecting.ico
+ico,39d850d516920fce197442d64558344f1b0f69c0db6b207b9fa0421730f54901,126355,ico,,C:\Users\vlad\miniconda3\pkgs\conda-26.7.1-py314haa95532_0\Lib\site-packages\conda\shell\conda_icon.ico
+jpg,61643221d2f14be9e180e507d98abea29eebfb7472797342ec3e25073b7e4cad,1033330,jpg,,C:\Windows\Web\Screen\img100.jpg
+jpg,6461acba887c327049a7689bbdde069e8e63495b76f3b3b1ca4038f7ecf2df6d,176985,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000140\assets\_xlui\src\components\assets\Dark\freRTLImage1.jpeg
+jpg,f29812f1e5db7ba69532bcc5dea1698ffb7def266bde21c328587e10a01c91cb,219073,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000142\assets\-1488720829\freRTLImage1.jpeg
+jpg,eeaf0df283510a38e73b5f88c806b17a39afcaf70d3e65fcdbda577c7c2095be,3134,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\387290\library_hero_blur.jpg
+jpg,fb48d5983ac21d6b8692ae2554f306f0cf32c26fbb0e5989f8cdbfa0a284d76e,170467,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000140\assets\254127165\freImage1.jpeg
+jpg,af18ba99e1b441f355e76ca067c6a2bd8da3904511bae1f049070905d001ab6c,1039,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\387290\a8b0c1ca89fa421e5061d4ac5c17e2fbf4f08845.jpg
+jpg,6d3e25c1db57a89b571503bec64362c5a3a3cbe7a30c1020d09797980cddaf4a,144506,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000141\assets\_pptui\src\components\assets\HC\freRTLImage2.jpeg
+jpg,60edd4a3adad7c08e02e4adf5580fecf8868cbe88202042d0e37fba346300119,231305,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\414160\library_hero.jpg
+jpg,822fecc67c4ac0141009d0b4bc26c3ff67b34b328cdeb88d5935a77804a834eb,23799,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\1214420\header_russian.jpg
+jpg,38795e3adab04932e79a87bdd33ec5724a16106cbcb6e8b0aafba7916f4396bb,907112,jpg,,C:\Windows\Web\Wallpaper\ThemeA\img23.jpg
+jpg,f932372f13931f9dcb26c72d48acbd41c7bc3a779b8377fc8e059c6b852dc838,719,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\1103210\9d59a329e086fb1579bbe042db08630afbace30c.jpg
+jpg,ebca4ebb3ca493869966612176efbe16ce31ed9d0861252bb81c566ed5efa118,56512,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\525720\header.jpg
+jpg,b69d59f1e3d606a236b27af11032fa37970edae8c6d8b67e7a973ed58fe393d3,2635279,jpg,,C:\Program Files (x86)\Steam\steamapps\common\BioShock Infinite\PC Themes\BioShock_Infinite_PC_Theme_3_3200x1080.jpg
+jpg,ab8bcdc9343aea586764b26846b06cbba31133613c133ad03624531d29d822df,35799,jpg,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\tracked-send\images\email\dummy\adobe-old-logo.jpg
+jpg,d03d9793470d70429ca89980cfbe020c26460417be965823bd9bf987312ebffd,1114742,jpg,,C:\Program Files (x86)\Steam\steamui\images\defaultAppHero.jpg
+jpg,b003e2a5e451c8cc64fc22c788c21bc572e694520025cd5673aab3f6eb58fd96,2493,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\414160\library_hero_blur.jpg
+jpg,7ba9f96b6ff71a3479c618ee995323d2a5c80854e7681c8bb41e3d1ad22d6d93,1859,jpg,,C:\Program Files\Windows Media Player\Network Sharing\wmpnss_color32.jpg
+jpg,1780ba26d14d55eafcc65164752bfb84e8efc2227e08af3f4adeeb0213ef4e35,43075,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\238960\177c953b362c5a6221f9c15d340a0b1e2b8bfab8\library_header.jpg
+jpg,e559410dcffecb996042727e65f467abb4a99ec8405129bd13d68be37c2097b3,48088,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\2214823\header.jpg
+jpg,ebcc5f930d9ae91d72cb64890f9af74e3c1f1948aeec84162777825b05dfe53f,163737,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000142\assets\-1886946309\freRTLImage2.jpeg
+jpg,3853859613b09f9a74ba1ba657724314a2516dbed80ffdfd6104591b8bd1b079,171035,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000140\assets\254127165\freRTLImage1.jpeg
+jpg,c87c0e1b1a28dcf299fa7f2752b67e6d7161ca62c53d562073af63531e0e7ef2,846,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\2324650\0da85d6bca94f4e4e81b71deb3145859d094d5d1.jpg
+jpg,4558624216cf4333f235722ef91661056c3eb935bf0f2560816641f5c0fe00ab,1040,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\588650\a431361e5dae5fd6ac2433064b62b2a37abc38f1.jpg
+jpg,4a29bb15cc1f990745758041b6d8e5f3bfc43911bdbafe0f59809acbea59d48f,176749,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000139\assets\-1155757370\freImage2.jpeg
+jpg,30cb15326664a553a7f9009f43eac867de9a1dba712bf8e0251d6da22c79608f,63301,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\1103210\library_hero.jpg
+jpg,83d1112aa2e413d4a486d721cd2ed1ad8492b12f45f21aa5e0a7d20f205c6b21,2979,jpg,,C:\Program Files\Windows Media Player\Media Renderer\DMR_120.jpg
+jpg,b9d8bc979ed7d8eda4525f5e9745c4f0c15341ed4257b4fc0e1e624328254e4d,285912,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\550\library_hero.jpg
+jpg,6cafb569563f09572602971f21fc72ddf711f6d6e056abc3cd7ffbdff2e09e68,3021,jpg,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\activity-badge\images\avatar.jpg
+jpg,d050c24651292f5e00a98edbc7653c96ddfe48d9df4aec28ca2e679ddd8ea2c4,4743,jpg,,C:\Program Files\Windows Media Player\Network Sharing\wmpnss_color120.jpg
+jpg,bcdefe49cbad2a08de1b7cca73d381032d1cc7a342553bcfc14884e5ae97d6b9,515467,jpg,,C:\Program Files (x86)\Steam\tenfoot\resource\images\bootstrapper.jpg
+jpg,3deee7d53ee69430a8e7ea9155d969c4995ad3139202b76af0c8bc0f66aa4bad,48240,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\2379780\137bbd62c036ea008fef89cbf5d6ad884c2735cf\library_header.jpg
+jpg,6565f40a2fb8c77a2a2fa1191aeb293712f3388c28a7f42b281977104188f24c,175620,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000142\assets\-1886946309\freRTLImage1.jpeg
+jpg,46a23d13f57bf25612e87c867eb5e9b38ac4ea880e5023f8c2565079e47232af,169652,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000139\assets\-1155757370\freRTLImage2.jpeg
+jpg,8578f0906c414ddd579e1ea66da0e576fc948b5279bb60123f434acb4ca0b00d,394215,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\412020\library_hero.jpg
+jpg,27786bd11e2313373246a42c7173bb953d3982665267744766e6a6649b20f3e0,1111289,jpg,,C:\Windows\Web\Wallpaper\ThemeC\img28.jpg
+jpg,d247f166b2718261a215482cac866931782221817110f3f75a8cfa8ce32e3f85,1912,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\924970\library_hero_blur.jpg
+jpg,47efe3f947b304f072d49f1426b3ac77be8747b2c997c23de790e7df475d12b4,256445,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\582890\33b9eed515cf2376ec10557fc679b40143dc8c74\library_hero.jpg
+jpg,2454a0fe7c018b9637579eafd3561da8b263bce3fc1683fdcfa9a89c8852a5c5,1194,jpg,,C:\Program Files (x86)\Steam\appcache\librarycache\944490\b715532aeeffa793b7862cc4036ddce9c5b4c5ef.jpg
+jpg,dfc01373d8ccbccac039ed58edaed49b1cf305bbd2c16ee3b5a7a18b79690a48,242255,jpg,,C:\Program Files (x86)\Steam\graphics\broadcast\desktop_placeholder.jpg
+jpg,329fc86c8e1285d6d90a8b397f6c18aed8cbd82f2df226f68bb89243fa59f42d,179723,jpeg,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000142\assets\-879290730\freRTLImage2.jpeg
+json,d9229d7342faee98e878db6663b123654ae98a672e58fc61efdd01a682e8c435,992,json,utf-8,C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\prefs.json
+json,7633debeee4592820bc5504fed807ca509e235285b69e8f32cfabe649edb1070,870,json,utf-8,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\FontManifest.json
+json,45757ca2914d679a8f86e928566e8423c0b506970d963455876b21f11aa3f212,1579,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000122_uk-ua\catalog.json
+json,59781af630d5a6b8a08e8bfa6468ad9a98d297d8b6b2784030957ef944f98a87,541,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy\Resources\lo-LA\SettingsMcpServer.json
+json,51c7e2a05a32f7379a789df31815161d3176c5a2ce981e0c0a217b223542fff7,716,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy\Resources\or-IN\SettingsMcpServer.json
+json,983fe844f12b7671ed4810497002bdea9b4c3083543371d46e6609d09aca07c8,767,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\VisualAssist\VisualAssistActions.json
+json,8a9ce5bd4db287e2a3e90be433d560df24157ac63c491f841cda7d042c27803e,109933,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\scoobe\media\lockandpinLottie.json
+json,5dc71c4fa7f3915b565594015f1d04f573d18e2de98d40897748742484e7c4eb,100806,json,utf-8,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869720.Voiess_cw5n1h2txyewy\FREUserInterface\Assets\Content\es-ES\CommandHelpWindowContent.json
+json,27b4a4471ed094a0e6b35eb8367777fecf8021d2b8776c69060e2d0be18f07e9,786,json,utf-8,C:\Program Files (x86)\Steam\steamapps\common\Melatonin\backup.json
+json,db38f787738dd343169aa91e536ccb683050a20f171df1bd22e971822afde725,774,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000058\catalog.json
+json,410a2714d70e3b8b950678b6b2bb41f1a23a95ac6410af7d45d770987118b6b8,14374,json,utf-8,C:\Program Files\WSL\wslsettings\workloads.stx.json
+json,a80c809c6d21176861fe7fc3adfa0ff5eddf44fc34e5d9c0edd07325b0fc3dd5,11738,json,utf-8,C:\Program Files (x86)\Steam\userdata\976319709\588650\remote\dc_options.json
+json,abd234487c81cf34ef4ce031ee677ed11310d30f480ac2a3b62a12c3e6ae54c1,786,json,utf-8,C:\Program Files (x86)\Steam\steamapps\common\Melatonin\save.json
+json,ede3e2193f696f668698e066cf172568b3fdf0b9666b621cbdf2f62aad10d824,512,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Public\wsxpacks.json
+json,c7faff89f1353b56ebcd7a2a475e45139529220d1023c69fc568d7cb9930b061,91797,json,utf-8,C:\Windows\SysWOW64\ctac.json
+json,6429871428cd1b2a59d3f871c26dfc4630e87b395b33e60146af722b0b8699dc,1538,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\DiscoveryHub\Data\Navigation.json
+json,106c016392a5d52d5875024fa59e7a8f522a8f47675f852e50ea1097613b7f74,1120,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackup\url_rules.json
+json,6afa795d50063d01cf9c0819b8c9f9daa0c47a14a792a02186e378da2ad7cb73,518,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\guidedsetup\network\area-content\el-GR\area-content.local.json
+json,fe494ed760ed113be19e848b9c488b9bdeb760a15eae27a0c030fea95233a79c,2115,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000070\catalog.json
+json,beedb340960510ad95fac89a6d830c9c3eb733141875d0e0931129110fdbbec2,633,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\guidedsetup\network\area-content\ka-GE\area-content.local.json
+json,763af5a6dcc310464c3698e4549f59280a4d86f8c6e6b309a63c1f19a64adb5b,28410,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000006\OfflineFiles\uistrings_b8805cc6353e728319035ddf987440cd.json
+json,22695cf1bddc6c23337a50fecb9535aeb039b0bb853be72d0df4d027dd2628aa,672,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\guidedsetup\network\area-content\th-TH\area-content.local.json
+json,b7956b9fb9808440e179c0a6ac8b042aa693b99928fa26ba65e7ea66b2bb4ef8,8188,json,utf-8,C:\Program Files (x86)\Steam\userdata\976319709\config\librarycache\43110.json
+json,bab2c6abca737b33fd84615605607d6753578f09296836ec537856dc19da51fd,5335,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000018\catalog.json
+json,299eb821cd84b9fc447154d6e03beb6698fcb2c4b7b49c6a58a90bfde8be85f6,6551,json,utf-8,C:\Program Files\WSL\wslsettings\workloads.365.json
+json,58ca09c771336521804e768dd907db14600257d654bbe511a2bcdfb31d2e288f,1263,json,utf-8,C:\Windows\Globalization\ELS\SpellDictionaries\Fluency\ru-RU\charactermap.json
+json,bbb14d4e34110c0d5932fffd8a4045c73e9a61de5bf888ec7d48cf725a97dcb8,65901,json,utf-8,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\assets\json\warp_animation_transition_paused_connecting.json
+json,59cf5aaef83aafc081561349929c8886baa043ad90afd0b2a68b745004a818c3,2734,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000118\catalog.json
+json,052099b5c46a384e7b86a3cb136de10e34c628520a0cab0094a9c842717a5e63,31114,json,utf-8,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869720.Voiess_cw5n1h2txyewy\VoiceAccessCommon\Homophones.json
+json,74e37f6680009dc3d8a99dfbbcb28ecf3b23c3c7b34640a4d4183e8fc4eeced1,4931,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Cortana.UI\windows-searchbox-dynamic-content.schema.json
+json,4aef9e7c6440555571cc8bad3079b00c823c3e7a3b86a6ed0e1714316b710e11,28441,json,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000006\OfflineFiles\uistrings_5d8ad69ef82f9adcf969fef6bce4d4cf.json
+json,a63936d56d8c0323ad43c1c124f0094f67e6f988853cfbf8a8f34802b5a6cfab,696,json,utf-8,C:\Program Files (x86)\Steam\SteamFossilizeVulkanLayer64.json
+json,0e6250c189c22dbab9459fe4f3dd053f311161085018c03a4a96ce1c2425332b,25010,json,utf-8,C:\Windows\SystemApps\Microsoft.WindowsAppRuntime.CBS.2_8wekyb3d8bbwe\workloads.j32.json
+json,b09031b2de7a7082475b23875f2155807b360895e19f534785a8c4a972035754,1606,json,utf-8,C:\Program Files (x86)\Steam\steamapps\common\Punch Club 2 Fast Forward\Punch Club 2 Fast Forward_Data\StreamingAssets\aa\settings.json
+json,734373b25b24e125a5a22ab23465dc6155604065cdafae264c21320fb92c6724,2372,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\DiscoveryHub\Data\Navigation.assistedSetup.json
+json,4fffbf5a7b9baeea9ae6c777fa59ac12ef6fcb8951de513c61ec8bdc2b2ebc87,6625,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\data\prod\navigation-nth.json
+json,cef70c6d0fc0ea9727f5693a9614e4ee77a08330825aad672bf781a0abdb4a9f,693,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\webapps\guidedsetup\network\area-content\ne-NP\area-content.local.json
+json,c863e40a7e88b5cca5ec5404d710cc0e0b32e0e03ae0744b014ba7a9cbe87a69,1145,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\wsxpacks\AccountExperiences\resources\bs-Latn-BA.json
+json,d4aa2aa2b20b1dadbbb86e5bab52e19b5c3e48129439b5db916a2320837917ca,3726,json,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\DiscoveryHubWidget\Assets\tips.json
+json,d39144a00ce1dd3b2044d6ff46a215c2bc00ed6cd6f0fc0d7b09ac1fc946a73b,2345,json,utf-8,C:\Program Files\Git\usr\share\vim\vim92\tutor\sr\vim-01-beginner.tutor.json
+mp3,f19182b6284236bcfd881040cb16f311220d99a81c134bd1ccdd8734032b7ccf,1080,mp3,,C:\Program Files\DigiDNA\iMazing\Resources\Sounds\Beep.mp3
+mp3,bd639174fca9b3aad7d1d41b72e5342db2c46144a632ce16e6e058f7c089b413,119225,mp3,,C:\Windows\ImmersiveControlPanel\SystemSettings\Assets\Aria.mp3
+mp3,24a865dc7b9a39123584555985daea4271420af5c4bd375a4c3193c825747c19,2253,mp3,,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000084\fluidhost\static\media\wl_completion_sound.13a69e47a3545eb5ac81.mp3
+mp3,b654c825124169e3bd82939d9f8bdf57c313dcaa4d67f4f4247f025e2d03a517,108985,mp3,,C:\Windows\ImmersiveControlPanel\SystemSettings\Assets\Guy.mp3
+mp3,b6628cc6d76e38f951264449d2154f29618d0de755c7c1bc4b732fc7e024bb8e,106268,mp3,,C:\Windows\ImmersiveControlPanel\SystemSettings\Assets\Jenny.mp3
+pcap,442b2d5114e0783c55891ecc554dab153df363a2404b764179b19fcf24377d82,1053300,pcapng,,C:\Users\vlad\Downloads\1756292932_infrabroken\Network.pcapng
+pcap,df7c923f3db425432115869ce9ffcd5f69d3a086bb7c70301172bd907ccf6390,174996,pcapng,,C:\Users\vlad\Downloads\1750414929_leakpoint_8080\corporate_traffic.pcapng
+pdf,0d776acd93d5281e0f7d9cc981d19a6493026749b53e98e02026947e81023236,146783,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\sample-files\assets\Sample Files\Adobe Acrobat Pro DC.pdf
+pdf,0a2d4108fba205782ce83185849f9d5d35b252d2ef0726995a5a2d547195847b,15746,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\DocTemplates\ENU\template1.pdf
+pdf,651ec2268fdd01e08cf8a95a1afb2482d1d0c91b6b3c8a2573c4443a6728a899,1623,pdf,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\matplotlib\mpl-data\images\back.pdf
+pdf,4baff3d80bbb2a421a1962f5cf1e80ed26b48e64c86756189e361feabd0b882f,155532,pdf,,C:\Users\vlad\Downloads\Telegram Desktop\Ідентифікаційний код Маша.pdf
+pdf,41c5a6a80d4bbb9f856baa1713dc071b41c0ae8f884b1b487b68013ef684d9ad,40726,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Annotations\Stamps\ENU\SignHere.pdf
+pdf,f0e6a6a096138a44b2776eb55e9cd6a80c37206a05e9eec6c71c6ebc28587e78,1272562,pdf,,C:\Users\vlad\Desktop\Канцелярія\рапорти дистант правильні\Семенов 30.01.pdf
+pdf,bd2200e77d683975a0b2f3434295e37087ad9aa2ec2fb71202517a3ffa79e86b,26758,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\DocTemplates\UKR\template3.pdf
+pdf,8ad0f96d69b98b206150d195cc6e5ce84a4b571d32296c31e783c2462d6feed7,22347,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Annotations\Stamps\CompareMarkers.pdf
+pdf,65aa56008d631fa07fe20e56925ce35d328dc37158c1cbbf1a912c3809321d52,571299,pdf,,C:\Users\vlad\Desktop\Диплом литература\VOTTP_4_2024+39-48.pdf
+pdf,80316b8e3f785fc8e0774b5acedca996b5433190287425fc2e904ad349fd56ea,181439,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\sample-files\assets\Sample Files\Complex Machine.pdf
+pdf,3ce575ee6b70ad6f1b7735b343dc43ea69c35218c25e7e59393d0095dd477f31,1049271,pdf,,C:\Users\vlad\Desktop\Канцелярія\рапорти дистант правильні\Семенов_15.03_виправлений.pdf
+pdf,b41e3ccfab17f34593e618aa3931dc3a0348a9d96aa6dea7da1d541c397bd84c,7332,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\ColorConversion\ManageColors\sRGB_Custom.pdf
+pdf,1d2eb3fd9f7b276e919071ae2abab3778b4cbff848198ebb0d6718b73047b351,298272,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\IDTemplates\UKR\DefaultID.pdf
+pdf,e46ddbb4562ada13d70c311d58ae1630bca5cce3784695c6943c3fbfe5f29dce,498418,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\OutputIntent\CoatedFOGRA39.pdf
+pdf,e87e44370762dad7911f59a8a188f8591d2fea693a3f13a6e79c571a9973f2c4,20549,pdf,,C:\Program Files\DigiDNA\iMazing\Resources\Tour-Connect.pdf
+pdf,44c6f1ed82b0526c08ef823fee8f19a41c4f1a7a26f28161cfc5f4091cf30e61,389108,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\OutputIntent\JapanWebCoated.pdf
+pdf,b1a1bb5f818183869c807ed85945116bc8fe3d815dc0c9e31810b7c0582f0bda,104434,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\IDTemplates\UKR\AdobeID.pdf
+pdf,d3e8a3d4ebc0a964e65693889411c2417fb2de4f9710a93f9961d232c4349ad6,78001,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\DocSettings\CombineFiles\UKR\coversheet.pdf
+pdf,cb27bca2c43497772afcd1ca4f041fef34aa13b8776053163ea954ef876d14fa,112053,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\Inventory\RGB_Sample_Image.pdf
+pdf,1309101569d01ecb694e82e397f8205757fc85127f80b3b3e35024faf9b630ff,38851,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\Inventory\InventoryTemplate.pdf
+pdf,f4ad54dcfefa4a145c8c22d7413c43e35cff7800a292e9c9f71b3293d930f029,5366,pdf,,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\assets\tray_icons\pdfs\attention.pdf
+pdf,064f9252d6e2e15ea56c2bd18e160e5c9c84bcd137c11a7af497aaa511ace998,776142,pdf,,C:\Users\vlad\miniconda3\pkgs\zlib-1.3.2-h1c6eee0_0\Library\share\doc\zlib\zlib\crc-doc.1.0.pdf
+pdf,434b323cc23912fb6033e084f985ca3a42fd7855006678ff5f6221a23e91e29e,1714,pdf,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\images\subplots.pdf
+pdf,91bbe8fbf31fb4a014f695b83eac07e198c1f4d7cfdcfcda5de46e2e18e79a10,1150675,pdf,,C:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\ModsDoc.pdf
+pdf,162937016f0324aa53334aa5612163346008206b7cafd01d9f1ae98c5a0288f2,61848,pdf,,C:\Users\vlad\Downloads\Telegram Desktop\Витяг_про_місце_проживання_від_2026_09_06_19_30.pdf
+pdf,52823e0720dce58982c4f1d617336d45119969dee3ae0de2173fc86eb588666e,468206,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\PDFSigQFormalRep.pdf
+pdf,ace8d0c40a730e43191c56c3638b0fa6ae80253665a079e8da4fe8e5c6fd9568,33013,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Annotations\Stamps\ENU\Faces.pdf
+pdf,53e1b6a4dcaa4c69649ff9bcc69857d895fccea1707ee1b05c4f67f450013c21,1409512,pdf,,C:\Users\vlad\Desktop\Канцелярія\рапорти дистант правильні\Зозулюк 16.02.pdf
+pdf,c68030fcb3240f37935d8573c8eb3d6bf4d5b66d68366d80685a5c3d908582e7,362641,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Annotations\Stamps\UKR\StandardBusiness.pdf
+pdf,19abcf939ceb7df37f11bc85a9d5678b6d7b247694aa146838538996e46a60fd,426004,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\static\js\plugins\sample-files\assets\Sample Files\Adobe Sign White Paper.pdf
+pdf,388f1cbb6fe96561632e7a2e0c209b9093b66fe382c4564b19f26fa3591ee3fc,607018,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\OutputIntent\ISONewsPrint30.pdf
+pdf,5b8795e2cf7551617404b0897a80f8c20fe30c3b46451946390dc7418f592d16,4810,pdf,,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\assets\tray_icons\pdfs\connected.pdf
+pdf,9827a364b3cd6999f4deba222f5343df3b286e1924bdae8298f3040e8a4f6964,1432269,pdf,,C:\Users\vlad\Desktop\Тези\Збірник_Матеріали VIII НПК_2025 (1).pdf
+pdf,ee87fa0f192c7d93d75c10fc85c1ad8aa74e6d2e014e0de9a7c33f8a34e86b5f,164725,pdf,,C:\Users\vlad\Downloads\Telegram Desktop\2_3_СІТ_ПДІС.pdf
+pdf,5d3e99f0738f9ccc3da405f4c5b2e4801399358371326abfd3d9514edc5290d0,45449,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Annotations\Stamps\UKR\SignHere.pdf
+pdf,80064ceac00927abf47d001b2e03e5bb655fc4c19e9277f71e8ced4e2f32bc37,1024344,pdf,,C:\Users\vlad\Desktop\Стажування\810 наказ\додаток 1 до Рекомендацій.pdf
+pdf,aa3e5bf7638f2fa604f526df834a0baffa4da4287f47638eaf7b5925f1553fae,224722,pdf,,C:\Users\vlad\Desktop\Стажування\811 наказ\Наказ № 811 від 08.12.2025.pdf
+pdf,ff6ad469181e042b1bf8dd1ba90a1b246ea64f16b739fe3ada43ccdd48e9e062,24859,pdf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\DocTemplates\UKR\template1.pdf
+pdf,0644947fedb1a228fe7977e9576b7bcb5245286d730f582d57a6808375e2ff01,22852,pdf,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\images\matplotlib.pdf
+pdf,ca955afb65bf6a91fb7f7727ea7a2c46c460995f9d64cd41ac9e1595ec4fae4a,747873,pdf,,C:\Users\vlad\Desktop\Стажування\810 наказ\Рекомендації з оцінювання дотримання вимог.pdf
+pe,3c3f41459745cc309390c13edd5e5aec11851e64e113b2cae72cb0ea1ea5e4fe,14408,dll,,C:\Windows\Microsoft.NET\Framework\sbs_VsaVb7rt.dll
+pe,a0566ec518d006a92c28817afdaaf478324cc169d55de4d46d9cb5a376885094,206336,dll,,C:\Windows\SysWOW64\setup\comsetup.dll
+pe,0455d272eeaaed022f3f7ae94b0860132baf97328c1b0c6ecdb123a93c436b78,292864,dll,,C:\Windows\SysWOW64\adsnt.dll
+pe,4fd2790524673ddc3c1d244543d5dd5d958f25877fbec4303d5128b3d7e30973,164352,dll,,C:\Windows\SysWOW64\IME\IMEJP\APPLETS\IMJPCAC.DLL
+pe,72ff99ec47fba2bacd1e5dc6835cd49d791a46473e2a943e79c1e3f574d0c4e8,350064,dll,,C:\Windows\SysWOW64\setup\RasMigPlugin.dll
+pe,4f60c875d5761faf83c76ae9bfbe8c11e1f40e65955ec8755d8dae3cb2c10667,25496,exe,,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\XamlViewer\XamlViewer_v0300.exe
+pe,37c4360ef809cbea59ba61df26992c49c9765fcad3d9a066685d80439f98425d,235056,dll,,C:\Windows\Microsoft.NET\Framework\v3.5\1033\vbc7ui.dll
+pe,23631634bb912bcb6e3095e4f71603b84186c6b260e8b297ef05ba6fc522a97a,101448,dll,,C:\Windows\apppatch\AcPluginDlls\PluginWowX86\AcPlugin_Test.dll
+pe,8ded3a072cd6ceee1840736101fd992aa46113dda4ce7a6e4242d04c02944c29,537600,dll,,C:\Windows\SysWOW64\F12\F12Platform.dll
+pe,9b8b75a86cbde90d2a29fd974140e1ad2013f098e7db20264a0719fdb621f8a9,49664,dll,,C:\Windows\SysWOW64\wbem\wbemsvc.dll
+pe,6b21804ddc525f71b4508fdf0aa33dbf9777674abc6949638627437435af3c04,403456,dll,,C:\Windows\SysWOW64\Speech\Engines\TTS\MSTTSLoc.dll
+pe,b77caea37b9f3cb854387922bf141cd00b89c3c3b17126138ff6ead6043c3b38,5632,dll,,C:\Windows\Microsoft.NET\Framework64\v3.5\Sentinel.v3.5Client.dll
+pe,d7da9af371c9b6720f9ec43d7eb1c8199d5884466909027776bab07578f00fdf,41984,dll,,C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualC.STLCLR.dll
+pe,936f895f9e3b2d9cc27af6d7992ca0912d8310ff13b1ebdcb8e185bb45285b11,1054080,dll,,C:\Windows\SysWOW64\IME\IMETC\IMTCCORE.DLL
+pe,3b6930c6545852a622b3714019009e055f227f9ff9f23d2e498d33327e1bb1c2,192392,dll,,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\1033\vbc7ui.dll
+pe,d891ecba5a22e89da9112084fc223e03a1afd30f7b3d27a6be27474c4ebc4f91,120864,dll,,C:\Windows\apppatch\AcPluginDlls\Plugin\AcPlugin_Test.dll
+pe,0105bf9d6c6de672f87c43484d8e0b0c0482410e76c3fdf4efc5e51cdf0213f9,181688,dll,,C:\Windows\SysWOW64\Npcap\Packet.dll
+pe,c8069627a25221b59eb64a5aeef19100f31168f6f58197029e51fd3331be7de9,134144,dll,,C:\Windows\SysWOW64\IME\IMEKR\APPLETS\imkrcac.dll
+pe,1797c3f31d136f093eaf109ad573d9cda4c91cf99457351a5b601b3a9ee145d7,190280,dll,,C:\Windows\SysWOW64\IME\IMEKR\DICTS\imkrhjd.dll
+pe,f420282d2618055ae92901c968bb5ed7c76e491239bf97cea3c4fee70dbfa6bf,9728,dll,,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\Dism\en\Microsoft.Dism.Powershell.Resources.dll
+pe,5bc52ec3b3fb4ad954c4aa388092e37e34c33d6446de43039b7e1d1ca6915e12,334336,dll,,C:\Windows\SysWOW64\oobe\SetupCleanupTask.dll
+pe,3c558d732e3a215bcf899777599d0927271c3f6e9c4902bf349b5f1b0fef23a0,31112,dll,,C:\Windows\Microsoft.NET\Framework64\v2.0.50727\1049\alinkui.dll
+pe,72ce5168733a2023c36228bc934f70080862b8cb9dafec1dbdec348212235f0a,690688,dll,,C:\Windows\SysWOW64\IME\IMEJP\APPLETS\IMJPCLST.DLL
+pe,6940fe191c4b1a803fcd0075490b71008f190760884821266ba61552a23d8c26,92672,dll,,C:\Windows\ImmersiveControlPanel\Telemetry.Common.dll
+pe,31fe78e709fd69b75c290e8717313514a9c1a6923d6ba68cc50ebed8d7022aa7,32768,dll,,C:\Windows\Microsoft.NET\Framework64\SharedReg12.dll
+pe,bb42d9729e95208c71784234d797c6c2b98cd3200a64900b5ae53100c1a66415,46984,dll,,C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\ru\WsatConfig.resources.dll
+pe,8606029e234e40d29ab4efc313960cd17cd1ce4621e09806cc0c62190d0c7209,16304,dll,,C:\Windows\Microsoft.NET\Framework64\v3.5\ru\Microsoft.Data.Entity.Build.Tasks.Resources.dll
+pe,be42c6777daeae049a5d68fedb69541531c6f76019f72cfc049494d4a7eb1e21,687480,dll,,C:\Windows\SysWOW64\migration\WMIMigrationPlugin.dll
+pe,6ecca71ac5d8bae112d66cc92a443f20df99b609b862ed1693f23a4493bf4183,188336,dll,,C:\Windows\Microsoft.NET\Framework\v3.5\1049\cscompui.dll
+pe,b3223d5b2de76c6276449cd2b87d651f4885edb8f9a55316f9936da36165ec40,23352,dll,,C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\ServiceMonikerSupport.dll
+pe,c6135ffe1c0085c021b5d5b8bb24e32fb57e519858c3a28a6f7e23a800c9c16f,186288,dll,,C:\Windows\Microsoft.NET\Framework\v3.5\ru\Microsoft.Build.Tasks.v3.5.resources.dll
+pe,4cfb16857de947998606dc4399cb055e573d743b7c675fcaf67c90608981b718,13216,dll,,C:\Windows\SysWOW64\downlevel\api-ms-win-core-synch-l1-2-0.dll
+pe,c46f1d258f32beab5e665bba954a3ac50b1d6cc3e74779ff65f5b4cc08a3dc43,1293824,dll,,C:\Windows\SysWOW64\Speech\Common\sapi.dll
+pe,71bec063e65dc76b1be3a0f09960ed2d3938c1751e7ff935b7872ac34feae2b1,6144,dll,,C:\Windows\SysWOW64\lxss\wslsupport.dll
+pe,905e80ea2be340bab72ccb38b020a9df74f993ec9cac8f46ab988c07f8863f71,12288,dll,,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\Dism\ru\Microsoft.Dism.Powershell.Resources.dll
+pe,6045a103cce5c9f4d2fe5ae9cd9151abf46f1f5ddeed59c9da2759aafdd46650,353752,dll,,C:\Windows\apppatch\AcRes.dll
+pe,c22e1e5868edd8a5e59ea19fb752dcf81b7711d5b0346730b7a5d82e591228c1,123816,dll,,C:\Windows\SysWOW64\migration\msctfmig.dll
+pe,385d6ebb67da8cb3799aa0007f79f9dbe9e73de9181d5b2fa44ac2273534bfa5,32768,dll,,C:\Windows\Microsoft.NET\Framework64\sbscmp10.dll
+pe,c4bd1c731bd9d6758def95ec38ffb7b09a2cf7e6c8e97ea100bcca31279bd5f3,32256,dll,,C:\Windows\SysWOW64\InputMethod\JPN\Windows.Globalization.JapanesePhoneme.dll
+pe,bf19b38479793184b96121ee79bac4aee71439c559dc749995835df24a74702e,16280,dll,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\1049\FileTrackerUI.dll
+png,685e2ed6e72f7096aee52164092d56ec9c6367071a8618934504b8b9965029d0,2032,png,,C:\Windows\SystemResources\Windows.SystemToast.PresenceSensing.OnlookerDetection\Images\HumanPresence.scale-400.png
+png,a762a3621325936fe61573071ee54a4e342ce403d389b9ee43a273107cd858bc,110947,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\FeatureDiscoverability\Assets\Magnifier_Assets\MagnifierStaticImage_Light.png
+png,be5fc037c77dd90611a1b500a1bb6bf48b4119765f26339ef83dafb47314f326,2782,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\frontend\host\api\data\closeErrorBox.png
+png,968a878fc01ea8dd9f330014b672b7cb763e7f38a05a84d42f81b1b73568eba8,161467,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\FeatureDiscoverability\Assets\VoiceAccess_Assets\VoiceAccessStaticImage_Small_Dark.png
+png,0ef84d951ad329208ba49b1406db67e37ee6f10b39c62591eeac03fa1ae0ac5e,9689,png,,C:\Windows\System32\AccountHealthAssets\Shield-125.png
+png,697345f970a6c9a82b94591bcf1685001da52027de4bae3046fcb71da64912e1,1446,png,,C:\Windows\SystemApps\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy\Assets\SquareTile71x71.scale-100.png
+png,f774cb382febfbbccca7500ed9a6375eae0d225bb7ccdd6800ad01fa386cfd8b,560,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\Images\CoreAISquare44x44Logo.png
+png,2b69bef2df257330218577149c26cb56e019c4e822d795050574a83dc8a2352d,1144,png,,C:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy\Assets\SquareTile310x150.scale-400.png
+png,edded01d34a8248d0003c4d75b59183529f544dd9d61c226c2c91e1c8147e7ea,1295,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackup\Assets\AppList.targetsize-30.png
+png,d491a77afbbe0912164f3501f1eaea0ce11010fc6e0963d65db341718bdd7853,788,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\VisualProfiler\images\i_f12_context_chartzoom_reset_disabled.png
+png,4c4feac856a2f8e38c068ff1d4261f3227c603cbb644a468f6d9216668e93582,565,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\SquareLogo150x150.scale-100.png
+png,6b8f3bd079c77da5b9edeee8ae115c0a57a552e87648498c119cad0d8abee1dc,623,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\debugger\images\stepOver.png
+png,c08b1b157991539aabaf7936f8bb618a6c5cea0e2cfafd7b0723bc7e9461e091,563,png,,C:\Windows\System32\@language_notification_icon.png
+png,4938ed44d7d63f44ca959eafb942be36459939a9c679bfcbf4f5c837fdf3475c,2097,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ActionFXRuntime\Assets\Wide310x150Logo.scale-200.png
+png,98b7c72352f32dd3a9cd2ee77cc742dcb2ce6d1570759ae5721012a4a1252848,2880160,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\VoiceIsolation\Assets\twoMics_dark.png
+png,b08e6affc79e8517325b44c8fe719570f60bd38571a7142d030ef40c38a67c97,583,png,,C:\Windows\SystemResources\Windows.SystemToast.PresenceSensing.OnlookerDetection\Images\HumanPresence.scale-125_contrast-white.png
+png,7bbbcd756105e42be2a4e003180c446b528b1cff628b6df063c99f443296be01,847,png,,C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\Assets\StoreLogo.png
+png,07f9ed55e6670fbb227ea9475679729e454e2409d29dca208c5b504ce3851038,2078,png,,C:\Windows\ImmersiveControlPanel\images\splashscreen.contrast-black_scale-150.png
+png,bcb72c9edec7d4062fb7e87897908fff97477c1057fe5d2b1b89471345ee05af,28500,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AccountDialog\Assets\Images\xbox-ultimate-vertical-logo.png
+png,43c31d2748eb156aec465b5df64741b3c289ea3ab5aa3f9d13ebfb700d6345bd,7742,png,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869721.Livtop_cw5n1h2txyewy\Assets\Square150x150Logo.scale-200.png
+png,7cc4d54237b438b5b3e2b50db674c3d1eabe646ba864c0bacce82b52beee18bf,1579,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Assets\contrast-white\GetStartedSplashScreen.scale-100_contrast-white.png
+png,8330ffcbc367813596bd03139c5c2708b000035c59ff474fb1415411c238b86d,750,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\emulation\i_persistSettings.png
+png,d977d8ab2178e83cfc8e795350625ba041318092d84ff10762214477bdf7b1eb,817,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\emulation\i_resetSettings.png
+png,77399f9028951a317fc15ea675a4ecffdd0735128a74a58f25e9cf59c61a6f92,799,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume\Assets\Spotify.png
+png,95c436b590125b3984a111fc7feea0f960f0fdf494f7a4eb635b109cec81b4d0,1704,png,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\SplashScreen.scale-150.png
+png,a28b6322227f124b0ec66c75a3a7000d3606bc5dbc530f5c443243b6e186a115,926,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\debugger\images\diffTabIcon.png
+png,bd57f34d8302fa1a64895552a2744ca8d00e5806ed2dca5dae294f4b5f2fda4e,688,png,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\WideLogo310x150.scale-100.png
+png,31c332f584ad99ce6392b9418ea328607d9b03cfe5b63c7304ef9ea08356ff7a,12820,png,,C:\Windows\SystemApps\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy\Assets\SquareTile71x71.scale-400.png
+png,5eb97f5ef4e11b97445a8d16184078af44756be1b897e86182f9e836b01db227,2251,png,,C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe\assets\NarratorSmallTile.scale-400_contrast-black.png
+png,1a635253464aa3c6a417fc32d20761ce94672fc17afce84a3934bb011b1b0dee,914,png,,C:\Windows\SystemResources\Windows.ParentalControlsSettings\Images\MicrosoftFamily.scale-150_contrast-white.png
+png,540a0a9da01a17a9630dbc081b498550fa39d59d8fe2721c1488a5291b78afbf,3130,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Cortana.UI\Assets\Icons\MediumTile.scale-400.png
+png,c53bbd0bc5738a72917fbc4c7512de45b16bd9fdc171ead05362998d37814db8,608169,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\DiscoveryOverlay\Assets\TutorialMode\TutorialModeUseAnytime_LIGHT.png
+png,d5ce4dff12125746885ae1dfc3a3d8c562054856f32b433db85d908dd796c7ba,231096,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\DiscoveryOverlay\Assets\TutorialMode\TutorialModePlaygroundSampleEraseObjects.png
+png,057a3eb3ae48ff6764b7c294daee8108f224ee8f74b3c9aa90fd6e4ffc6cf09b,788,png,,C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\23\debugger\Watches\images\addWatch.png
+png,d1e149dcb3784d5b22da5d58bf651fcc5ecf6395debd83aa1a8063bdd14e9cd4,610,png,,C:\Windows\ImmersiveControlPanel\images\logo.targetsize-60_contrast-black.png
+png,ecd0726058ec1b67e38b0687246c262d8017e9932d23991052de2802d0d56755,67049,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\AIXHost\Assets\ClickToDo\WideTile.scale-400.png
+png,4eb87fe9730c19f3ca450f1b9c1a89a2a7107ae13ae9aad439896edb574f6d3c,51711,png,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Assets\Images\xbox-essential-horizontal.png
+png,306ddc11ee16832534cec6d8fe8eb6012ec38ca301e1e54e47cd6b163f0420a6,726,png,,C:\Windows\SystemResources\Windows.UI.Shell\Images\RequestedDownloadsLargeCloudIcon.scale-150.png
+png,697b7c7c588f7f0081ab958be93249f53c9ac9031af0ce53236279b1613c3d9b,644,png,,C:\Windows\System32\Microsoft-Edge-WebView\undocked_copilot\Assets\Images\Researcher.png
+png,bd539f3d18bd0c2344cc574e73cb95bd89fdbbdc7041395ca698f21b5b2a9202,1572,png,,C:\Windows\SystemResources\Windows.UI.ShellCommon\Images\SIMLockToast.scale-125.png
+sqlite,f8ac4980cc985b2848d87f5920e013eec91fa3f2bc57721c7ee0cb7bece476c2,4155392,db,,C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\pim.db
+sqlite,62d054fcb246e96967fbf883e51c0d0a8edd5db81c56c84e9bce7cd4ff7a1db9,53248,db,,C:\Users\vlad\.zenmap\zenmap.db
+sqlite,26915426641b265d5e77f93b0b35ed6ca95dbb144d2917f85db11025bfc6e889,72704,db,,C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\DECore\DE5\resources\uninstall\Uninstall.db
+sqlite,f40f0c31f4c9c46e73154b4a53e52259874270c1bf99a672bb3103be1baf09e8,72704,db,,C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\DECore\DE6\resources\uninstall\Uninstall.db
+sqlite,ab1764bfe0f2ce728a20a6fb94da866127703337c6e812ad3bc3d9bf5d9f2942,5120,db,,C:\Program Files (x86)\Common Files\Adobe\Adobe PCD\cache\cache.db
+sqlite,04aaff38c0ba86fab79e948f2c0ec1c8b5bddef17a2eac10c7c53fb1a49b3ef4,1318912,db,,C:\Program Files\Common Files\microsoft shared\ClickToRun\c2rclient.db
+ttf,07ea3ff2743cf6716122a520c5e6f1aed0e75c079bc3b75e512fbf1a85caef9b,103016,ttf,,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\tools\fonts\barlow-semibold.ttf
+ttf,3837ce91b355586f173015865d0ccc3cb896ec48ab5c1ae43cf116b96a0a6deb,39828,ttf,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackup\Assets\OOBEIcons.ttf
+ttf,42f28331af81b901b0045ad1af5eb2353d599afde497dbab7e6f80d7a3e3b2c6,64228,ttf,,C:\Program Files (x86)\VideoLAN\VLC\skins\fonts\FreeSansBold.ttf
+ttf,b7d8403d3da3a1ae50a6893ef330f69bf299b9a6f863397b45d73448984b2a01,21184,ttf,,C:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy\Fonts\BioMDL2.ttf
+ttf,340b88812514c3440b7990c4df636690f00771f08ab9707d62e950c8ab1dd16a,220492,ttf,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\Fonts\GetSMDL.ttf
+ttf,546c3155911a8e84c320958f6bb55ff8eeb81bf32d60c18d9805e007fabe30e0,223164,otf,,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\packages\cf_ui\fonts\Inter-Regular.otf
+ttf,faca82797bb6c705ec40b0e77113a05274f18fa0e9457816d7b409ddca5a9511,22404,ttf,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\Fonts\EmojiSIPIcons.ttf
+ttf,173a14a0d6085072cb655a381aae7949612c0d76c1e7de780288b74939363fdb,184172,ttf,,C:\Program Files (x86)\Steam\steamui\images\RobotoMono-VariableFont_wght.ttf
+ttf,7bcfa54cb8fb5b64dfe36f411d5265f7f71dc6f3b685c7ed0eb3753ee194bb45,92636,otf,,C:\Program Files (x86)\Adobe\Acrobat DC\Resource\Font\MyriadPro-BoldIt.otf
+ttf,76487d4b739ffea6d64f86d0e6a19a8d0031dc67ba2fa2518bbc1818351543ff,199772,ttf,,C:\Program Files\Microsoft Office\root\vfs\Fonts\private\GARABD.TTF
+ttf,8274ecad6d3801d87831ad1449099977f99c07b483b1b2fc17aa0cd091d37a0d,8892,ttf,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\Fonts\ECMDL2.ttf
+ttf,e9953b2a503e5251a20c550947abc6e5913d633287282da51641884dd01a5d75,34256,ttf,,C:\Windows\System32\Microsoft-Edge-WebView\undocked_copilot\Assets\Fonts\CopilotIcons.ttf
+ttf,79bfcdf48d2f57ee557100fa49851e6b9fa168c31239e2ff70bf212f21fc6211,33504,ttf,,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\fonts\OOBMDL2.ttf
+ttf,f5ceec36317b0d44232447c334cdafcd1c61e10b78c5c5e0a55fb7e764cfeddc,201348,ttf,,C:\Windows\Boot\Fonts\msjh_boot.ttf
+ttf,92a378857319a7aa8e22509a035d40c704e76a07427cd1e0e28022f67a3e4e8b,4096836,otf,,C:\Program Files (x86)\Adobe\Acrobat DC\Resource\CIDFont\AdobeMyungjoStd-Medium.otf
+ttf,b3665b834a1d5bfdc7028e546c8b421ce7125b24e5e01e83a3dfb8e9ed827a86,34248,ttf,,C:\Windows\SystemResources\Windows.UI.SettingsAppThreshold\SystemSettings\Assets\Fonts\SetMDL2.ttf
+ttf,e76fea98f76c3e17d34d90e9bf89724008c5737bd561f55cab03c6cd1342aa8e,118868,ttf,,C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy\Fonts\segxsym.ttf
+ttf,5e4c6965ea18d6ffea4b1d3f847391e5ea68ad93751d1f3c4ab5d5bf2b0bfbcc,48352,ttf,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\Fonts\AXPIcons.ttf
+ttf,71f764319de451b9b2f9b7ec839a339926cfed17b6012b85eebba8d27436d38d,6112,ttf,,C:\Windows\SystemResources\Windows.UI.PCShell\PeoplePane\Assets\SharMDL2.ttf
+ttf,5256f7e021335ac4854d180f0e8bf198964ec2fc820176276e16aabc6537bb57,59108,ttf,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\fonts\ttf\STIXNonUni.ttf
+ttf,132bbea011a04063051dd2f7b2f43ef4c2259c7a6a11f58e4de0c585c8705cc5,512,ttf,,C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\plug_ins\Preflight\FontResource\EmptyTTFont.ttf
+ttf,54361b0283fc3319aa0ee4d172a009fabd4e80e20743b5b30eb9361967275687,47400,ttf,,C:\Windows\SystemResources\Windows.UI.SettingsAppThreshold\SystemSettings\Assets\Fonts\AXPIcons.ttf
+ttf,2160adf74508d68e5cd890e9b59d0f876d61e6d87911c21f4821e323b85f3234,20864,ttf,,C:\Program Files\Microsoft Office\root\Office16\1058\offsymb.ttf
+ttf,6211f09ae93599991afda970c24669dad1a77e253d915624fbf212f702f071d7,28136,ttf,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\fonts\ttf\cmtt10.ttf
+ttf,1bf3773346c9e52fb1e0112312cdbc833efec89c99e55c3ee053ffb43e84f709,65144,ttf,,C:\Windows\SystemResources\Windows.UI.ShellCommonInetCore\WindowsInternal.Xaml.Controls.Tabs\Assets\Fonts\BrowserMDL.ttf
+ttf,232c1a71d63f19068ddf6e7432c048d63796fd63c79b3c9d025fe50a67e9b11b,12536,ttf,,C:\Program Files\Microsoft Office\root\Office16\1058\offsymxb.ttf
+ttf,e35aa5ae9a6c7c5d65b97a1c2c5a1a15614265c31a2246d048bab1218aae49c4,5552,ttf,,C:\Windows\SystemResources\Windows.UI.ControlCenter\Assets\RecallIcons.ttf
+ttf,9f8914409baa7145bfacdf2c8275e21e29c2b439c68b3ba67af9e7d7333a245c,5644,ttf,,C:\Windows\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\DiscoveryOverlay\Assets\Fonts\RecallIcons.ttf
+ttf,c4050696226e9068f288af6d03cc473b3fd642fd5dd53316a0ee030fe366bbc9,197012,ttf,,C:\Program Files (x86)\Steam\steamui\images\RobotoMono-Italic-VariableFont_wght.ttf
+ttf,af27e70894c9c96887c3414fa16ff944186ed59caeea14b96d858462f9c83b47,107320,ttf,,C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy\Toolkit\Resources\segxsym.ttf
+ttf,73e35fd2c0a58ecd295b979a89e9297326c525d02a1b5de3df0921ce18607630,8148,ttf,,C:\Windows\SystemResources\Windows.UI.ControlCenter\Assets\Sysbatt.ttf
+ttf,d0ba0e908c0089d1456b35b86a1396c376abbdc2d6b822f4a7d59abcb83c5bc3,53568,ttf,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackup\Assets\SurfaceAppIcons.ttf
+ttf,3092965b8811fd6a6765799664845181fc1dd1330b937f915808c485d316234d,32560,ttf,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\matplotlib\mpl-data\fonts\ttf\cmmi10.ttf
+ttf,98788fd4ba48dfbb2bd026c0e20a247a8b06c7372879628b7a6bb0d5bb09736c,181152,ttf,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\fonts\ttf\STIXGeneralBolIta.ttf
+ttf,b8927f5b2341eeb5a02c1b990a153b32445c8b0aadf5e7dc229a0697a24b6066,5060,ttf,,C:\Windows\SystemResources\Windows.UI.SettingsAppThreshold\SystemSettings\Assets\Fonts\BitMDL2.ttf
+ttf,a1e8d028b7007a080d3b081a636712b98d48eeca67cf24724febd9447521e288,232056,otf,,C:\Program Files\Cloudflare\Cloudflare WARP\data\flutter_assets\packages\cf_ui\fonts\Inter-Bold.otf
+ttf,eaf1a319d3175b96d9afcb5f3496f1591f2a88a209606f94212853511e8c1e65,7608,ttf,,C:\Windows\SystemResources\Windows.UI.SettingsAdminFlowUIThreshold\SystemSettingsThresholdAdminFlowUI\Assets\Fonts\SetMDL2.ttf
+ttf,3b6192eca4451835f4d634b0b6b0841da321ec65c1f3f1aa22d186da45787b9c,6136,ttf,,C:\Program Files (x86)\Steam\resource\fonts\marlett.ttf
+ttf,527d43d3d2490750bced019e4418b0f74c1dd00229ef6c0c2d8c66fba7155943,15008,ttf,,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\Assets\LockIcons.ttf
+ttf,eb78c210d380fce7d3822b3a5ccfa808f1eb0390de6237f5460970679f393ce0,3775516,ttf,,C:\Windows\Fonts\SansSerifCollection.ttf
+txt,6e4e148eecd8c352caa0a07e5bc5bdd84966d5253235fab62e99ba36730092a3,9847,txt,utf-8,C:\Program Files\Git\ucrt64\share\antiword\cp437.txt
+txt,45f61b6673fb23c584b489baca68a3489f6ead1a55f322773b5e296a2aeaaf30,2756,txt,utf-8,C:\Program Files\Git\usr\share\vim\vim92\tutor\README.ru.txt
+txt,7701f1798a882be3288511faa5920797882914ff297e1ac1135a80e566a7ad4a,1580,txt,utf-8,C:\Program Files\Git\usr\share\vim\vim92\macros\urm\README.txt
+txt,ad8b5166cf555da128c45d11a4ce1b82634fc3834c043567f88ea5b4933cfce1,843,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Abbreviations\en_US\List.txt
+txt,f2401222133e4dd8cc3dcbe2d29aff66bda95682cab966c4cb3cf2cbfbbe4893,31352,txt,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Public\wsxpacks\SettingsSearchData\en-AU\settingssynonyms.txt
+txt,64baadcbccc437e8e87e12c53478db8b459174c66fd269bf16cfdeb69cbb70fa,9817,txt,utf-8,C:\Program Files\Git\ucrt64\share\antiword\cp866.txt
+txt,2cbeea1ed1e336fd931bd662113ba73d1f2d7128b29ac8592332527e60f80d22,23091,txt,utf-8,C:\Program Files\Microsoft Office\root\Office16\AugLoop\third-party-notices.txt
+txt,4ca191c7ca54fea9e50da96db64b99d992877360cb0c416419ba4b7da37bec3c,8753,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\SupplementalDictionaries\es_ES\added.txt
+txt,35e4136e96aace60757a8b939741959d8627c4bc1fce62af99df325395276c56,24848,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\lv_LV\license.txt
+txt,cf8b38712684026963e099e91f8691f5448fd5b901bf406e1761ab185f484893,1197,txt,utf-8-bom,C:\Program Files\Microsoft Office\root\Office16\1058\ClientLangPack_eula.txt
+txt,a7d624d8ed0346a225a62969693cab4371351b2ba68545f8fa1ab8c251c6dafc,2578,txt,utf-8-bom,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\sv_SE\LICENSE_sv_SE.txt
+txt,d4fe78bfb00fe8b6b5ef39b0371f96c7648a7ff5fdeea6718c0f8da557217435,14042,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\en_CA\README_en_CA.txt
+txt,229a813355f496d45cedd4df2fccd1e51c59614b8c440dff9650178fae07f447,807,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\lt_LT\README_lt_LT.txt
+txt,c3de0c4610ab514665d9df326929ae2c442eda872db81887cea2658153ba8ba8,7350,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\SupplementalDictionaries\da_DK\added.txt
+txt,07f028eae678024a77309f3ec0bf7d06202987ad1e56fad6126edae7a2e66582,1594,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\ru_RU\note_en.txt
+txt,2146ab6c86a1b6825ab8fc4b8df3475ad3b263669a71e54b6a780a95cbc18228,1382,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\SupplementalDictionaries\pt_BR\excluded.txt
+txt,319917f5ccd09878db6f67c9a77dee846055644ca49eb535628b9e020a87261e,7804,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\es_ES\LGPLv3.txt
+txt,1d59796921b8db97d6bfdbcbcce45796667c8cbfb97a4905b1d7b99dd082ec54,1847,txt,utf-8,C:\Program Files\DigiDNA\iMazing\Resources\Labels\Localized\en.lproj\Readme.txt
+txt,9b4c76d9376ba86bbab35d4b7cdbcea8eb39b5038510cdc7269d73abc79b1f70,44145,txt,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Public\wsxpacks\SettingsSearchData\de-DE\settingssynonyms.txt
+txt,afad658eb08ffd8473301aaff867d6fa6268d7469eaed227e8b16cbb5078b98a,1839,txt,utf-8,C:\Program Files\Git\usr\share\vim\vim92\lang\README.txt
+txt,d1a1becae6ad482ff4eb1930e3829dd8a99566677bf01a48f33d5c73ce893fd8,1156,txt,utf-8,C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\en-US\about_TestDrive.help.txt
+txt,41426161aac35c329a3a91b796c9b971be8279f983a9506fd0a0aace3ae2651d,48976,txt,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Public\wsxpacks\SettingsSearchData\pt-BR\settingssynonyms.txt
+txt,858e07e2db4aa7025b3488537bcd2d37b13d6014c2037e88d8ad46c65241221f,3132,txt,utf-16-bom,C:\Program Files\WinRAR\ReadMe.txt
+txt,8547d227dd64a280d20d70f683a3cd6d19877d7c201435bca3022f9cf63d832d,1656,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\en_GB\WordNet_license.txt
+txt,d74de76d85130169fc4d1b66a293d508d845dff9bc27f2f23c38f4bf6789087e,21710,txt,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000148\ONCanvasComponents.tpn.txt
+txt,14bc040d806c3ff1b0e001cfa53efcd27eed711d00f268b548b824dfb9468bac,132670,txt,utf-16le,C:\Windows\appcompat\pca\PcaGeneralDb0.txt
+txt,41e26cc87cac54962d9e0d435e78265c68a6a8fe2ad41b00f25e38a547d367a9,2458,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\el_GR\README_el_GR.txt
+txt,acc324b995261e6d9d5793c6a504639a6dfe97f2ccaf3cf8667f20a2486fc85b,44512,txt,utf-8,C:\Program Files\Git\ucrt64\share\doc\xz\xz-file-format.txt
+txt,7e092d72dd7f39541054e6f3c8de572ea385d49b9e1269f09cb7b98a185944f2,762,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\es_ES\Changelog.txt
+txt,0992a41558367dad2909be768ea2b53d3dcc9f357fb0a4287db2451f6001c027,1849,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\en_CA\README_th_en_CA_v2.txt
+txt,b44071233b20779978927c9e064c949a54a4b49499c446b2a33376ba17b736f4,1301,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\he_IL\license_he.txt
+txt,dc6c6b8a23bca4e6f3a7a33a919314fcc4cdb207753dc1e844ce4c42f29a6785,869,txt,utf-8,C:\Program Files\Git\usr\share\vim\vim92\ftplugin\README.txt
+txt,5b2198d1645f767585e8a88ac0499b04472164c0d2da22e75ecf97ef443ab32e,18765,txt,utf-8,C:\Program Files\Git\LICENSE.txt
+txt,405540b08808bd0c8e3b1d821eeac50ffef71cad7ad9848ab6be997f095752e2,15664,txt,utf-8,C:\Program Files\Git\usr\share\vim\vim92\pack\dist\opt\helptoc\doc\helptoc.txt
+txt,ef9e4bccb4438fd8108ece8ca8815c825c07b5abc4dd38848a35713fdb90946a,20966,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\SupplementalDictionaries\bg_BG\added.txt
+txt,de857de6afd5cee75c12b56f0f9522675623352df6d9d5a7a228062140aa77c1,61714,txt,utf-16-bom,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ThirdPartyNotices.txt
+txt,10bf6e15c08c8c7f5d96b658bab78aed86d1de20f08e7871eefba0939af11a02,646,txt,utf-8,C:\Windows\SysWOW64\Drivers\gmreadme.txt
+txt,cad90ffdd2c81ecaa9f8beff675688262b40f1c030937147b21424826b605034,4055,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\fr_FR\README_fr.txt
+txt,566968d9986908f37721ff52a38c58f9e088085950dad2acc2e81c8f1e5d2ba4,68894,txt,utf-8,C:\Program Files (x86)\Common Files\Adobe\Acrobat\DC\Linguistics\Providers\Plugins2\AdobeHunspellPlugin\Dictionaries\sk_SK\LICENSE.txt
+txt,a4a2febab7239a9f4da7f43f2a7559a6dc741a9fc9baa91c8de82e68af11ea46,837,txt,utf-8,C:\Program Files\Git\usr\share\vim\vim92\plugin\README.txt
+wav,12a6019c4813c532af69302d740e47225e3b0821488def77cb885ac11e8fcaed,7792,wav,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\scipy\io\tests\data\test-48000Hz-2ch-64bit-float-le-wavex.wav
+wav,c9e298b3de6072387d95135a8f556fb4f38113c260d5bb72ff672ad3e036b840,487576,wav,,C:\Program Files (x86)\Steam\friends\friend_join.wav
+wav,d1d2e4149e94049a91a6c9f6c0bdf279a3708e1b1282d192bb682961df9d8987,137730,wav,,C:\Program Files (x86)\Steam\resource\warning.wav
+wav,76282ceea93f3f2f9a7491f3195ede3ce8f0bf9a467701a8fa7e5f3500a97203,199582,wav,,C:\Windows\System32\Microsoft-Edge-WebView\undocked_copilot\Assets\Audio\Thinking.wav
+wav,3bbdef4e7d3398c3617f8269642c6d1aa7b22e5332c67025239581847b41e0bd,5564,wav,,C:\Program Files\Microsoft Office\root\Office16\Media\COIN.WAV
+wav,4ecdcbd3018c03d813978ba453aaecc53ddd178a5b46e82d3c03e11c262403e8,225786,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy\ScreenClipping\Assets\Sounds\camerashutter.wav
+wav,b88016df69730f6c240ac7ec8ea81e26a05719daff90373b3b2d1ef346e78474,425282,wav,,C:\Program Files (x86)\Steam\steamui\sounds\pop_sound.wav
+wav,83d535458d868ff1cd419b36746073792972ad65dae77a4cf1b3fcd17c48fc41,127340,wav,,C:\Program Files (x86)\Steam\friends\message.wav
+wav,13b92ab79f26852b72484557a74ae61491fd87a36af875d0da87e745e9e66488,15814,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\Dictation\BasicListeningEarcon.wav
+wav,bb580215824dd89825f114f4fbe5514f0e9783a1ca7bb7aed2376fadc349b6aa,18086,wav,,C:\Program Files (x86)\Steam\steamui\sounds\camera1.wav
+wav,7335f708c10ae55e2574d43f5027a098c7155dc25248547d47a7b5467fa82dc8,125624,wav,,C:\Windows\Media\dm\Windows Hardware Insert.wav
+wav,4c00fc75d7ab2f59a8f20dd0faa389c69499f25866cbf2ad4b6592ffecc6749f,2976,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\KbdKeyTap.wav
+wav,20bffe8c76c6ac79f380bd9abaffd48adb1f9cda101b9a49b4c9d2b820d87100,359684,wav,,C:\Windows\Media\dm\Windows Notify Messaging.wav
+wav,aa3d652326d9b5f6aeed214dac7694b7c742cc84c7498ee7a40ea233d98a8a52,1184,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\KbdSpaceBarModernUX.wav
+wav,8beb855b77ef712dff6e2f09960d8274264062f87895b1ad1dbc3e55e00d8926,101912,wav,,C:\Program Files (x86)\Steam\steamui\sounds\deck_ui_typing.wav
+wav,8e7b499d187267bc778c9c9612f0f1f04596c31cf0baafd2f61db37445e66231,17852,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\Dictation\BasicDoneListeningEarcon.wav
+wav,e6ce43428333019f33f2f07ce022ba1e9930ab4b2800c9932f94741e2e3ce1e4,384496,wav,,C:\Windows\Media\Windows Logon.wav
+wav,47a109b21bd0a79615478181f6ee0a867e4733554c7c9523d3cda2f2d901209f,1644,wav,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\scipy\io\tests\data\test-8000Hz-le-2ch-1byteu.wav
+wav,6c5aec46ac344179ac683b630fa4c53fc859e631183326829adfa46bf0ba18d9,1024,wav,,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\scipy\io\tests\data\test-44100Hz-le-1ch-4bytes-early-eof.wav
+wav,ca7fd70c38a63afcdc3eadbdd3694dd87a47fd3891b346b6a58eef1764d3285b,4028,wav,,C:\Program Files\Microsoft Office\root\Office16\Media\HAMMER.WAV
+wav,ce5c50957271aad7a4211768ce2ecf4f47fd12861250506dfe16211be4396f45,84028,wav,,C:\Program Files (x86)\Steam\friends\voice_hang_up.wav
+wav,c088190cf6228362e412062aa2d4df2e6dd3bc409fc6d90b5cc49edd30cc6f0f,529280,wav,,C:\Program Files (x86)\Steam\resource\speaker_test.wav
+wav,1f42cbcafda573682ecd81a7c780d65d4eaf079ec9ad15fe1bd0dde2a1a1d213,3586,wav,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\scipy\io\tests\data\test-44100Hz-2ch-32bit-float-le.wav
+wav,9911b9438c295a00249d5e951d26a07a8d9e2eb994c683442e96dcf1d029547a,405380,wav,,C:\Windows\Media\dm\Windows Foreground.wav
+wav,ae5582e35a15ff94a1ec594b76357070efabe8a8f16121e9044982747c71cfdb,17494,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\Dictation\BasicCancelledEarcon.wav
+wav,d0d71d3f827f8c4cd9e4db51a72465be8426087e2b38467b3e639928116bd6e3,23030,wav,,C:\Program Files\Microsoft Office\root\Office16\Media\ARROW.WAV
+wav,4f50408d43ac1ecd7532c8b4aad8da2febfe49e5d138acfb2cc10214f7d00ea6,701708,wav,,C:\Windows\Media\Ring10.wav
+wav,d7ae3118a43823bb312440fcfc185f8cf0a5f951e1b101c18204432abc9753ba,83812,wav,,C:\Windows\System32\Microsoft-Edge-WebView\undocked_copilot\Assets\Audio\Startup.wav
+wav,78d887b09c113e54b32a8ba85c94a7cdcc4302e44dfe12a65023aa506a32f93f,4990,wav,,C:\Program Files\Git\usr\share\mintty\sounds\ambient-swoosh.wav
+wav,070d8fd5ee1a15d945399685593701d4eedb008eb2bee582977fc1b4a6fdcac7,1776,wav,,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\InputApp\Assets\KbdKeyTapModernUX.wav
+wav,f6a4c2be981dcf7ada79c54dd558a08073e742305fe3bc665e877d8820ec1229,17720,wav,,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\scipy\io\tests\data\test-44100Hz-le-1ch-4bytes.wav
+wav,c3da1a5848fa1bff1a1943e1b0f86ade6b61f55c89b97ee0939675b27cd86a5c,2358,wav,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\KbdFunction.wav
+wav,a731745ad377ecb3a1905fbcdab5ee8dc316b38011e7ff5396380f7114247097,16464,wav,,C:\Program Files\Git\usr\share\mintty\sounds\ambient-splash.wav
+wav,67da1709da42d15681ff78d116fe7d8de518992e97754cff4f7b304f78c56920,248910,wav,,C:\Program Files\Git\usr\share\mintty\sounds\keytyping5.wav
+wav,13f659206c964082b7870608892d45ca6767eea1d68baf579df9eda0c9a20e24,376120,wav,,C:\Windows\Media\Windows Notify Email.wav
+wav,a3782177c0a74e14cc599d9ac7ea617a18bbc9bfeef047163354f587f87cca52,11652,wav,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\KbdSwipeGesture.wav
+wav,82e64d70d2e3e502771a60265bf8f69e5b251be4d3fe92c17de1ed947d477fae,1318,wav,,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869836.InpApp_cw5n1h2txyewy\InputApp\Assets\KbdFunctionModernUX.wav
+wav,f9134e5c02822dd6c451de6b68e3d09a6d56bf98245344b4277fd5d65c08f324,773906,wav,,C:\Program Files (x86)\Steam\resource\speaker_test_lfe.wav
+xml,05985e693480a07ea6bcbfd6e056f31f048733b3d359ac6b8a931a6f977ed874,421065,xml,utf-8-bom,C:\Windows\Globalization\Time Zone\timezones.xml
+xml,8c8481aaff94866415264a9adc52df9a2019affd54fcaa293d820044ef2aa10a,2495,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy\AppxManifest.xml
+xml,ad746ee8d1c25a6eefc3b9984173f40a16b50077d4cccad699b7162c1b83a705,11237,xml,utf-8,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869720.Voiess_cw5n1h2txyewy\appxmanifest.xml
+xml,9a5b264bd9031edc88ab6fb0f6f8b0c2d0a123a4a1c8123acf55d169e53de2b7,42413,xml,utf-8-bom,C:\Windows\System32\spool\V4Dirs\57B5558D-0A02-4CE8-BCC6-D00625D9D244\pdc.xml
+xml,b22d111212beebb6c2f290d12b4430a62dc7358fc162bfc90a752a97ce0cf98e,14032,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\AppxManifest.xml
+xml,6b66e10478cbe44c5a112fd0ed4e1d4b94ac34ac197cf2859082269127600819,345509,xml,utf-8,C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectInput.xml
+xml,9a9654bf88c9100b993aa376d0d62aa8e8948f31875130e7d2a84dbed2174f23,1434,xml,utf-8,C:\Program Files\Common Files\microsoft shared\ink\fsdefinitions\auxpad\auxbase.xml
+xml,19d00c1fc2e48f7284068fbd9eae3b90e64988ea6f54917220859095cb8fdd63,2527,xml,utf-8,C:\Windows\SystemApps\ParentalControls_cw5n1h2txyewy\AppxManifest.xml
+xml,8bacc7584cfb16082fec8ee2771474f515f8d7203170a6186f2a4dd899417c00,1410,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy\speech\0c09\tokens_enAU.xml
+xml,a3cdec8e427c3694fa9f81a4dbb6a5c368a24aceba9c038867c19f4e1249eef1,2596,xml,utf-16-bom,C:\Windows\WaaS\regkeys\500b17b3dff5e249f7fa450bb272a5c0938ade70.xml
+xml,ce985d30b184c71e319cd617731397a0e413cea7a24e98ec2354f746be226e85,5868,xml,utf-8,C:\Windows\SysWOW64\icsxml\cmnicfg.xml
+xml,0a5dd04ecc5c68ed040de07ca91c0483926ca3538f96838f87b23aee1e1c568b,1853,xml,utf-8-bom,C:\Program Files\Common Files\microsoft shared\ink\fsdefinitions\osknumpad\osknumpadbase.xml
+xml,e20f61115af681a628ff8c287f30516b80028b8281d065d459f9ae17d1c4325d,1422,xml,utf-8,C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\AppxManifest.xml
+xml,44c552d431e31fd3abc2fdd1a8cb295b1eb90a3c13b9c1d3e9662b3a6d511e08,4712,xml,utf-8,C:\Windows\Logs\MoSetup\ActionList.xml
+xml,9bdb6f7c2cbf9c812d3552bde7d1795c58c21d89b241301bd3a45f39bccacc8e,1449,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy\speech\0416\tokens_ptBR.xml
+xml,ca7bdd9a4868f99929af3bab7c5d005b3567521595b53a75a67eda81bdecc032,3538,xml,utf-16-bom,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869720.Voiess_cw5n1h2txyewy\VoiceAccessHost\UIElementNames.xml
+xml,1c8513bc9ac14b312cc86b558a66b06d84ef98f27e050d0cea70a422dee48639,28870,xml,utf-8,C:\Windows\Provisioning\CountryTable.xml
+xml,8c6e5d40602a554c2274c640566bb45dd503f4f51a35dae3963325657df9b7b8,1394,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy\speech\1009\tokens_enCA.xml
+xml,8a0491fb0865dc7dc021af1af5f757fc2e6e40aa3163d8a3ed59b0d357ffbe82,1403,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\speech\0411\tokens_jaJP.xml
+xml,6fe55635952476ee6165065669e6b70e138310c3ab0fd8dff57becb388ac3b6c,4163,xml,utf-8,C:\Windows\System32\DriverStore\FileRepository\hpanalyticscomp.inf_amd64_ef460d1f2a35fc16\x64\TouchpointAnalyticsClientService_HPManifest.xml
+xml,4896bbdecef3e2d248af4c12f9bdec66ad39a55b783f2716e8a26b839d59b076,7367,xml,utf-8-bom,C:\Windows\Provisioning\categories.xml
+xml,29b435d9998f07c6f8551e866dafdcb9659bd9c4a237e9ccdb3f4c2b3b63d9aa,21037,xml,utf-8,C:\Windows\System32\Sysprep\ActionFiles\Specialize.xml
+xml,176fe54ed73d56b0a03f33b6c5997e5701f46bbb0309a46477e9dd256be50a09,4675,xml,utf-8,C:\Windows\SysWOW64\wsmanconfig_schema.xml
+xml,0fc960d0e777d09a25f8a05886f3967d75d67eddae6f3fd561798e1e0fed5641,9859,xml,utf-8,C:\Windows\SystemApps\SxS\MicrosoftWindows.61869721.Livtop_cw5n1h2txyewy\appxmanifest.xml
+xml,e7b3861a9651cb9a6de76361cb525a1625a467eaa4c764ac9100df81e85892b5,2372,xml,utf-8,C:\Windows\System32\DriverStore\FileRepository\hpcustomcapcomp.inf_amd64_e11727b9f39cacf0\x64\SysInfoCap_HPManifest.xml
+xml,2112b09b7d33f4877d536be4df9ce78a5f09c592ac2c06d85681edb7e666b857,22501,xml,utf-8,C:\Windows\SystemApps\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe\AppxManifest.xml
+xml,57fc7cf95dd285cd1807cbe2aa5a7d5b6273163170f05619bf7a4faaab2795d4,1400327,xml,utf-8,C:\Windows\Logs\MoSetup\PFL_Package_for_RollupFix~~amd64~~26100.9711.1.30.xml
+xml,356cdff46cb99d97542447047c1dfcf565ae31a2ba1a7949c27bd00e0f635e23,9803,xml,utf-8-bom,C:\Program Files\Common Files\microsoft shared\ink\fsdefinitions\main\zh-changjei.xml
+xml,c27518576e2bd677fc5ddfbcddb1d7e27f34c20f5b53d87a2354a336ebb06daa,2863,xml,utf-8,C:\Windows\SystemApps\Microsoft.ECApp_8wekyb3d8bbwe\AppxManifest.xml
+xml,eb13a378f0920b5bad5c9fe7139c5936017d6e25a64cdc9dab2bf80979fe2083,19767,xml,utf-8,C:\Windows\System32\spool\V4Dirs\A2B4876C-ADD2-4CCA-BF1E-F2571DB61AA8\pdc.xml
+xml,dda6446ba20b71f7ee01ecf016752913b93bea81407d46e37dbd95d3cd7998df,3040,xml,utf-8,C:\Windows\System32\DriverStore\FileRepository\prnhpcl3.inf_amd64_47ef944205892e6a\amd64\hppcl6wsdext.xml
+xml,be003e3162a8da64c68eb052219faa7b473762c42f5712ac94e71f035865fb13,19433,xml,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\appxmanifest.xml
+xml,87ca855af3094e7deebe90101f73a014702b141dae50df674184e42d835d1b4d,3853,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe\AppxManifest.xml
+xml,5ce0c3795969ec350cb21024acfb35b38c93d723b3a01cfebcfa0393005602e5,19982,xml,utf-8,C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy\appxmanifest.xml
+xml,a4f2e069dd9c3dc031cc10d3c4a42c7b7a77a498964a8bf2bcd8c7ffc6bc767e,1448,xml,utf-8,C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy\speech\080a\tokens_esMX.xml
+xml,c8247dd46a9b5d2ab01cf8ba2689065e4d1f719b8ca833bcf3578a91483738cc,14037,xml,utf-8,C:\Windows\SysWOW64\Speech_OneCore\Common\tokens.xml
+xml,e6a8fe648a19278163634b383cb03f134194503e440581482b5222db5c330ae7,1069,xml,utf-8-bom,C:\Program Files\Common Files\microsoft shared\ink\fsdefinitions\osknav\osknavbase.xml
+xml,30260c25f5334e8a6da21b61c9d38f55d289b97dc0e4ed292c1fa23fc212b845,3845,xml,utf-8,C:\Windows\System32\DriverStore\FileRepository\hpesclscan.inf_amd64_d2e72d1f0a54b3b0\HPScanDrvConfig.xml
+xml,9ce35741c9dcf4c255195ba825195467d53569a29cfa4b3e4d2d259302c251a6,100780,xml,utf-8,C:\Windows\System32\appraiser\Appraiser_TelemetryRunList.xml
+xml,6eb3021bf169a669c5db487fa766848267e010dc39220dbfe287206456e4bc76,2688,xml,utf-8,C:\Windows\InboxApps\Microsoft.StartExperiencesApp_8wekyb3d8bbwe.xml
+zip,96060045d07ac04cbee3e04e71005619074a455b6f1222d2c09dac55ca5dabc7,123476,zip,,C:\Windows\System32\DriverStore\FileRepository\seapo64ext.inf_amd64_b41aabbe8ec56227\SEAPODAT.INTELAUDIO.FUNC_01-VEN_10EC-DEV_0897.zip
+zip,79e832e09ae2202b4fd95c7ab997c08bb33b445bee9d26109dfa756ca190cc6a,786677,zip,,C:\Windows\System32\DriverStore\FileRepository\seapo64ext.inf_amd64_b41aabbe8ec56227\SEAPODAT.HDAUDIO.FUNC_01-VEN_10EC-DEV_0274.zip
+zip,3142a3e06d5bf2c5b0ff2c499defd496248eb5ad6f9f364e53993c4408944d40,108938,zip,,C:\Users\vlad\Downloads\Telegram Desktop\STP_1_7.zip
+zip,94427bb3002dabe9366633855458c6774679d34cbe9ce309d43ed13eda7e1a16,108121,zip,,C:\Users\vlad\Downloads\Telegram Desktop\STP_1_6_2.zip
+zip,1550196e3f4905d89af7a3dcc4afa314debdf90e70181dfe990568b756d8b437,295401,zip,,C:\Users\vlad\miniconda3\pkgs\tk-9.0.4-hd2208ad_1\Library\lib\libtk9.0.4.zip
+zip,c2373164652a48cf21098b9ead992c8983ab129e9c213fd1781ecb34a41f0798,243651,zip,,C:\Windows\System32\SEAPODAT.HDAUDIO.FUNC_01-VEN_10EC-DEV_0701.zip
+zip,0cb88c14f3feebd186620a3d065e567c15d937695d80715c2894e2de2cec6659,1036,zip,,C:\Users\vlad\miniconda3\pkgs\jinja2-3.1.6-py314haa95532_1\info\test\tests\res\package.zip
+zip,2f07f369e80b1c24e71213fe471e8124d82d999545a4826f5f9eaae197b0b76c,209960,zip,,C:\Windows\System32\SEAPODAT.HDAUDIO.FUNC_01-VEN_10EC-DEV_0287.zip
+zip,6e3657140860066ae9df23663205b2564f48ca5a4f8da614b5c6fbd78630eb7d,992021,zip,,C:\Windows\System32\SEAPODAT.HDAUDIO.FUNC_01-VEN_10EC-DEV_0222.zip
+zip,0338ae21d5604eee568e296b4e65a8bf47f61d3c11680693f4420704dea89cba,1112746,zip,,C:\Users\vlad\miniconda3\pkgs\tk-9.0.4-hd2208ad_1\Library\lib\libtcl9.0.4.zip
+zip,5d2831d3e71c44ee11e9bb2ea0630ee3b46204bec6ccc25d290dd9c6dc5d8c36,40314,zip,,C:\Windows\System32\DriverStore\FileRepository\seapo64.inf_amd64_98f8c17f347d8484\SEAPODAT.zip
+zip,ac02f15cfdcd135045a6d72af7016b865a097f3e5c2c8fa34df752cdbe2065bd,1425876,zip,,C:\Program Files (x86)\VMware\VMware Workstation\swagger.zip
+zip,fbbffdf75c00f3d1eb14080b6981171d4ee1468dee290217f2762a629b9f3fa3,2009134,zip,,C:\Users\vlad\Downloads\Telegram Desktop\runner-go-main.zip
+zip,5fb2b951367ff34140f65cb8571f1c5210c3376861610840045cba284d4c69a5,541642,zip,,C:\Windows\System32\DriverStore\FileRepository\seapo64ext.inf_amd64_b41aabbe8ec56227\SEAPODAT.INTELAUDIO.FUNC_01-VEN_10EC-DEV_0295.zip
+csv,f6d9f256d36bbddb34ce8da54e5799681d48cad3fd325bca621a232c3982be26,247611,csv,utf-8,C:\Users\vlad\Desktop\old_experiments\opcodes.csv
+csv,ed6a0894740e28d22353d52a07922eaf1a22c23d14d38997b801bbada69d0c71,49400,csv,utf-8,C:\Users\vlad\Desktop\old_experiments\features.csv
+csv,24efaf650ff24ce6f7fa960e61169f13c90ed34aeee756c1b11f521b5a59ac61,23439,csv,utf-8,C:\Users\vlad\Desktop\old_experiments\anomaly_scores.csv
+csv,ff5fc1f247213db5fd49539610bcd5a98033bbd0307524fde3127251752aa073,120483,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\sklearn\datasets\data\breast_cancer.csv
+csv,a5f9961298dc86deafae12b9ee88a283508cefa03cd1f719e9dfe581ec898777,11336,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\sklearn\datasets\data\wine_data.csv
+csv,f9e3809b56cc0f2f2f69554b7a0ea04e94d0e2c21343c86593eaf5581551dab6,2885,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\sklearn\datasets\data\iris.csv
+csv,42fa53ca7587423a93cf73f630fbed30b760d959cce93193a57829fbf2de2798,24853,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\numpy\random\tests\data\philox-testset-1.csv
+csv,f8134ed4e098b432239cde50f80b107b30421a6549508b37a803328fc48db6c0,24839,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\numpy\random\tests\data\philox-testset-2.csv
+csv,b2091e996d256ca276c21d6c063e827e65f01584ea7c0935e763f4afc7a63b7f,24841,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\numpy\random\tests\data\sfc64-testset-1.csv
+csv,98f86317828b7b46ddc31dfc48988d8a90f6e27b4b23fe5a59cf21f95d143203,17903,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-exp.csv
+csv,756e853c4065471da9712fbb7ae8bf1ada93a57ccecb5e3b8a5e79a9d3fef009,70551,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-log10.csv
+csv,9eedf76322fe00b5d2485e5cba909369ffe34cf2cafd0c947dc88d406a5f7e46,61734,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arctan.csv
+csv,ef6f3bf1a64d5c6c5de702ef154c3fae78fe9df83882ab6bb9c6638bec3cdf47,67924,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\sample_data\Stocks.csv
+csv,180aca6f43b70e029946c29d25fea55f7acc49ff8f09e908881a0b35d805ecc9,3211,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma2\Lib\site-packages\matplotlib\mpl-data\sample_data\msft.csv
+csv,9a4a76d521bc782aac7cdc9065d9a2578d7ec4a72c57c7aeb53eeb5675441b9d,24834,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\numpy\random\tests\data\sfc64-testset-2.csv
+csv,98d63390287434cb7556f4eb374f016e4a406df905c73b4d72ca1f81e5bfd27b,24840,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\numpy\random\tests\data\pcg64dxsm-testset-2.csv
+csv,eaf96756e5bfe22e8b12c567e9be341e37015968e85f995ba120810e90ebcc5b,24846,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\numpy\random\tests\data\pcg64-testset-2.csv
+csv,1af3eb414118317d62076ce36df2b6e895093b1b6a6df8915205ee00ed5070fd,59981,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-sin.csv
+csv,b03f78a4ad840190320f67c312871fc35a17370d6a4e55b54c1c1195ca5b72c2,60053,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-exp2.csv
+csv,0833e4cbae0f8da5115a1aa41f190b12598c888db5bf9ba0186cb385d7d46e72,11963,csv,utf-8,C:\Users\vlad\miniconda3\envs\diploma\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-log.csv
+csv,6f0d33f7a0a20b32c8bd08ce54a604f8441d3c81e3f700a6d2975fa98463c4b9,5263,csv,utf-8,C:\Windows\System32\InstallMonitorLog.csv
+docx,c72908c3037cf8c25bc8891381d82e934303b1eaa917f1b15d73c79adc0642dc,27411,docx,,C:\Users\vlad\Desktop\Rishennia_zaliku_stazhuvannia.docx
+docx,7cba7e91f41b2a975c3c447a6bbe844bd68e2e61889c4e7168ad25a366ce8f4d,34847,docx,,C:\Users\vlad\Desktop\Диплом_Сем перший.docx
+docx,a8de0a1071a918e1338793b7b25dc3137761b5355665d1e14abd127b4e9acc0c,28429,docx,,C:\Users\vlad\Desktop\Zvit_stazhuvannia_A5.docx
+docx,bf246b474aceb2e980a5a18c579dd50dfa7197bbb77d4b867a67b5fc353ab081,191814,docx,,C:\Users\vlad\Desktop\Диплом литература\Nafiiev_magistr.docx
+docx,de613350085a6f07e46683a54fb2bfdba8b565c9f4cd41c430f1379538c9fcbf,776669,docx,,C:\Users\vlad\Desktop\Диплом литература\Магістерська фінал.docx
+docx,55cac6196cfa1d933468a07f6b6cf53dddb64a64b5a684e5f964f1053a57742d,31195,docx,,C:\Users\vlad\Desktop\Диплом литература\Інтелектуальна система реверс-інжинірингу структур бінарних даних для аналізу загроз кібербезпеки.docx
+docx,94250c928467f6a0a85c8744bfae9ebe3fc30c9303394ec55a1d57c1402942a9,2512348,docx,,C:\Users\vlad\Desktop\Стажування\Звіт стажування.docx
+docx,b5b6179b2a87fe657282c16f5838a2e5f51d1c8d9f7582a28de3e7f60772fae5,16000,docx,,C:\Users\vlad\Desktop\Стажування\Мабілки.docx
+docx,5b855742f2e0df56c0ac79e56632bc5acfe8a3359fc9300e855829e89a43d3ca,29599,docx,,C:\Users\vlad\Desktop\Стажування\Final_Osobystyi_plan_v3.docx
+docx,5eaef42ebd4c5349b2c785e95863a5c1a96e29e7152bd7797906611665030f0e,15159,docx,,C:\Users\vlad\Desktop\Канцелярія\НМЦ.docx
+docx,acfb11d8d0fb5556b24db84231b754e94ca16cf144a52881aea025f1214a90e0,19115,docx,,C:\Users\vlad\Desktop\Канцелярія\Семенов_резюме.docx
+docx,b2c64dee57dc455395fd4aa7f86ae2b3b2b776eca9be4c85aac7025da5623d13,28776,docx,,C:\Users\vlad\Desktop\Канцелярія\РАПОРТ ЗАБЕЗПЕЧЕННЯ_01-17 дистант.docx
+docx,52d5f0edd91bb8c466e7cf5a1ba523be7678e48b6dec3fd81b9236bebf12e489,27921,docx,,C:\Users\vlad\Desktop\Канцелярія\рапорти дистант правильні\РАПОРТ ЗАБЕЗПЕЧЕННЯ_18-28 дистант.docx
+docx,4a1b2c24306e7f1a37ee683b5e782a07de6132eec774fedb3de454728fbe0073,28422,docx,,C:\Users\vlad\Desktop\Канцелярія\рапорти дистант правильні\РАПОРТ_ЗАБЕЗПЕЧЕННЯ_01_15_03 дистант.docx
+docx,d6403b493857360a90b55ad4915f7dede98ec4c64bfde29f82dba7e4051ed2af,28874,docx,,C:\Users\vlad\Desktop\Канцелярія\рапорти дистант правильні\РАПОРТ_ЗАБЕЗПЕЧЕННЯ_16_29_03 дистант.docx
+docx,3d721e0e4ba9296f5804f732893a996b5808c497bd7a9034043f512e841b8808,28394,docx,,C:\Users\vlad\Desktop\Канцелярія\літня 2026\РАПОРТ_ЗАБЕЗПЕЧЕННЯ_23_31_07 – 1 день.docx
+docx,384e38c51ce2dfd59a771e9bc7a2b453f9510a9be6d812d6f7a3fd4ec1bf9933,27389,docx,,C:\Users\vlad\Desktop\Канцелярія\літня 2026\Сем_Зоз_Рапорт_надати_відпустку_С13.docx
+docx,345c493dcb7942b70f06a74f0837718e9475373f00b82e2ea04f4f8f22432d98,41120,docx,,C:\Users\vlad\Desktop\Канцелярія\літня 2026\РАПОРТ_ЗАБЕЗПЕЧЕННЯ_23_31_07.docx
+docx,37d3cbc0b74b6fa8710012b20d563a806fa6d37295b88343f9c56a11d119683e,38272,docx,,C:\Users\vlad\Downloads\Shchodennyk_stazhuvannia_Final_A5.docx
+docx,cb64abc7ed6fd0647c1f2ffe0607084d4ca085a7ce90f4054a1e604f06f76aa0,31116,docx,,C:\Users\vlad\Downloads\Shchodennyk_stazhuvannia_Fixed.docx
+docx,364b6bc41d247572e7ca835540d698006c9765e8e9bcd63801df3851ec9f93f6,20773,docx,,C:\Users\vlad\Downloads\Приклад заповнення Журнал_ВС_С13.docx
+docx,78077afeb9fd3d00e30cbe4941028d1fa01f3b9d6edc597266b1ab14d02adeb5,23560,docx,,C:\Users\vlad\Downloads\Telegram Desktop\РАПОРТ_ЗАБЕЗПЕЧЕННЯ_18_30_06.docx
+docx,d54c49b024214b5170d37c7e4fcf2d63dac15cb56292ad5b0a854c5e23fe4621,28562,docx,,C:\Users\vlad\Downloads\Telegram Desktop\РАПОРТ_ЗАБЕЗПЕЧЕННЯ ТВО_Гиренко.docx
+docx,e82294a6ac34b1e3d8ce2d25500b71972ac62ff59e91fdc7d4bf03f2fea0dfbb,23417,docx,,C:\Users\vlad\Downloads\Telegram Desktop\РАПОРТ_ЗАБЕЗПЕЧЕННЯ_11_17_06 іногород.docx
+evtx,eed389cf0eb58509b9a2093ed4018cc8dacd232a5d811f40c73a54d11da1f2d6,2166784,evtx,,C:\Users\vlad\Downloads\1750414929_leakpoint_8080\Last_events.evtx
+ini,780946c7957538b964f4c48060ba6af02b41485c55b47e5d4a1de02f025ea6f1,1591,conf,utf-8,C:\Users\vlad\.zenmap\zenmap.conf
+ini,a9e8ad0792b546a4a8ce49eda82b327ad9581141312efec3ac6f2d3ad5a05f17,524,ini,utf-16-bom,C:\Users\vlad\Searches\desktop.ini
+ini,d03059ff447774e0846ba02b30345a33795ba29d74cffeff6d32accac9b4087d,2839,ini,utf-8,C:\Users\vlad\AppData\Local\Back4Blood\Steam\Saved\Config\WindowsNoEditor\GameUserSettings.ini
+ini,b747e2f68a0bef28f4d03535ff0998af2462a7f4fe98ff0234491c6a97558c73,811,ini,utf-8,C:\Users\vlad\AppData\Local\Python\pythoncore-3.14-64\Lib\_pyrepl\mypy.ini
+ini,7d86c814b80f687609c8a054ac89fa639a164b5a65f38b22bc2994efd6b38461,533,ini,utf-8,C:\Users\vlad\AppData\Local\Electronic Arts\EA Desktop\user_4953562733142890285.ini
+ini,5b0a08439e8e93817772f84e1098f14152d9da36c2601a0600ddaae6f61359d0,646,ini,utf-8,C:\Users\vlad\AppData\Roaming\Notepad++\plugins\config\converter.ini
+ini,1536e83dfe3d40bc4634abfcd328b4b67c2aff1dd4499e73eeb9263af8f775b9,26343,ini,utf-8,C:\Users\vlad\AppData\Roaming\BioshockHD\Bioshock\Bioshock.ini
+ini,b3a29ff8a4f95320ce0e09f83042c4bd5e987d89e751e42ee531391baf429c12,128631,ini,utf-8,C:\Users\vlad\AppData\Roaming\BioshockHD\Bioshock\User.ini
+ini,05cf14bb2d398a10de8f3869b76eb68ef47eee7192660be19cbb494457ea86af,1315,ini,utf-8,C:\Users\vlad\AppData\Roaming\VMware\preferences.ini
+ini,c0586227649f40b6fe504f9c9c92b5e87f6a534a2158cc2fdaab25dea0c626de,806,ini,utf-16-bom,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\Desktop.ini
+ini,d57890af07316be9dd65dfe7fc8a1130bffec3bebcb7f322d6f3931cb3cf6eb6,718,ini,utf-8,C:\Users\vlad\AppData\Roaming\vlc\vlc-qt-interface.ini
+ini,95de5ecc4f72cc82452150147f0edecc94a5322e275ca342cdf9aa8cec904cda,4255,cfg,utf-8,C:\Users\vlad\miniconda3\Lib\site-packages\pycparser\_c_ast.cfg
+ini,e645bb87dcaf295c22350795e24e4508914aa825e63daa294b5e218e0683da2a,786,ini,utf-8,C:\Users\vlad\miniconda3\Lib\_pyrepl\mypy.ini
+ini,99b5170b54fabfe471f38f8caf71b6bb1bc13dbcc0ba42250450cced8ddf9795,1078,conf,utf-8,C:\Users\vlad\miniconda3\pkgs\pygments-2.20.0-py314haa95532_0\info\test\tests\examplefiles\pacmanconf\pacman.conf
+ini,a35de06990efea61bda2e856f52e4ad00d9d1c6601f71eff6fe27f5543a3a411,800,ini,utf-8,C:\Users\vlad\miniconda3\pkgs\pydantic-2.13.4-py314haa95532_0\info\test\tests\mypy\configs\mypy-plugin-strict-no-any.ini
+ini,1a3790c5911d4c0cc107fd58b42b3e9d2fef98b7e823bc3d47d9e95d33f1b622,2566,ini,utf-16-bom,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\desktop.ini
+ini,3255b45bff12047c4e89d111bfa7ecef72adf0865600afc01201bbfb68d2107a,2780,conf,utf-8,C:\ProgramData\VMware\vmnetnat.conf
+ini,58b1a844525708676e392c2a9c4f39b8c2a67ccf654112d076941224c0b7ab4a,993,ini,utf-8,C:\ProgramData\EA Desktop\machine.ini
+ini,faeefe8290e17ab09a993dabbdefa87c52282da81f17c0bb694d6a384b3afdd1,4134,ini,utf-8,C:\Program Files\DAEMON Tools Lite\Profiles.ini
+ini,815771746f5f41f5d330a6742b1c73fa4fa07bf5c7be6940513bf4adc5fda122,5482,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000002\urlmap.ini
+ini,1ab64a0f0739a38f80ddf1a00d228c9c490552c05fed04511ad34aa921ff953b,4367,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000051\urlmap.ini
+ini,37d2f8eb392ea6ca51a491d4bc8e668b055d784ec8c8bd0487ba6ba975c2a00b,9943,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000064\urlmap.ini
+ini,1af31ed289c4c3ea3b1c29352849849b3f54a7daaa5d8b82adf01547a39f4c6a,47876,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\fa000000124\urlmap.ini
+ini,dc49577d9e455432904b90c28ecff9de6a67292e8e484044e4e6d6eb80386fdd,789,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\fa000000154\urlmap.ini
+ini,b308baf1590dfee0abe36518a37e38b0ce8473234b68285f5650a2483a402986,17743,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000137\urlmap.ini
+ini,a5b851b71897c9ed1d4b5197c294c156aa27abd156c42590e3101ff966dcbf7e,43951,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000125\urlmap.ini
+ini,56e7584ee9bf6d8905e01effd813d086f46fd2706da6239fde2807d0cb1c7549,60637,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\fa000000129\urlmap.ini
+ini,babaa19cccbd4b0cf781f67ad21a996f6443e5bc95c5a11a85c92ccb791c50c7,17561,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000131\urlmap.ini
+ini,7ef432616fc47f3b526febdc06ea773111761ec17cfb1c7554b52415a739c08b,2064,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000138\urlmap.ini
+ini,ca0231a13c5b49612ed6262d99f9b6ba8f4170ee218ff795f3fa4cf22cac8ead,24633,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000117\urlmap.ini
+ini,3cf2023754853447b0e5476afe702aeebc5af9002b0ee5cd825a5d14ad68b55d,5106,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000006\urlmap.ini
+ini,a3d0005830b84dbe3f501fa861e496789f563e9b5bb1a817de2ebb9302ca8de0,23787,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000132\urlmap.ini
+ini,4430ca25aaf0b3d9e91a48f8c7710433e8b08b82f62c8abeace459c91e9c02f7,1037,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000055\urlmap.ini
+ini,f6e63ca67e2f1374a8c4e3f2625ec921a5e1e62db4e278042d9d907c8767d4d3,7534,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000113\urlmap.ini
+ini,5474c960f4530c6e0efdc5f543c4a72023a033f492ad16e5b9656ef9a433f544,18401,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000156\urlmap.ini
+ini,2fa245833276b4baf194b368f9a760d40f2922c4ef4cd995e378f1df6f6e4fd3,1953,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000050\urlmap.ini
+ini,e9fb8ae47be46c08c3b98b80aab3805b8fc21d2768d39929eab172712de5dd63,163984,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000084\urlmap.ini
+ini,da1e12b65e85526b9219eb33286211bbf1588c4fee30bb2e4d8c6d78bd7ed873,1175,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000145\urlmap.ini
+ini,dcaf28565996d7f2bdb0c1ba911d9aff4f00638cdc086f22d3f2cf012cbc0577,6245,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\FA000000005\urlmap.ini
+ini,ccebda6025286d87375febed5f0b15c0c2729f74b3c3a80a65a6a0099034b2c9,923,ini,utf-8,C:\Program Files\Microsoft Office\root\Office16\sdxs\fa000000152\urlmap.ini
+lnk,b4fcc5314e4088158dd61d320ca92525c95fb952587de971b32b0be9a79b5523,922,lnk,,C:\Users\vlad\Links\Downloads.lnk
+lnk,1be53c200a0512ba43d8f40913414118dcda46a52b166373c29520c0eddae763,1127,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group3\01a - Windows PowerShell.lnk
+lnk,69c8cc2e411da381d791b6a4b0cd7e776ce4e8db84b5539fb6c9e8d4938600f6,1582,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group3\04-1 - NetworkStatus.lnk
+lnk,60e2965c8f44800f649a9555b713e0d703423445f21ecc23bbab148fcba677d5,1015,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group3\07 - Event Viewer.lnk
+lnk,2f1cb8a49833e7b9083bdc26a9931f8eef57c4068a5a4177e596d0c6ae04b3b8,1109,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group1\1 - Desktop.lnk
+lnk,d76c0bf591ba79448e5c385c8f8776ba3355c53ffcca13471f26ed83cc8f277f,1109,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group2\1 - Run.lnk
+lnk,2b7827fa8f8b2e19a10da8c5b0c744d064a077bde7347153767c16191eb272fe,1109,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group2\3 - Windows Explorer.lnk
+lnk,7410d3bfdb7074fc067e2c46a9eeee283460cc988de050b3c51c355b862f1cb8,1492,lnk,,C:\Users\vlad\AppData\Local\Microsoft\Windows\WinX\Group2\4 - Control Panel.lnk
+lnk,be8c0ce42e79a01666c5d50b99e05152ef485985e689d3b02c79223fcd6f4dd6,2313,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Docker Desktop.lnk
+lnk,99c0510a5908c30266fdbe43aef954b00560e2a8617996aefa758d78e5ef396c,2032,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Ubuntu.lnk
+lnk,6294edc7ed986cece4ed66f5ef873aed771a54dedfb65a9be66d004b9279f116,1281,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools.lnk
+lnk,4519b16c7f2bc7d68fa471ff74038402f8ceb619d95ac57b1498ed41dfe10907,1471,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Signal.lnk
+lnk,35469c29c3a8cf90b85b192c132cecc8f7814640f36cabe9c631b014003acadc,1072,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Steam\Steam.lnk
+lnk,cff24647ce4410a18058171d9c02035b9a4102b714e92ee712444040104e5d75,1136,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WinRAR\WinRAR.lnk
+lnk,80ed7ac327bb53d9498c77e64d64ca07b3f2875af02eee1b7690a90e0e976226,1148,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WinRAR\Новости в последней версии.lnk
+lnk,d4f9624123b28b73f56312adb5e8949599ad31e15117886aacad1836e6daa5f8,1136,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\WinRAR\Справка WinRAR.lnk
+lnk,866f8c3dc8fd95def902cc315ca055e796be1c2819b1a9586a2d390f690f7b18,1108,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\Narrator.lnk
+lnk,0a14336150d8750543e072700586d2acef25562f26a8d6ba0e17313e3f743097,1106,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\On-Screen Keyboard.lnk
+lnk,ee8387fb35bbfa1752f4335539af6c57efa33587f581b3d28bf41c541f209eb4,1114,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\VoiceAccess.lnk
+lnk,b0cdff1c619d698efae21c9de3a1a9d5ba41afc23979b809f09d561ff1e220d1,2257,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python\Python 3.14\PyDoc (Python 3.14).lnk
+lnk,5514ae82397436bf56ab1175f33f1ebf8f6e78cfc59431c00579e5529dbb78a7,2392,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python\Python 3.14\IDLE (Python 3.14).lnk
+lnk,ab6189ee032b378f8a69aaaf9c986d5e6acbf5c0b3e176536791d7ffb069b50a,1462,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python\Python 3.14\Python 3.14 Manuals.lnk
+lnk,ab6d1b88c3f2c9c14ed36de54cc05b6ac849d997832b1417bf9805b927234cc1,1147,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Telegram Desktop\Telegram.lnk
+lnk,e2ead962c4c4d9509289d7b6d5cf1ae39f67ee4dc3ef190ea9d760d4ca645ad0,1021,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Telegram Desktop\Видалити Telegram.lnk
+lnk,a71138f3355de6b530e9fcc27ba25ce878731759f2d680934656db07b9da84f0,1415,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code.lnk
+lnk,9193e829fd671eed3d128ab6c71f6afe46bc71aaf55c7cb17c2b17a2d737c269,2268,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Nmap\Nmap - Zenmap GUI.lnk
+lnk,23db6dd5bb4644850d5afe83f1126d582238162ab480479fb12a6b9998a82511,1142,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk
+lnk,937bd78d53901c653207606fffbfe997c4c20b31426f5661ebf732eb224629d8,2685,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda (miniconda3)\Anaconda Prompt.lnk
+lnk,b29c7492b57bbf1f3d7ca198d5a56a503b341e5c088e11cc69987f197cf14b14,3155,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda (miniconda3)\Anaconda PowerShell Prompt.lnk
+lnk,68f3d8e80d1943a90e492e9d3c8f2b1d79915d01bc54124e40cd36462c57e3d4,1849,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+lnk,c92e923c970ff446fc898bd45b18a23b9cb418450469a4c4a824d42ea4308c4c,1849,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell (x86).lnk
+lnk,7887d8e53084461a830c79847ec226c359bd3a54a23c4d4b81bb7950b0a4c654,1049,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Windows\SendTo\Передавання файлів через Bluetooth.LNK
+lnk,4a3ea9b7b89585b61de5cb0148d6e4235402b66256549920590de6da929c3c27,2302,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Google Chrome.lnk
+lnk,88ac74af382fd8ab7b0c62034522d9352857fdb068d37f84deb9c861de06645b,2390,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Microsoft Edge.lnk
+lnk,9f1c872bb26fd2da662a54209df54c329ab57ed548308a68732227126089c4ec,1029,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Telegram.lnk
+lnk,806ee587986d30c44aa85827984eb961a75aa2028919799b7cfab0785b13782c,2202,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Google Chrome.lnk
+lnk,b580bf31fa824900ccca2c613cb117290178974c5d3696ea7e95e764e3c4cdee,1293,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Office\Recent\Зворотна сторінка (2).LNK
+lnk,9b03b88d523dc346f984f41909110989c13dd78b5a047b754562f4e28e98bf3b,709,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Office\Recent\Final_Osobystyi_plan_v3.LNK
+lnk,09ec31b610a518b6b7833f84b6058c7b9211ba1a4c6d8ad40581521fbd25124d,552,lnk,,C:\Users\vlad\AppData\Roaming\Microsoft\Office\Recent\Диплом_Сем перший.LNK
+lnk,4103c15f56708b19ff167c68aac73a54015750418fe609df0592c8a496488621,2390,lnk,,C:\Users\vlad\Desktop\Signal.lnk
+log,5bf8231436b5cb5b03b705d63ca626f5464eac0d56db32c072e89367dca27c92,42481,log,utf-8,C:\Users\vlad\Documents\Virtual Machines\malware-lab\mksSandbox.log
+log,fe05e9980188294ceb75e76127b8ea1b3c6598cbea15ac69fe99b9ee7917ccbd,224798,log,utf-8,C:\Users\vlad\Documents\Virtual Machines\malware-lab\vmware-2.log
+log,052324354ddf08690406b797cd13f7f936a805aeaab0fa3d71f1624a26ec0fec,42482,log,utf-8,C:\Users\vlad\Documents\Virtual Machines\malware-lab\mksSandbox-1.log
+log,e0f813ff72a708c60dafae0ad945a5295026536720998e6fa0190f94c79081c9,3676,log,utf-8,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\favorites_diagnostic.log
+log,2a36bbcb995b85d9c77222543e5c3a7cee12ab98884785c2e4eefc58d9281663,8168,log,utf-8,C:\Users\vlad\AppData\Local\Cloudflare\ipc.log
+log,332f774a624ca18bdd718964df49592a36a8deb33806ad5f7de6809528fc7e56,14270,log,utf-8-bom,C:\Users\vlad\AppData\Local\Microsoft\CLR_v4.0_32\ngen.log
+log,f2ddf87e235d1427eaf884d767104345fd44b27ecb799e0dc0131df887f9aca1,10510,log,utf-16-bom,C:\Users\vlad\AppData\Local\Microsoft\Internet Explorer\ie4uinit-UserConfig.log
+log,1de5048339048df372860d9ab94c4e1ca738164cc9becd7910ced912c05f69a7,3470,log,utf-16-bom,C:\Users\vlad\AppData\Local\Microsoft\Internet Explorer\ie4uinit-ClearIconCache.log
+log,ce87c149fc8371ff9e5d392cf08177dbcaacfd9fdcb2d4d412a6591f4f99d64c,16748,log,utf-8,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Default\favorites_diagnostic.log
+log,2ea871356047b6f36351a1658da28eeb9d74bd3eab4eacebdc951a3e8bece65c,6972,log,utf-8,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\Logs\sync_diagnostic.log
+log,6b6610ed10dd8bfc40c20af45798e9781228a8ca38dbbb18b434349f65ed97ec,125428,log,utf-8,C:\Users\vlad\AppData\Local\Microsoft\Olk\logs\olk_20260804_210426741.log
+log,f4be5336b9e5f52234a47ad07294f44084ccdcddd0ca3f62e48def5d6da09a2a,15477,log,utf-8-bom,C:\Users\vlad\AppData\Local\Microsoft\CLR_v4.0\ngen.log
+log,6331f42e47e7f16d104010c64c4a7f920419c16d1c4b7c494975136b151758bf,20768,log,utf-16le,C:\Users\vlad\AppData\Local\Microsoft\OneDrive\setup\logs\Uninstall-PerMachine_2026-08-04_205156_3752-12028.log
+log,a7a3c21ffa94670278ec01b772b97d477f4ac91ef1ac1f2300acc2dcbe2cc1b9,46428,log,utf-16le,C:\Users\vlad\AppData\Local\Microsoft\OneDrive\setup\logs\Uninstall_2026-08-04_205153_1264-7392.log
+log,4321da31c4b1e777f0a012e837a82f8d4efaaf7f03bb7e3d25e03ef0b2e8cbec,57064,log,utf-16le,C:\Users\vlad\AppData\Local\Microsoft\OneDrive\setup\logs\Uninstall-PerUser_2026-08-04_205156_3888-9732.log
+log,2e7a19ff82170bca8946106e5c2d8e1c05a53189cdc16e5f0b0397875f679e0c,6514,log,utf-8,C:\Users\vlad\AppData\Local\AMD\CN\RSX_Common.log_2026-10-20_8_35_23.log
+log,5ec93e9cae8c2a217699eaffeb48b67bdd4716bf675077247d1c1846068d672f,4741,log,utf-8,C:\Users\vlad\AppData\Local\AMD\CN\RSX_Common.log_2026-9-9_21_31_55.log
+log,a7f2c3a7ac606637523671fbca9f43cd78efa3af6496bf6e143c1b7155667270,33815,log,utf-8,C:\Users\vlad\AppData\Local\Adobe\Acrobat\Distiller DC\messages.log
+log,6912069bdea848b609333aea28562a670408d220ad9848604e9666f1553bf9df,2499,log,utf-8,C:\Users\vlad\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\WinGetCOM-2026-10-14-10-55-47.854.log
+log,98c055f9241fbf1ec38fd5dc840a0cd1025893dc3b8a292cc92ef390b363adf3,2499,log,utf-8,C:\Users\vlad\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\WinGetCOM-2026-10-16-11-13-15.683.log
+log,72b97251882b0f34d967d7b74c62145ab1fdcc103c7893011629fff6a535ff8e,2042,log,utf-8,C:\Users\vlad\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\WinGetCOM-2026-10-19-14-33-59.248.log
+log,3128a6c307435c2b46c594bb5f4133307197805096e3f7e8bb7dcf4f81d2e660,174867,log,utf-8,C:\Users\vlad\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalState\EBWebView\Default\favorites_diagnostic.log
+log,5df2ac073db102ca982e35342107ae70a48fa803142d9720b9fe30a0da52e347,51989,log,utf-8,C:\Users\vlad\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView\Default\favorites_diagnostic.log
+log,62e2e7a9348f52bd94db75c72ca32705ee7353e358636d247a68cf3e1dfbebe2,3680,log,utf-8,C:\Users\vlad\AppData\Local\Docker\log\host\Docker Desktop Installer.exe.log
+log,970fc3d6893e1ce60408222d52aec08bebf31e0a3eedf9dcb53fd62a8898b2b4,6457,log,utf-8,C:\Users\vlad\AppData\Local\Electronic Arts\EA Desktop\Logs\IGOProxy_IGOProxy32.log
+log,811721f348bf4c9185794da35b6c12dcc9f87cb76215abe33cf76054e7c3bab6,1434,log,utf-8,C:\Users\vlad\AppData\Local\Electronic Arts\EA Desktop\Logs\IGOProxy_GW2.log
+log,0f2b44916fe670c7e9cf45215aba5dce417dd1553c7143330c7d9ae4f3eb2100,1164918,log,utf-8,C:\Users\vlad\AppData\Local\Electronic Arts\EA Desktop\Logs\EASteamProxyVerbose.log
+log,4cd8f6c4dd50b742e5520eeeb030522e9c18d7e99c1af955c72861d83d2a1930,3262,log,utf-8,C:\Users\vlad\AppData\Roaming\Telegram Desktop\tdata\user_data\wvbots\EBWebView\Default\favorites_diagnostic.log
+log,199ed4a45114bae9241aa2e7c53a68589b4f8eead0b367ec24032094449116de,3591,log,utf-8,C:\Users\vlad\AppData\Roaming\iMazing\Caches\Logs\imz 2026-10-10 11 04 22.log
+log,8a1f49c5321ab3ede45ce9c90e1066c091ec665ea0a6d2584b1d41a632b5ef14,4405,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\agenthost.log
+log,41373e91f19a5937ca7640729de40efa4cb16cdb0dd48771dd3d343fdb988b90,2756,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\main.log
+log,c5f18f52792fa9fc900c20e428cc63b2dab3358094eca4b0d2ba013ef588baa9,5513,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\renderer.log
+log,49a49da26f43aee8271441a4326103156a7271dd26c9531771f8bb80ac1d6347,9197,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\exthost.log
+log,3e6566d1f23fd5e832dc6fbf7cc8fee26c649b0d879e6860d8cd3d532a90b17d,17530,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\ms-python.vscode-python-envs\Python Environments.log
+log,52ce6795947a50ca7c9df6166beedf30a934757deb79468ede56cc7598b2e1c8,22573,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\vscode.github-authentication\GitHub Authentication.log
+log,8d9e79e32667bd220e48a291d3e369627ff0aae858a2b3227597af758d3064ec,3735,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\ms-python.python\Python Language Server.log
+log,805b1900ef2cd3e81e44810c57d9a40d10ac3e979e249fdb4d1e82617d0c8ff8,1926,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\ms-python.python\Python.log
+log,467372b05ab9b2c908e993c7c59ad3fdba9774864afbf5e456b257a44de9284a,10191,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\vscode.git\Git.log
+log,dde698a8ad7255b6f8a773d99471418e210621fa6bccc7c38125fd242bdb36b4,4791,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\vscode.microsoft-authentication\Microsoft Authentication.log
+log,5f8d2c30c72f708b45f3d884156214c4739eea934c58ef3e036aaa0d1a9ee9ec,4273,log,utf-8,C:\Users\vlad\AppData\Roaming\Code\logs\20261017T112603\window1\exthost\GitHub.copilot-chat\GitHub Copilot Chat.log
+ole2,2ec8f0f4df8d96a355d54547fe2c933d4d0db26a25bed576919d8d01fab57b94,121344,doc,,C:\Users\vlad\Desktop\Канцелярія\Відомість_успішності_ІВСВМ_С_групи_С_11_2.doc
+ole2,540cfd2275022e4888fde0e9100782818eb054fdbcede7adbca10bd44d95aa77,418816,doc,,C:\Users\vlad\Desktop\Канцелярія\Довідник_курсанта_07.2025-1.doc
+ole2,5eafcd224901b3bf6bdd31d9cfa8d5628d49c8a81be7726a554cc9815f99a0db,56832,doc,,C:\Users\vlad\Desktop\Канцелярія\літня 2026\Сем_Зоз_Відпускний_квиток_ПРИКЛАД–літня_основа_01_20.doc
+ole2,8607def3fbf4fdafa62d7ce423c51d9ffad0ce197d361933add057fd2a4bbf7b,46080,doc,,C:\Users\vlad\Downloads\Telegram Desktop\Правове 12.08.25.doc
+ole2,af201ada5b8dfd62b56dd532c15cdca697f47fbcaf2e55758f8d88328c45fa1f,303104,doc,,C:\Users\vlad\Downloads\Telegram Desktop\AI-architect_Відомості.doc
+ole2,8722cab9b65720f5d0c7e19f9a673853e76c940c51e7881eb18330459803981c,289280,doc,,C:\Users\vlad\Downloads\Telegram Desktop\Методичні_рекомендації_ВКСНР_редакція_жовтень_2018.doc
+ole2,6fa830d2f4bcd43ce06683e2dbbee328400d4ee16e591928d3405dcc343c8081,151552,msi,,C:\ProgramData\Package Cache\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi
+ole2,7cef0419f52c47f41b9546065e6788f20de07a7f1e647589ab52d88f6c7e50a5,143360,msi,,C:\ProgramData\Package Cache\{D401961D-3A20-3AC7-943B-6139D5BD490A}v12.0.40664\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi
+ole2,60714fcdac0a7cbfc45e6ed9bc6d4b7f8536947f630016e5faca5cce1745adcf,143360,msi,,C:\ProgramData\Package Cache\{8122DAB1-ED4D-3676-BB0A-CA368196543E}v12.0.40664\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi
+ole2,96ce3adfe6955fa343aeb5d1bdfe3a7c3936de75d0df74147074e4899f27f42f,212992,msi,,C:\ProgramData\Package Cache\{5937353B-6E8B-4A29-806F-366A8748E276}v14.51.36231\packages\vcRuntimeMinimum_amd64\vc_runtimeMinimum_x64.msi
+ole2,c78bc45113d0270c2154930761c3b74db714987a16c0fbe5e7a05fa3a853d0c8,184320,msi,,C:\ProgramData\Package Cache\{73F77E4E-5A17-46E5-A5FC-8A061047725F}v14.36.32532\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi
+ole2,ad12c204cf4b9f98824668e36ee23f61266465bebfe810eb3e0111343efe12c6,151552,msi,,C:\ProgramData\Package Cache\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi
+ole2,26d8f51e4683411633d7c45999fa948f33322b5728f06ff2242df06f0c63e695,212992,msi,,C:\ProgramData\Package Cache\{7AB1994C-7537-46A5-84BE-A3E090AE982C}v14.51.36231\packages\vcRuntimeAdditional_amd64\vc_runtimeAdditional_x64.msi
+ole2,ff8884498c3174b7d2bd35bd1a43d75d3538dca2c0821ca5876fa45eb2c8a47f,184320,msi,,C:\ProgramData\Package Cache\{C2C59CAB-8766-4ABD-A8EF-1151A36C41E5}v14.36.32532\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi
+ole2,11ac7aa797dec10c7db3b132c7bd838d6dc9ef817404d795a6f4c42313b1b2eb,151552,msi,,C:\ProgramData\Package Cache\{37B8F9C7-03FB-3253-8781-2517C99D7C00}v11.0.61030\packages\vcRuntimeAdditional_amd64\vc_runtimeAdditional_x64.msi
+ole2,a7da165e4dc6cf3be4fc800223ba1242908558878b926dc132ab6523d347a798,151552,msi,,C:\ProgramData\Package Cache\{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}v11.0.61030\packages\vcRuntimeMinimum_amd64\vc_runtimeMinimum_x64.msi
+ole2,bbb31d051b6b519a55e4cee43aacc30c238ae574d901cb5086bbf3d2e031cc8f,40960,msi,,C:\Program Files\Microsoft Office\root\Integration\C2RIntLoc.uk-ua.16.msi
+ole2,0d6d43545de6f5912b58e49d20f886d61ac2ef10ad870365e0433aa0ed07c7e2,18432,xls,,C:\Program Files\Microsoft Office\root\Office16\1058\PROTTPLV.XLS
+ole2,b4e2a8619bd4cd16ee113c2aa7d2c86723f2653f6f83070a4776c74c0c807121,72704,ppt,,C:\Program Files\Microsoft Office\root\Office16\1058\PROTTPLN.PPT
+ole2,48fe6cfb80dad971734020e3c4ddd3ca74122552632e464536e0365a34106e0b,72704,ppt,,C:\Program Files\Microsoft Office\root\Office16\1058\PROTTPLV.PPT
+ole2,a25a3d60e4d873d6323caa9fb24d61d811c4a39aa664bd03e6a087175790b761,118784,xls,,C:\Program Files\Microsoft Office\root\Office16\SAMPLES\SOLVSAMP.XLS
+ole2,844e636a55868f85b0a22ca46b57ed115a5b3e12ee2c6e9f394aed1edf1cce0d,30208,doc,,C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.doc
+ole2,282aa0ccea90b100689e2d14839cbc5ed37945443fae6ec4bfb85dde2d5a9042,8704,ppt,,C:\Windows\System32\MSDRM\MsoIrmProtector.ppt
+ole2,cebf64bfc7cd3b13a05e553a4a7000a69c1c2cca2a04299b6bce4cf04ab005a4,24064,doc,,C:\Windows\System32\MSDRM\MsoIrmProtector.doc
+ole2,fe2adbf024d0b5da39cb18a17c2baec77111013b250993df22c7d6770b487679,13824,xls,,C:\Windows\System32\MSDRM\MsoIrmProtector.xls
+pptx,50feda5aea0d1eeb20bac14fe4dcda7eb2e83052a01603f44ad8c9b6f37826e6,1074622,pptx,,C:\Users\vlad\Downloads\Telegram Desktop\ПЗ_1_4_СІТ.pptx
+pptx,f5432faf5eb917240e8c35d22a3b3423b1c8d069d4b434e17ac666dc1a3eaab4,183671,pptx,,C:\Users\vlad\Downloads\Telegram Desktop\2_2_1л_Загальний_фреймоврк_задач_класифікації.pptx
+pptx,5592a7dbf6c2404b44ddade122e64cb8360e8cdb03c5520a953bb717dc5326db,1090003,pptx,,C:\Users\vlad\Downloads\Telegram Desktop\1_3л_Застосування_машинного_навчання_в_задачах_забезпечення_кібербезпеки (2).pptx
+rtf,8a9b643bbd34e8cb0ebaae7d1d95bf8e4f91be31a4dc79e532cb82870c829202,68148,rtf,,C:\Users\vlad\AppData\Local\Programs\DockerDesktop\frontend\resources\LICENSE.rtf
+rtf,431e6faa083c6f9dace519623c4b57c0e1dd756a9e503d1720fd286dd2858853,168455,rtf,,C:\Users\vlad\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\LICENSE.rtf
+rtf,d0d7a92e058bb039151abe068a1df061293e15efb9367e7a44ecff7c57da84f4,188906,rtf,,C:\Users\vlad\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\licenses\LICENSE-chs.rtf
+rtf,6e4533daf4aec6e0ec07d4dbdc775a7e80c23176714bcbcdfd2937a3b019e2ec,313859,rtf,,C:\Users\vlad\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\licenses\LICENSE-trk.rtf
+rtf,1d37b299fc0dd712ecef315199309729e677575c7fb6871563dbdf355dc92203,184734,rtf,,C:\Users\vlad\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\licenses\LICENSE-hun.rtf
+rtf,96947f4956ae1773035bfc87caa5f9c1b4dfa0c02abf31a20eacfe3359b50ee3,88158,rtf,,C:\Users\vlad\Desktop\Тези\Семенов_Соколов_тези_19.05.rtf
+rtf,7ec479448c76b5e298835cecc9a14720622d1cd143b8bfda674a093e8c0b1285,86474,rtf,,C:\Users\vlad\Desktop\Тези\Семенов_Соколов_2026_на перевірку.rtf
+rtf,8099dc3cf9502c335da829e5c755948a12e3e6de490eb492a99deb673d883d8b,9235,rtf,,C:\Users\vlad\miniconda3\pkgs\vc14_runtime-14.44.35208-h4927774_12\info\licenses\LICENSE.RTF
+rtf,f0ae6a5da5a1284546a8c307162b0b91d017c2cc2adca08a9417bcf08d58772a,67236,rtf,,C:\Users\vlad\Downloads\Telegram Desktop\Семенов_Соколов.rtf
+rtf,56e258c4485f8de4aea6c5f56e0c8fce15a693b3894ac7a4991a0f13c9f48454,85804,rtf,,C:\Users\vlad\Downloads\Telegram Desktop\Семенов_Соколов_тези (2).rtf
+rtf,216da82ac48bbf005bbcaab4cd38a7e672a2597893838f7043869821ba9b34ea,103297,rtf,,C:\Users\vlad\Downloads\Telegram Desktop\Семенов_Соколов_тези.rtf
+rtf,b7fb44bff01f262a8c770906e856b68edaa02c9ff628eb8b97918674a140ab0e,150717,rtf,,C:\Program Files\AccessData\FTK Imager\ADG_EULA.rtf
+rtf,4d821763c6cf4718e0cbfed618a001792f3a752b4689a95705e5a44036c82e5f,63015,rtf,,C:\Program Files\DigiDNA\iMazing\Resources\Acknowledgements.rtf
+rtf,9f74f37f62d0b6e9be4fa0e845ac437598427ad7235ccdce1888c7c37981175f,29184,rtf,,C:\Program Files\DigiDNA\iMazing\Resources\EULA.rtf
+rtf,dcefd9b37d78f37ed8aaef70ac2bfcde441dcfb97469a6aa6af89c1ffadbf814,29329,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\__Installer\vc\vc2015\eula\ko_KR.rtf
+rtf,63f463f0ace41fa088acfb70f501db47e3b83600db31538d8daba010e6b83d42,19329,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\__Installer\vc\vc2015\eula\zh_CN.rtf
+rtf,1e602773f3071636e0f9c6b27037b7b4094dc26f7c2fabcdf3287bc9bcaa8652,12669,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\__Installer\vc\vc2015\eula\tr_TR.rtf
+rtf,d1deaadd50e27346a8580eddb4603ae94a3909ad1f2f464287e62b189c552ab5,54037,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\__Installer\vc\vc2012Update3\eula\es_ES.rtf
+rtf,1ac86c128f16f424a1d3f47a98567cfb86eee8c49e3fdbf4ad3cb22b94dd4601,55074,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\__Installer\vc\vc2012Update3\eula\fr_FR.rtf
+rtf,b236106e00302f5cd3675cca5b3f427403be3e961ed80f405456aa252c72a39c,51739,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\__Installer\vc\vc2012Update3\eula\it_IT.rtf
+rtf,b33c53d57834268577ab1e92e270dc1c37061f3dfe8f36727b3a951377fd1b1b,65163,rtf,,C:\Program Files (x86)\Steam\steamapps\common\PVZGW2\Support\EA Help\Technical Support.en_US.rtf
+rtf,b2ff171fa329e1268c57eecfc1dac9a901b51910cd27e19b7eb286677613b314,36347,rtf,,C:\Program Files (x86)\VMware\VMware Workstation\OVFTool\vmware-eula.rtf
+rtf,c8be22cdaebf2ee0a34f4381f87de71dd1386972c8cb47745c3969464d23a902,25294,rtf,,C:\Program Files (x86)\VMware\VMware VIX\EULA.rtf
+rtf,cfe070f2864949623fc12a7788e6ed203f1a0ab2cb52d196e0a60145fdbfd619,416201,rtf,,C:\Windows\System32\license.rtf
+rtf,a6f8f3fe93903468b099173751c98e279bcf761437080797fb652fa6e9a3ea60,94130,rtf,,C:\Windows\System32\oobe\ru-RU\OOBE_HELP_Cortana_Learn_More.rtf
+rtf,86487f0fcc6870aaf95df63843df6d68083371302af6e9b1e1add79a797ae91e,1558,rtf,,C:\Windows\System32\oobe\ru-RU\vofflps.rtf
+rtf,c63f2a4307f424cc61a698201aeb47f844b89884d6078c896dc3e06aea344893,1560,rtf,,C:\Windows\System32\oobe\ru-RU\privacy.rtf
+rtf,f325ce662b717ab7aff78552bf2ed3e672b476b801ebe28667196cb36fd86643,89932,rtf,,C:\Windows\System32\oobe\uk-UA\OOBE_HELP_Opt_in_Details.rtf
+rtf,7510585d1ca3d3c16d9ec9ecf5ee2e6f5372ccb2e10868d5d1a2a5b70561348a,1644,rtf,,C:\Windows\System32\oobe\uk-UA\vofflps.rtf
+rtf,74683fc0bc5fa29e21c766f4ba4d8f0ecc97105e18cec8962f651437f7ebaea7,1646,rtf,,C:\Windows\System32\oobe\uk-UA\privacy.rtf
+rtf,2aa72d5284dbe2a38d92cef68d084d4f689f9928db0cd1fe0a207ada2d10f5fc,980,rtf,,C:\Windows\System32\ru-RU\lipeula.rtf
+rtf,88910d82299ce58142bf7b91a897007e644f075942b6508c50783d6c6739b569,3304,rtf,,C:\Windows\System32\ru-RU\lpeula.rtf
+rtf,675bd299b49e15ac9d983b1b5edcf07a6195ad3da3b221c0a70b2c3e7d8f6a84,425640,rtf,,C:\Windows\System32\ru-RU\Licenses\_Default\Core\license.rtf
+rtf,0cc04dc0028492b9ce9a6339dd3eef86fd1abd5bec03e8ed74ce22b0ddc27503,2106,rtf,,C:\Windows\System32\ru-RU\Licenses\Volume\Professional\license.rtf
+rtf,6b5d4b32236a921bacdefe19852ec0699ca2eacd72d4e57f50a2de06ede21c8e,128342,rtf,,C:\Windows\System32\Licenses\neutral\OEM\Core\license.rtf
+rtf,8eadddab6c56f3936a27d089ee47710500ff23ffc7e64c91b3842d0a742353a6,184257,rtf,,C:\Windows\System32\Licenses\neutral\OEM\Core\de-license.rtf
+rtf,78a249b6e0f74979d2d2a230abbe5f3c9b558fcc01e61c7c09950304cf95c7c0,539,rtf,,C:\Windows\System32\Licenses\neutral\Volume\Core\license.rtf
+rtf,c7cbd859d09765076fba26e09d87f36bb6a3b2a4034bf94182fbe5e9d13ea509,2850,rtf,,C:\Windows\System32\uk-UA\lpeula.rtf
+rtf,47d189f4147c4b221f01460a633bd671bdbaec02433a2270bb2fd9287543475d,1931,rtf,,C:\Windows\System32\uk-UA\Licenses\Volume\Professional\license.rtf
+sqlite,7a5cb86ec8a17b86e8d9dab56f36b9e52a901694e71fc8781235463656d8c62e,61440,,,C:\Users\vlad\AppData\LocalLow\Adobe\Acrobat\DC\Exchange-ProMessages
+sqlite,686069c1150b8e7a9128842026f732ee705516083ce299629ca0fff6d8767b86,24576,,,C:\Users\vlad\AppData\LocalLow\Adobe\Acrobat\DC\Acrobat\DesktopNotification\NotificationsDB\notificationsDB
+sqlite,aa8fa397c122e3c52a4cf9ef1078973e85dde76729ebe9a2be3cf061dc5d6e42,32768,,,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\ExtensionActivityEdge
+sqlite,d1a772844f244e8cfd91f7521c1b533cefde89819b0cfa079908414879d09498,45056,,,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\Favicons
+sqlite,4d2411474fd0bd7237bae798a21959c422dccc3275d742b8de4440cc244b22ce,20480,,,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\ServerCertificate
+sqlite,ed90c803dbac3e3d245fe75145506230f1b47dfc7f16274c79dd1565ade4e014,20480,,,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\Network\Device Bound Sessions
+sqlite,772f7d82c88661e1583557ea8902e69adebbf3914540dd581435c732ed159e42,36864,,,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\Network\Reporting and NEL
+sqlite,fbb86c665b2fed35c372ce8996eb1c4e31082aedd6ad5fc6086cfac889c3471b,45056,,,C:\Users\vlad\AppData\LocalLow\uTorrent.WebView2\EBWebView\Default\Shared Dictionary\db
+sqlite,5959b03fd9238093d14413b5cbcb3750599d703447be6c18a143f1f4c4ccdabd,69632,db,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\first_party_sets.db
+sqlite,ef289292208f4683de79b4d61d6db2d549e5eaadaa50838e0194afb79ed3d955,2654208,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\segmentation_platform\ukm_db
+sqlite,5abcfdbff468432426dfb54ac6f140e0682c8a6cf46719745e58d06da3d21498,1810432,db,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\GPUPersistentCache\DawnGraphiteCache\NR2GNA44OGQUBFRRNDBXIX2VC7JXKYAS\cache.db
+sqlite,63680b02ebc422bac61ac5dbdd4080d11eeee2c39996870fc5de1b4dad76af0b,49152,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\DIPS
+sqlite,eb43f2073d488013d1b21d96e6350f9abf2184558c48e85bb898025032d463d6,688128,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Network Action Predictor
+sqlite,48a5085ac2c41164911b781f70bf2bb06d00de7295f5d07e26b8d76727f0856e,24576,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\MediaDeviceSalts
+sqlite,5c46fe6efc4cbbcc854039bae8a3cde469d40548305e312f8f7e09fa6aaa3b8d,81920,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\WebStorage\QuotaManager
+sqlite,610da3f204433431c7c0626b7488888cc40e732ebe759f6399a8ac348eb4ca25,32768,db,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\declarative_performance_observer.db
+sqlite,eda4c9567974174f08a1dbcd8badf4d6199a7e9a8b78b8826548f49e20e7badf,32768,db,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Storage\ext\glic\66A834677761\declarative_performance_observer.db
+sqlite,0d6287fecedbc44ed9f51ded9de88629ec9f385ecff5da9a34e47e96fd5a9cba,45056,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Storage\ext\glic\66A834677761\Shared Dictionary\db
+sqlite,b173d89d1b56e637394bbb881a4c4ead6848496be195c7dd52cd7f13b7e0cd39,36864,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Storage\ext\glic\66A834677761\Network\Reporting and NEL
+sqlite,6c39d4fd7444aa5dab4138812883d7ee77a2e6e79fe54c2fec19d700a0c0aff1,20480,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Storage\ext\glic\66A834677761\Network\Device Bound Sessions
+sqlite,edb0c8e7f11ec371d584d2b13ac25f74bf60c94552a4aadf4948571d3b9db8b7,1146880,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL
+sqlite,8dac1f22082cf47bfea57d3f557890fcb94a2f044fbbe83710a4668f8eddd6f4,20480,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\DataSharing\DataSharingDB
+sqlite,31b549a3c562fc20dd433be6609889922e0abe197656511ce61017818bb7dee9,393216,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Shared Dictionary\db
+sqlite,3b293ab906b31cebccc8116e9c868126111cea713ee3b9264bbbd6410938b27b,20480,,,C:\Users\vlad\AppData\Local\Google\Chrome\User Data\Default\Collaboration\MessageDB
+sqlite,82887a9f9186ff7db1ad57fab14f7c1e057efbd49740161227c2414623d77ac5,5279744,db,,C:\Users\vlad\AppData\Local\ConnectedDevicesPlatform\f523a4c09f00ddc1\ActivitiesCache.db
+sqlite,10a17c4e5b5afcce8ae5a13f879e270ae8db598bde3c483a2b3be867f4fa5418,24576,db,,C:\Users\vlad\AppData\Local\Microsoft\Office\OTele\officec2rclient.exe.db
+sqlite,26e194e12e517ced81732ddb345357228700dc9e559e80993d03a91122ddfdf9,24576,db,,C:\Users\vlad\AppData\Local\Microsoft\Office\OTele\powerpnt.exe.db
+sqlite,1f1faac62b836e894dba9bdc48b2820f87491e58c404e1e756e28d47280fb862,24576,db,,C:\Users\vlad\AppData\Local\Microsoft\Office\OTele\winword.exe.db
+sqlite,d50bd1990e57a6eee17229d510cbed1e29cd4ae29adb4416f0d3bcf142212301,69632,db,,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\first_party_sets.db
+sqlite,4fa53e778bcb5442f37b83ce4b5734b03f1173744f23e810bda0801ff478498b,20480,,,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Nurturing\campaign_history
+sqlite,687908afd0adf027324f343db40bdaceefe64afec45a24f08286b91f2d1bb181,53248,,,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Default\Affiliation Database
+sqlite,26f18c3b848f7377a4f2c1b6a30be0382779eb941af89327ab6c38d213cb2db7,32768,db,,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Default\declarative_performance_observer.db
+sqlite,4ec8287a2898d48f5c9492c0e1c2dd5af77eb03dfe3ff5d794fee7a1e4d46bed,53248,,,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor
+sqlite,5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab,4096,,,C:\Users\vlad\AppData\Local\Microsoft\Edge\User Data\Default\Storage\ext\ihmafllikibpmigkcoadcmckbfhibefp\def\SharedStorage
+xlsx,e53c71d6bf866ad63540d5509d0b248f7ea613dc566f26f1a55bb9fc5368d1df,26082,xlsx,,C:\Users\vlad\Desktop\ІТ_Активи.xlsx
+xlsx,47384aed1551d0dd8194b9926da7124cf17e94dc6b0725931ef0891d21279af3,24451,xlsx,,C:\Users\vlad\Desktop\ІТ_Активи_16.10.xlsx
+xlsx,758d6603346f3ff42633e05ec650b596db1641e77c717036af12cce56cbcc1c5,15355,xlsx,,C:\Users\vlad\Desktop\Канцелярія\Київ наряди вихідні.xlsx
+xlsx,b52d8c342943fabd5363dc8b0e5d20afabdc573c54ceb3c87e4866a693d0ffaf,23299,xlsx,,C:\Users\vlad\Downloads\Telegram Desktop\3_Додаток_ВС_Розподіл_по_підрозділам.xlsx
+xlsx,dbaaf3dcd485a1260b5482b7c327b773fadaf5d0d10e6031e11b125daab43da6,17576,xlsx,,C:\Users\vlad\Downloads\Telegram Desktop\Розміри_С13 (2).xlsx
+xlsx,827557e03ee90ea168848007e07782035bddd9f46369a81e7001fb3dbebacfea,17584,xlsx,,C:\Users\vlad\Downloads\Telegram Desktop\Розміри_С13.xlsx
+xlsx,efbcb83666cc2b11efcfaed08897f5f16843a197e4958ba9f5cfd462ea5bd6ab,6198,xlsx,,C:\Program Files\Microsoft Office\root\vfs\Windows\SHELLNEW\EXCEL12.XLSX
+elf,96a7e2ded9c17a0974bbb202db303e00430f0858cf1e724b5c1acc65e5ac7e95,73632,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gpgtar
+elf,a302ce5655825f7eec323b106d91b582cc1c231936acb927dbfd360f815b5b99,14728,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\lsattr
+elf,76ebb9463421402da0f21e4733331134fc6e4a8984f36c946605755573b7432a,147200,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\mandb
+elf,c559e7c0b909aa475dfeb92edeb28802ca3244f894909aef18009f1c4e903ad9,457232,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\ssh-keygen
+elf,05f4473d24f7330a9b13f43d007d619a2e792e33de453cd7533a2d97c30da770,165584,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\x86_64-linux-gnu-objcopy
+elf,59bd9d25ed2205892117147c1ec6dd525cdc3bb8c555a7158f1f0cba607dbb2a,166344,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\dumpkeys
+elf,7ad8762ec1fb3c4d7372c4072b8c0240052b302d9255c3073fb003a02d861b7d,39456,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gettext
+elf,2c452358873e7480c76c60b2d285ff1967db5e017dea5e4a2dcfe14256efe390,60016,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gnuwc
+elf,eda04c6ca49b30233ef07dcb321fa9286321dbc70f13b807849c9ab3ece7ede3,47720,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gnudircolors
+elf,82c9de2eca893070d0eebb8e28c6bf2baa33ac20f9afcde6120b46508fd20e15,39424,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gnupaste
+elf,0abea81db798ebf6b4742ac0664802d97521547a353c2a0dbdc21d76cbbfd2c0,80424,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\bwrap
+elf,43c246874188527c8c661894771fc6123c00f19dc38b61f695c5dbce9c6b1a59,31336,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\x86_64-linux-gnu-size
+elf,2d94cda98faff5d37ae634ec32bfa3273ee556e2abc3cf8fa53950d9b40e0f0b,68088,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\xargs
+elf,b1f35d0f0014d625179c0315d11ac06c4d9cfb77a117ab8ee874ac83f8446785,39456,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\ngettext
+elf,a79b3ca1293f888d2e57c1dd45332c6450e549aadcaf753553f6839cc5ff1075,23072,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\apt
+elf,972003a11f3ae0f5b2556dce1d2c2721fb5119818b9bbef1124293024fdb6517,322728,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\dpkg
+elf,48516ff47f720a3f9f47642ea48e41fc4abe95bf3375a74052a0ae121b8124e9,27160,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\free
+elf,708692f9457a16a95a51fd881551b55b4ce72200d16b8c6d2bacbea857cfd9cc,452624,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\tar
+elf,6ecae067cc8e4cdcbf68483eb87a8fd3d65de72a58da456172297a6e03c47069,43472,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\login
+elf,af01b480545f8ae931d3cb80fb40c659e922c773847929994cde3a6ada6100e4,43312,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\snapfuse
+elf,ca4fd80ce2f2437b6223299780e94826dd18c99c8c7e18139d224842ef7693a6,39488,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gnupwd
+elf,fd2f9f77fcbe680a9c4cda65605e0a994440a7308b4762c1ec80b5a1e978ab37,136072,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\ss
+elf,beb075a2e9017e400a0277463332390696a7f71b559b05b0efe9802bb35d1dee,27176,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\resizecons
+elf,ac01e79a96594a19da6bebffd6c904e05b445a9d7d1035fac17768c48ef9f834,150568,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gnuvdir
+elf,50036d900bc669506ea0899f0ad5c117806d6815c606cba442f955cd1b2ee1cf,4064448,1,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\perl5.40.1
+elf,c12ecc0adc62586f84d934405aef8efb6f9a4cd699cac3450bf3cc3e60265b8d,533984,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\gpgsm
+elf,13f968f41bac6dfdca7dc4fb346551b8a02e5ff148da3384f48fe04d37246fb4,121544,,e_machine=62,C:\Users\vlad\Desktop\diploma-final\samples\elf_clean\systemd-tmpfiles
+evtx,cb52b4c29abbab9699e3c0fa3745ffecf541e59b5f48d0d14b1527a3e77adf11,1118208,evtx,,wevtutil epl Microsoft-Windows-Shell-Core/Operational
+evtx,1cea8431ca5e86402c495454b9752183ca50629fed6fae3043e868829b9b5d33,1118208,evtx,,wevtutil epl Microsoft-Windows-WindowsUpdateClient/Operational
+evtx,aae2fb16498658cc7b1ab120413f71fd31d806d4a0bb4c450e18406b418c5fb3,1118208,evtx,,wevtutil epl Microsoft-Windows-CloudStore/Operational
+evtx,1be65dab16a68d5f4fef2faf0ef425d0d3b20654e33b21fbc66296fcf854e991,2166784,evtx,,wevtutil epl Microsoft-Windows-Kernel-PnP/Device Management
+evtx,c6bb2239ef21ff8426d37706d7224a4175ef6839455e6149efa91d68abc4975b,1118208,evtx,,wevtutil epl Microsoft-Windows-Kernel-PnP/Configuration
+evtx,a7cfb3266d1282a9a5ebf696e7f626b975254bfe373f78b917c469d253757995,1118208,evtx,,wevtutil epl Microsoft-Windows-UniversalTelemetryClient/Operational
+evtx,f1c8b05e7dc1be138a7145ccb07aa8e8185e240de4c105a10bb1566606a9f94b,1118208,evtx,,wevtutil epl Microsoft-Windows-CodeIntegrity/Operational
+evtx,eaed66f5f2b653edf1d9c0a15ab3d740306daa612e44b81226a9c579bf66d27e,1118208,evtx,,wevtutil epl Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational
+evtx,21c8cf4418488d1eca2a9c61374a629b05fd93f861c22aa7c0a0e45283d0c0c9,1118208,evtx,,wevtutil epl Microsoft-Windows-Shell-Core/AppDefaults
+evtx,ae4fb3a8ff22995956f8e14eae8f5edae5ab5cfd51eb2f1d1642a152d8f2e8d7,1118208,evtx,,wevtutil epl Microsoft-Windows-Audio/Operational
+evtx,6e84ad009d4bba6d29677b51c4a2a327d26632292573735a91a1b1f6d427c744,1118208,evtx,,wevtutil epl Microsoft-Windows-Kernel-Boot/Operational
+evtx,c8f45fc21c7b3f9bfa42b36e2c9242d7a8b9c324957b3aa0d5287b37759a910a,1118208,evtx,,wevtutil epl Microsoft-Windows-MF-FrameServer/Camera_DeviceMFT
+evtx,a88fac12124303f8398f23b10db0db71ef15c1e6e77ca66f26b16d9f96f5f0e5,1118208,evtx,,wevtutil epl Microsoft-Windows-TerminalServices-LocalSessionManager/Operational
+evtx,4c4fb107aff6948da09103cd40a1f56566243e761092cba338ede6b5305e87c2,7409664,evtx,,wevtutil epl Microsoft-Windows-Ntfs/Operational
+evtx,6fb3b35a1e4737894072b14a00f3bcbd4aa9fb1bdbed4fb65f3043e3bfd9e028,1118208,evtx,,wevtutil epl Microsoft-Windows-WindowsSystemAssessmentTool/Operational
+evtx,b35226be3b7265b4d44bcdc13892ecbb6b8d8f7ef4919d304aa6a7d7f20f2c65,1118208,evtx,,wevtutil epl Microsoft-Windows-AppReadiness/Admin
+evtx,d4dd2c5576861124097e807e44efa59aef6706170fc37b0ca811a164517a5a10,1118208,evtx,,wevtutil epl Microsoft-Windows-NetworkProfile/Operational
+evtx,75bc1bb38744168a57a2d4cb00b49f99b534924b0559f7d771015f946d6ce510,1118208,evtx,,wevtutil epl Microsoft-Windows-VolumeSnapshot-Driver/Operational
+evtx,b370ee38ec553d30568afcbad14c3a72b5e5c8a033b341a32017ea34b5c6704a,1118208,evtx,,wevtutil epl Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin
+evtx,f3bc035af6c0b30df1658471f8fca3c169816388d0df3db50d780f437927394d,1118208,evtx,,wevtutil epl Microsoft-Windows-PushNotification-Platform/Operational
+evtx,c0e0c9997352f36c24cff09ebc73cc07c5df8218eaf352585b0cd73c0fcc1f3d,2166784,evtx,,wevtutil epl Microsoft-Windows-StateRepository/Operational
+evtx,5e8da875daf3ac673b708261c1b18fd983d705ef6fab391de58e3d4a88552341,1118208,evtx,,wevtutil epl Microsoft-Windows-NCSI/Operational
+evtx,3a617a8408ca4d84e5fe0871d328a4a98fdb51a1f8728663d594f09260d42e80,1118208,evtx,,wevtutil epl Microsoft-Windows-Bits-Client/Operational
+evtx,bf716e31bbc59e35505fd106b41a3bc386ce76dc87ac9ff3e5b8e918cf6d6101,1118208,evtx,,wevtutil epl Microsoft-Windows-WMI-Activity/Operational
+evtx,ea3df1a00b0fb305c955249971c5b75c8fff267182a323af2aa185aa937720da,1118208,evtx,,wevtutil epl Microsoft-Windows-HelloForBusiness/Operational
+evtx,855d2737408643b7f231cdbbee3c33e93c5f0cd72001898a06b5ba47e27f9fec,1118208,evtx,,wevtutil epl Microsoft-Windows-Application-Experience/Program-Telemetry
+evtx,73a1478de93ea79cb132f05321b201518db9c9364646e2b0f5543d658227975a,1118208,evtx,,wevtutil epl Microsoft-Windows-Kernel-Power/Thermal-Operational
+evtx,981e1c07992647ec432871d9cc6643d4dfcbdc8d50fd9760cef8d7fae80f4cbb,1118208,evtx,,wevtutil epl Microsoft-Windows-Security-Mitigations/KernelMode
+evtx,46c216b11b90aa906d274070a07f6ca891b6b686ff20e4a2d75fed6c8bfcfb5b,1118208,evtx,,wevtutil epl Microsoft-Windows-Diagnosis-DPS/Operational
+evtx,13c5c4f59b3148d3fd1bdff3835ca92162bb86f9af352641329e8ac03cfd8f6c,1118208,evtx,,wevtutil epl Microsoft-Windows-AppModel-Runtime/Admin
+evtx,5aad1181f5e5f401d2e9a34e591a8c6ab245d13731e6d09ecfe378c9ada67cc2,1118208,evtx,,wevtutil epl Microsoft-Windows-DeviceSetupManager/Admin
+evtx,d18f2690a523f9088f7f44afa8e2b9e1641ab340f1ffed9c1243c3f0c76b1358,1118208,evtx,,wevtutil epl Microsoft-Client-Licensing-Platform/Admin
+evtx,67aa7e0da2dbcc2d3bcc45e0ba17af82b7d3aa9313e9cdd13a2c63cd38eb39ca,1118208,evtx,,wevtutil epl Microsoft-Windows-WLAN-AutoConfig/Operational
+evtx,b6116dc51d2b22b783a0bb20453eb450f5066aaf94de53b4d29a65f0e6f44931,1118208,evtx,,wevtutil epl Microsoft-Windows-Wcmsvc/Operational
+evtx,d351c5bc1c4cefd56bf19265e17f0da296d91f1eef4d848cc74c2fd0ce9e5348,1118208,evtx,,wevtutil epl Microsoft-Windows-VHDMP-Operational
+evtx,7c32d9ef98d0e26ced45d245c79b67d77bb128610e3117c4988903912496b6b3,1118208,evtx,,wevtutil epl Microsoft-Windows-Hyper-V-VmSwitch-Operational
+evtx,634319a0d2495088080159b14dbc280dcd4226ad3eab8fdcd10b57a2e16636e6,1118208,evtx,,wevtutil epl Microsoft-Windows-Kernel-PnP/Driver Watchdog
+evtx,c620186ff828b2e9dc39a747960eb5a8d0f0cfa63ac1285d4eda676ef2e9530c,1118208,evtx,,wevtutil epl Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+evtx,2d7543dd0f39cda7ce36b11a32cded43045b1066e225feef60e32e9860295cb3,1118208,evtx,,wevtutil epl Microsoft-Windows-AppReadiness/Operational

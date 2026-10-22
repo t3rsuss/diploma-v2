@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import hashlib
 import json
@@ -11,7 +11,7 @@ import lightgbm as lgb
 import numpy as np
 from magika import Magika
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 MANIFEST = BASE / "results" / "corpus_manifest_frozen.csv"
 CORPUS = BASE / "data" / "corpus"
 EXT = BASE / "data" / "ext_corpus"

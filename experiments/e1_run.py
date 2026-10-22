@@ -1,4 +1,4 @@
-import csv
+﻿import csv
 import hashlib
 import pathlib
 import random
@@ -7,7 +7,7 @@ import time
 import magic
 from magika import Magika
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 MANIFEST = BASE / "results" / "corpus_manifest.csv"
 CORPUS = BASE / "data" / "corpus"
 OUT = BASE / "results" / "e1_v2.csv"

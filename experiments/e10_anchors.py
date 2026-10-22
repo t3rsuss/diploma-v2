@@ -1,4 +1,4 @@
-import contextlib
+﻿import contextlib
 import io
 import pathlib
 import random
@@ -7,7 +7,7 @@ import statistics
 
 import numpy as np
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 with contextlib.redirect_stdout(io.StringIO()):
     g = runpy.run_path(str(BASE / "experiments" / "e8_viterbi.py"), run_name="e8")
 viterbi, tune, STEP, score, build, pools, fc = (g[k] for k in ("viterbi", "tune", "STEP", "score", "build", "pools", "fc"))

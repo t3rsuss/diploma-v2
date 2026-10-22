@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import contextlib
 import csv
 import io
@@ -10,7 +10,7 @@ import sys
 import joblib
 import numpy as np
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE))
 from src.triage.fragment import feats, windows
 

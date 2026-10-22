@@ -25,3 +25,5 @@ venv/
 results/corpus_manifest*.csv
 results/e1_diagnose.txt
 tools/
+!results/corpus_manifest_frozen.csv
+results/e13_cache.pkl

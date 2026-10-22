@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import importlib.util
 import pathlib
@@ -9,7 +9,7 @@ from io import BytesIO
 
 from kaitaistruct import KaitaiStream, KaitaiStruct
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 GEN = BASE / "kaitai_dbg"
 sys.path.append(str(GEN))
 sys.setrecursionlimit(10000)

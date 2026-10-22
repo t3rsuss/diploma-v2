@@ -1,10 +1,10 @@
-import pathlib
+﻿import pathlib
 import pickle
 
 import lightgbm as lgb
 import numpy as np
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 data_all = pickle.load(open(BASE / "results" / "e13_cache.pkl", "rb"))
 fmts = [c for c in data_all if data_all[c]]
 SEED, TOLS = 42, (1, 4)

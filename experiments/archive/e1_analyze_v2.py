@@ -1,10 +1,10 @@
-import collections
+﻿import collections
 import math
 import pathlib
 
 import pandas as pd
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 SRC = BASE / "results" / "e1_v2.csv"
 OUT = BASE / "results" / "e1_v2_summary.csv"
 REPORT = BASE / "results" / "e1_v2_report.txt"

@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import pathlib
 import random
@@ -6,7 +6,7 @@ import sys
 
 import numpy as np
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE))
 from src.triage.fragment import WIN, FragmentClassifier, feats
 from src.triage.triage import MAP, _magika

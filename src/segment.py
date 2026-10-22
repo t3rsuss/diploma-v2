@@ -2,7 +2,7 @@ import numpy as np
 
 from src.triage.fragment import WIN, feats
 
-STEP, LAM, BONUS, SNAP_R = 2048, 24.0, 24.0, 6144
+STEP, LAM, BONUS, SNAP_R, MAX_BINS = 2048, 24.0, 24.0, 6144, 8192
 MAGIC = {
     "pdf": [b"%PDF-"], "ole2": [b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"], "gif": [b"GIF8"],
     "jpg": [b"\xff\xd8\xff"], "gz": [b"\x1f\x8b\x08"], "rtf": [b"{\\rtf"],
@@ -47,8 +47,11 @@ def segment(data, fc, lam=LAM, bonus=BONUS, snap=True):
     n = len(data)
     if n == 0:
         return []
-    nb = (n + STEP - 1) // STEP
-    offs = [min(max(k * STEP - (WIN - STEP) // 2, 0), max(n - WIN, 0)) for k in range(nb)]
+    step = STEP
+    if (n + STEP - 1) // STEP > MAX_BINS:
+        step = (n // MAX_BINS // 512 + 1) * 512
+    nb = (n + step - 1) // step
+    offs = [min(max(k * step - (WIN - step) // 2, 0), max(n - WIN, 0)) for k in range(nb)]
     p = fc.model.predict_proba(np.array([feats(data[o:o + WIN]) for o in offs]))
     lp = np.log(p + 1e-6)
     if bonus:
@@ -58,13 +61,13 @@ def segment(data, fc, lam=LAM, bonus=BONUS, snap=True):
             ci = fc.classes.index(c)
             for s in sigs:
                 for pos in _occurrences(data, s):
-                    if pos // STEP < nb:
-                        lp[pos // STEP, ci] += bonus
+                    if pos // step < nb:
+                        lp[pos // step, ci] += bonus
     path = _viterbi(lp, lam)
     segs, start = [], 0
     for k in range(1, nb + 1):
         if k == nb or path[k] != path[k - 1]:
-            segs.append([start * STEP, min(k * STEP, n), path[start]])
+            segs.append([start * step, min(k * step, n), path[start]])
             start = k
     if snap:
         for i in range(1, len(segs)):
@@ -73,7 +76,7 @@ def segment(data, fc, lam=LAM, bonus=BONUS, snap=True):
                 segs[i][0] = segs[i - 1][1] = b
     out = []
     for s, e, ci in segs:
-        k0, k1 = s // STEP, min((e - 1) // STEP + 1, nb)
+        k0, k1 = s // step, min((e - 1) // step + 1, nb)
         out.append(dict(start=s, end=e, length=e - s, cls=fc.classes[ci],
                         conf=float(p[k0:k1, ci].mean())))
     return out

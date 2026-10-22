@@ -1,10 +1,10 @@
-import collections
+﻿import collections
 import pathlib
 import random
 
 from remotezip import RemoteZip
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 GD = BASE / "data" / "govdocs"
 URL = "https://downloads.digitalcorpora.org/corpora/files/govdocs1/zipfiles/{:03d}.zip"
 USED = {0, 1, 2, 500}

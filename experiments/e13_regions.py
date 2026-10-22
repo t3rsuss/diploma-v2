@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import importlib.util
 import pathlib
@@ -12,7 +12,7 @@ import lightgbm as lgb
 import numpy as np
 from kaitaistruct import KaitaiStream, KaitaiStruct
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 GEN = BASE / "kaitai_dbg"
 CACHE = BASE / "results" / "e13_cache.pkl"
 sys.path.append(str(GEN))

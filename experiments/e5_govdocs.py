@@ -1,9 +1,9 @@
-import collections
+﻿import collections
 import csv
 import pathlib
 import sys
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE))
 from src.triage.triage import THETA, TEXT_FAMILY, analyze
 

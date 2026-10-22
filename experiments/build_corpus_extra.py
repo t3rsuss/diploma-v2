@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import hashlib
 import io
@@ -13,7 +13,7 @@ import zipfile
 
 random.seed(43)
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 OUT = BASE / "data" / "corpus"
 MANIFEST = BASE / "results" / "corpus_manifest.csv"
 BACKUP = BASE / "results" / "corpus_manifest.v1.csv"

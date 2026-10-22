@@ -1,4 +1,4 @@
-import collections
+﻿import collections
 import csv
 import os
 import pathlib
@@ -12,7 +12,7 @@ from magika import Magika
 from sklearn.metrics import f1_score
 
 SEED = int(sys.argv[1]) if len(sys.argv) > 1 else 42
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 MANIFEST = BASE / "results" / "corpus_manifest_frozen.csv"
 CORPUS = BASE / "data" / "corpus"
 OUT = BASE / "results" / f"e3_fragments_s{SEED}.csv"

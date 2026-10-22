@@ -1,4 +1,4 @@
-import csv
+﻿import csv
 import hashlib
 import io
 import json
@@ -15,7 +15,7 @@ import collections
 
 random.seed(42)
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 OUT = BASE / "data" / "corpus"
 MANIFEST = BASE / "results" / "corpus_manifest.csv"
 ROOTS = [pathlib.Path(p) for p in (

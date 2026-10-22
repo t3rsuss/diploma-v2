@@ -1,11 +1,11 @@
-import collections
+﻿import collections
 import contextlib
 import io
 import pathlib
 import runpy
 import statistics
 
-BASE = pathlib.Path(r"C:\Users\vlad\Desktop\diploma-v2")
+BASE = pathlib.Path(__file__).resolve().parents[1]
 with contextlib.redirect_stdout(io.StringIO()):
     g = runpy.run_path(str(BASE / "experiments" / "e8_viterbi.py"), run_name="e8")
 viterbi, tune, ev, STEP, score, res = (g[k] for k in ("viterbi", "tune", "ev", "STEP", "score", "res"))
