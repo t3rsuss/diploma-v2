@@ -1,27 +1,27 @@
-Мапінг міток: Magika
-  csv: з даних -> 'csv' (95%)
-  evtx: з даних -> 'iso' (100%)
-  ini: з даних -> 'ini' (48%) НЕ ПРИЙНЯТО
-  log: з даних -> 'txt' (62%)
-  ole2: з даних -> 'msi' (44%) НЕ ПРИЙНЯТО
-  pcap: з даних -> 'pcap' (50%)
+﻿РњР°РїС–РЅРі РјС–С‚РѕРє: Magika
+  csv: Р· РґР°РЅРёС… -> 'csv' (95%)
+  evtx: Р· РґР°РЅРёС… -> 'iso' (100%)
+  ini: Р· РґР°РЅРёС… -> 'ini' (48%) РќР• РџР РР™РќРЇРўРћ
+  log: Р· РґР°РЅРёС… -> 'txt' (62%)
+  ole2: Р· РґР°РЅРёС… -> 'msi' (44%) РќР• РџР РР™РќРЇРўРћ
+  pcap: Р· РґР°РЅРёС… -> 'pcap' (50%)
 
-Мапінг міток: libmagic
-  csv: з даних -> 'text/plain' (100%)
-  docx: з даних -> 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' (96%)
-  evtx: з даних -> 'application/octet-stream' (100%)
-  ini: з даних -> 'text/plain' (100%)
-  УВАГА json: ручний мапінг ['application/json'] збігається лише на 0%, найчастіша мітка 'text/plain' (100%)
-  lnk: з даних -> 'application/octet-stream' (100%)
-  log: з даних -> 'text/plain' (88%)
-  ole2: з даних -> 'application/x-msi' (44%) НЕ ПРИЙНЯТО
-  pcap: з даних -> 'application/octet-stream' (100%)
-  pptx: з даних -> 'application/vnd.openxmlformats-officedocument.presentationml.presentation' (100%)
-  ttf: з даних -> 'application/font-sfnt' (90%)
-  xlsx: з даних -> 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' (86%)
+РњР°РїС–РЅРі РјС–С‚РѕРє: libmagic
+  csv: Р· РґР°РЅРёС… -> 'text/plain' (100%)
+  docx: Р· РґР°РЅРёС… -> 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' (96%)
+  evtx: Р· РґР°РЅРёС… -> 'application/octet-stream' (100%)
+  ini: Р· РґР°РЅРёС… -> 'text/plain' (100%)
+  РЈР’РђР“Рђ json: СЂСѓС‡РЅРёР№ РјР°РїС–РЅРі ['application/json'] Р·Р±С–РіР°С”С‚СЊСЃСЏ Р»РёС€Рµ РЅР° 0%, РЅР°Р№С‡Р°СЃС‚С–С€Р° РјС–С‚РєР° 'text/plain' (100%)
+  lnk: Р· РґР°РЅРёС… -> 'application/octet-stream' (100%)
+  log: Р· РґР°РЅРёС… -> 'text/plain' (88%)
+  ole2: Р· РґР°РЅРёС… -> 'application/x-msi' (44%) РќР• РџР РР™РќРЇРўРћ
+  pcap: Р· РґР°РЅРёС… -> 'application/octet-stream' (100%)
+  pptx: Р· РґР°РЅРёС… -> 'application/vnd.openxmlformats-officedocument.presentationml.presentation' (100%)
+  ttf: Р· РґР°РЅРёС… -> 'application/font-sfnt' (90%)
+  xlsx: Р· РґР°РЅРёС… -> 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' (86%)
 
-Точність, %, розширення (* означає n < 20 у стані orig)
-клас       n          orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
+РўРѕС‡РЅС–СЃС‚СЊ, %, СЂРѕР·С€РёСЂРµРЅРЅСЏ (* РѕР·РЅР°С‡Р°С” n < 20 Сѓ СЃС‚Р°РЅС– orig)
+РєР»Р°СЃ       n          orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
 bmp       9*          100           100           100           100           100              -             -
 csv      21           100           100           100           100           100              -             -
 docx     24           100           100           100           100           100              -             -
@@ -52,8 +52,8 @@ xlsx      7*          100           100           100           100           10
 xml      40           100           100           100           100           100              -             -
 zip      14*          100           100           100           100           100              -             -
 
-Точність, %, libmagic (* означає n < 20 у стані orig)
-клас       n          orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
+РўРѕС‡РЅС–СЃС‚СЊ, %, libmagic (* РѕР·РЅР°С‡Р°С” n < 20 Сѓ СЃС‚Р°РЅС– orig)
+РєР»Р°СЃ       n          orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
 bmp       9*          100             0             0           100             0              -             -
 csv      21           100             0            10           100           100              -             -
 docx     24            96             0             0            96             0              -             -
@@ -84,8 +84,8 @@ xlsx      7*           86             0             0            86             
 xml      40            85             0             0            85            45              -             -
 zip      14*          100             0             0           100             7              -             -
 
-Точність, %, Magika (* означає n < 20 у стані orig)
-клас       n          orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
+РўРѕС‡РЅС–СЃС‚СЊ, %, Magika (* РѕР·РЅР°С‡Р°С” n < 20 Сѓ СЃС‚Р°РЅС– orig)
+РєР»Р°СЃ       n          orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
 bmp       9*          100            22            22           100            22              -             -
 csv      21            95            95            95            95            90              -             -
 docx     24           100           100           100            88            12              -             -
@@ -116,24 +116,24 @@ xlsx      7*          100           100           100            57             
 xml      40            98            90            90            98            65              -             -
 zip      14*           86            43            50            64             7              -             -
 
-Середня точність за станами (макро: лише класи з n >= 20; мікро: усі файли), %
-інструмент                    orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
-розширення  макро             97.3          97.3          97.3          97.3          97.3           0.0           0.0
-            мікро             97.2          97.2          97.2          97.2          97.2           0.0           0.0
-libmagic    макро             88.9           8.7          13.5          88.9          44.1         100.0         100.0
-            мікро             90.4           9.0          13.7          90.4          43.1         100.0         100.0
-Magika      макро             87.5          84.5          85.3          83.3          44.4         100.0         100.0
-            мікро             88.8          84.2          85.1          84.1          43.6         100.0         100.0
+РЎРµСЂРµРґРЅСЏ С‚РѕС‡РЅС–СЃС‚СЊ Р·Р° СЃС‚Р°РЅР°РјРё (РјР°РєСЂРѕ: Р»РёС€Рµ РєР»Р°СЃРё Р· n >= 20; РјС–РєСЂРѕ: СѓСЃС– С„Р°Р№Р»Рё), %
+С–РЅСЃС‚СЂСѓРјРµРЅС‚                    orig   zero_header  random_heade    trunc_tail      fragment     spoof_jpg     spoof_txt
+СЂРѕР·С€РёСЂРµРЅРЅСЏ  РјР°РєСЂРѕ             97.3          97.3          97.3          97.3          97.3           0.0           0.0
+            РјС–РєСЂРѕ             97.2          97.2          97.2          97.2          97.2           0.0           0.0
+libmagic    РјР°РєСЂРѕ             88.9           8.7          13.5          88.9          44.1         100.0         100.0
+            РјС–РєСЂРѕ             90.4           9.0          13.7          90.4          43.1         100.0         100.0
+Magika      РјР°РєСЂРѕ             87.5          84.5          85.3          83.3          44.4         100.0         100.0
+            РјС–РєСЂРѕ             88.8          84.2          85.1          84.1          43.6         100.0         100.0
 
-Підміна розширення для виконуваних файлів (частка правильно названих), %
-  pe   orig       n= 40  розширення 100.0  libmagic 100.0  Magika 100.0
-  pe   spoof_jpg  n= 40  розширення   0.0  libmagic 100.0  Magika 100.0
-  pe   spoof_txt  n= 40  розширення   0.0  libmagic 100.0  Magika 100.0
-  elf  orig       n= 40  розширення  97.5  libmagic 100.0  Magika 100.0
-  elf  spoof_jpg  n= 40  розширення   0.0  libmagic 100.0  Magika 100.0
-  elf  spoof_txt  n= 40  розширення   0.0  libmagic 100.0  Magika 100.0
+РџС–РґРјС–РЅР° СЂРѕР·С€РёСЂРµРЅРЅСЏ РґР»СЏ РІРёРєРѕРЅСѓРІР°РЅРёС… С„Р°Р№Р»С–РІ (С‡Р°СЃС‚РєР° РїСЂР°РІРёР»СЊРЅРѕ РЅР°Р·РІР°РЅРёС…), %
+  pe   orig       n= 40  СЂРѕР·С€РёСЂРµРЅРЅСЏ 100.0  libmagic 100.0  Magika 100.0
+  pe   spoof_jpg  n= 40  СЂРѕР·С€РёСЂРµРЅРЅСЏ   0.0  libmagic 100.0  Magika 100.0
+  pe   spoof_txt  n= 40  СЂРѕР·С€РёСЂРµРЅРЅСЏ   0.0  libmagic 100.0  Magika 100.0
+  elf  orig       n= 40  СЂРѕР·С€РёСЂРµРЅРЅСЏ  97.5  libmagic 100.0  Magika 100.0
+  elf  spoof_jpg  n= 40  СЂРѕР·С€РёСЂРµРЅРЅСЏ   0.0  libmagic 100.0  Magika 100.0
+  elf  spoof_txt  n= 40  СЂРѕР·С€РёСЂРµРЅРЅСЏ   0.0  libmagic 100.0  Magika 100.0
 
-Частка 'unknown' у Magika за станами, %
+Р§Р°СЃС‚РєР° 'unknown' Сѓ Magika Р·Р° СЃС‚Р°РЅР°РјРё, %
   orig             0.3
   zero_header      4.2
   random_header    2.4
@@ -142,11 +142,11 @@ Magika      макро             87.5          84.5          85.3          83.
   spoof_jpg        0.0
   spoof_txt        0.0
 
-Класи, що залежать від заголовка (orig >= 90 %, zero_header < 50 %)
+РљР»Р°СЃРё, С‰Рѕ Р·Р°Р»РµР¶Р°С‚СЊ РІС–Рґ Р·Р°РіРѕР»РѕРІРєР° (orig >= 90 %, zero_header < 50 %)
   libmagic: bmp (100->0), csv (100->0), docx (96->0), elf (100->0), gif (100->0), gz (100->0), html (90->0), ico (100->0), ini (100->0), jpg (100->0), mp3 (100->0), pdf (100->0), pe (100->0), png (100->0), pptx (100->0), rtf (100->0), sqlite (100->0), ttf (90->0), txt (98->0), wav (100->0), zip (100->0)
   Magika: bmp (100->22)
 
-Помилки Magika у стані orig (точність < 90 %): найчастіші мітки
+РџРѕРјРёР»РєРё Magika Сѓ СЃС‚Р°РЅС– orig (С‚РѕС‡РЅС–СЃС‚СЊ < 90 %): РЅР°Р№С‡Р°СЃС‚С–С€С– РјС–С‚РєРё
   ini       0.0 %  [('ini', 19), ('internetshortcut', 12), ('txt', 5), ('winregistry', 2)]
   log      62.5 %  [('txt', 25), ('csv', 5), ('ini', 5), ('vba', 3)]
   ole2      0.0 %  [('msi', 11), ('doc', 8), ('xls', 3), ('ppt', 3)]

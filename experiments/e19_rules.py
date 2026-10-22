@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import e18_context as CTX
 
-MAX_HDR, MIN_LEN, LOOK = 64, 4, 6
+MAX_HDR, MIN_LEN, LOOK = 64, 1, 40
 LEARN_MIN_SUPPORT, LEARN_MIN_OCC, PASS_ACC, PART_ACC = 0.6, 5, 0.95, 0.6
 PER_CLASS, SEED, MAX_BYTES = 40, 42, 150_000
 
