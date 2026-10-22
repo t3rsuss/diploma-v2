@@ -1,0 +1,222 @@
+{
+ "files": 25,
+ "example_file": "67da1709da42.wav",
+ "points": [
+  {
+   "context": "wave.__init__:112",
+   "files_share": 1.0,
+   "per_file": 3.52,
+   "length": 4,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "wave.__init__:116",
+   "files_share": 1.0,
+   "per_file": 3.52,
+   "length": 4,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "wave._read_fmt_chunk:376",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 14,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "wave._read_fmt_chunk:381",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 2,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "wave.initfp:251",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 4,
+   "length_share": 1.0,
+   "role": "поле на фіксованій позиції"
+  },
+  {
+   "context": "wave.readframes:362",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 248832,
+   "length_share": 0.04,
+   "role": "блок змінної довжини"
+  }
+ ],
+ "role_byte_share": {
+  "дані (блок)": 0.9992,
+  "константа": 0.0004,
+  "змінне поле": 0.0003,
+  "довжина": 0.0001
+ },
+ "example_fields": [
+  {
+   "start": 0,
+   "end": 4,
+   "size": 4,
+   "role": "константа",
+   "context": "wave.__init__:112",
+   "hex": "52494646"
+  },
+  {
+   "start": 4,
+   "end": 8,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "wave.__init__:116",
+   "hex": "46cc0300"
+  },
+  {
+   "start": 8,
+   "end": 12,
+   "size": 4,
+   "role": "константа",
+   "context": "wave.initfp:251",
+   "hex": "57415645"
+  },
+  {
+   "start": 12,
+   "end": 16,
+   "size": 4,
+   "role": "константа",
+   "context": "wave.__init__:112",
+   "hex": "666d7420"
+  },
+  {
+   "start": 16,
+   "end": 20,
+   "size": 4,
+   "role": "константа",
+   "context": "wave.__init__:116",
+   "hex": "10000000"
+  },
+  {
+   "start": 20,
+   "end": 21,
+   "size": 1,
+   "role": "змінне поле",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "01"
+  },
+  {
+   "start": 21,
+   "end": 22,
+   "size": 1,
+   "role": "константа",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "00"
+  },
+  {
+   "start": 22,
+   "end": 23,
+   "size": 1,
+   "role": "змінне поле",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "02"
+  },
+  {
+   "start": 23,
+   "end": 24,
+   "size": 1,
+   "role": "константа",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "00"
+  },
+  {
+   "start": 24,
+   "end": 27,
+   "size": 3,
+   "role": "змінне поле",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "80bb00"
+  },
+  {
+   "start": 27,
+   "end": 28,
+   "size": 1,
+   "role": "константа",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "00"
+  },
+  {
+   "start": 28,
+   "end": 31,
+   "size": 3,
+   "role": "змінне поле",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "00ee02"
+  },
+  {
+   "start": 31,
+   "end": 32,
+   "size": 1,
+   "role": "константа",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "00"
+  },
+  {
+   "start": 32,
+   "end": 34,
+   "size": 2,
+   "role": "довжина",
+   "context": "wave._read_fmt_chunk:376",
+   "hex": "0400"
+  },
+  {
+   "start": 34,
+   "end": 36,
+   "size": 2,
+   "role": "константа",
+   "context": "wave._read_fmt_chunk:381",
+   "hex": "1000"
+  },
+  {
+   "start": 36,
+   "end": 40,
+   "size": 4,
+   "role": "дані (блок)",
+   "context": "wave.__init__:112",
+   "hex": "4c495354"
+  },
+  {
+   "start": 40,
+   "end": 44,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "wave.__init__:116",
+   "hex": "1a000000"
+  },
+  {
+   "start": 70,
+   "end": 74,
+   "size": 4,
+   "role": "константа",
+   "context": "wave.__init__:112",
+   "hex": "64617461"
+  },
+  {
+   "start": 74,
+   "end": 78,
+   "size": 4,
+   "role": "довжина",
+   "context": "wave.__init__:116",
+   "hex": "00cc0300"
+  },
+  {
+   "start": 78,
+   "end": 248910,
+   "size": 248832,
+   "role": "дані (блок)",
+   "context": "wave.readframes:362",
+   "hex": "0000000000000000"
+  }
+ ]
+}

@@ -1,0 +1,910 @@
+{
+ "files": 22,
+ "example_file": "b2c64dee57dc.docx",
+ "points": [
+  {
+   "context": "zipfile._read2:1082",
+   "files_share": 1.0,
+   "per_file": 14.0,
+   "length": 239,
+   "length_share": 0.058,
+   "role": "блок змінної довжини"
+  },
+  {
+   "context": "zipfile.open:1594",
+   "files_share": 1.0,
+   "per_file": 14.0,
+   "length": 30,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "zipfile.open:1601",
+   "files_share": 1.0,
+   "per_file": 14.0,
+   "length": 17,
+   "length_share": 0.25,
+   "role": "блок змінної довжини"
+  },
+  {
+   "context": "zipfile._EndRecData64:253",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 20,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "zipfile._EndRecData:320",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 22,
+   "length_share": 1.0,
+   "role": "повторюване поле запису"
+  },
+  {
+   "context": "zipfile._RealGetContents:1415",
+   "files_share": 1.0,
+   "per_file": 1.0,
+   "length": 894,
+   "length_share": 0.364,
+   "role": "блок змінної довжини"
+  },
+  {
+   "context": "zipfile.open:1603",
+   "files_share": 0.955,
+   "per_file": 5.95,
+   "length": 264,
+   "length_share": 0.568,
+   "role": "блок змінної довжини"
+  }
+ ],
+ "role_byte_share": {
+  "дані (блок)": 0.9861,
+  "змінне поле": 0.0099,
+  "довжина": 0.0032,
+  "константа": 0.0009
+ },
+ "example_fields": [
+  {
+   "start": 0,
+   "end": 6,
+   "size": 6,
+   "role": "константа",
+   "context": "zipfile.open:1594",
+   "hex": "504b03041400"
+  },
+  {
+   "start": 6,
+   "end": 7,
+   "size": 1,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "06"
+  },
+  {
+   "start": 7,
+   "end": 10,
+   "size": 3,
+   "role": "константа",
+   "context": "zipfile.open:1594",
+   "hex": "000800"
+  },
+  {
+   "start": 10,
+   "end": 18,
+   "size": 8,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "00002100385b8749"
+  },
+  {
+   "start": 18,
+   "end": 22,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "75010000"
+  },
+  {
+   "start": 22,
+   "end": 24,
+   "size": 2,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "a806"
+  },
+  {
+   "start": 24,
+   "end": 26,
+   "size": 2,
+   "role": "константа",
+   "context": "zipfile.open:1594",
+   "hex": "0000"
+  },
+  {
+   "start": 26,
+   "end": 28,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "1300"
+  },
+  {
+   "start": 28,
+   "end": 30,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0802"
+  },
+  {
+   "start": 30,
+   "end": 49,
+   "size": 19,
+   "role": "константа",
+   "context": "zipfile.open:1601",
+   "hex": "5b436f6e74656e74"
+  },
+  {
+   "start": 49,
+   "end": 569,
+   "size": 520,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1603",
+   "hex": "20a2040228a00002"
+  },
+  {
+   "start": 569,
+   "end": 942,
+   "size": 373,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "b495cb6ac3301045"
+  },
+  {
+   "start": 942,
+   "end": 955,
+   "size": 13,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 955,
+   "end": 957,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "001e"
+  },
+  {
+   "start": 957,
+   "end": 960,
+   "size": 3,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "911ab7"
+  },
+  {
+   "start": 960,
+   "end": 964,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "ef000000"
+  },
+  {
+   "start": 964,
+   "end": 968,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "4e020000"
+  },
+  {
+   "start": 968,
+   "end": 970,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0b00"
+  },
+  {
+   "start": 970,
+   "end": 972,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0802"
+  },
+  {
+   "start": 972,
+   "end": 983,
+   "size": 11,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "5f72656c732f2e72"
+  },
+  {
+   "start": 983,
+   "end": 1503,
+   "size": 520,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1603",
+   "hex": "20a2040228a00002"
+  },
+  {
+   "start": 1503,
+   "end": 1742,
+   "size": 239,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ac92c16ac3300c40"
+  },
+  {
+   "start": 1742,
+   "end": 1760,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 1760,
+   "end": 1764,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "fe330000"
+  },
+  {
+   "start": 1764,
+   "end": 1768,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "97600100"
+  },
+  {
+   "start": 1768,
+   "end": 1772,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "11000000"
+  },
+  {
+   "start": 1772,
+   "end": 1789,
+   "size": 17,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f646f63"
+  },
+  {
+   "start": 1789,
+   "end": 15099,
+   "size": 13310,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ec7ddb72e3d695e8"
+  },
+  {
+   "start": 15099,
+   "end": 15117,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 15117,
+   "end": 15121,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "19010000"
+  },
+  {
+   "start": 15121,
+   "end": 15124,
+   "size": 3,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "b90400"
+  },
+  {
+   "start": 15124,
+   "end": 15126,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "001c"
+  },
+  {
+   "start": 15126,
+   "end": 15127,
+   "size": 1,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "00"
+  },
+  {
+   "start": 15127,
+   "end": 15129,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0801"
+  },
+  {
+   "start": 15129,
+   "end": 15157,
+   "size": 28,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f5f7265"
+  },
+  {
+   "start": 15157,
+   "end": 15421,
+   "size": 264,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1603",
+   "hex": "20a2040128a00001"
+  },
+  {
+   "start": 15421,
+   "end": 15702,
+   "size": 281,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ac94cd4ec3301084"
+  },
+  {
+   "start": 15702,
+   "end": 15720,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 15720,
+   "end": 15724,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "96020000"
+  },
+  {
+   "start": 15724,
+   "end": 15728,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "1b0b0000"
+  },
+  {
+   "start": 15728,
+   "end": 15732,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "12000000"
+  },
+  {
+   "start": 15732,
+   "end": 15750,
+   "size": 18,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f666f6f"
+  },
+  {
+   "start": 15750,
+   "end": 16412,
+   "size": 662,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ac96db72da301086"
+  },
+  {
+   "start": 16412,
+   "end": 16430,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 16430,
+   "end": 16434,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "94020000"
+  },
+  {
+   "start": 16434,
+   "end": 16438,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "150b0000"
+  },
+  {
+   "start": 16438,
+   "end": 16442,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "11000000"
+  },
+  {
+   "start": 16442,
+   "end": 16459,
+   "size": 17,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f656e64"
+  },
+  {
+   "start": 16459,
+   "end": 17119,
+   "size": 660,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ac96db72da301086"
+  },
+  {
+   "start": 17119,
+   "end": 17137,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 17137,
+   "end": 17141,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "69020000"
+  },
+  {
+   "start": 17141,
+   "end": 17145,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "1b0a0000"
+  },
+  {
+   "start": 17145,
+   "end": 17149,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "10000000"
+  },
+  {
+   "start": 17149,
+   "end": 17165,
+   "size": 16,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f666f6f"
+  },
+  {
+   "start": 17165,
+   "end": 17782,
+   "size": 617,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "a496db8e9b301086"
+  },
+  {
+   "start": 17782,
+   "end": 17800,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 17800,
+   "end": 17804,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "4d060000"
+  },
+  {
+   "start": 17804,
+   "end": 17808,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "c21a0000"
+  },
+  {
+   "start": 17808,
+   "end": 17812,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "15000000"
+  },
+  {
+   "start": 17812,
+   "end": 17833,
+   "size": 21,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f746865"
+  },
+  {
+   "start": 17833,
+   "end": 19446,
+   "size": 1613,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ec59dd8adb4614be"
+  },
+  {
+   "start": 19446,
+   "end": 19464,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 19464,
+   "end": 19468,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "af080000"
+  },
+  {
+   "start": 19468,
+   "end": 19472,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "87210000"
+  },
+  {
+   "start": 19472,
+   "end": 19476,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "11000000"
+  },
+  {
+   "start": 19476,
+   "end": 19493,
+   "size": 17,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f736574"
+  },
+  {
+   "start": 19493,
+   "end": 21716,
+   "size": 2223,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "b45a5b6fdcb8157e"
+  },
+  {
+   "start": 21716,
+   "end": 21734,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 21734,
+   "end": 21738,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "160d0000"
+  },
+  {
+   "start": 21738,
+   "end": 21742,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "0e7a0000"
+  },
+  {
+   "start": 21742,
+   "end": 21746,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0f000000"
+  },
+  {
+   "start": 21746,
+   "end": 21761,
+   "size": 15,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f737479"
+  },
+  {
+   "start": 21761,
+   "end": 25111,
+   "size": 3350,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "e49ddd72dbb815c7"
+  },
+  {
+   "start": 25111,
+   "end": 25129,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 25129,
+   "end": 25133,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "29020000"
+  },
+  {
+   "start": 25133,
+   "end": 25137,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "17100000"
+  },
+  {
+   "start": 25137,
+   "end": 25141,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "14000000"
+  },
+  {
+   "start": 25141,
+   "end": 25161,
+   "size": 20,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f776562"
+  },
+  {
+   "start": 25161,
+   "end": 25714,
+   "size": 553,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "ec974b8f9b3010c7"
+  },
+  {
+   "start": 25714,
+   "end": 25732,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 25732,
+   "end": 25736,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "f6010000"
+  },
+  {
+   "start": 25736,
+   "end": 25740,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "7a060000"
+  },
+  {
+   "start": 25740,
+   "end": 25744,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "12000000"
+  },
+  {
+   "start": 25744,
+   "end": 25762,
+   "size": 18,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "776f72642f666f6e"
+  },
+  {
+   "start": 25762,
+   "end": 26264,
+   "size": 502,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "dc93cf8e9b3010c6"
+  },
+  {
+   "start": 26264,
+   "end": 26282,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 26282,
+   "end": 26286,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "bc010000"
+  },
+  {
+   "start": 26286,
+   "end": 26290,
+   "size": 4,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "38030000"
+  },
+  {
+   "start": 26290,
+   "end": 26292,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "1100"
+  },
+  {
+   "start": 26292,
+   "end": 26294,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0801"
+  },
+  {
+   "start": 26294,
+   "end": 26311,
+   "size": 17,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "646f6350726f7073"
+  },
+  {
+   "start": 26311,
+   "end": 26575,
+   "size": 264,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1603",
+   "hex": "20a2040128a00001"
+  },
+  {
+   "start": 26575,
+   "end": 27019,
+   "size": 444,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "7c92cd4edc3010c7"
+  },
+  {
+   "start": 27019,
+   "end": 27037,
+   "size": 18,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "504b030414000600"
+  },
+  {
+   "start": 27037,
+   "end": 27041,
+   "size": 4,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "13020000"
+  },
+  {
+   "start": 27041,
+   "end": 27044,
+   "size": 3,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "700400"
+  },
+  {
+   "start": 27044,
+   "end": 27046,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0010"
+  },
+  {
+   "start": 27046,
+   "end": 27047,
+   "size": 1,
+   "role": "змінне поле",
+   "context": "zipfile.open:1594",
+   "hex": "00"
+  },
+  {
+   "start": 27047,
+   "end": 27049,
+   "size": 2,
+   "role": "довжина",
+   "context": "zipfile.open:1594",
+   "hex": "0801"
+  },
+  {
+   "start": 27049,
+   "end": 27065,
+   "size": 16,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1601",
+   "hex": "646f6350726f7073"
+  },
+  {
+   "start": 27065,
+   "end": 27329,
+   "size": 264,
+   "role": "дані (блок)",
+   "context": "zipfile.open:1603",
+   "hex": "20a2040128a00001"
+  },
+  {
+   "start": 27329,
+   "end": 27860,
+   "size": 531,
+   "role": "дані (блок)",
+   "context": "zipfile._read2:1082",
+   "hex": "a454dd6ed33014be"
+  },
+  {
+   "start": 27860,
+   "end": 28754,
+   "size": 894,
+   "role": "дані (блок)",
+   "context": "zipfile._RealGetContents:1415",
+   "hex": "504b01022d001400"
+  },
+  {
+   "start": 28734,
+   "end": 28754,
+   "size": 20,
+   "role": "змінне поле",
+   "context": "zipfile._EndRecData64:253",
+   "hex": "8b690000646f6350"
+  },
+  {
+   "start": 28754,
+   "end": 28776,
+   "size": 22,
+   "role": "змінне поле",
+   "context": "zipfile._EndRecData:320",
+   "hex": "504b050600000000"
+  }
+ ]
+}
