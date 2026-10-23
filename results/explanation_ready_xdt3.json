@@ -1,0 +1,588 @@
+{
+  "mode": "joint_sample_inference",
+  "reader": "demo.xdt3:parse_file",
+  "sample_count": 20,
+  "example_file": "sample_00.xd3",
+  "fields": [
+    {
+      "start": 0,
+      "end": 5,
+      "role": "константа"
+    },
+    {
+      "start": 5,
+      "end": 7,
+      "role": "змінне поле"
+    },
+    {
+      "start": 7,
+      "end": 10,
+      "role": "константа"
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "role": "змінне поле"
+    },
+    {
+      "start": 15,
+      "end": 17,
+      "role": "довжина"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "role": "константа"
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "role": "тип запису"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "role": "тип запису"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "role": "довжина"
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "role": "тип запису"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "role": "тип запису"
+    },
+    {
+      "start": 27,
+      "end": 29,
+      "role": "довжина"
+    },
+    {
+      "start": 29,
+      "end": 157,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "role": "тип запису"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "role": "тип запису"
+    },
+    {
+      "start": 159,
+      "end": 161,
+      "role": "довжина"
+    },
+    {
+      "start": 161,
+      "end": 289,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 289,
+      "end": 290,
+      "role": "тип запису"
+    },
+    {
+      "start": 290,
+      "end": 291,
+      "role": "тип запису"
+    },
+    {
+      "start": 291,
+      "end": 293,
+      "role": "довжина"
+    },
+    {
+      "start": 293,
+      "end": 593,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 593,
+      "end": 594,
+      "role": "тип запису"
+    },
+    {
+      "start": 594,
+      "end": 595,
+      "role": "тип запису"
+    },
+    {
+      "start": 595,
+      "end": 596,
+      "role": "довжина"
+    },
+    {
+      "start": 596,
+      "end": 600,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 600,
+      "end": 601,
+      "role": "тип запису"
+    },
+    {
+      "start": 601,
+      "end": 602,
+      "role": "тип запису"
+    },
+    {
+      "start": 602,
+      "end": 604,
+      "role": "довжина"
+    },
+    {
+      "start": 604,
+      "end": 732,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 732,
+      "end": 733,
+      "role": "тип запису"
+    },
+    {
+      "start": 733,
+      "end": 734,
+      "role": "тип запису"
+    },
+    {
+      "start": 734,
+      "end": 735,
+      "role": "довжина"
+    },
+    {
+      "start": 735,
+      "end": 862,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 862,
+      "end": 863,
+      "role": "тип запису"
+    },
+    {
+      "start": 863,
+      "end": 864,
+      "role": "тип запису"
+    },
+    {
+      "start": 864,
+      "end": 865,
+      "role": "довжина"
+    },
+    {
+      "start": 865,
+      "end": 955,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 955,
+      "end": 956,
+      "role": "тип запису"
+    },
+    {
+      "start": 956,
+      "end": 957,
+      "role": "тип запису"
+    },
+    {
+      "start": 957,
+      "end": 958,
+      "role": "довжина"
+    },
+    {
+      "start": 958,
+      "end": 967,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 967,
+      "end": 968,
+      "role": "тип запису"
+    },
+    {
+      "start": 968,
+      "end": 969,
+      "role": "тип запису"
+    },
+    {
+      "start": 969,
+      "end": 970,
+      "role": "довжина"
+    },
+    {
+      "start": 970,
+      "end": 1060,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 1060,
+      "end": 1061,
+      "role": "тип запису"
+    },
+    {
+      "start": 1061,
+      "end": 1062,
+      "role": "тип запису"
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "role": "довжина"
+    },
+    {
+      "start": 1063,
+      "end": 1067,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 1067,
+      "end": 1068,
+      "role": "тип запису"
+    },
+    {
+      "start": 1068,
+      "end": 1069,
+      "role": "тип запису"
+    },
+    {
+      "start": 1069,
+      "end": 1071,
+      "role": "довжина"
+    },
+    {
+      "start": 1071,
+      "end": 1371,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 1371,
+      "end": 1375,
+      "role": "CRC-32"
+    }
+  ],
+  "length_evidence": [
+    {
+      "field": [
+        15,
+        17
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.parse_file:101",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 5,
+      "related_interval": null,
+      "relation": "no_match_in_this_file",
+      "local_read_match": false,
+      "interpretation": "Гіпотеза за вибіркою; збігу з читаннями цього файла не знайдено.",
+      "matching_events": 14,
+      "checked_events": 20,
+      "event_support": 0.7,
+      "files_with_matching_events": 14,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        20,
+        21
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 4,
+      "related_interval": [
+        21,
+        25
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        27,
+        29
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "uleb",
+      "width_bytes": 2,
+      "value": 128,
+      "related_interval": [
+        29,
+        157
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 57,
+      "checked_events": 57,
+      "event_support": 1.0,
+      "files_with_matching_events": 20,
+      "distinct_values": 5
+    },
+    {
+      "field": [
+        159,
+        161
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "uleb",
+      "width_bytes": 2,
+      "value": 128,
+      "related_interval": [
+        161,
+        289
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 57,
+      "checked_events": 57,
+      "event_support": 1.0,
+      "files_with_matching_events": 20,
+      "distinct_values": 5
+    },
+    {
+      "field": [
+        291,
+        293
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "uleb",
+      "width_bytes": 2,
+      "value": 300,
+      "related_interval": [
+        293,
+        593
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 57,
+      "checked_events": 57,
+      "event_support": 1.0,
+      "files_with_matching_events": 20,
+      "distinct_values": 5
+    },
+    {
+      "field": [
+        595,
+        596
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 4,
+      "related_interval": [
+        596,
+        600
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        602,
+        604
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "uleb",
+      "width_bytes": 2,
+      "value": 128,
+      "related_interval": [
+        604,
+        732
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 57,
+      "checked_events": 57,
+      "event_support": 1.0,
+      "files_with_matching_events": 20,
+      "distinct_values": 5
+    },
+    {
+      "field": [
+        734,
+        735
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 127,
+      "related_interval": [
+        735,
+        862
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        864,
+        865
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 90,
+      "related_interval": [
+        865,
+        955
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        957,
+        958
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 9,
+      "related_interval": [
+        958,
+        967
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        969,
+        970
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 90,
+      "related_interval": [
+        970,
+        1060
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        1062,
+        1063
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "little",
+      "width_bytes": 1,
+      "value": 4,
+      "related_interval": [
+        1063,
+        1067
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 95,
+      "checked_events": 106,
+      "event_support": 0.8962264150943396,
+      "files_with_matching_events": 19,
+      "distinct_values": 8
+    },
+    {
+      "field": [
+        1069,
+        1071
+      ],
+      "hypothesis": "length",
+      "context": "xdt3.read_varint:93",
+      "encoding": "uleb",
+      "width_bytes": 2,
+      "value": 300,
+      "related_interval": [
+        1071,
+        1371
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 57,
+      "checked_events": 57,
+      "event_support": 1.0,
+      "files_with_matching_events": 20,
+      "distinct_values": 5
+    }
+  ],
+  "limitations": [
+    "Support is a fraction of matching read events, not a probability.",
+    "The same sample set is used to select and explain rules.",
+    "Numeric matches do not prove the semantic role of a field.",
+    "Adjacent zero bytes can make field width ambiguous.",
+    "This report explains length rules, not every inferred role."
+  ]
+}

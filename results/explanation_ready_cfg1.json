@@ -1,0 +1,298 @@
+{
+  "mode": "joint_sample_inference",
+  "reader": "demo.cfg1:parse_file",
+  "sample_count": 40,
+  "example_file": "mal_20.cfg",
+  "fields": [
+    {
+      "start": 0,
+      "end": 5,
+      "role": "константа"
+    },
+    {
+      "start": 5,
+      "end": 7,
+      "role": "лічильник"
+    },
+    {
+      "start": 7,
+      "end": 8,
+      "role": "змінне поле"
+    },
+    {
+      "start": 8,
+      "end": 9,
+      "role": "тип запису"
+    },
+    {
+      "start": 9,
+      "end": 11,
+      "role": "довжина"
+    },
+    {
+      "start": 11,
+      "end": 13,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 13,
+      "end": 14,
+      "role": "тип запису"
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "role": "довжина"
+    },
+    {
+      "start": 16,
+      "end": 18,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "role": "тип запису"
+    },
+    {
+      "start": 19,
+      "end": 21,
+      "role": "довжина"
+    },
+    {
+      "start": 21,
+      "end": 79,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "role": "тип запису"
+    },
+    {
+      "start": 80,
+      "end": 82,
+      "role": "довжина"
+    },
+    {
+      "start": 82,
+      "end": 84,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "role": "тип запису"
+    },
+    {
+      "start": 85,
+      "end": 87,
+      "role": "довжина"
+    },
+    {
+      "start": 87,
+      "end": 752,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 752,
+      "end": 753,
+      "role": "тип запису"
+    },
+    {
+      "start": 753,
+      "end": 755,
+      "role": "довжина"
+    },
+    {
+      "start": 755,
+      "end": 2657,
+      "role": "дані (блок)"
+    },
+    {
+      "start": 2657,
+      "end": 2658,
+      "role": "тип запису"
+    },
+    {
+      "start": 2658,
+      "end": 2660,
+      "role": "довжина"
+    },
+    {
+      "start": 2660,
+      "end": 2754,
+      "role": "дані (блок)"
+    }
+  ],
+  "length_evidence": [
+    {
+      "field": [
+        9,
+        11
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 2,
+      "related_interval": [
+        11,
+        13
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    },
+    {
+      "field": [
+        14,
+        16
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 2,
+      "related_interval": [
+        16,
+        18
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    },
+    {
+      "field": [
+        19,
+        21
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 58,
+      "related_interval": [
+        21,
+        79
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    },
+    {
+      "field": [
+        80,
+        82
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 2,
+      "related_interval": [
+        82,
+        84
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    },
+    {
+      "field": [
+        85,
+        87
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 665,
+      "related_interval": [
+        87,
+        752
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    },
+    {
+      "field": [
+        753,
+        755
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 1902,
+      "related_interval": [
+        755,
+        2657
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    },
+    {
+      "field": [
+        2658,
+        2660
+      ],
+      "hypothesis": "length",
+      "context": "cfg1.parse_file:129",
+      "encoding": "little",
+      "width_bytes": 2,
+      "value": 94,
+      "related_interval": [
+        2660,
+        2754
+      ],
+      "relation": "following_contiguous_reads",
+      "local_read_match": true,
+      "interpretation": "Гіпотеза за вибіркою; є числовий збіг із читаннями цього файла.",
+      "matching_events": 205,
+      "checked_events": 205,
+      "event_support": 1.0,
+      "files_with_matching_events": 40,
+      "distinct_values": 64
+    }
+  ],
+  "limitations": [
+    "Support is a fraction of matching read events, not a probability.",
+    "The same sample set is used to select and explain rules.",
+    "Numeric matches do not prove the semantic role of a field.",
+    "Adjacent zero bytes can make field width ambiguous.",
+    "This report explains length rules, not every inferred role."
+  ]
+}

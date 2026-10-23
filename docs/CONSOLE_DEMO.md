@@ -1,4 +1,4 @@
-﻿# Відновлення невідомої структури за програмою-читачем
+# Відновлення невідомої структури за програмою-читачем
 
 ## Мета
 
@@ -36,13 +36,19 @@
 
 ### 1. Пояснення відновлення структури XDT3
 
-Потрібні наявні зразки в demo/samples_xdt3.
+Перед першим запуском підготуйте окремі демонстраційні дані:
 
-    python demo/explain_structure.py
+    python demo/prepare_demo.py
+
+Команда створює 20 XDT3 і 40 CFG1 у data/demo_ready.
+Якщо ця папка вже існує, скрипт відмовляється її перезаписувати.
+Повторно запускати підготовку для вже створеного набору не потрібно.
+
+    python demo/explain_structure.py --samples data/demo_ready/xdt3 --reader demo.xdt3:parse_file --limit 20 --out results/explanation_ready_xdt3.json
 
 Результат:
 
-    results/structure_explanation_xdt3.json
+    results/explanation_ready_xdt3.json
 
 Приклад пояснення: значення поля дорівнює 300, а пов'язане наступне
 читання охоплює 300 байтів. Показано кількість числових збігів у вибірці
@@ -53,12 +59,21 @@
 
 ### 2. Спільний звіт про структуру XDT3
 
-    python analyze_all.py --samples demo/samples_xdt3 --reader demo.xdt3:parse_file --limit 20 --out results/demo_xdt3_joint.json
+    python analyze_all.py --samples data/demo_ready/xdt3 --reader demo.xdt3:parse_file --limit 20 --out results/demo_ready_xdt3.json
 
 Звіт містить межі й ролі полів, контекст читання, hex-перегляд,
 аудит інтервалів, індикатори в блоках і журнал обробки зразків.
 
-### 3. Кількісна перевірка на CFG1
+### 3. Пояснення правил для іншого читача
+
+    python demo/explain_structure.py --samples data/demo_ready/cfg1 --reader demo.cfg1:parse_file --limit 40 --out results/explanation_ready_cfg1.json
+
+Пояснювач приймає шлях до зразків і читач через аргументи.
+Він пояснює правила довжин для першого файла вибірки.
+Статистика підтримки правила підраховується за подіями всієї вибірки,
+а не лише за цим файлом.
+
+### 4. Кількісна перевірка на CFG1
 
 Потрібні наявні зразки в demo/samples_cfg1.
 

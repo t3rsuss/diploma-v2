@@ -1,4 +1,5 @@
 """Пояснення гіпотез довжин за фактичною роботою читача."""
+import argparse
 import json
 import pathlib
 import sys
@@ -12,11 +13,29 @@ INF = A.RB.INF2
 
 
 def main():
-    paths = sorted((ROOT / "demo/samples_xdt3").glob("*.xd3"))
-    if len(paths) < 5:
-        raise SystemExit("Need at least 5 existing XDT3 samples.")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--samples", required=True)
+    parser.add_argument("--reader", required=True)
+    parser.add_argument("--out", required=True)
+    parser.add_argument("--limit", type=int, default=20)
+    args = parser.parse_args()
 
-    reader = A.RB.load_reader("demo.xdt3:parse_file")
+    if args.limit < 5:
+        parser.error("--limit must be at least 5")
+
+    folder = pathlib.Path(args.samples)
+    if not folder.is_dir():
+        parser.error("--samples must be an existing directory")
+
+    paths = sorted(
+        path for path in folder.iterdir()
+        if path.is_file() and 16 <= path.stat().st_size <= 300_000
+    )[:args.limit]
+
+    if len(paths) < 5:
+        raise SystemExit("Need at least 5 files of size 16..300000 bytes.")
+
+    reader = A.RB.load_reader(args.reader)
     samples = []
     for path in paths:
         data = path.read_bytes()
@@ -99,7 +118,7 @@ def main():
     ]
     payload = {
         "mode": "joint_sample_inference",
-        "reader": "demo.xdt3:parse_file",
+        "reader": args.reader,
         "sample_count": len(paths),
         "example_file": paths[0].name,
         "fields": fields,
@@ -113,7 +132,8 @@ def main():
         ],
     }
 
-    out = ROOT / "results/structure_explanation_xdt3.json"
+    out = pathlib.Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -147,7 +167,7 @@ def main():
         print(f"  Reader context: {item['context']}")
         print(f"  Status: {item['interpretation']}")
 
-    print(f"\nSaved: {out.relative_to(ROOT)}")
+    print(f"\nSaved: {out}")
 
 
 if __name__ == "__main__":
