@@ -1,0 +1,4886 @@
+{
+  "schema_version": 1,
+  "risk_policy": "v2_entropy_in_read_blocks_is_informational",
+  "mode": "joint_sample_inference",
+  "limitations": [
+    "Targets participate in structure inference; this is not held-out evaluation.",
+    "Risk levels are heuristic indicators, not malware verdicts.",
+    "PE/ELF header matches do not validate a complete executable.",
+    "High entropy alone does not prove encryption or maliciousness."
+  ],
+  "reports": [
+    {
+      "file": "4c4feac856a2.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4c4feac856a2.png",
+      "status": "ok",
+      "size": 565,
+      "sha256": "4c4feac856a2f8e38c068ff1d4261f3227c603cbb644a468f6d9216668e93582",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 137,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 137,
+          "end": 141,
+          "role": "CRC-32"
+        },
+        {
+          "start": 141,
+          "end": 145,
+          "role": "довжина"
+        },
+        {
+          "start": 145,
+          "end": 149,
+          "role": "змінне поле"
+        },
+        {
+          "start": 149,
+          "end": 180,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 180,
+          "end": 184,
+          "role": "CRC-32"
+        },
+        {
+          "start": 184,
+          "end": 188,
+          "role": "довжина"
+        },
+        {
+          "start": 188,
+          "end": 192,
+          "role": "змінне поле"
+        },
+        {
+          "start": 192,
+          "end": 549,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 549,
+          "end": 553,
+          "role": "CRC-32"
+        },
+        {
+          "start": 553,
+          "end": 561,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 565,
+        "covered_bytes": 561,
+        "coverage": 0.9929203539823008,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 561,
+            "end": 565
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 192,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.26 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            192,
+            549
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 565,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "1a635253464a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\1a635253464a.png",
+      "status": "ok",
+      "size": 914,
+      "sha256": "1a635253464aa3c6a417fc32d20761ce94672fc17afce84a3934bb011b1b0dee",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 898,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 898,
+          "end": 902,
+          "role": "CRC-32"
+        },
+        {
+          "start": 902,
+          "end": 910,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 914,
+        "covered_bytes": 910,
+        "coverage": 0.9956236323851203,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 910,
+            "end": 914
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 41,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.74 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            41,
+            898
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 914,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "4eb87fe9730c.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4eb87fe9730c.png",
+      "status": "ok",
+      "size": 51711,
+      "sha256": "4eb87fe9730c19f3ca450f1b9c1a89a2a7107ae13ae9aad439896edb574f6d3c",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 51695,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 51695,
+          "end": 51699,
+          "role": "CRC-32"
+        },
+        {
+          "start": 51699,
+          "end": 51707,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 51711,
+        "covered_bytes": 51707,
+        "coverage": 0.9999226470190095,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 51707,
+            "end": 51711
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            51695
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 51711,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "d977d8ab2178.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d977d8ab2178.png",
+      "status": "ok",
+      "size": 817,
+      "sha256": "d977d8ab2178e83cfc8e795350625ba041318092d84ff10762214477bdf7b1eb",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 801,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 801,
+          "end": 805,
+          "role": "CRC-32"
+        },
+        {
+          "start": 805,
+          "end": 813,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 817,
+        "covered_bytes": 813,
+        "coverage": 0.9951040391676866,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 813,
+            "end": 817
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 62,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.58 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            62,
+            801
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 817,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "a762a3621325.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a762a3621325.png",
+      "status": "ok",
+      "size": 110947,
+      "sha256": "a762a3621325936fe61573071ee54a4e342ce403d389b9ee43a273107cd858bc",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 65627,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 65627,
+          "end": 110931,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 110931,
+          "end": 110935,
+          "role": "CRC-32"
+        },
+        {
+          "start": 110935,
+          "end": 110943,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 110947,
+        "covered_bytes": 110943,
+        "coverage": 0.9999639467493487,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 110943,
+            "end": 110947
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            65627
+          ]
+        },
+        {
+          "offset": 65627,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            65627,
+            110931
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 110947,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "a28b6322227f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a28b6322227f.png",
+      "status": "ok",
+      "size": 926,
+      "sha256": "a28b6322227f124b0ec66c75a3a7000d3606bc5dbc530f5c443243b6e186a115",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 42,
+          "end": 46,
+          "role": "CRC-32"
+        },
+        {
+          "start": 46,
+          "end": 50,
+          "role": "довжина"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "змінне поле"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "CRC-32"
+        },
+        {
+          "start": 62,
+          "end": 66,
+          "role": "довжина"
+        },
+        {
+          "start": 66,
+          "end": 70,
+          "role": "змінне поле"
+        },
+        {
+          "start": 70,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 115,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 115,
+          "end": 119,
+          "role": "CRC-32"
+        },
+        {
+          "start": 119,
+          "end": 123,
+          "role": "довжина"
+        },
+        {
+          "start": 123,
+          "end": 127,
+          "role": "змінне поле"
+        },
+        {
+          "start": 127,
+          "end": 910,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 910,
+          "end": 914,
+          "role": "CRC-32"
+        },
+        {
+          "start": 914,
+          "end": 922,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 926,
+        "covered_bytes": 922,
+        "coverage": 0.9956803455723542,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 922,
+            "end": 926
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 127,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.63 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            127,
+            910
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 926,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "be5fc037c77d.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\be5fc037c77d.png",
+      "status": "ok",
+      "size": 2782,
+      "sha256": "be5fc037c77dd90611a1b500a1bb6bf48b4119765f26339ef83dafb47314f326",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 83,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "CRC-32"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "довжина"
+        },
+        {
+          "start": 91,
+          "end": 95,
+          "role": "змінне поле"
+        },
+        {
+          "start": 95,
+          "end": 96,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 96,
+          "end": 100,
+          "role": "CRC-32"
+        },
+        {
+          "start": 100,
+          "end": 104,
+          "role": "довжина"
+        },
+        {
+          "start": 104,
+          "end": 108,
+          "role": "змінне поле"
+        },
+        {
+          "start": 108,
+          "end": 2594,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2594,
+          "end": 2598,
+          "role": "CRC-32"
+        },
+        {
+          "start": 2598,
+          "end": 2602,
+          "role": "довжина"
+        },
+        {
+          "start": 2602,
+          "end": 2606,
+          "role": "змінне поле"
+        },
+        {
+          "start": 2606,
+          "end": 2638,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2638,
+          "end": 2642,
+          "role": "CRC-32"
+        },
+        {
+          "start": 2642,
+          "end": 2646,
+          "role": "довжина"
+        },
+        {
+          "start": 2646,
+          "end": 2650,
+          "role": "змінне поле"
+        },
+        {
+          "start": 2650,
+          "end": 2766,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2766,
+          "end": 2770,
+          "role": "CRC-32"
+        },
+        {
+          "start": 2770,
+          "end": 2778,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 2782,
+        "covered_bytes": 2778,
+        "coverage": 0.9985621854780733,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 2778,
+            "end": 2782
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 108,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.90 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            108,
+            2594
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 2782,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "540a0a9da01a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\540a0a9da01a.png",
+      "status": "ok",
+      "size": 3130,
+      "sha256": "540a0a9da01a17a9630dbc081b498550fa39d59d8fe2721c1488a5291b78afbf",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 3114,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 3114,
+          "end": 3118,
+          "role": "CRC-32"
+        },
+        {
+          "start": 3118,
+          "end": 3126,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 3130,
+        "covered_bytes": 3126,
+        "coverage": 0.9987220447284345,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 3126,
+            "end": 3130
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 41,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.13 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            41,
+            3114
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 3130,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "2b69bef2df25.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\2b69bef2df25.png",
+      "status": "ok",
+      "size": 1144,
+      "sha256": "2b69bef2df257330218577149c26cb56e019c4e822d795050574a83dc8a2352d",
+      "risk": "індикаторів не виявлено",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 56,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 56,
+          "end": 60,
+          "role": "CRC-32"
+        },
+        {
+          "start": 60,
+          "end": 64,
+          "role": "довжина"
+        },
+        {
+          "start": 64,
+          "end": 68,
+          "role": "змінне поле"
+        },
+        {
+          "start": 68,
+          "end": 72,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 72,
+          "end": 76,
+          "role": "CRC-32"
+        },
+        {
+          "start": 76,
+          "end": 80,
+          "role": "довжина"
+        },
+        {
+          "start": 80,
+          "end": 84,
+          "role": "змінне поле"
+        },
+        {
+          "start": 84,
+          "end": 1128,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1128,
+          "end": 1132,
+          "role": "CRC-32"
+        },
+        {
+          "start": 1132,
+          "end": 1140,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 1144,
+        "covered_bytes": 1140,
+        "coverage": 0.9965034965034965,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 1140,
+            "end": 1144
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [],
+      "unread_scan": {
+        "file_size": 1144,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "95c436b59012.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\95c436b59012.png",
+      "status": "ok",
+      "size": 1704,
+      "sha256": "95c436b590125b3984a111fc7feea0f960f0fdf494f7a4eb635b109cec81b4d0",
+      "risk": "індикаторів не виявлено",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 140,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 140,
+          "end": 144,
+          "role": "CRC-32"
+        },
+        {
+          "start": 144,
+          "end": 148,
+          "role": "довжина"
+        },
+        {
+          "start": 148,
+          "end": 152,
+          "role": "змінне поле"
+        },
+        {
+          "start": 152,
+          "end": 184,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 184,
+          "end": 188,
+          "role": "CRC-32"
+        },
+        {
+          "start": 188,
+          "end": 192,
+          "role": "довжина"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "role": "змінне поле"
+        },
+        {
+          "start": 196,
+          "end": 1688,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1688,
+          "end": 1692,
+          "role": "CRC-32"
+        },
+        {
+          "start": 1692,
+          "end": 1700,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 1704,
+        "covered_bytes": 1700,
+        "coverage": 0.9976525821596244,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 1700,
+            "end": 1704
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [],
+      "unread_scan": {
+        "file_size": 1704,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "bd539f3d18bd.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd539f3d18bd.png",
+      "status": "ok",
+      "size": 1572,
+      "sha256": "bd539f3d18bd0c2344cc574e73cb95bd89fdbbdc7041395ca698f21b5b2a9202",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 1556,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1556,
+          "end": 1560,
+          "role": "CRC-32"
+        },
+        {
+          "start": 1560,
+          "end": 1568,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 1572,
+        "covered_bytes": 1568,
+        "coverage": 0.9974554707379135,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 1568,
+            "end": 1572
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.87 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            1556
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 1572,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "7bbbcd756105.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7bbbcd756105.png",
+      "status": "ok",
+      "size": 847,
+      "sha256": "7bbbcd756105e42be2a4e003180c446b528b1cff628b6df063c99f443296be01",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 42,
+          "end": 46,
+          "role": "CRC-32"
+        },
+        {
+          "start": 46,
+          "end": 50,
+          "role": "довжина"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "змінне поле"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "CRC-32"
+        },
+        {
+          "start": 62,
+          "end": 66,
+          "role": "довжина"
+        },
+        {
+          "start": 66,
+          "end": 70,
+          "role": "змінне поле"
+        },
+        {
+          "start": 70,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 831,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 831,
+          "end": 835,
+          "role": "CRC-32"
+        },
+        {
+          "start": 835,
+          "end": 843,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 847,
+        "covered_bytes": 843,
+        "coverage": 0.9952774498229043,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 843,
+            "end": 847
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.69 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            831
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 847,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "5eb97f5ef4e1.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\5eb97f5ef4e1.png",
+      "status": "ok",
+      "size": 2251,
+      "sha256": "5eb97f5ef4e11b97445a8d16184078af44756be1b897e86182f9e836b01db227",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 2235,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2235,
+          "end": 2239,
+          "role": "CRC-32"
+        },
+        {
+          "start": 2239,
+          "end": 2247,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 2251,
+        "covered_bytes": 2247,
+        "coverage": 0.998223011994669,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 2247,
+            "end": 2251
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 62,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.52 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            62,
+            2235
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 2251,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "d491a77afbbe.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d491a77afbbe.png",
+      "status": "ok",
+      "size": 788,
+      "sha256": "d491a77afbbe0912164f3501f1eaea0ce11010fc6e0963d65db341718bdd7853",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 66,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 66,
+          "end": 70,
+          "role": "CRC-32"
+        },
+        {
+          "start": 70,
+          "end": 74,
+          "role": "довжина"
+        },
+        {
+          "start": 74,
+          "end": 78,
+          "role": "змінне поле"
+        },
+        {
+          "start": 78,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 123,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 123,
+          "end": 127,
+          "role": "CRC-32"
+        },
+        {
+          "start": 127,
+          "end": 131,
+          "role": "довжина"
+        },
+        {
+          "start": 131,
+          "end": 135,
+          "role": "змінне поле"
+        },
+        {
+          "start": 135,
+          "end": 772,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 772,
+          "end": 776,
+          "role": "CRC-32"
+        },
+        {
+          "start": 776,
+          "end": 784,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 788,
+        "covered_bytes": 784,
+        "coverage": 0.9949238578680203,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 784,
+            "end": 788
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 135,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.61 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            135,
+            772
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 788,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "d5ce4dff1212.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d5ce4dff1212.png",
+      "status": "ok",
+      "size": 231096,
+      "sha256": "d5ce4dff12125746885ae1dfc3a3d8c562054856f32b433db85d908dd796c7ba",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 65627,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 65627,
+          "end": 131163,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 131163,
+          "end": 196699,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 196699,
+          "end": 231080,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 231080,
+          "end": 231084,
+          "role": "CRC-32"
+        },
+        {
+          "start": 231084,
+          "end": 231092,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 231096,
+        "covered_bytes": 231092,
+        "coverage": 0.9999826911759615,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 231092,
+            "end": 231096
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            65627
+          ]
+        },
+        {
+          "offset": 65627,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            65627,
+            131163
+          ]
+        },
+        {
+          "offset": 131163,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            131163,
+            196699
+          ]
+        },
+        {
+          "offset": 196699,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            196699,
+            231080
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 231096,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "b08e6affc79e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\b08e6affc79e.png",
+      "status": "ok",
+      "size": 583,
+      "sha256": "b08e6affc79e8517325b44c8fe719570f60bd38571a7142d030ef40c38a67c97",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 567,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 567,
+          "end": 571,
+          "role": "CRC-32"
+        },
+        {
+          "start": 571,
+          "end": 579,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 583,
+        "covered_bytes": 579,
+        "coverage": 0.9931389365351629,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 579,
+            "end": 583
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.51 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            567
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 583,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "685e2ed6e72f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\685e2ed6e72f.png",
+      "status": "ok",
+      "size": 2032,
+      "sha256": "685e2ed6e72f7096aee52164092d56ec9c6367071a8618934504b8b9965029d0",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 2016,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2016,
+          "end": 2020,
+          "role": "CRC-32"
+        },
+        {
+          "start": 2020,
+          "end": 2028,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 2032,
+        "covered_bytes": 2028,
+        "coverage": 0.9980314960629921,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 2028,
+            "end": 2032
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.79 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            2016
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 2032,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "968a878fc01e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\968a878fc01e.png",
+      "status": "ok",
+      "size": 161467,
+      "sha256": "968a878fc01ea8dd9f330014b672b7cb763e7f38a05a84d42f81b1b73568eba8",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 65627,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 65627,
+          "end": 131163,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 131163,
+          "end": 161451,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 161451,
+          "end": 161455,
+          "role": "CRC-32"
+        },
+        {
+          "start": 161455,
+          "end": 161463,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 161467,
+        "covered_bytes": 161463,
+        "coverage": 0.999975227136195,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 161463,
+            "end": 161467
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            65627
+          ]
+        },
+        {
+          "offset": 65627,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            65627,
+            131163
+          ]
+        },
+        {
+          "offset": 131163,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.99 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            131163,
+            161451
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 161467,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "8330ffcbc367.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\8330ffcbc367.png",
+      "status": "ok",
+      "size": 750,
+      "sha256": "8330ffcbc367813596bd03139c5c2708b000035c59ff474fb1415411c238b86d",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 734,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 734,
+          "end": 738,
+          "role": "CRC-32"
+        },
+        {
+          "start": 738,
+          "end": 746,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 750,
+        "covered_bytes": 746,
+        "coverage": 0.9946666666666667,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 746,
+            "end": 750
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 62,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.60 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            62,
+            734
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 750,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "c08b1b157991.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\c08b1b157991.png",
+      "status": "ok",
+      "size": 563,
+      "sha256": "c08b1b157991539aabaf7936f8bb618a6c5cea0e2cfafd7b0723bc7e9461e091",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 547,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 547,
+          "end": 551,
+          "role": "CRC-32"
+        },
+        {
+          "start": 551,
+          "end": 559,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 563,
+        "covered_bytes": 559,
+        "coverage": 0.9928952042628775,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 559,
+            "end": 563
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 62,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.48 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            62,
+            547
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 563,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "ecd0726058ec.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\ecd0726058ec.png",
+      "status": "ok",
+      "size": 67049,
+      "sha256": "ecd0726058ec1b67e38b0687246c262d8017e9932d23991052de2802d0d56755",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 65627,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 65627,
+          "end": 67033,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 67033,
+          "end": 67037,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67037,
+          "end": 67045,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 67049,
+        "covered_bytes": 67045,
+        "coverage": 0.9999403421378394,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 67045,
+            "end": 67049
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.83 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            65627
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 67049,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "bd57f34d8302.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd57f34d8302.png",
+      "status": "ok",
+      "size": 688,
+      "sha256": "bd57f34d8302fa1a64895552a2744ca8d00e5806ed2dca5dae294f4b5f2fda4e",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 134,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 134,
+          "end": 138,
+          "role": "CRC-32"
+        },
+        {
+          "start": 138,
+          "end": 142,
+          "role": "довжина"
+        },
+        {
+          "start": 142,
+          "end": 146,
+          "role": "змінне поле"
+        },
+        {
+          "start": 146,
+          "end": 176,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 176,
+          "end": 180,
+          "role": "CRC-32"
+        },
+        {
+          "start": 180,
+          "end": 184,
+          "role": "довжина"
+        },
+        {
+          "start": 184,
+          "end": 188,
+          "role": "змінне поле"
+        },
+        {
+          "start": 188,
+          "end": 672,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 672,
+          "end": 676,
+          "role": "CRC-32"
+        },
+        {
+          "start": 676,
+          "end": 684,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 688,
+        "covered_bytes": 684,
+        "coverage": 0.9941860465116279,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 684,
+            "end": 688
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 188,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.22 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            188,
+            672
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 688,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "7cc4d54237b4.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7cc4d54237b4.png",
+      "status": "ok",
+      "size": 1579,
+      "sha256": "7cc4d54237b438b5b3e2b50db674c3d1eabe646ba864c0bacce82b52beee18bf",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 125,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 125,
+          "end": 129,
+          "role": "CRC-32"
+        },
+        {
+          "start": 129,
+          "end": 133,
+          "role": "довжина"
+        },
+        {
+          "start": 133,
+          "end": 137,
+          "role": "змінне поле"
+        },
+        {
+          "start": 137,
+          "end": 164,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 164,
+          "end": 168,
+          "role": "CRC-32"
+        },
+        {
+          "start": 168,
+          "end": 172,
+          "role": "довжина"
+        },
+        {
+          "start": 172,
+          "end": 176,
+          "role": "змінне поле"
+        },
+        {
+          "start": 176,
+          "end": 1563,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1563,
+          "end": 1567,
+          "role": "CRC-32"
+        },
+        {
+          "start": 1567,
+          "end": 1575,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 1579,
+        "covered_bytes": 1575,
+        "coverage": 0.9974667511082964,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 1575,
+            "end": 1579
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 176,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.55 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            176,
+            1563
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 1579,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "6b8f3bd079c7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\6b8f3bd079c7.png",
+      "status": "ok",
+      "size": 623,
+      "sha256": "6b8f3bd079c77da5b9edeee8ae115c0a57a552e87648498c119cad0d8abee1dc",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 107,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 107,
+          "end": 111,
+          "role": "CRC-32"
+        },
+        {
+          "start": 111,
+          "end": 115,
+          "role": "довжина"
+        },
+        {
+          "start": 115,
+          "end": 119,
+          "role": "змінне поле"
+        },
+        {
+          "start": 119,
+          "end": 607,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 607,
+          "end": 611,
+          "role": "CRC-32"
+        },
+        {
+          "start": 611,
+          "end": 619,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 623,
+        "covered_bytes": 619,
+        "coverage": 0.9935794542536116,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 619,
+            "end": 623
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 119,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.43 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            119,
+            607
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 623,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "f774cb382feb.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\f774cb382feb.png",
+      "status": "ok",
+      "size": 560,
+      "sha256": "f774cb382febfbbccca7500ed9a6375eae0d225bb7ccdd6800ad01fa386cfd8b",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 42,
+          "end": 46,
+          "role": "CRC-32"
+        },
+        {
+          "start": 46,
+          "end": 50,
+          "role": "довжина"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "змінне поле"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "CRC-32"
+        },
+        {
+          "start": 62,
+          "end": 66,
+          "role": "довжина"
+        },
+        {
+          "start": 66,
+          "end": 70,
+          "role": "змінне поле"
+        },
+        {
+          "start": 70,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 116,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 116,
+          "end": 120,
+          "role": "CRC-32"
+        },
+        {
+          "start": 120,
+          "end": 124,
+          "role": "довжина"
+        },
+        {
+          "start": 124,
+          "end": 128,
+          "role": "змінне поле"
+        },
+        {
+          "start": 128,
+          "end": 544,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 544,
+          "end": 548,
+          "role": "CRC-32"
+        },
+        {
+          "start": 548,
+          "end": 556,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 560,
+        "covered_bytes": 556,
+        "coverage": 0.9928571428571429,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 556,
+            "end": 560
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 128,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.42 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            128,
+            544
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 560,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "d1e149dcb378.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d1e149dcb378.png",
+      "status": "ok",
+      "size": 610,
+      "sha256": "d1e149dcb3784d5b22da5d58bf651fcc5ecf6395debd83aa1a8063bdd14e9cd4",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 92,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 92,
+          "end": 96,
+          "role": "CRC-32"
+        },
+        {
+          "start": 96,
+          "end": 100,
+          "role": "довжина"
+        },
+        {
+          "start": 100,
+          "end": 104,
+          "role": "змінне поле"
+        },
+        {
+          "start": 104,
+          "end": 120,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 120,
+          "end": 124,
+          "role": "CRC-32"
+        },
+        {
+          "start": 124,
+          "end": 128,
+          "role": "довжина"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "role": "змінне поле"
+        },
+        {
+          "start": 132,
+          "end": 594,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 594,
+          "end": 598,
+          "role": "CRC-32"
+        },
+        {
+          "start": 598,
+          "end": 606,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 610,
+        "covered_bytes": 606,
+        "coverage": 0.9934426229508196,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 606,
+            "end": 610
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 132,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.50 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            132,
+            594
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 610,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "0ef84d951ad3.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\0ef84d951ad3.png",
+      "status": "ok",
+      "size": 9689,
+      "sha256": "0ef84d951ad329208ba49b1406db67e37ee6f10b39c62591eeac03fa1ae0ac5e",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 9673,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 9673,
+          "end": 9677,
+          "role": "CRC-32"
+        },
+        {
+          "start": 9677,
+          "end": 9685,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 9689,
+        "covered_bytes": 9685,
+        "coverage": 0.9995871606976984,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 9685,
+            "end": 9689
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.98 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            9673
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 9689,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "057a3eb3ae48.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\057a3eb3ae48.png",
+      "status": "ok",
+      "size": 788,
+      "sha256": "057a3eb3ae48ff6764b7c294daee8108f224ee8f74b3c9aa90fd6e4ffc6cf09b",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 176,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 176,
+          "end": 180,
+          "role": "CRC-32"
+        },
+        {
+          "start": 180,
+          "end": 184,
+          "role": "довжина"
+        },
+        {
+          "start": 184,
+          "end": 188,
+          "role": "змінне поле"
+        },
+        {
+          "start": 188,
+          "end": 231,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 231,
+          "end": 235,
+          "role": "CRC-32"
+        },
+        {
+          "start": 235,
+          "end": 239,
+          "role": "довжина"
+        },
+        {
+          "start": 239,
+          "end": 243,
+          "role": "змінне поле"
+        },
+        {
+          "start": 243,
+          "end": 772,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 772,
+          "end": 776,
+          "role": "CRC-32"
+        },
+        {
+          "start": 776,
+          "end": 784,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 788,
+        "covered_bytes": 784,
+        "coverage": 0.9949238578680203,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 784,
+            "end": 788
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 243,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.57 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            243,
+            772
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 788,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "edded01d34a8.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\edded01d34a8.png",
+      "status": "ok",
+      "size": 1295,
+      "sha256": "edded01d34a8248d0003c4d75b59183529f544dd9d61c226c2c91e1c8147e7ea",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 1279,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1279,
+          "end": 1283,
+          "role": "CRC-32"
+        },
+        {
+          "start": 1283,
+          "end": 1291,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 1295,
+        "covered_bytes": 1291,
+        "coverage": 0.9969111969111969,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 1291,
+            "end": 1295
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 62,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.85 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            62,
+            1279
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 1295,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "bcb72c9edec7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bcb72c9edec7.png",
+      "status": "ok",
+      "size": 28500,
+      "sha256": "bcb72c9edec7d4062fb7e87897908fff97477c1057fe5d2b1b89471345ee05af",
+      "risk": "інформаційний",
+      "fields": [
+        {
+          "start": 0,
+          "end": 8,
+          "role": "константа"
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "role": "довжина"
+        },
+        {
+          "start": 12,
+          "end": 16,
+          "role": "константа"
+        },
+        {
+          "start": 16,
+          "end": 18,
+          "role": "константа"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "role": "змінне поле"
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "role": "константа"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "role": "змінне поле"
+        },
+        {
+          "start": 26,
+          "end": 29,
+          "role": "константа"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "role": "CRC-32"
+        },
+        {
+          "start": 33,
+          "end": 37,
+          "role": "довжина"
+        },
+        {
+          "start": 37,
+          "end": 41,
+          "role": "змінне поле"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 50,
+          "end": 54,
+          "role": "CRC-32"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "довжина"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "змінне поле"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "role": "CRC-32"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "довжина"
+        },
+        {
+          "start": 71,
+          "end": 75,
+          "role": "змінне поле"
+        },
+        {
+          "start": 75,
+          "end": 79,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "role": "CRC-32"
+        },
+        {
+          "start": 83,
+          "end": 87,
+          "role": "довжина"
+        },
+        {
+          "start": 87,
+          "end": 91,
+          "role": "змінне поле"
+        },
+        {
+          "start": 91,
+          "end": 28484,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 28484,
+          "end": 28488,
+          "role": "CRC-32"
+        },
+        {
+          "start": 28488,
+          "end": 28496,
+          "role": "константа"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 28500,
+        "covered_bytes": 28496,
+        "coverage": 0.999859649122807,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [
+          {
+            "start": 28496,
+            "end": 28500
+          }
+        ],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 91,
+          "kind": "блок з високою ентропією",
+          "severity": "середній",
+          "detail": "ентропія 7.98 біт/байт: стиснені або зашифровані дані",
+          "block": [
+            91,
+            28484
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 28500,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    }
+  ]
+}

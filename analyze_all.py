@@ -1,0 +1,156 @@
+"""Спільний звіт: гіпотези структури, індикатори у блоках і непрочитаних ділянках."""
+import argparse
+import hashlib
+import json
+import pathlib
+import sys
+
+ROOT = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "experiments"))
+
+import rebin as RB
+from block_scan import scan_file
+from recovery_audit import audit_intervals
+from threat_scan import scan as scan_unread
+
+BLOCK_RANK = {"низький": 1, "середній": 2, "високий": 3}
+UNREAD_RANK = {"low": 0, "mid": 2, "high": 3}
+LEVELS = ["індикаторів не виявлено", "інформаційний", "підозрілий", "високий"]
+
+
+
+def block_rank(finding):
+    if finding["kind"] == "блок з високою ентропією":
+        return 1
+    return BLOCK_RANK[finding["severity"]]
+
+
+def analyze_set(sample_paths, targets=(), fmt=None, reader=None, limit=40):
+    if bool(fmt) == bool(reader):
+        raise ValueError("Specify exactly one of format or reader")
+    if limit < 5:
+        raise ValueError("Sample limit must be at least 5")
+
+    func = RB.load_reader(reader) if reader else None
+    target_paths = {pathlib.Path(p).resolve() for p in targets}
+    samples = RB.collect(sample_paths, limit * 3, 16, 300_000)
+    paths = sorted(target_paths) + [
+        pathlib.Path(p).resolve() for p in samples
+        if pathlib.Path(p).resolve() not in target_paths
+    ]
+
+    items, reports, used_samples = [], [], 0
+    for path in paths:
+        if path not in target_paths and used_samples >= limit:
+            continue
+        try:
+            data = path.read_bytes()
+            if not 16 <= len(data) <= 300_000:
+                raise ValueError("Supported file size: 16..300000 bytes")
+            log = (
+                RB._trace_custom(func, data)
+                if func else RB.CTX.run_ctx(fmt, data)
+            )
+            if not log:
+                raise ValueError("Reader produced no read events")
+        except Exception as exc:
+            reports.append({
+                "file": path.name,
+                "path": str(path),
+                "status": "error",
+                "risk": "не оцінено",
+                "error": f"{type(exc).__name__}: {exc}",
+            })
+            continue
+
+        items.append((path, data, log))
+        if path not in target_paths:
+            used_samples += 1
+
+    if len(items) < 5:
+        raise ValueError(
+            f"Need at least 5 readable files; got {len(items)}. Errors: {reports}"
+        )
+
+    inferred = RB.INF2.infer2([(data, log) for _, data, log in items])
+
+    for (path, data, log), fields in zip(items, inferred):
+        if target_paths and path not in target_paths:
+            continue
+
+        blocks = scan_file(data, fields)
+        unread = scan_unread(data, log)
+        rank = max(
+            [block_rank(f) for f in blocks]
+            + [UNREAD_RANK[unread["level"]]]
+        )
+
+        reports.append({
+            "file": path.name,
+            "path": str(path),
+            "status": "ok",
+            "size": len(data),
+            "sha256": hashlib.sha256(data).hexdigest(),
+            "risk": LEVELS[rank],
+            "fields": [
+                {"start": a, "end": b, "role": role}
+                for a, b, role in fields
+            ],
+            "interval_audit": audit_intervals(
+                [(a, b) for a, b, _ in fields], len(data)
+            ),
+            "block_findings": blocks,
+            "unread_scan": unread,
+        })
+
+    if target_paths:
+        reports = [
+            r for r in reports
+            if pathlib.Path(r["path"]) in target_paths
+        ]
+    return reports
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--samples", nargs="+", required=True)
+    parser.add_argument("--target", nargs="*", default=[])
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--format", choices=["png", "gif", "ico", "wav", "gz", "docx"])
+    source.add_argument("--reader")
+    parser.add_argument("--limit", type=int, default=40)
+    parser.add_argument("--out", default="results/analysis_report.json")
+    args = parser.parse_args()
+
+    reports = analyze_set(
+        args.samples, args.target, args.format, args.reader, args.limit
+    )
+    for report in reports:
+        print(
+            f"{report['file']:28s} {report['status']:6s} "
+            f"{report['risk']} {report.get('error', '')}"
+        )
+
+    output = pathlib.Path(args.out)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(
+        json.dumps({
+            "schema_version": 1,
+            "risk_policy": "v2_entropy_in_read_blocks_is_informational",
+            "mode": "joint_sample_inference",
+            "limitations": [
+                "Targets participate in structure inference; this is not held-out evaluation.",
+                "Risk levels are heuristic indicators, not malware verdicts.",
+                "PE/ELF header matches do not validate a complete executable.",
+                "High entropy alone does not prove encryption or maliciousness.",
+            ],
+            "reports": reports,
+        }, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print("Saved:", output)
+
+
+if __name__ == "__main__":
+    main()

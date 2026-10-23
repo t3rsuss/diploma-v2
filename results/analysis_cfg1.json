@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "risk_policy": "v2_entropy_in_read_blocks_is_informational",
+  "mode": "joint_sample_inference",
+  "limitations": [
+    "Targets participate in structure inference; this is not held-out evaluation.",
+    "Risk levels are heuristic indicators, not malware verdicts.",
+    "PE/ELF header matches do not validate a complete executable.",
+    "High entropy alone does not prove encryption or maliciousness."
+  ],
+  "reports": [
+    {
+      "file": "mal_25.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_25.cfg",
+      "status": "ok",
+      "size": 4213,
+      "sha256": "8feaea4724c68eb0316371814db516b28cb348f97fc0d9d91b25a702455a107e",
+      "risk": "високий",
+      "fields": [
+        {
+          "start": 0,
+          "end": 5,
+          "role": "константа"
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "role": "лічильник"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "role": "змінне поле"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "role": "тип запису"
+        },
+        {
+          "start": 9,
+          "end": 11,
+          "role": "довжина"
+        },
+        {
+          "start": 11,
+          "end": 2384,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2384,
+          "end": 2385,
+          "role": "тип запису"
+        },
+        {
+          "start": 2385,
+          "end": 2387,
+          "role": "довжина"
+        },
+        {
+          "start": 2387,
+          "end": 2925,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 2925,
+          "end": 2926,
+          "role": "тип запису"
+        },
+        {
+          "start": 2926,
+          "end": 2928,
+          "role": "довжина"
+        },
+        {
+          "start": 2928,
+          "end": 4196,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 4196,
+          "end": 4197,
+          "role": "тип запису"
+        },
+        {
+          "start": 4197,
+          "end": 4199,
+          "role": "довжина"
+        },
+        {
+          "start": 4199,
+          "end": 4203,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 4203,
+          "end": 4204,
+          "role": "тип запису"
+        },
+        {
+          "start": 4204,
+          "end": 4206,
+          "role": "довжина"
+        },
+        {
+          "start": 4206,
+          "end": 4208,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 4208,
+          "end": 4209,
+          "role": "тип запису"
+        },
+        {
+          "start": 4209,
+          "end": 4211,
+          "role": "довжина"
+        },
+        {
+          "start": 4211,
+          "end": 4213,
+          "role": "дані (блок)"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 4213,
+        "covered_bytes": 4213,
+        "coverage": 1.0,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [
+        {
+          "offset": 2387,
+          "kind": "вбудований PE-файл",
+          "severity": "високий",
+          "detail": "заголовки MZ і PE на коректних зсувах",
+          "block": [
+            2387,
+            2925
+          ]
+        }
+      ],
+      "unread_scan": {
+        "file_size": 4213,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    },
+    {
+      "file": "ok_05.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_05.cfg",
+      "status": "ok",
+      "size": 1389,
+      "sha256": "0dc8ad08e3f3426f45b108849a85c5ac8c6d2cfe2664458ada4bfc7109ffe7b6",
+      "risk": "індикаторів не виявлено",
+      "fields": [
+        {
+          "start": 0,
+          "end": 5,
+          "role": "константа"
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "role": "лічильник"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "role": "змінне поле"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "role": "тип запису"
+        },
+        {
+          "start": 9,
+          "end": 11,
+          "role": "довжина"
+        },
+        {
+          "start": 11,
+          "end": 1334,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1334,
+          "end": 1335,
+          "role": "тип запису"
+        },
+        {
+          "start": 1335,
+          "end": 1337,
+          "role": "довжина"
+        },
+        {
+          "start": 1337,
+          "end": 1339,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1339,
+          "end": 1340,
+          "role": "тип запису"
+        },
+        {
+          "start": 1340,
+          "end": 1342,
+          "role": "довжина"
+        },
+        {
+          "start": 1342,
+          "end": 1382,
+          "role": "дані (блок)"
+        },
+        {
+          "start": 1382,
+          "end": 1383,
+          "role": "тип запису"
+        },
+        {
+          "start": 1383,
+          "end": 1385,
+          "role": "довжина"
+        },
+        {
+          "start": 1385,
+          "end": 1389,
+          "role": "дані (блок)"
+        }
+      ],
+      "interval_audit": {
+        "file_size": 1389,
+        "covered_bytes": 1389,
+        "coverage": 1.0,
+        "overlap_bytes": 0,
+        "uncovered_intervals": [],
+        "overlap_intervals": [],
+        "invalid_intervals": []
+      },
+      "block_findings": [],
+      "unread_scan": {
+        "file_size": 1389,
+        "unread_bytes": 0,
+        "regions": [],
+        "level": "low"
+      }
+    }
+  ]
+}
