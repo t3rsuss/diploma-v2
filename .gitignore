@@ -27,3 +27,9 @@ results/e1_diagnose.txt
 tools/
 !results/corpus_manifest_frozen.csv
 results/e13_cache.pkl
+
+# Local code snapshots
+/project_snapshot/
+/make_project_snapshot.py
+/cleanup_project_snapshot.py
+/all_code.txt

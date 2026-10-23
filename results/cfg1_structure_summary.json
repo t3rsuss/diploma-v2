@@ -1,0 +1,64 @@
+{
+  "mode": "joint_sample_inference",
+  "files": 40,
+  "normalization": "Merge adjacent constant fields only.",
+  "limitations": [
+    "Synthetic CFG1 with a purpose-built reader.",
+    "All evaluated files participate in inference.",
+    "No held-out generalization claim.",
+    "Reader boundaries provide structural information.",
+    "Role scores require both exact interval and exact role."
+  ],
+  "metrics": [
+    {
+      "method": "infer2",
+      "metric": "boundary",
+      "tp": 695,
+      "predicted": 695,
+      "expected": 695,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "method": "infer2",
+      "metric": "interval",
+      "tp": 735,
+      "predicted": 735,
+      "expected": 735,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "method": "infer2",
+      "metric": "interval_role",
+      "tp": 735,
+      "predicted": 735,
+      "expected": 735,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "method": "read_intervals",
+      "metric": "boundary",
+      "tp": 615,
+      "predicted": 615,
+      "expected": 695,
+      "precision": 1.0,
+      "recall": 0.8848920863309353,
+      "f1": 0.9389312977099237
+    },
+    {
+      "method": "read_intervals",
+      "metric": "interval",
+      "tp": 615,
+      "predicted": 655,
+      "expected": 735,
+      "precision": 0.9389312977099237,
+      "recall": 0.8367346938775511,
+      "f1": 0.8848920863309352
+    }
+  ]
+}
