@@ -744,107 +744,170 @@
         {
           "start": 0,
           "end": 5,
-          "role": "константа"
+          "size": 5,
+          "role": "константа",
+          "context": "cfg1.parse_file:124",
+          "hex": "4346473101"
         },
         {
           "start": 5,
           "end": 7,
-          "role": "лічильник"
+          "size": 2,
+          "role": "лічильник",
+          "context": "cfg1.parse_file:124",
+          "hex": "0600"
         },
         {
           "start": 7,
           "end": 8,
-          "role": "змінне поле"
+          "size": 1,
+          "role": "змінне поле",
+          "context": "cfg1.parse_file:124",
+          "hex": "c4"
         },
         {
           "start": 8,
           "end": 9,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "05"
         },
         {
           "start": 9,
           "end": 11,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "4509"
         },
         {
           "start": 11,
           "end": 2384,
-          "role": "дані (блок)"
+          "size": 2373,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "72656c6179206563"
         },
         {
           "start": 2384,
           "end": 2385,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "7f"
         },
         {
           "start": 2385,
           "end": 2387,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "1a02"
         },
         {
           "start": 2387,
           "end": 2925,
-          "role": "дані (блок)"
+          "size": 538,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "4d5abc66b9365fd5"
         },
         {
           "start": 2925,
           "end": 2926,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "05"
         },
         {
           "start": 2926,
           "end": 2928,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "f404"
         },
         {
           "start": 2928,
           "end": 4196,
-          "role": "дані (блок)"
+          "size": 1268,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "627261766f206e6f"
         },
         {
           "start": 4196,
           "end": 4197,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "03"
         },
         {
           "start": 4197,
           "end": 4199,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "0400"
         },
         {
           "start": 4199,
           "end": 4203,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "d30d0000"
         },
         {
           "start": 4203,
           "end": 4204,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "02"
         },
         {
           "start": 4204,
           "end": 4206,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "0200"
         },
         {
           "start": 4206,
           "end": 4208,
-          "role": "дані (блок)"
+          "size": 2,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "fb20"
         },
         {
           "start": 4208,
           "end": 4209,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "02"
         },
         {
           "start": 4209,
           "end": 4211,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "0200"
         },
         {
           "start": 4211,
           "end": 4213,
-          "role": "дані (блок)"
+          "size": 2,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "fb20"
         }
       ],
       "interval_audit": {
@@ -886,77 +949,122 @@
         {
           "start": 0,
           "end": 5,
-          "role": "константа"
+          "size": 5,
+          "role": "константа",
+          "context": "cfg1.parse_file:124",
+          "hex": "4346473101"
         },
         {
           "start": 5,
           "end": 7,
-          "role": "лічильник"
+          "size": 2,
+          "role": "лічильник",
+          "context": "cfg1.parse_file:124",
+          "hex": "0400"
         },
         {
           "start": 7,
           "end": 8,
-          "role": "змінне поле"
+          "size": 1,
+          "role": "змінне поле",
+          "context": "cfg1.parse_file:124",
+          "hex": "d7"
         },
         {
           "start": 8,
           "end": 9,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "05"
         },
         {
           "start": 9,
           "end": 11,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "2b05"
         },
         {
           "start": 11,
           "end": 1334,
-          "role": "дані (блок)"
+          "size": 1323,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "616c706861207369"
         },
         {
           "start": 1334,
           "end": 1335,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "02"
         },
         {
           "start": 1335,
           "end": 1337,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "0200"
         },
         {
           "start": 1337,
           "end": 1339,
-          "role": "дані (блок)"
+          "size": 2,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "901f"
         },
         {
           "start": 1339,
           "end": 1340,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "05"
         },
         {
           "start": 1340,
           "end": 1342,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "2800"
         },
         {
           "start": 1342,
           "end": 1382,
-          "role": "дані (блок)"
+          "size": 40,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "67616d6d61207369"
         },
         {
           "start": 1382,
           "end": 1383,
-          "role": "тип запису"
+          "size": 1,
+          "role": "тип запису",
+          "context": "cfg1.parse_file:128",
+          "hex": "03"
         },
         {
           "start": 1383,
           "end": 1385,
-          "role": "довжина"
+          "size": 2,
+          "role": "довжина",
+          "context": "cfg1.parse_file:129",
+          "hex": "0400"
         },
         {
           "start": 1385,
           "end": 1389,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "cfg1.parse_file:130",
+          "hex": "ab000000"
         }
       ],
       "interval_audit": {

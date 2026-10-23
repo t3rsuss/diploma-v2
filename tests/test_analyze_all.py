@@ -214,3 +214,29 @@ def test_cli_saves_audit_when_readable_samples_are_insufficient(
         and "Reader produced no read events" in entry["reason"]
         for entry in payload["sample_audit"]
     )
+
+
+def test_joint_report_contains_field_details(tmp_path, monkeypatch):
+    monkeypatch.setattr(cfg1, "OUT", tmp_path / "samples")
+    monkeypatch.setattr(cfg1, "LABELS", tmp_path / "labels.json")
+    folder, labels = cfg1.generate()
+    target = folder / next(iter(labels))
+
+    reports = analyze_set(
+        [str(folder)], [str(target)],
+        reader="demo.cfg1:parse_file",
+    )
+
+    assert len(reports) == 1
+    report = reports[0]
+    assert report["status"] == "ok"
+    assert report["fields"]
+
+    data = target.read_bytes()
+    for field in report["fields"]:
+        a, b = field["start"], field["end"]
+        assert field["size"] == b - a
+        assert isinstance(field["context"], str)
+        assert field["context"]
+        assert field["hex"] == data[a:min(b, a + 8)].hex()
+        assert len(field["hex"]) <= 16

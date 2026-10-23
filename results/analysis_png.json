@@ -682,112 +682,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0096"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00960803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bdf81d0"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000060"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 137,
-          "role": "дані (блок)"
+          "size": 96,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "000000ffffffffff"
         },
         {
           "start": 137,
           "end": 141,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "3024142e"
         },
         {
           "start": 141,
           "end": 145,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000001f"
         },
         {
           "start": 145,
           "end": 149,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 149,
           "end": 180,
-          "role": "дані (блок)"
+          "size": 31,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "0008101820283038"
         },
         {
           "start": 180,
           "end": 184,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "ba2bf1ac"
         },
         {
           "start": 184,
           "end": 188,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000165"
         },
         {
           "start": 188,
           "end": 192,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 192,
           "end": 549,
-          "role": "дані (блок)"
+          "size": 357,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daedd9dd4e8340"
         },
         {
           "start": 549,
           "end": 553,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "9b0d8667"
         },
         {
           "start": 553,
           "end": 561,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -834,72 +900,114 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0060"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00600804"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "4891bfb3"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000359"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 41,
           "end": 898,
-          "role": "дані (блок)"
+          "size": 857,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daed5b5db58420"
         },
         {
           "start": 898,
           "end": 902,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "c6362b57"
         },
         {
           "start": 902,
           "end": 910,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -946,132 +1054,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "01dd"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00dc0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "35167b7f"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000c994"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 51695,
-          "role": "дані (блок)"
+          "size": 51604,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ecbd07bc2635"
         },
         {
           "start": 51695,
           "end": 51699,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "e22a6cbe"
         },
         {
           "start": 51699,
           "end": 51707,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -1118,92 +1304,146 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0024"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "006c0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "020b1099"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec400000ec4"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "952b0e1b"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000002e3"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 62,
           "end": 801,
-          "role": "дані (блок)"
+          "size": 739,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daedd829acdc30"
         },
         {
           "start": 801,
           "end": 805,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "348b675f"
         },
         {
           "start": 805,
           "end": 813,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -1250,137 +1490,218 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0257"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "01280806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "75a7d40d"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0001b0f8"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 65627,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ecfdcbae764d"
         },
         {
           "start": 65627,
           "end": 110931,
-          "role": "дані (блок)"
+          "size": 45304,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "c86ff9cd3f247fc7"
         },
         {
           "start": 110931,
           "end": 110935,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "bf2d89e7"
         },
         {
           "start": 110935,
           "end": 110943,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -1437,152 +1758,242 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0020"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00400806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "7b8e75ae"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 41,
           "end": 42,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 42,
           "end": 46,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 46,
           "end": 50,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 62,
           "end": 66,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 66,
           "end": 70,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 70,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec300000ec3"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "c76fa864"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000018"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74455874"
         },
         {
           "start": 91,
           "end": 115,
-          "role": "дані (блок)"
+          "size": 24,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tEXt:579",
+          "hex": "536f667477617265"
         },
         {
           "start": 115,
           "end": 119,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "65853265"
         },
         {
           "start": 119,
           "end": 123,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000030f"
         },
         {
           "start": 123,
           "end": 127,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 127,
           "end": 910,
-          "role": "дані (блок)"
+          "size": 783,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "6843ed58516ee240"
         },
         {
           "start": 910,
           "end": 914,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "7df657af"
         },
         {
           "start": 914,
           "end": 922,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -1629,172 +2040,274 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0074"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00160803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "26784844"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec300000ec3"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "c76fa864"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000015"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 62,
           "end": 83,
-          "role": "дані (блок)"
+          "size": 21,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "0000000067b02a8d"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "7e0de006"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 91,
           "end": 95,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 95,
           "end": 96,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "00"
         },
         {
           "start": 96,
           "end": 100,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "40e6d866"
         },
         {
           "start": 100,
           "end": 104,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000009b6"
         },
         {
           "start": 104,
           "end": 108,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "69434350"
         },
         {
           "start": 108,
           "end": 2594,
-          "role": "дані (блок)"
+          "size": 2486,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_iCCP:430",
+          "hex": "78000078daa49303"
         },
         {
           "start": 2594,
           "end": 2598,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "e69ff871"
         },
         {
           "start": 2598,
           "end": 2602,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000020"
         },
         {
           "start": 2602,
           "end": 2606,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "6348524d"
         },
         {
           "start": 2606,
           "end": 2638,
-          "role": "дані (блок)"
+          "size": 32,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_cHRM:536",
+          "hex": "00007a2500008083"
         },
         {
           "start": 2638,
           "end": 2642,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "925fc546"
         },
         {
           "start": 2642,
           "end": 2646,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000074"
         },
         {
           "start": 2646,
           "end": 2650,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 2650,
           "end": 2766,
-          "role": "дані (блок)"
+          "size": 116,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daedd4410ac030"
         },
         {
           "start": 2766,
           "end": 2770,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "21785e34"
         },
         {
           "start": 2770,
           "end": 2778,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -1841,72 +2354,114 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0258"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "02580804"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "146f5057"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000c01"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 41,
           "end": 3114,
-          "role": "дані (блок)"
+          "size": 3073,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daedddcd71ab48"
         },
         {
           "start": 3114,
           "end": 3118,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "4c5227cb"
         },
         {
           "start": 3118,
           "end": 3126,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -1953,112 +2508,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "04d8"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "02580403"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "42f846ad"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000f"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 56,
-          "role": "дані (блок)"
+          "size": 15,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "000000ffffffffff"
         },
         {
           "start": 56,
           "end": 60,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "8f42de68"
         },
         {
           "start": 60,
           "end": 64,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 64,
           "end": 68,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 68,
           "end": 72,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "004080bf"
         },
         {
           "start": 72,
           "end": 76,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "a354dd0c"
         },
         {
           "start": 76,
           "end": 80,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000414"
         },
         {
           "start": 80,
           "end": 84,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 84,
           "end": 1128,
-          "role": "дані (блок)"
+          "size": 1044,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daeddd4172da30"
         },
         {
           "start": 1128,
           "end": 1132,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "937beed0"
         },
         {
           "start": 1132,
           "end": 1140,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -2094,112 +2715,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "03a2"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "01c20803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "c24d84c6"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000063"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 140,
-          "role": "дані (блок)"
+          "size": 99,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "000000ffffffffff"
         },
         {
           "start": 140,
           "end": 144,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "91013a2e"
         },
         {
           "start": 144,
           "end": 148,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000020"
         },
         {
           "start": 148,
           "end": 152,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 152,
           "end": 184,
-          "role": "дані (блок)"
+          "size": 32,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "0008101820283038"
         },
         {
           "start": 184,
           "end": 188,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "bfe1f8c2"
         },
         {
           "start": 188,
           "end": 192,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000005d4"
         },
         {
           "start": 192,
           "end": 196,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 196,
           "end": 1688,
-          "role": "дані (блок)"
+          "size": 1492,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daedddeb52e240"
         },
         {
           "start": 1688,
           "end": 1692,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "2480f81e"
         },
         {
           "start": 1692,
           "end": 1700,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -2235,132 +2922,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0050"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00500806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "8e11f2ad"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000005b9"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 1556,
-          "role": "дані (блок)"
+          "size": 1465,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ed9cc175db46"
         },
         {
           "start": 1556,
           "end": 1560,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "93cbb210"
         },
         {
           "start": 1560,
           "end": 1568,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -2407,132 +3172,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0032"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00320806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "1e3f88b1"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 41,
           "end": 42,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 42,
           "end": 46,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 46,
           "end": 50,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 62,
           "end": 66,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 66,
           "end": 70,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 70,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec300000ec3"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "c76fa864"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000002e4"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 831,
-          "role": "дані (блок)"
+          "size": 740,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "6843ed995b8bc230"
         },
         {
           "start": 831,
           "end": 835,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "7b465dfb"
         },
         {
           "start": 835,
           "end": 843,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -2579,92 +3422,146 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "011c"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "011c0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "15f40be0"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1200000b12"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "d2dd7efc"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000087d"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 62,
           "end": 2235,
-          "role": "дані (блок)"
+          "size": 2173,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "789cedddfd4d2447"
         },
         {
           "start": 2235,
           "end": 2239,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "40bc7707"
         },
         {
           "start": 2239,
           "end": 2247,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -2711,152 +3608,242 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0028"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00280804"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "26f770e6"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec200000ec2"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "15284a80"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 62,
           "end": 66,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 66,
           "end": 70,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 70,
           "end": 74,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 74,
           "end": 78,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 78,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "01"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "d9c92c7f"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000020"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "6348524d"
         },
         {
           "start": 91,
           "end": 123,
-          "role": "дані (блок)"
+          "size": 32,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_cHRM:536",
+          "hex": "00007a2600008084"
         },
         {
           "start": 123,
           "end": 127,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "9cba513c"
         },
         {
           "start": 127,
           "end": 131,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000027d"
         },
         {
           "start": 131,
           "end": 135,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 135,
           "end": 772,
-          "role": "дані (блок)"
+          "size": 637,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daed964f485451"
         },
         {
           "start": 772,
           "end": 776,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "d212d8f5"
         },
         {
           "start": 776,
           "end": 784,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -2903,147 +3890,234 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0122"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "01b30806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "8b841a50"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0003864d"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 65627,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "780164fd39af75dd"
         },
         {
           "start": 65627,
           "end": 131163,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "e5940b8822f94c8d"
         },
         {
           "start": 131163,
           "end": 196699,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "9dd991e151adc37a"
         },
         {
           "start": 196699,
           "end": 231080,
-          "role": "дані (блок)"
+          "size": 34381,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "038c378feababaf6"
         },
         {
           "start": 231080,
           "end": 231084,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "5ef06ae6"
         },
         {
           "start": 231084,
           "end": 231092,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -3120,132 +4194,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0037"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00370806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "a8dbd246"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000001dc"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 567,
-          "role": "дані (блок)"
+          "size": 476,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ed99dd598330"
         },
         {
           "start": 567,
           "end": 571,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "1a6777f5"
         },
         {
           "start": 571,
           "end": 579,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -3292,132 +4444,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00b0"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00b00806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "afb7e45e"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00002c4b00002c4b"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "a53d96a9"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000785"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 2016,
-          "role": "дані (блок)"
+          "size": 1925,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801eddd8d59134b"
         },
         {
           "start": 2016,
           "end": 2020,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "227b09a7"
         },
         {
           "start": 2020,
           "end": 2028,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -3464,142 +4694,226 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0257"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "01280806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "75a7d40d"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00027650"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 65627,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "780184bdebd22c4b"
         },
         {
           "start": 65627,
           "end": 131163,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "e7404a00296f5451"
         },
         {
           "start": 131163,
           "end": 161451,
-          "role": "дані (блок)"
+          "size": 30288,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "ee64159280a32d08"
         },
         {
           "start": 161451,
           "end": 161455,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "73e7a193"
         },
         {
           "start": 161455,
           "end": 161463,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -3666,92 +4980,146 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0024"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "006c0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "020b1099"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec400000ec4"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "952b0e1b"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000002a0"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 62,
           "end": 734,
-          "role": "дані (блок)"
+          "size": 672,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daed972b8ce330"
         },
         {
           "start": 734,
           "end": 738,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "cf4b725d"
         },
         {
           "start": 738,
           "end": 746,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -3798,92 +5166,146 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "002c"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "002c0802"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "91e6cd56"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000001e5"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 62,
           "end": 547,
-          "role": "дані (блок)"
+          "size": 485,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78da62601805a360"
         },
         {
           "start": 547,
           "end": 551,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "50e00e19"
         },
         {
           "start": 551,
           "end": 559,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -3930,137 +5352,218 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "04d8"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "02580806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "b0d65b9e"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0001057e"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 65627,
-          "role": "дані (блок)"
+          "size": 65536,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ecfd0dd06549"
         },
         {
           "start": 65627,
           "end": 67033,
-          "role": "дані (блок)"
+          "size": 1406,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "0000000000000000"
         },
         {
           "start": 67033,
           "end": 67037,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "ebdb72d9"
         },
         {
           "start": 67037,
           "end": 67045,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -4107,112 +5610,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0136"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00960803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "630954c1"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000005d"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 134,
-          "role": "дані (блок)"
+          "size": 93,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "000000ffffffffff"
         },
         {
           "start": 134,
           "end": 138,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "fd16fcbd"
         },
         {
           "start": 138,
           "end": 142,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000001e"
         },
         {
           "start": 142,
           "end": 146,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 146,
           "end": 176,
-          "role": "дані (блок)"
+          "size": 30,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "0008101820283038"
         },
         {
           "start": 176,
           "end": 180,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "f5036f0b"
         },
         {
           "start": 180,
           "end": 184,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000001e4"
         },
         {
           "start": 184,
           "end": 188,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 188,
           "end": 672,
-          "role": "дані (блок)"
+          "size": 484,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daeddc614fda50"
         },
         {
           "start": 672,
           "end": 676,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "b3f285a3"
         },
         {
           "start": 676,
           "end": 684,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -4259,112 +5828,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "026c"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "012c0803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "49fb1fe6"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000054"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 125,
-          "role": "дані (блок)"
+          "size": 84,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "0000000000000000"
         },
         {
           "start": 125,
           "end": 129,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "14e07db8"
         },
         {
           "start": 129,
           "end": 133,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000001b"
         },
         {
           "start": 133,
           "end": 137,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 137,
           "end": 164,
-          "role": "дані (блок)"
+          "size": 27,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "00060f101f203f40"
         },
         {
           "start": 164,
           "end": 168,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "ef0f0b49"
         },
         {
           "start": 168,
           "end": 172,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000056b"
         },
         {
           "start": 172,
           "end": 176,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 176,
           "end": 1563,
-          "role": "дані (блок)"
+          "size": 1387,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daeddd6d73a23a"
         },
         {
           "start": 1563,
           "end": 1567,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "b8b9ce15"
         },
         {
           "start": 1567,
           "end": 1575,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -4411,132 +6046,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0024"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "006c0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "020b1099"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000ec400000ec4"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "952b0e1b"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "01"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "d9c92c7f"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000020"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "6348524d"
         },
         {
           "start": 75,
           "end": 107,
-          "role": "дані (блок)"
+          "size": 32,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_cHRM:536",
+          "hex": "00007a2600008084"
         },
         {
           "start": 107,
           "end": 111,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "9cba513c"
         },
         {
           "start": 111,
           "end": 115,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000001e8"
         },
         {
           "start": 115,
           "end": 119,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 119,
           "end": 607,
-          "role": "дані (блок)"
+          "size": 488,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daedd8c16dc330"
         },
         {
           "start": 607,
           "end": 611,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "6ab8a70d"
         },
         {
           "start": 611,
           "end": 619,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -4583,152 +6296,242 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "002c"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "002c0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "1e845a01"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 41,
           "end": 42,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 42,
           "end": 46,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 46,
           "end": 50,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 62,
           "end": 66,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 66,
           "end": 70,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 70,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "0000127400001274"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "de661f78"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000019"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74455874"
         },
         {
           "start": 91,
           "end": 116,
-          "role": "дані (блок)"
+          "size": 25,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tEXt:579",
+          "hex": "536f667477617265"
         },
         {
           "start": 116,
           "end": 120,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "71c9653c"
         },
         {
           "start": 120,
           "end": 124,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000001a0"
         },
         {
           "start": 124,
           "end": 128,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 128,
           "end": 544,
-          "role": "дані (блок)"
+          "size": 416,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "5847ed98cb4ac340"
         },
         {
           "start": 544,
           "end": 548,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "75b8b218"
         },
         {
           "start": 548,
           "end": 556,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -4775,112 +6578,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "003c"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "003c0803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0d222940"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000033"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 92,
-          "role": "дані (блок)"
+          "size": 51,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "ffffffffffffffff"
         },
         {
           "start": 92,
           "end": 96,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "e510e847"
         },
         {
           "start": 96,
           "end": 100,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000010"
         },
         {
           "start": 100,
           "end": 104,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 104,
           "end": 120,
-          "role": "дані (блок)"
+          "size": 16,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "0010203040506070"
         },
         {
           "start": 120,
           "end": 124,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "54e0a8c8"
         },
         {
           "start": 124,
           "end": 128,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000001ce"
         },
         {
           "start": 128,
           "end": 132,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 132,
           "end": 594,
-          "role": "дані (блок)"
+          "size": 462,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "48c7c557db96c320"
         },
         {
           "start": 594,
           "end": 598,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "d7982fd2"
         },
         {
           "start": 598,
           "end": 606,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -4927,132 +6796,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0078"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00780806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "396436d2"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00001baf00001baf"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "5e1a911c"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000256e"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 9673,
-          "role": "дані (блок)"
+          "size": 9582,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ed5d5d8c5dd5"
         },
         {
           "start": 9673,
           "end": 9677,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "c006adda"
         },
         {
           "start": 9677,
           "end": 9685,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -5099,112 +7046,178 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0020"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00600803"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "4bfc80aa"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000087"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "504c5445"
         },
         {
           "start": 41,
           "end": 176,
-          "role": "дані (блок)"
+          "size": 135,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_PLTE:496",
+          "hex": "0000005454545454"
         },
         {
           "start": 176,
           "end": 180,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "775f5702"
         },
         {
           "start": 180,
           "end": 184,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000002b"
         },
         {
           "start": 184,
           "end": 188,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "74524e53"
         },
         {
           "start": 188,
           "end": 231,
-          "role": "дані (блок)"
+          "size": 43,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_tRNS:504",
+          "hex": "0010203040506080"
         },
         {
           "start": 231,
           "end": 235,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "bca80251"
         },
         {
           "start": 235,
           "end": 239,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000211"
         },
         {
           "start": 239,
           "end": 243,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 243,
           "end": 772,
-          "role": "дані (блок)"
+          "size": 529,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "78daed945173aa30"
         },
         {
           "start": 772,
           "end": 776,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "9230809e"
         },
         {
           "start": 776,
           "end": 784,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -5251,92 +7264,146 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "001e"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "001e0806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "3b30aea2"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "000004c1"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 62,
           "end": 1279,
-          "role": "дані (блок)"
+          "size": 1217,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801ed555b685c55"
         },
         {
           "start": 1279,
           "end": 1283,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "c58f69f3"
         },
         {
           "start": 1283,
           "end": 1291,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {
@@ -5383,132 +7450,210 @@
         {
           "start": 0,
           "end": 8,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin._open:767",
+          "hex": "89504e470d0a1a0a"
         },
         {
           "start": 8,
           "end": 12,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "0000000d"
         },
         {
           "start": 12,
           "end": 16,
-          "role": "константа"
+          "size": 4,
+          "role": "константа",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49484452"
         },
         {
           "start": 16,
           "end": 18,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 18,
           "end": 20,
-          "role": "змінне поле"
+          "size": 2,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0097"
         },
         {
           "start": 20,
           "end": 22,
-          "role": "константа"
+          "size": 2,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "0000"
         },
         {
           "start": 22,
           "end": 26,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "00e20806"
         },
         {
           "start": 26,
           "end": 29,
-          "role": "константа"
+          "size": 3,
+          "role": "константа",
+          "context": "PngImagePlugin.chunk_IHDR:458",
+          "hex": "000000"
         },
         {
           "start": 29,
           "end": 33,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "4370550b"
         },
         {
           "start": 33,
           "end": 37,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000009"
         },
         {
           "start": 37,
           "end": 41,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "70485973"
         },
         {
           "start": 41,
           "end": 50,
-          "role": "дані (блок)"
+          "size": 9,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_pHYs:561",
+          "hex": "00000b1300000b13"
         },
         {
           "start": 50,
           "end": 54,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "009a9c18"
         },
         {
           "start": 54,
           "end": 58,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000001"
         },
         {
           "start": 58,
           "end": 62,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "73524742"
         },
         {
           "start": 62,
           "end": 63,
-          "role": "дані (блок)"
+          "size": 1,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_sRGB:549",
+          "hex": "00"
         },
         {
           "start": 63,
           "end": 67,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "aece1ce9"
         },
         {
           "start": 67,
           "end": 71,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00000004"
         },
         {
           "start": 71,
           "end": 75,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "67414d41"
         },
         {
           "start": 75,
           "end": 79,
-          "role": "дані (блок)"
+          "size": 4,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.chunk_gAMA:527",
+          "hex": "0000b18f"
         },
         {
           "start": 79,
           "end": 83,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.crc:220",
+          "hex": "0bfc6105"
         },
         {
           "start": 83,
           "end": 87,
-          "role": "довжина"
+          "size": 4,
+          "role": "довжина",
+          "context": "PngImagePlugin._open:783",
+          "hex": "00006ee9"
         },
         {
           "start": 87,
           "end": 91,
-          "role": "змінне поле"
+          "size": 4,
+          "role": "змінне поле",
+          "context": "PngImagePlugin._open:783",
+          "hex": "49444154"
         },
         {
           "start": 91,
           "end": 28484,
-          "role": "дані (блок)"
+          "size": 28393,
+          "role": "дані (блок)",
+          "context": "PngImagePlugin.load_read:1025",
+          "hex": "7801d57d77805f45"
         },
         {
           "start": 28484,
           "end": 28488,
-          "role": "CRC-32"
+          "size": 4,
+          "role": "CRC-32",
+          "context": "PngImagePlugin.load_end:1034",
+          "hex": "29258c48"
         },
         {
           "start": 28488,
           "end": 28496,
-          "role": "константа"
+          "size": 8,
+          "role": "константа",
+          "context": "PngImagePlugin.load_end:1037",
+          "hex": "0000000049454e44"
         }
       ],
       "interval_audit": {

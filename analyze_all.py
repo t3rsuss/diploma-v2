@@ -164,7 +164,14 @@ def analyze_set(sample_paths, targets=(), fmt=None, reader=None, limit=40, sampl
             "sha256": hashlib.sha256(data).hexdigest(),
             "risk": LEVELS[rank],
             "fields": [
-                {"start": a, "end": b, "role": role}
+                {
+                    "start": a,
+                    "end": b,
+                    "size": b - a,
+                    "role": role,
+                    "context": RB.label_for(a, b, log),
+                    "hex": data[a:min(b, a + 8)].hex(),
+                }
                 for a, b, role in fields
             ],
             "interval_audit": audit_intervals(
