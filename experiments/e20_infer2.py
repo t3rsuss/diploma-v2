@@ -17,6 +17,66 @@ def candidates(ln):
                     yield k, w, order
 
 
+def uleb(data, start, stop):
+    # Декодує змінну довжину (LEB128): 7 біт на байт, старший біт - ознака продовження.
+    value, shift = 0, 0
+    for i in range(start, stop):
+        b = data[i]
+        value |= (b & 0x7F) << shift
+        if not b & 0x80:
+            return value, i - start + 1
+        shift += 7
+        if shift > 28:
+            break
+    return None, 0
+
+
+def read_value(data, pos, k, w, order):
+    if order == "uleb":
+        return uleb(data, pos + k, pos + k + w)[0]
+    return int.from_bytes(data[pos + k:pos + k + w], order)
+
+
+def read_candidates(data, pos, ln):
+    for k, w, order in candidates(ln):
+        yield k, w, order, int.from_bytes(data[pos + k:pos + k + w], order)
+    for k in range(ln):
+        v, w = uleb(data, pos + k, pos + ln)
+        if v is not None and w >= 2:
+            yield k, w, "uleb", v
+
+
+def merge_runs(samples):
+    # Склеює суміжні однобайтні читання з одного місця коду, якщо довжина такої серії змінна.
+    run_lengths = collections.defaultdict(set)
+    all_runs = []
+    for data, log in samples:
+        runs, i = [], 0
+        while i < len(log):
+            ctx = log[i][2]
+            j = i
+            if log[i][1] == 1:
+                while (j + 1 < len(log) and log[j + 1][1] == 1 and log[j + 1][2] == ctx
+                       and log[j + 1][0] == log[j][0] + 1):
+                    j += 1
+                run_lengths[ctx].add(j - i + 1)
+            runs.append((i, j))
+            i = j + 1
+        all_runs.append(runs)
+    variable = {ctx for ctx, lens in run_lengths.items() if len(lens) > 1}
+    out = []
+    for (data, log), runs in zip(samples, all_runs):
+        merged = []
+        for i, j in runs:
+            pos, ln, ctx = log[i]
+            if ln == 1 and ctx in variable:
+                merged.append((pos, j - i + 1, ctx))
+            else:
+                merged.extend(log[i:j + 1])
+        out.append((data, merged))
+    return out
+
+
 def following(log, i, end):
     # Читання після i: початок ланцюжка, префіксні суми ланцюжка та окремі довжини найближчих читань.
     start, total, prev, sums, singles = None, 0, None, [], []
@@ -49,8 +109,7 @@ def learn_rules(samples):
                 continue
             _, sums, singles = following(log, i, pos + ln)
             sumset = set(sums) | {l for _, l in singles}
-            for k, w, order in candidates(ln):
-                v = int.from_bytes(data[pos + k:pos + k + w], order)
+            for k, w, order, v in read_candidates(data, pos, ln):
                 key = (ctx, ln, k, w, order)
                 stat[key][0] += 1
                 if v >= MIN_VAL and v in sumset:
@@ -81,6 +140,8 @@ def widen(chosen, samples):
     for site, rules in chosen.items():
         for idx in range(len(rules)):
             k, w, order, sup = rules[idx]
+            if order == "uleb":
+                continue
             for w2 in (2, 4):
                 if w2 <= w:
                     continue
@@ -126,6 +187,7 @@ def prune(reads):
 
 
 def infer2(samples):
+    samples = merge_runs(samples)
     nfiles = len(samples)
     rules = learn_rules(samples)
 
@@ -142,7 +204,9 @@ def infer2(samples):
         src, tgt = [], []
         for i, (pos, ln, ctx) in enumerate(log):
             for k, w, order, _ in rules.get((ctx, ln), ()):
-                v = int.from_bytes(data[pos + k:pos + k + w], order)
+                v = read_value(data, pos, k, w, order)
+                if v is None:
+                    continue
                 src.append((pos + k, pos + k + w))
                 start, sums, singles = following(log, i, pos + ln)
                 if v >= MIN_VAL and v in sums:
