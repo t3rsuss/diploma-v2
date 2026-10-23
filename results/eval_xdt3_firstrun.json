@@ -1,0 +1,91 @@
+{
+  "code_commit": "780d819a12544c13ee93a988b6457ba9bf9fe004",
+  "v1": {
+    "files": 20,
+    "boundary_precision": 0.8677379480840544,
+    "boundary_recall": 0.8988476312419974,
+    "boundary_f1": 0.8830188679245283,
+    "role_byte_accuracy": 0.9588833585803939,
+    "by_role": {
+      "константа": {
+        "total": 60,
+        "merged": 60
+      },
+      "змінне поле": {
+        "total": 223,
+        "merged": 39,
+        "other": 18,
+        "exact_wrong_role": 163,
+        "exact_correct": 1,
+        "split": 2
+      },
+      "лічильник": {
+        "total": 20,
+        "other": 19,
+        "merged": 1
+      },
+      "тип запису": {
+        "total": 163,
+        "exact_wrong_role": 163
+      },
+      "довжина": {
+        "total": 163,
+        "split": 57,
+        "exact_wrong_role": 30,
+        "exact_correct": 76
+      },
+      "дані (блок)": {
+        "total": 152,
+        "exact_correct": 131,
+        "exact_wrong_role": 16,
+        "split": 5
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 17,
+        "exact_wrong_role": 3
+      }
+    }
+  },
+  "v2": {
+    "files": 20,
+    "boundary_precision": 0.8569682151589242,
+    "boundary_recall": 0.8975672215108835,
+    "boundary_f1": 0.8767979987492184,
+    "role_byte_accuracy": 0.9832287383683186,
+    "by_role": {
+      "константа": {
+        "total": 60,
+        "merged": 60
+      },
+      "змінне поле": {
+        "total": 223,
+        "merged": 40,
+        "split": 20,
+        "exact_wrong_role": 163
+      },
+      "лічильник": {
+        "total": 20,
+        "other": 20
+      },
+      "тип запису": {
+        "total": 163,
+        "exact_wrong_role": 47,
+        "exact_correct": 116
+      },
+      "довжина": {
+        "total": 163,
+        "split": 57,
+        "exact_correct": 106
+      },
+      "дані (блок)": {
+        "total": 152,
+        "exact_correct": 152
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 20
+      }
+    }
+  }
+}
