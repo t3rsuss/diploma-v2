@@ -1,4 +1,4 @@
-﻿numpy==2.4.6
+numpy==2.4.6
 pandas==3.0.6
 scikit-learn==1.9.1
 lightgbm==4.7.0
@@ -10,7 +10,7 @@ matplotlib==3.11.2
 streamlit==1.65.0
 tqdm==4.70.1
 pytest==9.1.1
-thrember @ git+https://github.com/FutureComputing4AI/EMBER2024.gitkaitaistruct
+thrember @ git+https://github.com/FutureComputing4AI/EMBER2024.git
 kaitaistruct==0.11
 magika==1.0.3
 onnxruntime==1.31.0
