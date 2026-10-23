@@ -1,4 +1,4 @@
-﻿"""Пошук прихованих даних за слідом читання.
+"""Пошук прихованих даних за слідом читання.
 
 Ідея: легітимна програма-читач не торкається частини байтів файла (дописаний хвіст, пропущені блоки).
 Якщо в таких ділянках знайдено виконувані файли, архіви чи інші вкладені об'єкти, файл підозрілий.
@@ -46,7 +46,7 @@ def is_elf(data, off):
     return len(h) == 7 and h[:4] == b"\x7fELF" and h[4] in (1, 2) and h[5] in (1, 2) and h[6] == 1
 
 
-def find_signatures(data, start, end):
+def _find_signatures_local(data, start, end):
     hits = []
     i = data.find(b"MZ", start, end)
     while i != -1:
@@ -66,6 +66,16 @@ def find_signatures(data, start, end):
     return sorted(hits, key=lambda h: h["offset"])
 
 
+def find_signatures(data, start, end):
+    if not 0 <= start <= end <= len(data):
+        raise ValueError("Invalid scan interval")
+    region = data[start:end]
+    return [
+        {**hit, "offset": start + hit["offset"]}
+        for hit in _find_signatures_local(region, 0, len(region))
+    ]
+
+
 def unread_regions(size, reads):
     covered = sorted((max(0, p), min(size, p + l)) for p, l in reads if l > 0)
     regions, cursor = [], 0
@@ -82,7 +92,8 @@ def scan(data, log, min_region=MIN_REGION):
     """log: список читань (pos, len, ctx) або (pos, len)."""
     reads = [(r[0], r[1]) for r in log]
     findings, level = [], "low"
-    for a, b in unread_regions(len(data), reads):
+    all_unread = unread_regions(len(data), reads)
+    for a, b in all_unread:
         if b - a < min_region:
             continue
         ent = entropy(data[a:b])
@@ -99,7 +110,11 @@ def scan(data, log, min_region=MIN_REGION):
             level = region_level
     return {
         "file_size": len(data),
-        "unread_bytes": sum(f["size"] for f in findings),
+        "unread_bytes": sum(b - a for a, b in all_unread),
+        "scanned_unread_bytes": sum(f["size"] for f in findings),
+        "skipped_unread_bytes": sum(
+            b - a for a, b in all_unread if b - a < min_region
+        ),
         "regions": findings,
         "level": level,
     }

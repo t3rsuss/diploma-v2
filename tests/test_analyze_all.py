@@ -240,3 +240,26 @@ def test_joint_report_contains_field_details(tmp_path, monkeypatch):
         assert field["context"]
         assert field["hex"] == data[a:min(b, a + 8)].hex()
         assert len(field["hex"]) <= 16
+
+
+def test_inference_count_mismatch_is_not_silent(tmp_path, monkeypatch):
+    import pytest
+    import analyze_all as cli
+
+    monkeypatch.setattr(cfg1, "OUT", tmp_path / "samples")
+    monkeypatch.setattr(cfg1, "LABELS", tmp_path / "labels.json")
+    folder, _ = cfg1.generate(n_benign=5, n_mal=0)
+    monkeypatch.setattr(cli.RB.INF2, "infer2", lambda samples: [])
+
+    audit = []
+    with pytest.raises(ValueError, match="Inference result count mismatch"):
+        analyze_set(
+            [str(folder)],
+            reader="demo.cfg1:parse_file",
+            sample_audit=audit,
+        )
+
+    assert not any(
+        entry["stage"] == "inference" and entry["status"] == "used"
+        for entry in audit
+    )

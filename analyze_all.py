@@ -142,6 +142,11 @@ def analyze_set(sample_paths, targets=(), fmt=None, reader=None, limit=40, sampl
         )
 
     inferred = RB.INF2.infer2([(data, log) for _, data, log in items])
+    if len(inferred) != len(items):
+        raise ValueError(
+            f"Inference result count mismatch: expected {len(items)}, "
+            f"got {len(inferred)}"
+        )
     for path, _, _ in items:
         audit_event(audit, path, "inference", "used")
 
