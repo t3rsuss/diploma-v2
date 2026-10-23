@@ -1,0 +1,1049 @@
+[
+  {
+    "file": "mal_29.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "pe",
+      "block": [
+        11,
+        364
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "вбудований PE-файл",
+        "severity": "високий",
+        "detail": "заголовки MZ і PE на коректних зсувах",
+        "block": [
+          11,
+          364
+        ]
+      },
+      {
+        "offset": 367,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/alpha",
+        "block": [
+          367,
+          395
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_23.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        11,
+        541
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.60 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          11,
+          541
+        ]
+      },
+      {
+        "offset": 544,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/relay",
+        "block": [
+          544,
+          572
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_30.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        1551,
+        1913
+      ]
+    },
+    "findings": [
+      {
+        "offset": 1510,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/node",
+        "block": [
+          1510,
+          1538
+        ]
+      },
+      {
+        "offset": 1551,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0x85, після декодування заголовки MZ і PE коректні",
+        "block": [
+          1551,
+          1913
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_16.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign_module",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 33,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          33,
+          61
+        ]
+      },
+      {
+        "offset": 71,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.38 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          71,
+          417
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_05.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": []
+  },
+  {
+    "file": "ok_04.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": []
+  },
+  {
+    "file": "ok_10.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 2434,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/sigma",
+        "block": [
+          2434,
+          2462
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_31.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        45,
+        511
+      ]
+    },
+    "findings": [
+      {
+        "offset": 45,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0x19, після декодування заголовки MZ і PE коректні",
+        "block": [
+          45,
+          511
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_24.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        64,
+        484
+      ]
+    },
+    "findings": [
+      {
+        "offset": 33,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/relay",
+        "block": [
+          33,
+          61
+        ]
+      },
+      {
+        "offset": 64,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.57 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          64,
+          484
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_12.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          11,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_01.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 18,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/delta",
+        "block": [
+          18,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_08.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          11,
+          39
+        ]
+      },
+      {
+        "offset": 147,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/omega",
+        "block": [
+          147,
+          175
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_03.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign_module",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 153,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.33 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          153,
+          517
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_38.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        3852,
+        4333
+      ]
+    },
+    "findings": [
+      {
+        "offset": 3852,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.56 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          3852,
+          4333
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_32.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        60,
+        731
+      ]
+    },
+    "findings": [
+      {
+        "offset": 60,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0x5e, після декодування заголовки MZ і PE коректні",
+        "block": [
+          60,
+          731
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_14.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign_module",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.54 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          11,
+          474
+        ]
+      },
+      {
+        "offset": 533,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/gamma",
+        "block": [
+          533,
+          561
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_15.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 33,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/gamma",
+        "block": [
+          33,
+          61
+        ]
+      },
+      {
+        "offset": 69,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/sigma",
+        "block": [
+          69,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_06.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 2492,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/alpha",
+        "block": [
+          2492,
+          2520
+        ]
+      },
+      {
+        "offset": 2523,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/delta",
+        "block": [
+          2523,
+          2551
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_33.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        33,
+        617
+      ]
+    },
+    "findings": [
+      {
+        "offset": 33,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0xb3, після декодування заголовки MZ і PE коректні",
+        "block": [
+          33,
+          617
+        ]
+      },
+      {
+        "offset": 2788,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/delta",
+        "block": [
+          2788,
+          2816
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_02.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/node",
+        "block": [
+          11,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_00.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/echo",
+        "block": [
+          11,
+          39
+        ]
+      },
+      {
+        "offset": 1418,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          1418,
+          1446
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_11.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 55,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          55,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_17.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 76,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/node",
+        "block": [
+          76,
+          104
+        ]
+      },
+      {
+        "offset": 107,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/gamma",
+        "block": [
+          107,
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_09.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign_module",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 3837,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/delta",
+        "block": [
+          3837,
+          3865
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_39.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        11,
+        640
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.68 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          11,
+          640
+        ]
+      },
+      {
+        "offset": 643,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/alpha",
+        "block": [
+          643,
+          671
+        ]
+      },
+      {
+        "offset": 2543,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/sigma",
+        "block": [
+          2543,
+          2571
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_36.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "pe",
+      "block": [
+        11,
+        476
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "вбудований PE-файл",
+        "severity": "високий",
+        "detail": "заголовки MZ і PE на коректних зсувах",
+        "block": [
+          11,
+          476
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_19.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign_module",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/omega",
+        "block": [
+          11,
+          39
+        ]
+      },
+      {
+        "offset": 2579,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          2579,
+          2607
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_13.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": []
+  },
+  {
+    "file": "mal_22.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        119,
+        643
+      ]
+    },
+    "findings": [
+      {
+        "offset": 61,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/omega",
+        "block": [
+          61,
+          89
+        ]
+      },
+      {
+        "offset": 119,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0x06, після декодування заголовки MZ і PE коректні",
+        "block": [
+          119,
+          643
+        ]
+      },
+      {
+        "offset": 646,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/relay",
+        "block": [
+          646,
+          674
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_20.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        87,
+        752
+      ]
+    },
+    "findings": [
+      {
+        "offset": 87,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0x8c, після декодування заголовки MZ і PE коректні",
+        "block": [
+          87,
+          752
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_18.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 113,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/gamma",
+        "block": [
+          113,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ok_07.cfg",
+    "label": {
+      "malicious": false,
+      "kind": "benign",
+      "block": null
+    },
+    "findings": [
+      {
+        "offset": 37,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/relay",
+        "block": [
+          37,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_25.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "pe",
+      "block": [
+        2387,
+        2925
+      ]
+    },
+    "findings": [
+      {
+        "offset": 2387,
+        "kind": "вбудований PE-файл",
+        "severity": "високий",
+        "detail": "заголовки MZ і PE на коректних зсувах",
+        "block": [
+          2387,
+          2925
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_26.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        81,
+        446
+      ]
+    },
+    "findings": [
+      {
+        "offset": 81,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.46 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          81,
+          446
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_28.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        87,
+        649
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/gamma",
+        "block": [
+          11,
+          39
+        ]
+      },
+      {
+        "offset": 42,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/omega",
+        "block": [
+          42,
+          70
+        ]
+      },
+      {
+        "offset": 87,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.58 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          87,
+          649
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_34.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        56,
+        494
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/node",
+        "block": [
+          11,
+          39
+        ]
+      },
+      {
+        "offset": 56,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0xce, після декодування заголовки MZ і PE коректні",
+        "block": [
+          56,
+          494
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_35.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        21,
+        559
+      ]
+    },
+    "findings": [
+      {
+        "offset": 21,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.61 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          21,
+          559
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_37.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "xor_pe",
+      "block": [
+        2103,
+        2569
+      ]
+    },
+    "findings": [
+      {
+        "offset": 11,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/sigma",
+        "block": [
+          11,
+          39
+        ]
+      },
+      {
+        "offset": 2103,
+        "kind": "PE-файл, закодований XOR",
+        "severity": "високий",
+        "detail": "ключ 0xe5, після декодування заголовки MZ і PE коректні",
+        "block": [
+          2103,
+          2569
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_21.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "encrypted",
+      "block": [
+        59,
+        366
+      ]
+    },
+    "findings": [
+      {
+        "offset": 28,
+        "kind": "URL у даних",
+        "severity": "низький",
+        "detail": "https://example.org/cache",
+        "block": [
+          28,
+          56
+        ]
+      },
+      {
+        "offset": 59,
+        "kind": "блок з високою ентропією",
+        "severity": "середній",
+        "detail": "ентропія 7.34 біт/байт: стиснені або зашифровані дані",
+        "block": [
+          59,
+          366
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mal_27.cfg",
+    "label": {
+      "malicious": true,
+      "kind": "pe",
+      "block": [
+        16,
+        672
+      ]
+    },
+    "findings": [
+      {
+        "offset": 16,
+        "kind": "вбудований PE-файл",
+        "severity": "високий",
+        "detail": "заголовки MZ і PE на коректних зсувах",
+        "block": [
+          16,
+          672
+        ]
+      }
+    ]
+  }
+]
