@@ -45,6 +45,8 @@ def analyze_set(sample_paths, targets=(), fmt=None, reader=None, limit=40):
         if path not in target_paths and used_samples >= limit:
             continue
         try:
+            if not 16 <= path.stat().st_size <= 300_000:
+                raise ValueError("Supported file size: 16..300000 bytes")
             data = path.read_bytes()
             if not 16 <= len(data) <= 300_000:
                 raise ValueError("Supported file size: 16..300000 bytes")
