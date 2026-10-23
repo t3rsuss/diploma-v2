@@ -1,5 +1,667 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "run_status": "ok",
+  "run_error": null,
+  "sample_audit": [
+    {
+      "file": "4c4feac856a2.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4c4feac856a2.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "1a635253464a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\1a635253464a.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "4eb87fe9730c.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4eb87fe9730c.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "d977d8ab2178.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d977d8ab2178.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "a762a3621325.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a762a3621325.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "a28b6322227f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a28b6322227f.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "be5fc037c77d.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\be5fc037c77d.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "540a0a9da01a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\540a0a9da01a.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "2b69bef2df25.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\2b69bef2df25.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "c53bbd0bc573.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\c53bbd0bc573.png",
+      "stage": "collection",
+      "status": "rejected",
+      "reason": "Supported file size: 16..300000 bytes; got 608169"
+    },
+    {
+      "file": "95c436b59012.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\95c436b59012.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "bd539f3d18bd.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd539f3d18bd.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "98b7c72352f3.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\98b7c72352f3.png",
+      "stage": "collection",
+      "status": "rejected",
+      "reason": "Supported file size: 16..300000 bytes; got 2880160"
+    },
+    {
+      "file": "7bbbcd756105.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7bbbcd756105.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "5eb97f5ef4e1.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\5eb97f5ef4e1.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "d491a77afbbe.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d491a77afbbe.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "d5ce4dff1212.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d5ce4dff1212.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "b08e6affc79e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\b08e6affc79e.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "685e2ed6e72f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\685e2ed6e72f.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "968a878fc01e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\968a878fc01e.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "8330ffcbc367.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\8330ffcbc367.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "c08b1b157991.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\c08b1b157991.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ecd0726058ec.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\ecd0726058ec.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "bd57f34d8302.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd57f34d8302.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "7cc4d54237b4.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7cc4d54237b4.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "6b8f3bd079c7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\6b8f3bd079c7.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "f774cb382feb.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\f774cb382feb.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "d1e149dcb378.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d1e149dcb378.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "0ef84d951ad3.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\0ef84d951ad3.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "057a3eb3ae48.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\057a3eb3ae48.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "edded01d34a8.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\edded01d34a8.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "bcb72c9edec7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bcb72c9edec7.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "306ddc11ee16.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\306ddc11ee16.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "31c332f584ad.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\31c332f584ad.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "4938ed44d7d6.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4938ed44d7d6.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "697345f970a6.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\697345f970a6.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "697b7c7c588f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\697b7c7c588f.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "77399f902895.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\77399f902895.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "07f9ed55e667.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\07f9ed55e667.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "43c31d2748eb.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\43c31d2748eb.png",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "4c4feac856a2.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4c4feac856a2.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "1a635253464a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\1a635253464a.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "4eb87fe9730c.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4eb87fe9730c.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "d977d8ab2178.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d977d8ab2178.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "a762a3621325.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a762a3621325.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "a28b6322227f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a28b6322227f.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "be5fc037c77d.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\be5fc037c77d.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "540a0a9da01a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\540a0a9da01a.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "2b69bef2df25.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\2b69bef2df25.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "95c436b59012.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\95c436b59012.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "bd539f3d18bd.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd539f3d18bd.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "7bbbcd756105.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7bbbcd756105.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "5eb97f5ef4e1.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\5eb97f5ef4e1.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "d491a77afbbe.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d491a77afbbe.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "d5ce4dff1212.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d5ce4dff1212.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "b08e6affc79e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\b08e6affc79e.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "685e2ed6e72f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\685e2ed6e72f.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "968a878fc01e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\968a878fc01e.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "8330ffcbc367.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\8330ffcbc367.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "c08b1b157991.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\c08b1b157991.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ecd0726058ec.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\ecd0726058ec.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "bd57f34d8302.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd57f34d8302.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "7cc4d54237b4.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7cc4d54237b4.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "6b8f3bd079c7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\6b8f3bd079c7.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "f774cb382feb.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\f774cb382feb.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "d1e149dcb378.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d1e149dcb378.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "0ef84d951ad3.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\0ef84d951ad3.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "057a3eb3ae48.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\057a3eb3ae48.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "edded01d34a8.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\edded01d34a8.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "bcb72c9edec7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bcb72c9edec7.png",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "306ddc11ee16.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\306ddc11ee16.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "31c332f584ad.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\31c332f584ad.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "4938ed44d7d6.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4938ed44d7d6.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "697345f970a6.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\697345f970a6.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "697b7c7c588f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\697b7c7c588f.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "77399f902895.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\77399f902895.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "07f9ed55e667.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\07f9ed55e667.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "43c31d2748eb.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\43c31d2748eb.png",
+      "stage": "reading",
+      "status": "skipped",
+      "reason": "sample_limit"
+    },
+    {
+      "file": "4c4feac856a2.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4c4feac856a2.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "1a635253464a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\1a635253464a.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "4eb87fe9730c.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\4eb87fe9730c.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "d977d8ab2178.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d977d8ab2178.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "a762a3621325.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a762a3621325.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "a28b6322227f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\a28b6322227f.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "be5fc037c77d.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\be5fc037c77d.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "540a0a9da01a.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\540a0a9da01a.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "2b69bef2df25.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\2b69bef2df25.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "95c436b59012.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\95c436b59012.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "bd539f3d18bd.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd539f3d18bd.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "7bbbcd756105.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7bbbcd756105.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "5eb97f5ef4e1.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\5eb97f5ef4e1.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "d491a77afbbe.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d491a77afbbe.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "d5ce4dff1212.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d5ce4dff1212.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "b08e6affc79e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\b08e6affc79e.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "685e2ed6e72f.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\685e2ed6e72f.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "968a878fc01e.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\968a878fc01e.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "8330ffcbc367.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\8330ffcbc367.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "c08b1b157991.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\c08b1b157991.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ecd0726058ec.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\ecd0726058ec.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "bd57f34d8302.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bd57f34d8302.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "7cc4d54237b4.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\7cc4d54237b4.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "6b8f3bd079c7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\6b8f3bd079c7.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "f774cb382feb.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\f774cb382feb.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "d1e149dcb378.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\d1e149dcb378.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "0ef84d951ad3.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\0ef84d951ad3.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "057a3eb3ae48.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\057a3eb3ae48.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "edded01d34a8.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\edded01d34a8.png",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "bcb72c9edec7.png",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\data\\corpus\\png\\bcb72c9edec7.png",
+      "stage": "inference",
+      "status": "used"
+    }
+  ],
   "risk_policy": "v2_entropy_in_read_blocks_is_informational",
   "mode": "joint_sample_inference",
   "limitations": [

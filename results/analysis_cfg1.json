@@ -1,5 +1,729 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "run_status": "ok",
+  "run_error": null,
+  "sample_audit": [
+    {
+      "file": "mal_29.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_29.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_23.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_23.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_30.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_30.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_16.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_16.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_05.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_05.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_04.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_04.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_10.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_10.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_31.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_31.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_24.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_24.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_12.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_12.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_01.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_01.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_08.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_08.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_03.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_03.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_38.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_38.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_32.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_32.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_14.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_14.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_15.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_15.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_06.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_06.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_33.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_33.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_02.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_02.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_00.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_00.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_11.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_11.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_17.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_17.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_09.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_09.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_39.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_39.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_36.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_36.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_19.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_19.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_13.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_13.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_22.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_22.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_20.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_20.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_18.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_18.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "ok_07.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_07.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_25.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_25.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_26.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_26.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_28.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_28.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_34.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_34.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_35.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_35.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_37.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_37.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_21.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_21.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_27.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_27.cfg",
+      "stage": "collection",
+      "status": "selected"
+    },
+    {
+      "file": "mal_25.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_25.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_05.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_05.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_29.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_29.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_23.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_23.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_30.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_30.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_16.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_16.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_04.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_04.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_10.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_10.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_31.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_31.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_24.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_24.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_12.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_12.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_01.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_01.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_08.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_08.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_03.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_03.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_38.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_38.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_32.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_32.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_14.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_14.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_15.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_15.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_06.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_06.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_33.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_33.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_02.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_02.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_00.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_00.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_11.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_11.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_17.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_17.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_09.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_09.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_39.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_39.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_36.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_36.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_19.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_19.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_13.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_13.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_22.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_22.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_20.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_20.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_18.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_18.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "ok_07.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_07.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_26.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_26.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_28.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_28.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_34.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_34.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_35.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_35.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_37.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_37.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_21.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_21.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_27.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_27.cfg",
+      "stage": "reading",
+      "status": "accepted"
+    },
+    {
+      "file": "mal_25.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_25.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_05.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_05.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_29.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_29.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_23.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_23.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_30.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_30.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_16.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_16.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_04.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_04.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_10.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_10.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_31.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_31.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_24.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_24.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_12.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_12.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_01.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_01.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_08.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_08.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_03.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_03.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_38.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_38.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_32.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_32.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_14.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_14.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_15.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_15.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_06.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_06.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_33.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_33.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_02.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_02.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_00.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_00.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_11.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_11.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_17.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_17.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_09.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_09.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_39.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_39.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_36.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_36.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_19.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_19.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_13.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_13.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_22.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_22.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_20.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_20.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_18.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_18.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "ok_07.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\ok_07.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_26.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_26.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_28.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_28.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_34.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_34.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_35.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_35.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_37.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_37.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_21.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_21.cfg",
+      "stage": "inference",
+      "status": "used"
+    },
+    {
+      "file": "mal_27.cfg",
+      "path": "C:\\Users\\vlad\\Desktop\\diploma-v2\\demo\\samples_cfg1\\mal_27.cfg",
+      "stage": "inference",
+      "status": "used"
+    }
+  ],
   "risk_policy": "v2_entropy_in_read_blocks_is_informational",
   "mode": "joint_sample_inference",
   "limitations": [

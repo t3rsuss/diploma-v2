@@ -103,3 +103,114 @@ def test_missing_target_is_reported(tmp_path, monkeypatch):
     assert len(reports) == 1
     assert reports[0]["status"] == "error"
     assert "FileNotFoundError" in reports[0]["error"]
+
+
+def test_collection_audits_rejected_files(tmp_path):
+    from analyze_all import collect_with_audit
+
+    valid = tmp_path / "valid.bin"
+    valid.write_bytes(b"A" * 16)
+    small = tmp_path / "small.bin"
+    small.write_bytes(b"A")
+    missing = tmp_path / "missing.bin"
+    audit = []
+
+    selected = collect_with_audit(
+        [str(valid), str(small), str(missing)], 10, audit,
+    )
+
+    assert selected == [valid]
+    indexed = {entry["file"]: entry for entry in audit}
+    assert indexed["valid.bin"]["status"] == "selected"
+    assert indexed["small.bin"]["status"] == "rejected"
+    assert "Supported file size" in indexed["small.bin"]["reason"]
+    assert "FileNotFoundError" in indexed["missing.bin"]["reason"]
+
+
+def test_collection_audits_candidate_limit(tmp_path):
+    from analyze_all import collect_with_audit
+
+    for i in range(4):
+        (tmp_path / f"{i}.bin").write_bytes(b"A" * 16)
+
+    audit = []
+    selected = collect_with_audit([str(tmp_path)], 2, audit)
+
+    assert len(selected) == 2
+    skipped = [
+        entry for entry in audit
+        if entry.get("reason") == "candidate_limit"
+    ]
+    assert len(skipped) == 2
+
+
+def test_sample_audit_survives_target_filter(tmp_path, monkeypatch):
+    monkeypatch.setattr(cfg1, "OUT", tmp_path / "samples")
+    monkeypatch.setattr(cfg1, "LABELS", tmp_path / "labels.json")
+    folder, labels = cfg1.generate()
+
+    target = folder / next(iter(labels))
+    rejected = folder / "too_small.cfg"
+    rejected.write_bytes(b"A")
+    audit = []
+
+    reports = analyze_set(
+        [str(folder)], [str(target)],
+        reader="demo.cfg1:parse_file",
+        sample_audit=audit,
+    )
+
+    assert len(reports) == 1
+    assert reports[0]["file"] == target.name
+    assert any(
+        entry["file"] == rejected.name
+        and entry["status"] == "rejected"
+        for entry in audit
+    )
+    assert any(
+        entry["file"] != target.name
+        and entry["stage"] == "inference"
+        and entry["status"] == "used"
+        for entry in audit
+    )
+
+
+def test_cli_saves_audit_when_readable_samples_are_insufficient(
+    tmp_path, monkeypatch,
+):
+    import json
+    import sys
+    import pytest
+    import analyze_all as cli
+
+    sample = tmp_path / "sample.bin"
+    sample.write_bytes(b"A" * 16)
+    output = tmp_path / "results" / "failed_analysis.json"
+
+    monkeypatch.setattr(
+        cli.RB.CTX, "run_ctx",
+        lambda fmt, data: [],
+    )
+    monkeypatch.setattr(sys, "argv", [
+        "analyze_all.py",
+        "--samples", str(sample),
+        "--format", "png",
+        "--out", str(output),
+    ])
+
+    with pytest.raises(SystemExit) as exc:
+        cli.main()
+
+    assert exc.value.code == 1
+    payload = json.loads(output.read_text(encoding="utf-8"))
+    assert payload["schema_version"] == 2
+    assert payload["run_status"] == "error"
+    assert "Need at least 5 readable files" in payload["run_error"]
+    assert payload["reports"] == []
+    assert any(
+        entry["file"] == sample.name
+        and entry["stage"] == "reading"
+        and entry["status"] == "rejected"
+        and "Reader produced no read events" in entry["reason"]
+        for entry in payload["sample_audit"]
+    )
