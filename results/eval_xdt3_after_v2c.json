@@ -1,0 +1,43 @@
+{
+  "code_commit": "815ca547b9162f7b9c5ea2d593cd10d16a1e6e16",
+  "v2": {
+    "files": 20,
+    "boundary_precision": 0.9211563731931669,
+    "boundary_recall": 0.8975672215108835,
+    "boundary_f1": 0.9092088197146564,
+    "role_byte_accuracy": 0.9850681670634062,
+    "by_role": {
+      "константа": {
+        "total": 60,
+        "merged": 60
+      },
+      "змінне поле": {
+        "total": 223,
+        "merged": 40,
+        "split": 20,
+        "exact_wrong_role": 163
+      },
+      "лічильник": {
+        "total": 20,
+        "other": 20
+      },
+      "тип запису": {
+        "total": 163,
+        "exact_wrong_role": 13,
+        "exact_correct": 150
+      },
+      "довжина": {
+        "total": 163,
+        "exact_correct": 163
+      },
+      "дані (блок)": {
+        "total": 152,
+        "exact_correct": 152
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 20
+      }
+    }
+  }
+}
