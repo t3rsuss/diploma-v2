@@ -10,6 +10,7 @@ import argparse
 import collections
 import importlib
 import json
+import os
 import pathlib
 import random
 import sys
@@ -20,6 +21,7 @@ sys.path.insert(0, str(pathlib.Path.cwd()))
 
 import e17_inference as INF
 import e18_context as CTX
+import e20_infer2 as INF2
 
 CTX.GENERIC.add("_trace_custom")
 
@@ -58,7 +60,8 @@ def label_for(a, b, log):
     return "(не читалось)"
 
 
-def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_000):
+def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_000, engine=None):
+    engine = engine or os.environ.get("REBIN_ENGINE", "v2")
     func = load_reader(reader) if reader else None
     if not (fmt or func):
         raise SystemExit("потрібно вказати --format або --reader")
@@ -78,7 +81,10 @@ def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_00
         names.append(p.name)
     if len(samples) < 5:
         raise SystemExit(f"замало придатних файлів: {len(samples)} (потрібно хоча б 5)")
-    inferred = INF.infer(samples)
+    if engine == "v2":
+        inferred = INF2.infer2([(s[0], lg) for s, lg in zip(samples, logs)])
+    else:
+        inferred = INF.infer(samples)
 
     audits = []
     for name, (data, log), fields in zip(names, samples, inferred):
@@ -99,6 +105,7 @@ def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_00
     ]
     return {
         "files": len(samples),
+        "engine": engine,
         "example_file": names[0],
         "interval_audit": audits[0],
         "interval_audits": audits,
@@ -109,6 +116,10 @@ def analyze(paths, fmt=None, reader=None, limit=30, min_size=64, max_size=300_00
         ],
         "role_byte_share": {k: round(v / tot, 4) for k, v in roles.most_common()},
         "example_fields": first,
+        "all_fields": [
+            {"file": n, "fields": [[a, b, r] for a, b, r in f]}
+            for n, f in zip(names, inferred)
+        ],
     }
 
 
@@ -131,9 +142,10 @@ def main():
     ap.add_argument("--format", choices=["png", "gif", "ico", "wav", "gz", "docx"], help="вбудований читач")
     ap.add_argument("--reader", help="власний читач: модуль:функція (приймає файловий об'єкт)")
     ap.add_argument("--limit", type=int, default=30)
+    ap.add_argument("--engine", choices=["v1", "v2"], default=None)
     ap.add_argument("--out", help="шлях JSON-звіту")
     a = ap.parse_args()
-    rep = analyze(a.paths, a.format, a.reader, a.limit)
+    rep = analyze(a.paths, a.format, a.reader, a.limit, engine=a.engine)
     show(rep)
     if a.out:
         pathlib.Path(a.out).parent.mkdir(parents=True, exist_ok=True)

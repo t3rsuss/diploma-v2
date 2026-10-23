@@ -1,0 +1,38 @@
+{
+  "files": 20,
+  "boundary_precision": 1.0,
+  "boundary_recall": 0.955456570155902,
+  "boundary_f1": 0.9772209567198178,
+  "role_byte_accuracy": 0.9985927238611487,
+  "by_role": {
+    "константа": {
+      "total": 40,
+      "merged": 40
+    },
+    "лічильник": {
+      "total": 20,
+      "exact_correct": 20
+    },
+    "змінне поле": {
+      "total": 20,
+      "exact_correct": 20
+    },
+    "тип запису": {
+      "total": 123,
+      "exact_correct": 123
+    },
+    "довжина": {
+      "total": 123,
+      "exact_correct": 123
+    },
+    "дані (блок)": {
+      "total": 123,
+      "exact_correct": 122,
+      "exact_wrong_role": 1
+    },
+    "CRC-32": {
+      "total": 20,
+      "exact_correct": 20
+    }
+  }
+}

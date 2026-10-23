@@ -1,0 +1,167 @@
+[
+  {
+    "format": "XDT1",
+    "engine": "v1",
+    "files": 20,
+    "boundary_precision": 1.0,
+    "boundary_recall": 0.955456570155902,
+    "boundary_f1": 0.9772209567198178,
+    "role_byte_accuracy": 0.9985927238611487,
+    "by_role": {
+      "константа": {
+        "total": 40,
+        "merged": 40
+      },
+      "лічильник": {
+        "total": 20,
+        "exact_correct": 20
+      },
+      "змінне поле": {
+        "total": 20,
+        "exact_correct": 20
+      },
+      "тип запису": {
+        "total": 123,
+        "exact_correct": 123
+      },
+      "довжина": {
+        "total": 123,
+        "exact_correct": 123
+      },
+      "дані (блок)": {
+        "total": 123,
+        "exact_correct": 122,
+        "exact_wrong_role": 1
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 20
+      }
+    }
+  },
+  {
+    "format": "XDT1",
+    "engine": "v2",
+    "files": 20,
+    "boundary_precision": 1.0,
+    "boundary_recall": 0.955456570155902,
+    "boundary_f1": 0.9772209567198178,
+    "role_byte_accuracy": 1.0,
+    "by_role": {
+      "константа": {
+        "total": 40,
+        "merged": 40
+      },
+      "лічильник": {
+        "total": 20,
+        "exact_correct": 20
+      },
+      "змінне поле": {
+        "total": 20,
+        "exact_correct": 20
+      },
+      "тип запису": {
+        "total": 123,
+        "exact_correct": 123
+      },
+      "довжина": {
+        "total": 123,
+        "exact_correct": 123
+      },
+      "дані (блок)": {
+        "total": 123,
+        "exact_correct": 123
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 20
+      }
+    }
+  },
+  {
+    "format": "XDT2",
+    "engine": "v1",
+    "files": 20,
+    "boundary_precision": 0.9536082474226805,
+    "boundary_recall": 0.9343434343434344,
+    "boundary_f1": 0.9438775510204083,
+    "role_byte_accuracy": 0.9425332290852229,
+    "by_role": {
+      "константа": {
+        "total": 60,
+        "merged": 40,
+        "exact_correct": 20
+      },
+      "змінне поле": {
+        "total": 40,
+        "exact_correct": 21,
+        "merged": 18,
+        "other": 1
+      },
+      "лічильник": {
+        "total": 20,
+        "other": 18,
+        "exact_wrong_role": 2
+      },
+      "тип запису": {
+        "total": 161,
+        "exact_wrong_role": 161
+      },
+      "довжина": {
+        "total": 161,
+        "exact_wrong_role": 49,
+        "exact_correct": 112
+      },
+      "дані (блок)": {
+        "total": 152,
+        "exact_wrong_role": 43,
+        "exact_correct": 104,
+        "split": 5
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 20
+      }
+    }
+  },
+  {
+    "format": "XDT2",
+    "engine": "v2",
+    "files": 20,
+    "boundary_precision": 1.0,
+    "boundary_recall": 0.9663299663299664,
+    "boundary_f1": 0.9828767123287672,
+    "role_byte_accuracy": 1.0,
+    "by_role": {
+      "константа": {
+        "total": 60,
+        "merged": 40,
+        "exact_correct": 20
+      },
+      "змінне поле": {
+        "total": 40,
+        "exact_correct": 40
+      },
+      "лічильник": {
+        "total": 20,
+        "exact_correct": 20
+      },
+      "тип запису": {
+        "total": 161,
+        "exact_correct": 161
+      },
+      "довжина": {
+        "total": 161,
+        "exact_correct": 161
+      },
+      "дані (блок)": {
+        "total": 152,
+        "exact_correct": 152
+      },
+      "CRC-32": {
+        "total": 20,
+        "exact_correct": 20
+      }
+    }
+  }
+]
