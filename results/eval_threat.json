@@ -1,0 +1,69 @@
+[
+  {
+    "format": "png",
+    "variant": "clean",
+    "files": 19,
+    "low": 19
+  },
+  {
+    "format": "png",
+    "variant": "tail_pe",
+    "files": 19,
+    "high": 19
+  },
+  {
+    "format": "png",
+    "variant": "tail_elf",
+    "files": 19,
+    "high": 19
+  },
+  {
+    "format": "png",
+    "variant": "tail_zip",
+    "files": 19,
+    "mid": 19
+  },
+  {
+    "format": "png",
+    "variant": "tail_random",
+    "files": 19,
+    "mid": 19
+  },
+  {
+    "format": "wav",
+    "variant": "clean",
+    "files": 22,
+    "low": 22
+  },
+  {
+    "format": "wav",
+    "variant": "tail_pe",
+    "files": 22,
+    "high": 22
+  },
+  {
+    "format": "wav",
+    "variant": "tail_elf",
+    "files": 22,
+    "high": 22
+  },
+  {
+    "format": "wav",
+    "variant": "tail_zip",
+    "files": 22,
+    "mid": 22
+  },
+  {
+    "format": "wav",
+    "variant": "tail_random",
+    "files": 22,
+    "low": 5,
+    "mid": 17
+  },
+  {
+    "format": "wav",
+    "variant": "junk_pe",
+    "files": 22,
+    "high": 22
+  }
+]
