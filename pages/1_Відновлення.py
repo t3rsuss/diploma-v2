@@ -1,4 +1,4 @@
-﻿"""Інтерфейс спільного аналізу структури за програмою-читачем."""
+"""Інтерфейс спільного аналізу структури за програмою-читачем."""
 import hashlib
 import json
 import pathlib
@@ -189,7 +189,7 @@ if payload:
             "context": "пов'язане місце читання",
             "hex": "перші байти (hex)",
         })
-        st.dataframe(fields, hide_index=True, use_container_width=True)
+        st.dataframe(fields, hide_index=True, width="stretch")
 
         with st.expander("Покриття та коректність інтервалів"):
             st.json(report["interval_audit"])
@@ -201,7 +201,7 @@ if payload:
             st.dataframe(
                 pd.DataFrame(findings),
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
             )
         else:
             st.info("У відновлених блоках індикаторів не виявлено.")
@@ -212,7 +212,7 @@ if payload:
     if bad:
         st.subheader("Файли, які не вдалося проаналізувати")
         st.dataframe(
-            pd.DataFrame(bad), hide_index=True, use_container_width=True,
+            pd.DataFrame(bad), hide_index=True, width="stretch",
         )
 
     with st.expander("Журнал приймання та обробки зразків"):
@@ -220,13 +220,13 @@ if payload:
         st.dataframe(
             pd.DataFrame(payload["upload_audit"]),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
         st.write("Відбір, читання та участь у відновленні")
         st.dataframe(
             pd.DataFrame(payload["sample_audit"]),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
     with st.expander("Обмеження методу"):
