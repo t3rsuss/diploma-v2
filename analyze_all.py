@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "experiments"))
 
 import rebin as RB
+from length_evidence import explain_lengths
 from block_scan import scan_file
 from recovery_audit import audit_intervals
 from threat_scan import scan as scan_unread
@@ -150,7 +151,13 @@ def analyze_set(sample_paths, targets=(), fmt=None, reader=None, limit=40, sampl
     for path, _, _ in items:
         audit_event(audit, path, "inference", "used")
 
-    for (path, data, log), fields in zip(items, inferred):
+    evidence = explain_lengths([(data, log) for _, data, log in items])
+    if len(evidence) != len(items):
+        raise ValueError("Length evidence count mismatch")
+
+    for (path, data, log), fields, field_evidence in zip(
+        items, inferred, evidence
+    ):
         if target_paths and path not in target_paths:
             continue
 
@@ -168,6 +175,7 @@ def analyze_set(sample_paths, targets=(), fmt=None, reader=None, limit=40, sampl
             "size": len(data),
             "sha256": hashlib.sha256(data).hexdigest(),
             "risk": LEVELS[rank],
+            "length_evidence": field_evidence,
             "fields": [
                 {
                     "start": a,
