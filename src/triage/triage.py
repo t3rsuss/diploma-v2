@@ -94,25 +94,48 @@ def analyze(path, run_v1=True):
         fmt, src, conf = "pe", "сигнатура", 1.0
     elif data[:4] == b"\x7fELF" and len(data) > 64:
         fmt, src, conf = "elf", "сигнатура", 1.0
-    elif (m_cls and m_score >= THETA
-          and not (m_label == "txt" and f_cls in TEXT_FAMILY and f_conf >= 0.6)):
+    elif m_cls and m_score >= THETA:
         fmt, src, conf = m_cls, "Magika", m_score
-    elif m_cls is None and m_label not in ("unknown", "error") and m_score >= THETA:
+    elif (
+        m_cls is None
+        and m_label not in ("unknown", "error", "other")
+        and m_score >= THETA
+    ):
         fmt, src, conf = m_label, "Magika (поза словником моделі)", m_score
     else:
-        fmt, src, conf = f_cls, "модель фрагментів", f_conf
+        fmt, src, conf = "unknown", "формат не встановлено", 0.0
+
+    format_status = "unrecognized" if fmt == "unknown" else "recognized"
+    candidate = (
+        {
+            "format": f_cls,
+            "score": round(f_conf, 3),
+            "source": "модель фрагментів",
+            "interpretation": "Кандидат, а не встановлений формат.",
+        }
+        if fmt == "unknown" else None
+    )
 
     flags = []
     if fmt in ("pe", "elf") and ext_cls not in (None, "pe", "elf"):
         flags.append(f"виконуваний файл ({fmt}) під розширенням .{ext}")
-    elif ext_cls and ext_cls != fmt and not (ext_cls == "txt" and fmt in TEXT_FAMILY):
+    elif fmt != "unknown" and ext_cls and ext_cls != fmt and not (ext_cls == "txt" and fmt in TEXT_FAMILY):
         flags.append(f"розширення .{ext} не відповідає визначеному формату {fmt}")
     if m_cls and m_score >= THETA and f_cls != m_cls and f_conf >= 0.6:
         flags.append(f"Magika ({m_cls}) і модель фрагментів ({f_cls}) розходяться")
-    if conf < 0.5:
+    if fmt == "unknown":
+        flags.append(
+            "Формат не встановлено. Класи моделі фрагментів є "
+            "припущеннями про вміст, а не підтвердженою структурою."
+        )
+    elif conf < 0.5:
         flags.append("низька впевненість визначення")
 
-    branch = "виконуваний файл" if fmt in ("pe", "elf") else "відомий формат"
+    branch = (
+        "невідомий формат" if fmt == "unknown" else
+        "виконуваний файл" if fmt in ("pe", "elf") else
+        "відомий формат"
+    )
     top = sorted(probs.items(), key=lambda kv: -kv[1])[:3]
     rep = {
         "file": path.name, "size": len(data),
@@ -122,6 +145,11 @@ def analyze(path, run_v1=True):
         "fragment_model": {"class": f_cls, "confidence": round(f_conf, 3),
                            "top3": [(k, round(v, 3)) for k, v in top]},
         "format": fmt, "format_source": src, "confidence": round(conf, 3),
+        "format_status": format_status,
+        "format_candidate": candidate,
+        "confidence_kind": (
+            "not_applicable" if fmt == "unknown" else "method_score"
+        ),
         "branch": branch, "flags": flags,
     }
     if fmt in ("pe", "elf") and run_v1:
