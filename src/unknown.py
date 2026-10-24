@@ -115,8 +115,30 @@ def analyze_unknown(data, max_regions=2048, max_items=100):
     }
 
 
+def _record_count_matches(data, start, count):
+    matches = []
+    prefix_end = min(start, 64)
+
+    for offset in range(prefix_end):
+        for width in (2, 4):
+            if offset + width > prefix_end:
+                continue
+            for order in ("little", "big"):
+                value = int.from_bytes(
+                    data[offset:offset + width], order,
+                )
+                if value == count:
+                    matches.append({
+                        "start": offset,
+                        "end": offset + width,
+                        "encoding": order,
+                        "value": value,
+                    })
+    return matches
+
+
 def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
-    if max_candidates < 1 or max_steps < 1 or max_records < 4:
+    if max_candidates < 1 or max_steps < 1 or max_records < 3:
         raise ValueError("Invalid record-search limits")
 
     n = len(data)
@@ -125,7 +147,7 @@ def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
 
     def result(truncated):
         return {
-            "method": "fixed_tlv_hypotheses_v1",
+            "method": "fixed_tlv_hypotheses_v2_count",
             "candidates": best,
             "search_truncated": truncated,
             "steps": steps,
@@ -133,7 +155,9 @@ def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
                 "Tests only type-length-value records with fixed-width integers.",
                 "Length is assumed to count payload bytes only.",
                 "Starts are tested only in the first 64 bytes; trailers up to 16 bytes are allowed.",
-                "Requires at least 4 records, repeated tags, at most 16 distinct tags, and varying lengths.",
+                "Requires at least 3 records, at most 16 distinct tags, and varying lengths.",
+                "Without a prefix-count match, at least 4 records and repeated tags are required.",
+                "Prefix-count matches may be coincidental; overlapping matches are not independent evidence.",
                 "Hypotheses may be coincidental; coverage is not correctness probability.",
             ],
         }
@@ -178,7 +202,7 @@ def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
                     if len(records) == max_records and pos < n:
                         continue
                     if (
-                        len(records) < 4
+                        len(records) < 3
                         or n - pos > 16
                         or pos - start < n * 0.5
                     ):
@@ -186,10 +210,13 @@ def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
 
                     lengths = {r["length"] for r in records}
                     tags = {r["tag"] for r in records}
-                    if (
-                        len(lengths) < 2
-                        or len(tags) > 16
-                        or len(tags) == len(records)
+                    counter = _record_count_matches(
+                        data, start, len(records),
+                    )
+                    if len(lengths) < 2 or len(tags) > 16:
+                        continue
+                    if not counter and (
+                        len(records) < 4 or len(tags) == len(records)
                     ):
                         continue
                     if sum(r["length"] for r in records) < 16:
@@ -206,10 +233,12 @@ def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
                         "unparsed_prefix": start,
                         "unparsed_suffix": n - pos,
                         "records": records,
+                        "count_evidence": counter,
                     }
 
                     best.append(candidate)
                     best.sort(key=lambda c: (
+                        not bool(c["count_evidence"]),
                         -c["coverage"],
                         c["unparsed_suffix"],
                         -c["record_count"],

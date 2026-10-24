@@ -85,3 +85,76 @@ def test_trailer_is_reported_as_unparsed():
         and c["record_count"] == 4
         for c in result["candidates"]
     )
+
+
+def _three_record_sample(counter_bytes):
+    prefix = b"\xa9\xf3" + counter_bytes + b"\x99"
+    data = prefix
+    expected = []
+
+    for tag, size in enumerate((7, 19, 31), 1):
+        start = len(data)
+        data += bytes([tag]) + size.to_bytes(2, "little")
+        data += bytes([180 + tag]) * size
+        expected.append((start, len(data)))
+
+    return data, len(prefix), expected
+
+
+def _matching_three_record_candidates(result, start, expected):
+    return [
+        c for c in result["candidates"]
+        if c["start"] == start
+        and c["type_width"] == 1
+        and c["length_width"] == 2
+        and c["byte_order"] == "little"
+        and [(r["start"], r["end"]) for r in c["records"]] == expected
+    ]
+
+
+def test_three_unique_records_with_counter():
+    data, start, expected = _three_record_sample(
+        (3).to_bytes(2, "little")
+    )
+    result = infer_records(data)
+    matching = _matching_three_record_candidates(result, start, expected)
+
+    assert matching
+    assert {
+        "start": 2, "end": 4, "encoding": "little", "value": 3
+    } in matching[0]["count_evidence"]
+
+    evidence_flags = [
+        bool(c["count_evidence"]) for c in result["candidates"]
+    ]
+    assert evidence_flags == sorted(evidence_flags, reverse=True)
+
+
+def test_three_unique_records_without_counter():
+    data, start, expected = _three_record_sample(b"\xfe\xfe")
+    result = infer_records(data)
+
+    assert not _matching_three_record_candidates(
+        result, start, expected
+    )
+
+
+def test_wrong_counter_does_not_support_three_records():
+    data, start, expected = _three_record_sample(
+        (9).to_bytes(2, "little")
+    )
+    result = infer_records(data)
+
+    assert not _matching_three_record_candidates(
+        result, start, expected
+    )
+
+
+def test_counter_evidence_is_limited_to_prefix():
+    from src.unknown import _record_count_matches
+
+    data = b"\x80\x90\x03\x00"
+    assert _record_count_matches(data, start=2, count=3) == []
+    assert {
+        "start": 2, "end": 4, "encoding": "little", "value": 3
+    } in _record_count_matches(data, start=4, count=3)

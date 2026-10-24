@@ -167,6 +167,28 @@ def render_report(report):
                         f"довжини: {candidate['length_width']}; "
                         f"порядок байтів: {candidate['byte_order']}."
                     )
+                    count_evidence = candidate.get("count_evidence", [])
+                    if count_evidence:
+                        st.info(
+                            "У префіксі знайдено число, що збігається "
+                            "з кількістю записів кандидата. "
+                            "Це додаткове свідчення, а не підтвердження схеми."
+                        )
+                        st.dataframe(
+                            pd.DataFrame(count_evidence),
+                            hide_index=True, width="stretch",
+                        )
+                        st.caption(
+                            "Перекривні інтерпретації тих самих байтів "
+                            "не слід рахувати як незалежні підтвердження."
+                        )
+                    else:
+                        st.caption(
+                            "Збігу з можливим лічильником у префіксі "
+                            "не знайдено. Кандидат спирається "
+                            "лише на базові евристичні умови."
+                        )
+
                     st.caption(
                         f"Покрито кандидатом: "
                         f"{100 * candidate['coverage']:.1f} %. "
