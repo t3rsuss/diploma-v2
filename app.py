@@ -117,6 +117,55 @@ def render_report(report):
             hide_index=True, width="stretch",
         )
 
+    observations = report.get("unknown_analysis")
+    if observations:
+        st.subheader("Спостереження за внутрішньою будовою")
+        st.caption(
+            "Це аналіз байтів одного файла без готової схеми. "
+            "Ділянки профілю не є відновленими полями формату."
+        )
+        profile = pd.DataFrame(observations["profile"]).rename(columns={
+            "start": "початок", "end": "кінець", "size": "байтів",
+            "entropy": "ентропія",
+            "zero_fraction": "частка нулів",
+            "ascii_fraction": "частка друкованих ASCII",
+            "observation": "спостереження",
+        })
+        st.dataframe(profile, hide_index=True, width="stretch")
+
+        strings = observations["ascii_strings"]
+        if strings:
+            with st.expander("Текстові послідовності зі зсувами"):
+                st.dataframe(
+                    pd.DataFrame(strings), hide_index=True, width="stretch",
+                )
+                if observations["ascii_strings_limited"]:
+                    st.caption("Показано лише перші послідовності в межах ліміту.")
+
+        if observations["zero_runs"]:
+            with st.expander("Нульові ділянки від 8 байтів"):
+                st.dataframe(
+                    pd.DataFrame(observations["zero_runs"]),
+                    hide_index=True, width="stretch",
+                )
+                if observations["zero_runs_limited"]:
+                    st.caption("Перелік обмежено.")
+
+        candidates = observations["numeric_candidates"]
+        with st.expander("Можливі числові зв’язки"):
+            st.caption(
+                "Перевірено дво- й чотирибайтні числа з початком "
+                "у перших 64 байтах. matches_file_size — збіг із "
+                "розміром файла; matches_bytes_after_field — "
+                "із залишком після кандидата. Збіги можуть бути випадковими."
+            )
+            if candidates:
+                st.dataframe(
+                    pd.DataFrame(candidates), hide_index=True, width="stretch",
+                )
+            else:
+                st.write("За цими обмеженими перевірками кандидатів не знайдено.")
+
     executable = report.get("executable_analysis")
     if executable:
         st.subheader("Спеціалізований аналіз PE/ELF")
