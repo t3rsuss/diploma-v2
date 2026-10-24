@@ -33,8 +33,37 @@ def _trace_custom(func, data):
 
 
 def load_reader(spec):
-    mod, _, name = spec.partition(":")
-    return getattr(importlib.import_module(mod), name)
+    mod, separator, name = spec.partition(":")
+    if (
+        not separator
+        or not mod
+        or not name
+        or ":" in name
+        or any(not part.isidentifier() for part in mod.split("."))
+        or not name.isidentifier()
+    ):
+        raise ValueError(
+            "Reader must use module:function syntax; got " + repr(spec)
+        )
+
+    try:
+        module = importlib.import_module(mod)
+    except ImportError as exc:
+        raise ValueError(
+            f"Cannot import reader module {mod!r}: "
+            f"{type(exc).__name__}: {exc}"
+        ) from exc
+
+    try:
+        func = getattr(module, name)
+    except AttributeError as exc:
+        raise ValueError(
+            f"Reader function {name!r} was not found in module {mod!r}"
+        ) from exc
+
+    if not callable(func):
+        raise ValueError(f"Reader {spec!r} is not callable")
+    return func
 
 
 def collect(paths, limit, min_size, max_size, seed=42):
