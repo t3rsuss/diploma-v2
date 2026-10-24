@@ -1,4 +1,4 @@
-﻿import collections
+import collections
 import gzip
 import io
 import pathlib
@@ -18,6 +18,7 @@ class CtxIO(io.BytesIO):
     def __init__(self, data):
         super().__init__(data)
         self.log = []
+        self.raw_log = []
 
     def _ctx(self):
         f = sys._getframe(2)
@@ -31,8 +32,10 @@ class CtxIO(io.BytesIO):
 
     def _rec(self, pos, n):
         if n > 0:
-            self.log.append((pos, n, self._ctx()))
-        if len(self.log) > 100_000:
+            event = (pos, n, self._ctx())
+            self.log.append(event)
+            self.raw_log.append(event)
+        if len(self.raw_log) > 100_000:
             raise RuntimeError("надто багато читань")
 
     def read(self, size=-1):
@@ -57,6 +60,41 @@ class CtxIO(io.BytesIO):
         return n
 
 
+MAX_EXPANDED_BYTES = 16 * 1024 * 1024
+MAX_ZIP_MEMBERS = 1000
+ARCHIVE_READ_CHUNK = 64 * 1024
+
+
+def _merge_payload_reads(events):
+    merged = []
+    for pos, size, context in events:
+        if (
+            merged
+            and merged[-1][0] + merged[-1][1] == pos
+            and merged[-1][2] == context
+        ):
+            start, previous_size, _ = merged[-1]
+            merged[-1] = (start, previous_size + size, context)
+        else:
+            merged.append((pos, size, context))
+    return merged
+
+
+def _drain_limited(stream, remaining):
+    total = 0
+    while True:
+        chunk = stream.read(
+            min(ARCHIVE_READ_CHUNK, remaining - total + 1)
+        )
+        if not chunk:
+            return total
+        total += len(chunk)
+        if total > remaining:
+            raise ValueError(
+                "Archive expanded data limit exceeded"
+            )
+
+
 def run_ctx(fmt, data):
     f = CtxIO(data)
     if fmt in ("png", "gif", "ico"):
@@ -67,12 +105,27 @@ def run_ctx(fmt, data):
         w.readframes(w.getnframes())
     elif fmt == "gz":
         with gzip.GzipFile(fileobj=f) as g:
-            while g.read(1 << 16):
-                pass
+            _drain_limited(g, MAX_EXPANDED_BYTES)
     elif fmt == "docx":
         with zipfile.ZipFile(f) as z:
-            for n in z.namelist():
-                z.read(n)
+            members = z.infolist()
+            if len(members) > MAX_ZIP_MEMBERS:
+                raise ValueError("ZIP member count limit exceeded")
+            if sum(info.file_size for info in members) > MAX_EXPANDED_BYTES:
+                raise ValueError("Archive expanded data limit exceeded")
+
+            expanded = 0
+            for info in members:
+                if info.is_dir():
+                    continue
+                with z.open(info, "r") as member:
+                    payload_start = len(f.log)
+                    expanded += _drain_limited(
+                        member, MAX_EXPANDED_BYTES - expanded,
+                    )
+                f.log[payload_start:] = _merge_payload_reads(
+                    f.log[payload_start:]
+                )
     return f.log
 
 
