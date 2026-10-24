@@ -103,6 +103,7 @@ def analyze_unknown(data, max_regions=2048, max_items=100):
         "zero_runs": zeros,
         "zero_runs_limited": zeros_limited,
         "numeric_candidates": candidates,
+        "record_hypotheses": infer_records(data),
         "limitations": [
             "Profile windows are computational windows, not inferred fields.",
             "Numeric matches may be coincidental and can overlap.",
@@ -112,3 +113,111 @@ def analyze_unknown(data, max_regions=2048, max_items=100):
             "No reader or reference format schema is used.",
         ],
     }
+
+
+def infer_records(data, max_candidates=5, max_steps=50000, max_records=256):
+    if max_candidates < 1 or max_steps < 1 or max_records < 4:
+        raise ValueError("Invalid record-search limits")
+
+    n = len(data)
+    best = []
+    steps = 0
+
+    def result(truncated):
+        return {
+            "method": "fixed_tlv_hypotheses_v1",
+            "candidates": best,
+            "search_truncated": truncated,
+            "steps": steps,
+            "limitations": [
+                "Tests only type-length-value records with fixed-width integers.",
+                "Length is assumed to count payload bytes only.",
+                "Starts are tested only in the first 64 bytes; trailers up to 16 bytes are allowed.",
+                "Requires at least 4 records, repeated tags, at most 16 distinct tags, and varying lengths.",
+                "Hypotheses may be coincidental; coverage is not correctness probability.",
+            ],
+        }
+
+    for start in range(min(64, n)):
+        for tw in (1, 2):
+            for lw in (1, 2, 4):
+                orders = (
+                    ("little",)
+                    if lw == 1 and tw == 1 else
+                    ("little", "big")
+                )
+                for order in orders:
+                    pos = start
+                    records = []
+                    header = tw + lw
+
+                    while pos + header <= n and len(records) < max_records:
+                        if steps >= max_steps:
+                            return result(True)
+                        steps += 1
+
+                        payload_start = pos + header
+                        length = int.from_bytes(
+                            data[pos + tw:payload_start], order,
+                        )
+                        end = payload_start + length
+                        if end > n:
+                            break
+
+                        tag = int.from_bytes(data[pos:pos + tw], order)
+                        records.append({
+                            "start": pos,
+                            "type_end": pos + tw,
+                            "payload_start": payload_start,
+                            "end": end,
+                            "tag": tag,
+                            "length": length,
+                        })
+                        pos = end
+
+                    if len(records) == max_records and pos < n:
+                        continue
+                    if (
+                        len(records) < 4
+                        or n - pos > 16
+                        or pos - start < n * 0.5
+                    ):
+                        continue
+
+                    lengths = {r["length"] for r in records}
+                    tags = {r["tag"] for r in records}
+                    if (
+                        len(lengths) < 2
+                        or len(tags) > 16
+                        or len(tags) == len(records)
+                    ):
+                        continue
+                    if sum(r["length"] for r in records) < 16:
+                        continue
+
+                    candidate = {
+                        "start": start,
+                        "end": pos,
+                        "type_width": tw,
+                        "length_width": lw,
+                        "byte_order": order,
+                        "record_count": len(records),
+                        "coverage": (pos - start) / n,
+                        "unparsed_prefix": start,
+                        "unparsed_suffix": n - pos,
+                        "records": records,
+                    }
+
+                    best.append(candidate)
+                    best.sort(key=lambda c: (
+                        -c["coverage"],
+                        c["unparsed_suffix"],
+                        -c["record_count"],
+                        c["start"],
+                        c["type_width"],
+                        c["length_width"],
+                        c["byte_order"],
+                    ))
+                    del best[max_candidates:]
+
+    return result(False)

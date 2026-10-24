@@ -133,6 +133,53 @@ def render_report(report):
         })
         st.dataframe(profile, hide_index=True, width="stretch")
 
+        record_search = observations.get("record_hypotheses")
+        if record_search:
+            st.subheader("Гіпотези повторюваних записів")
+            st.caption(
+                "Перевіряється обмежена схема: можливий тип, довжина "
+                "з фіксованою шириною та блок указаного розміру. "
+                "Це кандидати, не підтверджена специфікація. "
+                "Покриття не є ймовірністю правильності."
+            )
+
+            if record_search["search_truncated"]:
+                st.warning(
+                    "Пошук зупинено за лімітом операцій; "
+                    "він не є вичерпним."
+                )
+
+            if not record_search["candidates"]:
+                st.write(
+                    "За перевіреними схемами гіпотез не знайдено. "
+                    "Це не означає відсутності структури у файлі."
+                )
+
+            for index, candidate in enumerate(
+                record_search["candidates"], 1,
+            ):
+                with st.expander(
+                    f"Кандидат {index}: {candidate['record_count']} записів, "
+                    f"інтервал {candidate['start']}..{candidate['end']}"
+                ):
+                    st.write(
+                        f"Ширина типу: {candidate['type_width']}; "
+                        f"довжини: {candidate['length_width']}; "
+                        f"порядок байтів: {candidate['byte_order']}."
+                    )
+                    st.caption(
+                        f"Покрито кандидатом: "
+                        f"{100 * candidate['coverage']:.1f} %. "
+                        f"Непояснений префікс: "
+                        f"{candidate['unparsed_prefix']} байтів; "
+                        f"суфікс: "
+                        f"{candidate['unparsed_suffix']} байтів."
+                    )
+                    st.dataframe(
+                        pd.DataFrame(candidate["records"]),
+                        hide_index=True, width="stretch",
+                    )
+
         strings = observations["ascii_strings"]
         if strings:
             with st.expander("Текстові послідовності зі зсувами"):
