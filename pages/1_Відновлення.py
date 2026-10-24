@@ -191,6 +191,38 @@ if payload:
         })
         st.dataframe(fields, hide_index=True, width="stretch")
 
+        st.subheader("Пояснення гіпотез довжин")
+        st.caption(
+            "Підтримка правила — частка числових збігів серед перевірених "
+            "подій читання цієї вибірки, а не ймовірність правильності. "
+            "Збіг у поточному файлі показано окремо. "
+            "Пояснюються кандидати правил довжин, а не всі ролі полів."
+        )
+        evidence = report.get("length_evidence", [])
+        if evidence:
+            rows = []
+            for item in evidence:
+                target = item["related_interval"]
+                rows.append({
+                    "поле": f"{item['field'][0]}..{item['field'][1]}",
+                    "значення": item["value"],
+                    "кодування": item["encoding"],
+                    "пов'язаний інтервал": (
+                        f"{target[0]}..{target[1]}" if target is not None else "—"
+                    ),
+                    "збіг у цьому файлі": item["local_read_match"],
+                    "збігів": item["matching_events"],
+                    "перевірено подій": item["checked_events"],
+                    "підтримка правила": item["event_support"],
+                    "файлів зі збігами": item["files_with_matching_events"],
+                    "контекст читання": item["context"],
+                })
+            st.dataframe(
+                pd.DataFrame(rows), hide_index=True, width="stretch",
+            )
+        else:
+            st.info("Для цього файла пояснень правил довжин немає.")
+
         with st.expander("Покриття та коректність інтервалів"):
             st.json(report["interval_audit"])
 

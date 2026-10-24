@@ -1,4 +1,4 @@
-﻿import pathlib
+import pathlib
 
 from streamlit.testing.v1 import AppTest
 
@@ -59,6 +59,23 @@ def test_recovery_page_displays_analysis_and_switches_file(
     assert [m.value for m in app.metric] == ["5", "5", "0"]
     assert len(app.dataframe) >= 1
     assert len(app.dataframe[0].value) == len(reports[0]["fields"])
+    evidence_tables = [
+        widget.value for widget in app.dataframe
+        if "підтримка правила" in widget.value.columns
+    ]
+    expected_evidence = reports[0]["length_evidence"]
+    assert expected_evidence
+    assert len(evidence_tables) == 1
+    table = evidence_tables[0]
+    assert table["значення"].tolist() == [
+        item["value"] for item in expected_evidence
+    ]
+    assert table["збігів"].tolist() == [
+        item["matching_events"] for item in expected_evidence
+    ]
+    assert table["збіг у цьому файлі"].tolist() == [
+        item["local_read_match"] for item in expected_evidence
+    ]
 
     selector = next(
         widget for widget in app.selectbox
@@ -68,6 +85,23 @@ def test_recovery_page_displays_analysis_and_switches_file(
 
     assert not app.exception
     assert len(app.dataframe[0].value) == len(reports[1]["fields"])
+    evidence_tables = [
+        widget.value for widget in app.dataframe
+        if "підтримка правила" in widget.value.columns
+    ]
+    expected_evidence = reports[1]["length_evidence"]
+    assert expected_evidence
+    assert len(evidence_tables) == 1
+    table = evidence_tables[0]
+    assert table["значення"].tolist() == [
+        item["value"] for item in expected_evidence
+    ]
+    assert table["збігів"].tolist() == [
+        item["matching_events"] for item in expected_evidence
+    ]
+    assert table["збіг у цьому файлі"].tolist() == [
+        item["local_read_match"] for item in expected_evidence
+    ]
     assert any(
         reports[1]["sha256"] in caption.value
         for caption in app.caption
