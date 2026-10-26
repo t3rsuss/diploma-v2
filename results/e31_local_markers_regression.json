@@ -1,0 +1,1486 @@
+{
+  "scope": "Development/regression only. No held-out captures. Real-format comparison tests output stability, not semantic truth. CFG1 truth comparison merges adjacent constants; XDT3 uses raw fields.",
+  "commit": "905ed15aecb09ee31dadff6974aa52541f87b960",
+  "code_sha256": {
+    "experiments/e20_infer2.py": "b790285eea9bb6538992e6b5c67ec5ac760a18c3b96263b1f48139a301488e01",
+    "experiments/e30_local_markers.py": "44969ce262e7c9889cc515805869fbbe1b7d149f23463c9db7e0003dff3b4014",
+    "experiments/e31_local_markers_regression.py": "7082ba8d5f9f63b68b59bafb5583b14c8fbce124b96d1e65ae93f72688bc8e21",
+    "experiments/e18_context.py": "b795e0e04e167200d0884c7760c1f46ede97efdaa3b50d306d4f2d20642ebd6e",
+    "rebin.py": "f87b50c6cd0e888bbed3f39975db0081f4e372be0bcd877f2ddb1330ccf94171",
+    "demo/cfg1.py": "11ba88841647eba40a12da8dee0dd66737bc53d1094162441a930b484c1fd6b4",
+    "demo/xdt3.py": "1f42fa08b2f1c1f520d020d7e209715ecb32abfc961e700cd66afaf366c2cf59",
+    "demo/evtx_reader.py": "c3979604ee061060ec803a86996f3ba2026b7e564ba82f2c719d3e21ef30bec1",
+    "experiments/e26_cfg1_structure_eval.py": "bbc8843469acb47eb5747076c1b60b577a3ca3d268fc75e69bfa394d2eee920b"
+  },
+  "datasets": [
+    {
+      "dataset": "png",
+      "files": 19,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "data\\corpus\\png\\4eb87fe9730c.png",
+          "sha256": "4eb87fe9730c19f3ca450f1b9c1a89a2a7107ae13ae9aad439896edb574f6d3c"
+        },
+        {
+          "file": "data\\corpus\\png\\a762a3621325.png",
+          "sha256": "a762a3621325936fe61573071ee54a4e342ce403d389b9ee43a273107cd858bc"
+        },
+        {
+          "file": "data\\corpus\\png\\be5fc037c77d.png",
+          "sha256": "be5fc037c77dd90611a1b500a1bb6bf48b4119765f26339ef83dafb47314f326"
+        },
+        {
+          "file": "data\\corpus\\png\\540a0a9da01a.png",
+          "sha256": "540a0a9da01a17a9630dbc081b498550fa39d59d8fe2721c1488a5291b78afbf"
+        },
+        {
+          "file": "data\\corpus\\png\\2b69bef2df25.png",
+          "sha256": "2b69bef2df257330218577149c26cb56e019c4e822d795050574a83dc8a2352d"
+        },
+        {
+          "file": "data\\corpus\\png\\95c436b59012.png",
+          "sha256": "95c436b590125b3984a111fc7feea0f960f0fdf494f7a4eb635b109cec81b4d0"
+        },
+        {
+          "file": "data\\corpus\\png\\bd539f3d18bd.png",
+          "sha256": "bd539f3d18bd0c2344cc574e73cb95bd89fdbbdc7041395ca698f21b5b2a9202"
+        },
+        {
+          "file": "data\\corpus\\png\\5eb97f5ef4e1.png",
+          "sha256": "5eb97f5ef4e11b97445a8d16184078af44756be1b897e86182f9e836b01db227"
+        },
+        {
+          "file": "data\\corpus\\png\\685e2ed6e72f.png",
+          "sha256": "685e2ed6e72f7096aee52164092d56ec9c6367071a8618934504b8b9965029d0"
+        },
+        {
+          "file": "data\\corpus\\png\\ecd0726058ec.png",
+          "sha256": "ecd0726058ec1b67e38b0687246c262d8017e9932d23991052de2802d0d56755"
+        },
+        {
+          "file": "data\\corpus\\png\\7cc4d54237b4.png",
+          "sha256": "7cc4d54237b438b5b3e2b50db674c3d1eabe646ba864c0bacce82b52beee18bf"
+        },
+        {
+          "file": "data\\corpus\\png\\0ef84d951ad3.png",
+          "sha256": "0ef84d951ad329208ba49b1406db67e37ee6f10b39c62591eeac03fa1ae0ac5e"
+        },
+        {
+          "file": "data\\corpus\\png\\edded01d34a8.png",
+          "sha256": "edded01d34a8248d0003c4d75b59183529f544dd9d61c226c2c91e1c8147e7ea"
+        },
+        {
+          "file": "data\\corpus\\png\\bcb72c9edec7.png",
+          "sha256": "bcb72c9edec7d4062fb7e87897908fff97477c1057fe5d2b1b89471345ee05af"
+        },
+        {
+          "file": "data\\corpus\\png\\31c332f584ad.png",
+          "sha256": "31c332f584ad99ce6392b9418ea328607d9b03cfe5b63c7304ef9ea08356ff7a"
+        },
+        {
+          "file": "data\\corpus\\png\\4938ed44d7d6.png",
+          "sha256": "4938ed44d7d63f44ca959eafb942be36459939a9c679bfcbf4f5c837fdf3475c"
+        },
+        {
+          "file": "data\\corpus\\png\\697345f970a6.png",
+          "sha256": "697345f970a6c9a82b94591bcf1685001da52027de4bae3046fcb71da64912e1"
+        },
+        {
+          "file": "data\\corpus\\png\\07f9ed55e667.png",
+          "sha256": "07f9ed55e6670fbb227ea9475679729e454e2409d29dca208c5b504ce3851038"
+        },
+        {
+          "file": "data\\corpus\\png\\43c31d2748eb.png",
+          "sha256": "43c31d2748eb156aec465b5df64741b3c289ea3ab5aa3f9d13ebfb700d6345bd"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "gif",
+      "files": 30,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "data\\govdocs\\dev_extra\\253\\253332.gif",
+          "sha256": "6f704d1838cfea3020bfd4a119d1337f720536ff7cf3329f540704e15c0c582b"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\758\\758284.gif",
+          "sha256": "aa4a49df0b236924322d888bed4a8e6c0fae79bd011eaf7e1aaaad13430886f3"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\206\\206380.gif",
+          "sha256": "09d1c972a2b434ddf47b4b455273315a9cf0d723917b10b3fae27c05fbe8f3a9"
+        },
+        {
+          "file": "data\\corpus\\gif\\37484901eb40.gif",
+          "sha256": "37484901eb40eefa846308e1da3ff6f240ea98f769a2afc3cf4fdba00327ecbe"
+        },
+        {
+          "file": "data\\corpus\\gif\\c2106ba8df44.gif",
+          "sha256": "c2106ba8df447c7966ed8a8c553342a4879f365de9c11b4c9bc9a4c407f12813"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\432\\432988.gif",
+          "sha256": "2c5b0929d2af5b7b7b12c2c710f41c81dd83f72adfc6375f924eecb8274abaf8"
+        },
+        {
+          "file": "data\\corpus\\gif\\54fddb86fe4d.gif",
+          "sha256": "54fddb86fe4da9331170f7125ada181e9311dd6a8ed35bbaf9ef9a055ebb5ee5"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\284\\284985.gif",
+          "sha256": "84a3a10b33ebace6a22aa6d03fc8db4ebabf048000954eeee2b38576558d6682"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\722\\722763.gif",
+          "sha256": "f1a01288454154b8821e976882bdeaf1bb946479e492cb788acbe1cbc171e5cf"
+        },
+        {
+          "file": "data\\corpus\\gif\\b73789ec8550.gif",
+          "sha256": "b73789ec8550a808d7ee60f0005c99551bad4291540dc685f3e3a10f9476fe5e"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\669\\669196.gif",
+          "sha256": "6c865be1ba025290b7d39927c75d090a54bd47997a72190abc776a11cd5d419e"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\107\\107112.gif",
+          "sha256": "976e55c83b80b7bfa9288f5da5842ad928b7dc5aa0101941df87f25f6c772912"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\028\\028769.gif",
+          "sha256": "d3e7464f783b143ea1bb0db38b54462b189bad8c57c3b94ec775620020b500dc"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\284\\284342.gif",
+          "sha256": "204254351314f003184bb4e72717f43727a66b73f16af2ef5063406a0a845a71"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\578\\578990.gif",
+          "sha256": "9d0f2b4c9d9a3c3e4c0f6d856f64be8f4be58aef17ae5420e1b06b47130de437"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\696\\696206.gif",
+          "sha256": "351285e5873665c4f2d3114d8607e7ce8d26578929e942e397fdf0d555839e6a"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\722\\722047.gif",
+          "sha256": "54de29cdcb2ea2b2ddda5c9bacd88b889ddd36f6259c43366904c038274a9617"
+        },
+        {
+          "file": "data\\govdocs\\dev\\002\\002\\002825.gif",
+          "sha256": "8047c5fa89be1add1916f81cba82635597b649454864e0102fcf33f90d1f22ed"
+        },
+        {
+          "file": "data\\govdocs\\dev\\002\\002\\002101.gif",
+          "sha256": "1b4d9a6ee991ef94e133a3f2137d57c2d66434be13468edd825732190ef3f282"
+        },
+        {
+          "file": "data\\corpus\\gif\\d1cfc97e7e44.gif",
+          "sha256": "d1cfc97e7e44f3949569893cdadc4f071914ccce3852ed41ec8752e8133ab5da"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\284\\284340.gif",
+          "sha256": "59b7ff42c3a3d1c7469daf2cd14612224d11e2265d4504fab765e1ddb4e72590"
+        },
+        {
+          "file": "data\\govdocs\\dev\\001\\001\\001841.gif",
+          "sha256": "42eaa4b3c23f6f851f33a097832a36d5ef8a6df33bbd531bc94f8e5ad82eb849"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\763\\763664.gif",
+          "sha256": "a7ce1b3bdee98c4caff04dd67b3f8eaa260a67936cb6c7a6458d6fa332d96cad"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\028\\028238.gif",
+          "sha256": "bed9afa289fe620b400fd72a0a7b0126159f22d63fd77d63bc8192919ae69d9a"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\231\\231855.gif",
+          "sha256": "7e56a8f311764f2d51445c0b1798306d892eae0bd0611e3dbbf142747a4fe463"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\658\\658546.gif",
+          "sha256": "c2dc7ceace14da45c498ab7c1d37ce486fa52e98bd693ef0860ff9679af17af1"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\658\\658544.gif",
+          "sha256": "bf09523d38248e038f9c958fac236357a0341e681e2ea41c14283dee55a75a8c"
+        },
+        {
+          "file": "data\\govdocs\\test\\500\\500991.gif",
+          "sha256": "fc7f01256e88a2ebe5b96c8a2e88edf417678bb0787709bf30ad0af4eefebd3a"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\231\\231849.gif",
+          "sha256": "c36a6f15c8821737b41a94746f63e8c2a51c111bde7907fb8a4e17fe6e15f92e"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\030\\030645.gif",
+          "sha256": "853a969c90e776b558a6833a4bc6317435e3bfee190f118ee3194b5b645b9fe5"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [
+        {
+          "from": "тип запису",
+          "to": "довжина",
+          "count": 14
+        },
+        {
+          "from": "змінне поле",
+          "to": "дані (блок)",
+          "count": 14
+        }
+      ],
+      "changed_files": [
+        {
+          "file": "253332.gif",
+          "changes": [
+            {
+              "interval": [
+                207,
+                208
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                208,
+                212
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "37484901eb40.gif",
+          "changes": [
+            {
+              "interval": [
+                399,
+                400
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                400,
+                404
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "c2106ba8df44.gif",
+          "changes": [
+            {
+              "interval": [
+                207,
+                208
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                208,
+                212
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "432988.gif",
+          "changes": [
+            {
+              "interval": [
+                783,
+                784
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                784,
+                788
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "54fddb86fe4d.gif",
+          "changes": [
+            {
+              "interval": [
+                783,
+                784
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                784,
+                795
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            },
+            {
+              "interval": [
+                795,
+                796
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                796,
+                799
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            },
+            {
+              "interval": [
+                802,
+                803
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                803,
+                807
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "284342.gif",
+          "changes": [
+            {
+              "interval": [
+                783,
+                784
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                784,
+                788
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "578990.gif",
+          "changes": [
+            {
+              "interval": [
+                39,
+                40
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                40,
+                44
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "002825.gif",
+          "changes": [
+            {
+              "interval": [
+                207,
+                208
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                208,
+                212
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "d1cfc97e7e44.gif",
+          "changes": [
+            {
+              "interval": [
+                783,
+                784
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                784,
+                788
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "284340.gif",
+          "changes": [
+            {
+              "interval": [
+                783,
+                784
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                784,
+                788
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "028238.gif",
+          "changes": [
+            {
+              "interval": [
+                15,
+                16
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                16,
+                42
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        },
+        {
+          "file": "030645.gif",
+          "changes": [
+            {
+              "interval": [
+                783,
+                784
+              ],
+              "from": "тип запису",
+              "to": "довжина"
+            },
+            {
+              "interval": [
+                784,
+                788
+              ],
+              "from": "змінне поле",
+              "to": "дані (блок)"
+            }
+          ]
+        }
+      ],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": [
+        {
+          "key": [
+            "GifImagePlugin.data:91",
+            1,
+            0,
+            1,
+            "little"
+          ],
+          "excluded_values": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "ico",
+      "files": 30,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "data\\corpus\\ico\\da8cd804f1a2.ico",
+          "sha256": "da8cd804f1a2880513fded78cdf83e0e78c67d79b2bb46c5ddeaa6a87fab2d36"
+        },
+        {
+          "file": "data\\corpus\\ico\\d59c2569a95b.ico",
+          "sha256": "d59c2569a95b5f4412982a06e3d1ea33e2a5bcec0b5f1ca25d5416c9dc798994"
+        },
+        {
+          "file": "data\\corpus\\ico\\aa718fa7ffaf.ico",
+          "sha256": "aa718fa7ffafcd7c79627524ac849ecb17489e8f48cf03bb8fef39b0a8f0285b"
+        },
+        {
+          "file": "data\\corpus\\ico\\e241b25f2ede.ico",
+          "sha256": "e241b25f2ede007749465ec75fe682a46fcc9a1f3a73658d468f57f37625017b"
+        },
+        {
+          "file": "data\\corpus\\ico\\749c8cb417e2.ico",
+          "sha256": "749c8cb417e2c185f89bce10fbcfa515676c3cfdfdb3e54bd5a0d3e452a5959c"
+        },
+        {
+          "file": "data\\corpus\\ico\\6df178118169.ico",
+          "sha256": "6df178118169a0724bc4300f24102b34a0b20c4f47f30dbad326d25f0cb47e56"
+        },
+        {
+          "file": "data\\corpus\\ico\\a2ddcbfcae32.ico",
+          "sha256": "a2ddcbfcae32ac6bce9c6dc8ca23c4acd8a1821ab1903dcc9929d3832900ec3b"
+        },
+        {
+          "file": "data\\corpus\\ico\\9d0b685df90c.ico",
+          "sha256": "9d0b685df90c80488c67aff8a77ae5f81fd01b14734fade33d1f0acb4b725b1a"
+        },
+        {
+          "file": "data\\corpus\\ico\\b6f0864dba0d.ico",
+          "sha256": "b6f0864dba0dc78bf4d551073d793493169659bd2d45349b9b5ccfce4cdeed23"
+        },
+        {
+          "file": "data\\corpus\\ico\\f0ad91763d2e.ico",
+          "sha256": "f0ad91763d2ea07c9c2da3bfc9cc1e84de2e2de2ce3334060277053a8c3f6f83"
+        },
+        {
+          "file": "data\\corpus\\ico\\d1e5bfc3ac45.ico",
+          "sha256": "d1e5bfc3ac45668ff58bd5436a2c733a5bae63b3b33975b7e597aa70afaf4c04"
+        },
+        {
+          "file": "data\\corpus\\ico\\8453b3366e02.ico",
+          "sha256": "8453b3366e0230e5fe39651284c50d6902499a7c26803811f093c389c59507e4"
+        },
+        {
+          "file": "data\\corpus\\ico\\ec5be6e9959a.ico",
+          "sha256": "ec5be6e9959a7ca7deb511946a60beea08627494c0ed5d9131231b4c0c5dde9a"
+        },
+        {
+          "file": "data\\corpus\\ico\\d744c4dcd036.ico",
+          "sha256": "d744c4dcd0368caf78105387bdabf35858d8be24dde5a82437ea7bd955082cc3"
+        },
+        {
+          "file": "data\\corpus\\ico\\f358343f8d22.ico",
+          "sha256": "f358343f8d2239e316e12130eb0cb8efbcb696705a82444eb46ceadf0d9a2650"
+        },
+        {
+          "file": "data\\corpus\\ico\\bcda7bb353a4.ico",
+          "sha256": "bcda7bb353a47f0ef79e6deda52a2a2e65633587a9849838a3152559b34db869"
+        },
+        {
+          "file": "data\\corpus\\ico\\0070763f4752.ico",
+          "sha256": "0070763f4752ce40ee026ed681238a534189985c072283dd814aae11f34cd935"
+        },
+        {
+          "file": "data\\corpus\\ico\\aebd87be2179.ico",
+          "sha256": "aebd87be2179c45d1a5c621ebac5be2fe53330a8655eefaf1ff6cf6f2133f824"
+        },
+        {
+          "file": "data\\corpus\\ico\\150c470f9943.ico",
+          "sha256": "150c470f9943b806b44312efdec85755f22f8d7d52b31f93a9af3c43e8627381"
+        },
+        {
+          "file": "data\\corpus\\ico\\fafdf81d1d5c.ico",
+          "sha256": "fafdf81d1d5c874bc6fc385f0cafe1fc23ded7208781fe59ee525b887e063989"
+        },
+        {
+          "file": "data\\corpus\\ico\\8532f31dddf4.ico",
+          "sha256": "8532f31dddf493292d006689cc3262510d8efe20abd77b4ea4ade57b536385a3"
+        },
+        {
+          "file": "data\\corpus\\ico\\cc118b61e529.ico",
+          "sha256": "cc118b61e529fa68c9aaff88829b7065a0b2ca77cad8e535e3f76eb8da65aed1"
+        },
+        {
+          "file": "data\\corpus\\ico\\3114451f95c7.ico",
+          "sha256": "3114451f95c7fb8d7d884a19c724f6c7ff906b6d9bec1bf7c6300d2cca4f43a6"
+        },
+        {
+          "file": "data\\corpus\\ico\\5de41363f5f0.ico",
+          "sha256": "5de41363f5f06a3a2fb517ab570a61138891849f46510b8465c41da02ef49912"
+        },
+        {
+          "file": "data\\corpus\\ico\\7f13eeb5dca3.ico",
+          "sha256": "7f13eeb5dca39d05e24b9eb069c6dcb2748633822d67288a8bf8b7e21cdddf55"
+        },
+        {
+          "file": "data\\corpus\\ico\\6382e657cc30.ico",
+          "sha256": "6382e657cc30f7a6be9065efc8f38246fd058216f8391cff54f2d6fa9a0d0a0d"
+        },
+        {
+          "file": "data\\corpus\\ico\\55deedcee073.ico",
+          "sha256": "55deedcee07368c762a27255d43cd0f94abf69b8e3542cd3d225eb0ebfb5f2a3"
+        },
+        {
+          "file": "data\\corpus\\ico\\799a44962cbd.ico",
+          "sha256": "799a44962cbd87de2ff0c035a4bc49dd24b71e60518171402d09f97c3abdcdde"
+        },
+        {
+          "file": "data\\corpus\\ico\\3fb2dd4b4280.ico",
+          "sha256": "3fb2dd4b42809e465328689308f615810222e29c9f50aff3125896335673ab20"
+        },
+        {
+          "file": "data\\corpus\\ico\\cf60f075127c.ico",
+          "sha256": "cf60f075127cb8ba00001357fae27f82eecce3543547b470b61eb07ea787f804"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "wav",
+      "files": 22,
+      "skipped": [
+        {
+          "file": "data\\corpus\\wav\\1f42cbcafda5.wav",
+          "error": "Error: unknown format: 3"
+        },
+        {
+          "file": "data\\corpus\\wav\\f6a4c2be981d.wav",
+          "error": "Error: unknown format: 65534"
+        },
+        {
+          "file": "data\\corpus\\wav\\12a6019c4813.wav",
+          "error": "Error: unknown format: 65534"
+        },
+        {
+          "file": "data\\corpus\\wav\\6c5aec46ac34.wav",
+          "error": "Error: unknown format: 65534"
+        }
+      ],
+      "inputs": [
+        {
+          "file": "data\\corpus\\wav\\a731745ad377.wav",
+          "sha256": "a731745ad377ecb3a1905fbcdab5ee8dc316b38011e7ff5396380f7114247097"
+        },
+        {
+          "file": "data\\corpus\\wav\\070d8fd5ee1a.wav",
+          "sha256": "070d8fd5ee1a15d945399685593701d4eedb008eb2bee582977fc1b4a6fdcac7"
+        },
+        {
+          "file": "data\\corpus\\wav\\4c00fc75d7ab.wav",
+          "sha256": "4c00fc75d7ab2f59a8f20dd0faa389c69499f25866cbf2ad4b6592ffecc6749f"
+        },
+        {
+          "file": "data\\corpus\\wav\\47a109b21bd0.wav",
+          "sha256": "47a109b21bd0a79615478181f6ee0a867e4733554c7c9523d3cda2f2d901209f"
+        },
+        {
+          "file": "data\\corpus\\wav\\3bbdef4e7d33.wav",
+          "sha256": "3bbdef4e7d3398c3617f8269642c6d1aa7b22e5332c67025239581847b41e0bd"
+        },
+        {
+          "file": "data\\corpus\\wav\\d7ae3118a438.wav",
+          "sha256": "d7ae3118a43823bb312440fcfc185f8cf0a5f951e1b101c18204432abc9753ba"
+        },
+        {
+          "file": "data\\corpus\\wav\\c3da1a5848fa.wav",
+          "sha256": "c3da1a5848fa1bff1a1943e1b0f86ade6b61f55c89b97ee0939675b27cd86a5c"
+        },
+        {
+          "file": "data\\corpus\\wav\\a3782177c0a7.wav",
+          "sha256": "a3782177c0a74e14cc599d9ac7ea617a18bbc9bfeef047163354f587f87cca52"
+        },
+        {
+          "file": "data\\corpus\\wav\\d0d71d3f827f.wav",
+          "sha256": "d0d71d3f827f8c4cd9e4db51a72465be8426087e2b38467b3e639928116bd6e3"
+        },
+        {
+          "file": "data\\corpus\\wav\\13b92ab79f26.wav",
+          "sha256": "13b92ab79f26852b72484557a74ae61491fd87a36af875d0da87e745e9e66488"
+        },
+        {
+          "file": "data\\corpus\\wav\\8e7b499d1872.wav",
+          "sha256": "8e7b499d187267bc778c9c9612f0f1f04596c31cf0baafd2f61db37445e66231"
+        },
+        {
+          "file": "data\\corpus\\wav\\bb580215824d.wav",
+          "sha256": "bb580215824dd89825f114f4fbe5514f0e9783a1ca7bb7aed2376fadc349b6aa"
+        },
+        {
+          "file": "data\\corpus\\wav\\82e64d70d2e3.wav",
+          "sha256": "82e64d70d2e3e502771a60265bf8f69e5b251be4d3fe92c17de1ed947d477fae"
+        },
+        {
+          "file": "data\\corpus\\wav\\78d887b09c11.wav",
+          "sha256": "78d887b09c113e54b32a8ba85c94a7cdcc4302e44dfe12a65023aa506a32f93f"
+        },
+        {
+          "file": "data\\corpus\\wav\\ca7fd70c38a6.wav",
+          "sha256": "ca7fd70c38a63afcdc3eadbdd3694dd87a47fd3891b346b6a58eef1764d3285b"
+        },
+        {
+          "file": "data\\corpus\\wav\\ae5582e35a15.wav",
+          "sha256": "ae5582e35a15ff94a1ec594b76357070efabe8a8f16121e9044982747c71cfdb"
+        },
+        {
+          "file": "data\\corpus\\wav\\83d535458d86.wav",
+          "sha256": "83d535458d868ff1cd419b36746073792972ad65dae77a4cf1b3fcd17c48fc41"
+        },
+        {
+          "file": "data\\corpus\\wav\\aa3d652326d9.wav",
+          "sha256": "aa3d652326d9b5f6aeed214dac7694b7c742cc84c7498ee7a40ea233d98a8a52"
+        },
+        {
+          "file": "data\\corpus\\wav\\d1d2e4149e94.wav",
+          "sha256": "d1d2e4149e94049a91a6c9f6c0bdf279a3708e1b1282d192bb682961df9d8987"
+        },
+        {
+          "file": "data\\corpus\\wav\\7335f708c10a.wav",
+          "sha256": "7335f708c10ae55e2574d43f5027a098c7155dc25248547d47a7b5467fa82dc8"
+        },
+        {
+          "file": "data\\corpus\\wav\\8beb855b77ef.wav",
+          "sha256": "8beb855b77ef712dff6e2f09960d8274264062f87895b1ad1dbc3e55e00d8926"
+        },
+        {
+          "file": "data\\corpus\\wav\\ce5c50957271.wav",
+          "sha256": "ce5c50957271aad7a4211768ce2ecf4f47fd12861250506dfe16211be4396f45"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "gz",
+      "files": 30,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "data\\govdocs\\dev_extra\\231\\231529.gz",
+          "sha256": "4d57d8f6b9f4cb84122ac8282fabfe23c2dd6671b82f47cbeaac68c0fc67b1a0"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\658\\658938.gz",
+          "sha256": "08dddffdbbbf7635cb2db1cdc2d8c49c50eecf72372eda28506903154ea11279"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\117\\117997.gz",
+          "sha256": "91d90425fb155693209b3bea2fe2a3b32807f3e61abd3d129b71ac77d5f36fd1"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\722\\722991.gz",
+          "sha256": "8e2c94f065fed0e92910695ef352e662f82308761ef8c506ff6c49cb21dfd58e"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\117\\117022.gz",
+          "sha256": "8e684cb7aad76f3c3a5e8e6584e8495c1855e410666d0a72129c56fef8902da5"
+        },
+        {
+          "file": "data\\corpus\\gz\\afe473692460.gz",
+          "sha256": "afe4736924606638984e573235191025d419c545d31dc8874c96b72f5ec5db73"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\737\\737205.gz",
+          "sha256": "12b6aff027963a3245c9d4ccfe314a0fa38bf781f72a1b19bd5c20747a54485b"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\145\\145297.gz",
+          "sha256": "c444015f47b0c14f108e9efcfa4e596a81c3b536ca7ee4954d83afbf5d987e12"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\763\\763574.gz",
+          "sha256": "37846800276c4411fbb614877d2ffaccb53756db2e7e2cea90c639efb7d5af11"
+        },
+        {
+          "file": "data\\corpus\\gz\\c9f2b8614009.gz",
+          "sha256": "c9f2b86140095899ea89f2f107e18bd51889c62ce01cee248b82617f2082bf64"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\658\\658469.gz",
+          "sha256": "e64b49f1a51d61b765ce5519f1dcbfe3a362776c53efc00694280bf8de45f984"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\737\\737505.gz",
+          "sha256": "1a20497608d67f23a855bad0b100a7bf78ecfe68bf1a75486b98b9dd52197ce4"
+        },
+        {
+          "file": "data\\govdocs\\dev\\001\\001\\001935.gz",
+          "sha256": "b6470d127010e7d8d0870091f9ac0a338364dc496c28e8200ee21ad4453e1f3e"
+        },
+        {
+          "file": "data\\corpus\\gz\\f046328396ed.gz",
+          "sha256": "f046328396ed4ca2e3f0ee368cbcfd93850b7f14217a4a462685aa461884b0e0"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\206\\206988.gz",
+          "sha256": "4bbf85f954811afe8b1b643c11748e5be126e3f4ddabd0074c65925dd2fdd998"
+        },
+        {
+          "file": "data\\corpus\\gz\\b7ee24adabd4.gz",
+          "sha256": "b7ee24adabd4aaed6419b43fe9d3f86d55fcf4bee0f1698ae21d86c2701314e3"
+        },
+        {
+          "file": "data\\govdocs\\dev\\001\\001\\001051.gz",
+          "sha256": "d60f38e9a84e9be6d061206e4e78b4908bc39f9c5eb5e52638c3708edc034701"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\030\\030016.gz",
+          "sha256": "222a4598444f2a6c56d39a8ede9246ab68f14c3c6cc8ed36494b87175556dff2"
+        },
+        {
+          "file": "data\\govdocs\\dev\\001\\001\\001321.gz",
+          "sha256": "139f3a0a1793530662e9071f142478cad41d07e1d97336bb8126646b8f68b375"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\253\\253887.gz",
+          "sha256": "35f024d14543742c839d5a675d075903944f7b708ab02e81641c941bfc9bbd9d"
+        },
+        {
+          "file": "data\\corpus\\gz\\ff285b08c55f.gz",
+          "sha256": "ff285b08c55f8c97ce4ea7012743af2495c9f1291785f163722bd36f6af6d3bf"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\030\\030688.gz",
+          "sha256": "62ee6218bba08604b127d3a715f5a5f9388d358cfbf05336f71d715eb2ab0a9a"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\253\\253298.gz",
+          "sha256": "9fcf590d7d1b99c21c8c12dc3cf726ee754fc3ae91e0f826c6d30945a9acd01d"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\578\\578052.gz",
+          "sha256": "c61598e84e0848519e7a24751515f1f7321c7543e7507fa73a23615e50a769f7"
+        },
+        {
+          "file": "data\\corpus\\gz\\6931af256195.gz",
+          "sha256": "6931af256195fcdd2e47dd8b0f9edf16fbf03b198e77b70e3dfd9877cdf09515"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\658\\658152.gz",
+          "sha256": "b0e95b218173b5ad3599b891591dabe2aeae61837c01bfa3685d85e320c4939b"
+        },
+        {
+          "file": "data\\govdocs\\dev_extra\\763\\763164.gz",
+          "sha256": "ea8f785b2dc40581a3ae5baec13fa5a2271586bfa786ff2ac584b271164d1389"
+        },
+        {
+          "file": "data\\corpus\\gz\\91313261d3c3.gz",
+          "sha256": "91313261d3c3000485517f0d8b2af2e6644317e63e2ecae14808dbbb8e779af0"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\737\\737503.gz",
+          "sha256": "472da551c71d57be9e537d70e1f10216911d50bf1e21e7ceb19541ec84b9d846"
+        },
+        {
+          "file": "data\\govdocs\\test_extra\\578\\578057.gz",
+          "sha256": "c8761efa483a8521230b9247fd3dc7599e82008454d04cef14e870eacb2a78b0"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "docx",
+      "files": 21,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "data\\corpus\\docx\\d6403b493857.docx",
+          "sha256": "d6403b493857360a90b55ad4915f7dede98ec4c64bfde29f82dba7e4051ed2af"
+        },
+        {
+          "file": "data\\corpus\\docx\\e82294a6ac34.docx",
+          "sha256": "e82294a6ac34b1e3d8ce2d25500b71972ac62ff59e91fdc7d4bf03f2fea0dfbb"
+        },
+        {
+          "file": "data\\corpus\\docx\\4a1b2c24306e.docx",
+          "sha256": "4a1b2c24306e7f1a37ee683b5e782a07de6132eec774fedb3de454728fbe0073"
+        },
+        {
+          "file": "data\\corpus\\docx\\5b855742f2e0.docx",
+          "sha256": "5b855742f2e0df56c0ac79e56632bc5acfe8a3359fc9300e855829e89a43d3ca"
+        },
+        {
+          "file": "data\\corpus\\docx\\55cac6196cfa.docx",
+          "sha256": "55cac6196cfa1d933468a07f6b6cf53dddb64a64b5a684e5f964f1053a57742d"
+        },
+        {
+          "file": "data\\corpus\\docx\\37d3cbc0b74b.docx",
+          "sha256": "37d3cbc0b74b6fa8710012b20d563a806fa6d37295b88343f9c56a11d119683e"
+        },
+        {
+          "file": "data\\corpus\\docx\\c72908c3037c.docx",
+          "sha256": "c72908c3037cf8c25bc8891381d82e934303b1eaa917f1b15d73c79adc0642dc"
+        },
+        {
+          "file": "data\\corpus\\docx\\acfb11d8d0fb.docx",
+          "sha256": "acfb11d8d0fb5556b24db84231b754e94ca16cf144a52881aea025f1214a90e0"
+        },
+        {
+          "file": "data\\corpus\\docx\\345c493dcb79.docx",
+          "sha256": "345c493dcb7942b70f06a74f0837718e9475373f00b82e2ea04f4f8f22432d98"
+        },
+        {
+          "file": "data\\corpus\\docx\\3d721e0e4ba9.docx",
+          "sha256": "3d721e0e4ba9296f5804f732893a996b5808c497bd7a9034043f512e841b8808"
+        },
+        {
+          "file": "data\\corpus\\docx\\b2c64dee57dc.docx",
+          "sha256": "b2c64dee57dc455395fd4aa7f86ae2b3b2b776eca9be4c85aac7025da5623d13"
+        },
+        {
+          "file": "data\\corpus\\docx\\5eaef42ebd4c.docx",
+          "sha256": "5eaef42ebd4c5349b2c785e95863a5c1a96e29e7152bd7797906611665030f0e"
+        },
+        {
+          "file": "data\\corpus\\docx\\52d5f0edd91b.docx",
+          "sha256": "52d5f0edd91bb8c466e7cf5a1ba523be7678e48b6dec3fd81b9236bebf12e489"
+        },
+        {
+          "file": "data\\corpus\\docx\\b5b6179b2a87.docx",
+          "sha256": "b5b6179b2a87fe657282c16f5838a2e5f51d1c8d9f7582a28de3e7f60772fae5"
+        },
+        {
+          "file": "data\\corpus\\docx\\d54c49b02421.docx",
+          "sha256": "d54c49b024214b5170d37c7e4fcf2d63dac15cb56292ad5b0a854c5e23fe4621"
+        },
+        {
+          "file": "data\\corpus\\docx\\78077afeb9fd.docx",
+          "sha256": "78077afeb9fd3d00e30cbe4941028d1fa01f3b9d6edc597266b1ab14d02adeb5"
+        },
+        {
+          "file": "data\\corpus\\docx\\7cba7e91f41b.docx",
+          "sha256": "7cba7e91f41b2a975c3c447a6bbe844bd68e2e61889c4e7168ad25a366ce8f4d"
+        },
+        {
+          "file": "data\\corpus\\docx\\a8de0a1071a9.docx",
+          "sha256": "a8de0a1071a918e1338793b7b25dc3137761b5355665d1e14abd127b4e9acc0c"
+        },
+        {
+          "file": "data\\corpus\\docx\\cb64abc7ed6f.docx",
+          "sha256": "cb64abc7ed6fd0647c1f2ffe0607084d4ca085a7ce90f4054a1e604f06f76aa0"
+        },
+        {
+          "file": "data\\corpus\\docx\\384e38c51ce2.docx",
+          "sha256": "384e38c51ce2dfd59a771e9bc7a2b453f9510a9be6d812d6f7a3fd4ec1bf9933"
+        },
+        {
+          "file": "data\\corpus\\docx\\364b6bc41d24.docx",
+          "sha256": "364b6bc41d247572e7ca835540d698006c9765e8e9bcd63801df3851ec9f93f6"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "cfg1",
+      "files": 40,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "demo\\samples_cfg1\\mal_20.cfg",
+          "sha256": "17f9900a25e47115e22428cb5b2bd2c3bad9e4d2aaad9589c59d789eec420a44"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_21.cfg",
+          "sha256": "4cd0943220863c755687c1da8f7fc3530904688666b21905cae08d9eb4cc8deb"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_22.cfg",
+          "sha256": "b924d0a5a6c913933e7f4a6cf147a8892f0241a9abe2149f6ab54e30e0a777dc"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_23.cfg",
+          "sha256": "3bfb52694cab49b0121d0b79aefb772357034443880314f76fd7f55bda53ece9"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_24.cfg",
+          "sha256": "a030ed5e55e2cf15fa2f9a0a6d3d73ca94f6effd883a740e96c51feafa2170e3"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_25.cfg",
+          "sha256": "8feaea4724c68eb0316371814db516b28cb348f97fc0d9d91b25a702455a107e"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_26.cfg",
+          "sha256": "344c8153ee74eb4cf6e6ea201f5c891f43cfa638e6d4cd89338a0936e5a766be"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_27.cfg",
+          "sha256": "ce670ec25935e9823464519fefd937285bbf4e5daa4275b090e585b2005eefc8"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_28.cfg",
+          "sha256": "bba612e2cca290c5141cff6d0c70255401fbcaf2f2bf8d1214a2b8b4be8045d1"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_29.cfg",
+          "sha256": "eab1ce75b78fa08dbcf0ebce9a7c4254df6fa2abe69fd7cd04b0315ba14f299d"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_30.cfg",
+          "sha256": "5aca01032b984a7c410f613aa50bc1374704794f06109fb28144357b53a7c2b0"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_31.cfg",
+          "sha256": "af655c04a74c43c0530fcf3d5aa3a016ef7f34933d2aee0358efbfb966669ae6"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_32.cfg",
+          "sha256": "7814afdba6794b273f4ecf405e547ba5b56420cf5a8b9f9b3f771a161066e27d"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_33.cfg",
+          "sha256": "7dcf5ecf582b1f902f14ca2a9c0d89eb24ef9d4ae556315bcb3207413b70e539"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_34.cfg",
+          "sha256": "252fcd11aab5fddc3c285984b69e18ac2bc85a422478779b3d802c03178e1d9a"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_35.cfg",
+          "sha256": "c66a5343d229f0111c76b4e713c2dc587b515f912cf7a694b68a00779741fae8"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_36.cfg",
+          "sha256": "309e99b4ee371fad88762e2cc7c9088a4486eaeeac755553451f0a92a8bbcf4d"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_37.cfg",
+          "sha256": "745a737ea5be45866ded5cd1aa1bb7f70315a1723e26d917f7d68cf57e1fe025"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_38.cfg",
+          "sha256": "ee9cb0ca3bd9dea7282e25ab370aca3744c095dd2ade859d1dd1119d0e112f9e"
+        },
+        {
+          "file": "demo\\samples_cfg1\\mal_39.cfg",
+          "sha256": "f1f1f94fb355a5b2ad8e1b0ba91261d4cf6b5bed4fe1810acf6dd9e70c4c1f23"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_00.cfg",
+          "sha256": "84e2486d121ae059bbd86fa9880de501a0584e9d6a4afc111aa8b1d8c987fe66"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_01.cfg",
+          "sha256": "9510e2b24278e3ba178b75cc3e44fa1b9f6a374966355de97781f1a1f837db3f"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_02.cfg",
+          "sha256": "021674f63dcdbe2917c17382478a9e229574aa28050095387395a48e8a729e9c"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_03.cfg",
+          "sha256": "e1dfd243f9d2538b3ffbc696cb1c424e54c45017b9afc81bf85748f3b59d098e"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_04.cfg",
+          "sha256": "491a991265e45483be0bc15d2beda94f2e332f977fcddceb7dada8e1af661277"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_05.cfg",
+          "sha256": "0dc8ad08e3f3426f45b108849a85c5ac8c6d2cfe2664458ada4bfc7109ffe7b6"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_06.cfg",
+          "sha256": "014546270f0deb892f8f495fe24cff7cc0e429ede4e042378372bdcf47915260"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_07.cfg",
+          "sha256": "dcd6435d0739bf46ac8991725a612f62e939d1534a16eff3db40fa70a5c1ff93"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_08.cfg",
+          "sha256": "dbaeaa62bd81a6395056d2f05b85ddeb6b479a254a2e12c8c03c5adf77a574f5"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_09.cfg",
+          "sha256": "ec1203fedc69ea1f2b18b7c0ae425c06b1388adcc814606fbf0ddc92ff835821"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_10.cfg",
+          "sha256": "e7e91667566c0d0c5168a837e55a81138b3c90d59bf519e1187342d83cf8053a"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_11.cfg",
+          "sha256": "b81991dd1276f141d6221103383d9188b71ce754defa2679d58bab222f0da661"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_12.cfg",
+          "sha256": "92385030fd98624e33a62585728ca5f80577dd3fdec8c0ad476c7fb3a2c8af94"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_13.cfg",
+          "sha256": "e09e7de87a98d6913ae910bfb0797f05f96ad207b29759359c506fe792df87e1"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_14.cfg",
+          "sha256": "52a20e79695471c5af06ab62c514f3e18b14b222869fbf8f5f2b08cb4783ac72"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_15.cfg",
+          "sha256": "bf0339bba89199fc79861982cda1d8146a57cb030845adb783657af406669067"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_16.cfg",
+          "sha256": "a2c8c768769726b25313e291410fd2a6cd4ebf595a34f04e78bba37dd5c8ff46"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_17.cfg",
+          "sha256": "5ca220dd9d9aca5b81aae4e4420ee8b1640f1d6b4266a271317fe02c2521ff4d"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_18.cfg",
+          "sha256": "8ef49fe3fa43581fe095f2609379c09c00aad395e715c4fcef249a0816f24bb8"
+        },
+        {
+          "file": "demo\\samples_cfg1\\ok_19.cfg",
+          "sha256": "8f54f4396fc22bb6188fe25943ecb630968e19df30568b0d134ecf84834a78b0"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": true,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "xdt3",
+      "files": 20,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "demo\\samples_xdt3\\sample_00.xd3",
+          "sha256": "737682249022f843b95ecf09a3fde2cfd2a9630d72388804eb6a0997ab8f3901"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_01.xd3",
+          "sha256": "82729c43bd38fb448d2e503fdbb194bbb0fe845c32aab7314333c36d22d31071"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_02.xd3",
+          "sha256": "ed2bb33d265b1ec3bc2e4f342458ef85f4a18fac74eaa0aecce4f5bc2ce08f3b"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_03.xd3",
+          "sha256": "1b15f000d033eecf335880cf43ee10db8c6e557fbe2b4af53ffd7619724d01d6"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_04.xd3",
+          "sha256": "21e7f604b4a48dc1f57ba39fa0561484775a02a3c57845406a6f4e40a9a53685"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_05.xd3",
+          "sha256": "194c1bf7239d88838dc2dea139a89ad4b14fb5c5e283f7d44c5babd482b920a6"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_06.xd3",
+          "sha256": "1fbcaec1494cf5ee4801e7440582143e02761500332a9fe1a9a4f8452185a9f0"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_07.xd3",
+          "sha256": "e78a18a655c69900a852c88115e85899ae20cce1b3457748cdbe4e173b979443"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_08.xd3",
+          "sha256": "5988f30c3e7ad0745ef2ef04a144073f92a57aef74b09b88663988bb957f141b"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_09.xd3",
+          "sha256": "83e1f07f5ec0295851bb927aea30d44758f8bc6dd631056625a5e68fd8c8874b"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_10.xd3",
+          "sha256": "e5f1b433b75a081d5ea1e882e3047adfcfaf1c47b12fe00a389c585750b1bf70"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_11.xd3",
+          "sha256": "50c8334dd379ff02b213d7f377945f6ad10f1b60c6b6e12e00a73e0fabfb61cf"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_12.xd3",
+          "sha256": "e9d7693d101fce993e1118b906743b4385069fc0fe9df36c321b8aa5fbdb59d4"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_13.xd3",
+          "sha256": "b353ae0813770372fe643cb7b606ac964c63bd8e10b302f54c74b505599ffc4c"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_14.xd3",
+          "sha256": "86dee3d0bd46e940e6c1c20361f47d4108d62472fd8b08d35fa940a3d7716184"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_15.xd3",
+          "sha256": "737c2c526814b8d9691b6fb187976874e89c5756610ec0c607d838b5f3c43b41"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_16.xd3",
+          "sha256": "22a9fdf15731502f4557722cd4a8bc84e484c095c3f1999380f5e15f8b7aad8b"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_17.xd3",
+          "sha256": "4700c8627e0cc5650a46f24f4e7a1473f426bc88656787490eb90bd22c1174c3"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_18.xd3",
+          "sha256": "f440a325f20523216939484bc0d47c0915a0bc50e996afc7ee0a6a6e1c407be8"
+        },
+        {
+          "file": "demo\\samples_xdt3\\sample_19.xd3",
+          "sha256": "b9cd5247cad4be1b24630000bd661464e9b20ee9a77d705506bc0db1355daabf"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": true,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    },
+    {
+      "dataset": "evtx",
+      "files": 40,
+      "skipped": [],
+      "inputs": [
+        {
+          "file": "data\\corpus\\evtx\\13c5c4f59b31.evtx",
+          "sha256": "13c5c4f59b3148d3fd1bdff3835ca92162bb86f9af352641329e8ac03cfd8f6c"
+        },
+        {
+          "file": "data\\corpus\\evtx\\1be65dab16a6.evtx",
+          "sha256": "1be65dab16a68d5f4fef2faf0ef425d0d3b20654e33b21fbc66296fcf854e991"
+        },
+        {
+          "file": "data\\corpus\\evtx\\1cea8431ca5e.evtx",
+          "sha256": "1cea8431ca5e86402c495454b9752183ca50629fed6fae3043e868829b9b5d33"
+        },
+        {
+          "file": "data\\corpus\\evtx\\21c8cf441848.evtx",
+          "sha256": "21c8cf4418488d1eca2a9c61374a629b05fd93f861c22aa7c0a0e45283d0c0c9"
+        },
+        {
+          "file": "data\\corpus\\evtx\\2d7543dd0f39.evtx",
+          "sha256": "2d7543dd0f39cda7ce36b11a32cded43045b1066e225feef60e32e9860295cb3"
+        },
+        {
+          "file": "data\\corpus\\evtx\\3a617a8408ca.evtx",
+          "sha256": "3a617a8408ca4d84e5fe0871d328a4a98fdb51a1f8728663d594f09260d42e80"
+        },
+        {
+          "file": "data\\corpus\\evtx\\46c216b11b90.evtx",
+          "sha256": "46c216b11b90aa906d274070a07f6ca891b6b686ff20e4a2d75fed6c8bfcfb5b"
+        },
+        {
+          "file": "data\\corpus\\evtx\\4c4fb107aff6.evtx",
+          "sha256": "4c4fb107aff6948da09103cd40a1f56566243e761092cba338ede6b5305e87c2"
+        },
+        {
+          "file": "data\\corpus\\evtx\\5aad1181f5e5.evtx",
+          "sha256": "5aad1181f5e5f401d2e9a34e591a8c6ab245d13731e6d09ecfe378c9ada67cc2"
+        },
+        {
+          "file": "data\\corpus\\evtx\\5e8da875daf3.evtx",
+          "sha256": "5e8da875daf3ac673b708261c1b18fd983d705ef6fab391de58e3d4a88552341"
+        },
+        {
+          "file": "data\\corpus\\evtx\\634319a0d249.evtx",
+          "sha256": "634319a0d2495088080159b14dbc280dcd4226ad3eab8fdcd10b57a2e16636e6"
+        },
+        {
+          "file": "data\\corpus\\evtx\\67aa7e0da2db.evtx",
+          "sha256": "67aa7e0da2dbcc2d3bcc45e0ba17af82b7d3aa9313e9cdd13a2c63cd38eb39ca"
+        },
+        {
+          "file": "data\\corpus\\evtx\\6e84ad009d4b.evtx",
+          "sha256": "6e84ad009d4bba6d29677b51c4a2a327d26632292573735a91a1b1f6d427c744"
+        },
+        {
+          "file": "data\\corpus\\evtx\\6fb3b35a1e47.evtx",
+          "sha256": "6fb3b35a1e4737894072b14a00f3bcbd4aa9fb1bdbed4fb65f3043e3bfd9e028"
+        },
+        {
+          "file": "data\\corpus\\evtx\\73a1478de93e.evtx",
+          "sha256": "73a1478de93ea79cb132f05321b201518db9c9364646e2b0f5543d658227975a"
+        },
+        {
+          "file": "data\\corpus\\evtx\\75bc1bb38744.evtx",
+          "sha256": "75bc1bb38744168a57a2d4cb00b49f99b534924b0559f7d771015f946d6ce510"
+        },
+        {
+          "file": "data\\corpus\\evtx\\7c32d9ef98d0.evtx",
+          "sha256": "7c32d9ef98d0e26ced45d245c79b67d77bb128610e3117c4988903912496b6b3"
+        },
+        {
+          "file": "data\\corpus\\evtx\\855d27374086.evtx",
+          "sha256": "855d2737408643b7f231cdbbee3c33e93c5f0cd72001898a06b5ba47e27f9fec"
+        },
+        {
+          "file": "data\\corpus\\evtx\\981e1c079926.evtx",
+          "sha256": "981e1c07992647ec432871d9cc6643d4dfcbdc8d50fd9760cef8d7fae80f4cbb"
+        },
+        {
+          "file": "data\\corpus\\evtx\\a7cfb3266d12.evtx",
+          "sha256": "a7cfb3266d1282a9a5ebf696e7f626b975254bfe373f78b917c469d253757995"
+        },
+        {
+          "file": "data\\corpus\\evtx\\a88fac121243.evtx",
+          "sha256": "a88fac12124303f8398f23b10db0db71ef15c1e6e77ca66f26b16d9f96f5f0e5"
+        },
+        {
+          "file": "data\\corpus\\evtx\\aae2fb164986.evtx",
+          "sha256": "aae2fb16498658cc7b1ab120413f71fd31d806d4a0bb4c450e18406b418c5fb3"
+        },
+        {
+          "file": "data\\corpus\\evtx\\ae4fb3a8ff22.evtx",
+          "sha256": "ae4fb3a8ff22995956f8e14eae8f5edae5ab5cfd51eb2f1d1642a152d8f2e8d7"
+        },
+        {
+          "file": "data\\corpus\\evtx\\b35226be3b72.evtx",
+          "sha256": "b35226be3b7265b4d44bcdc13892ecbb6b8d8f7ef4919d304aa6a7d7f20f2c65"
+        },
+        {
+          "file": "data\\corpus\\evtx\\b370ee38ec55.evtx",
+          "sha256": "b370ee38ec553d30568afcbad14c3a72b5e5c8a033b341a32017ea34b5c6704a"
+        },
+        {
+          "file": "data\\corpus\\evtx\\b6116dc51d2b.evtx",
+          "sha256": "b6116dc51d2b22b783a0bb20453eb450f5066aaf94de53b4d29a65f0e6f44931"
+        },
+        {
+          "file": "data\\corpus\\evtx\\bf716e31bbc5.evtx",
+          "sha256": "bf716e31bbc59e35505fd106b41a3bc386ce76dc87ac9ff3e5b8e918cf6d6101"
+        },
+        {
+          "file": "data\\corpus\\evtx\\c0e0c9997352.evtx",
+          "sha256": "c0e0c9997352f36c24cff09ebc73cc07c5df8218eaf352585b0cd73c0fcc1f3d"
+        },
+        {
+          "file": "data\\corpus\\evtx\\c620186ff828.evtx",
+          "sha256": "c620186ff828b2e9dc39a747960eb5a8d0f0cfa63ac1285d4eda676ef2e9530c"
+        },
+        {
+          "file": "data\\corpus\\evtx\\c6bb2239ef21.evtx",
+          "sha256": "c6bb2239ef21ff8426d37706d7224a4175ef6839455e6149efa91d68abc4975b"
+        },
+        {
+          "file": "data\\corpus\\evtx\\c8f45fc21c7b.evtx",
+          "sha256": "c8f45fc21c7b3f9bfa42b36e2c9242d7a8b9c324957b3aa0d5287b37759a910a"
+        },
+        {
+          "file": "data\\corpus\\evtx\\cb52b4c29abb.evtx",
+          "sha256": "cb52b4c29abbab9699e3c0fa3745ffecf541e59b5f48d0d14b1527a3e77adf11"
+        },
+        {
+          "file": "data\\corpus\\evtx\\d18f2690a523.evtx",
+          "sha256": "d18f2690a523f9088f7f44afa8e2b9e1641ab340f1ffed9c1243c3f0c76b1358"
+        },
+        {
+          "file": "data\\corpus\\evtx\\d351c5bc1c4c.evtx",
+          "sha256": "d351c5bc1c4cefd56bf19265e17f0da296d91f1eef4d848cc74c2fd0ce9e5348"
+        },
+        {
+          "file": "data\\corpus\\evtx\\d4dd2c557686.evtx",
+          "sha256": "d4dd2c5576861124097e807e44efa59aef6706170fc37b0ca811a164517a5a10"
+        },
+        {
+          "file": "data\\corpus\\evtx\\ea3df1a00b0f.evtx",
+          "sha256": "ea3df1a00b0fb305c955249971c5b75c8fff267182a323af2aa185aa937720da"
+        },
+        {
+          "file": "data\\corpus\\evtx\\eaed66f5f2b6.evtx",
+          "sha256": "eaed66f5f2b653edf1d9c0a15ab3d740306daa612e44b81226a9c579bf66d27e"
+        },
+        {
+          "file": "data\\corpus\\evtx\\eed389cf0eb5.evtx",
+          "sha256": "eed389cf0eb58509b9a2093ed4018cc8dacd232a5d811f40c73a54d11da1f2d6"
+        },
+        {
+          "file": "data\\corpus\\evtx\\f1c8b05e7dc1.evtx",
+          "sha256": "f1c8b05e7dc1be138a7145ccb07aa8e8185e240de4c105a10bb1566606a9f94b"
+        },
+        {
+          "file": "data\\corpus\\evtx\\f3bc035af6c0.evtx",
+          "sha256": "f3bc035af6c0b30df1658471f8fca3c169816388d0df3db50d780f437927394d"
+        }
+      ],
+      "status": "evaluated",
+      "interval_symmetric_difference_count": 0,
+      "role_changes": [],
+      "changed_files": [],
+      "truth_available": false,
+      "lost_exact_correct_fields": [],
+      "gained_exact_correct_fields": [],
+      "new_rules": []
+    }
+  ]
+}

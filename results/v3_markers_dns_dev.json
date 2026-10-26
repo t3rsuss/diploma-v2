@@ -1,0 +1,160 @@
+{
+  "scope": "Development DNS only; marker extension only; no held-out data.",
+  "commit": "905ed15aecb09ee31dadff6974aa52541f87b960",
+  "messages": 60,
+  "skipped": [],
+  "sha256": {
+    "v2": "b790285eea9bb6538992e6b5c67ec5ac760a18c3b96263b1f48139a301488e01",
+    "v3_markers": "c3183a0420f49b4d511825bf1ad1c42d15ffe6109165df767a61fd616c40d64b",
+    "reader": "075eab0479fd183dade8b0953c971414a309097844ad007538d588b49364e5ce",
+    "truth_source": "6ef65ec6f03f15f71823421d21db911e0ac8373b22c75ad85803bad31126ded2",
+    "evaluator": "b92b3e7180ba033f73c397b53a2550437f8b7c87833cc2d4f807640622e9275c"
+  },
+  "summary": {
+    "v2": {
+      "true_length_fields": 285,
+      "correct_length_labels": 165,
+      "length_recall": 0.5789473684210527,
+      "false_length_labels": 0,
+      "false_length_examples": [],
+      "missing_exact_intervals": 0,
+      "roles_by_field": {
+        "id": {
+          "змінне поле": 60
+        },
+        "flags": {
+          "змінне поле": 60
+        },
+        "qdcount": {
+          "константа": 60
+        },
+        "ancount": {
+          "константа": 41,
+          "змінне поле": 19
+        },
+        "nscount": {
+          "константа": 60
+        },
+        "arcount": {
+          "константа": 60
+        },
+        "qname_len": {
+          "тип запису": 120
+        },
+        "qname_label": {
+          "змінне поле": 70,
+          "константа": 50
+        },
+        "qname_end": {
+          "тип запису": 60
+        },
+        "qtype": {
+          "константа": 12,
+          "змінне поле": 48
+        },
+        "qclass": {
+          "константа": 60
+        },
+        "rr_end": {
+          "тип запису": 60
+        },
+        "rr_type": {
+          "тип запису": 165
+        },
+        "rr_class": {
+          "тип запису": 165
+        },
+        "rr_ttl": {
+          "константа": 60,
+          "змінне поле": 105
+        },
+        "rr_rdlen": {
+          "довжина": 165
+        },
+        "rr_ptr1": {
+          "тип запису": 105
+        },
+        "rr_ptr2": {
+          "змінне поле": 105
+        },
+        "rr_rdata": {
+          "дані (блок)": 105
+        }
+      }
+    },
+    "v3_markers": {
+      "true_length_fields": 285,
+      "correct_length_labels": 165,
+      "length_recall": 0.5789473684210527,
+      "false_length_labels": 0,
+      "false_length_examples": [],
+      "missing_exact_intervals": 0,
+      "roles_by_field": {
+        "id": {
+          "змінне поле": 60
+        },
+        "flags": {
+          "змінне поле": 60
+        },
+        "qdcount": {
+          "константа": 60
+        },
+        "ancount": {
+          "константа": 41,
+          "змінне поле": 19
+        },
+        "nscount": {
+          "константа": 60
+        },
+        "arcount": {
+          "константа": 60
+        },
+        "qname_len": {
+          "тип запису": 120
+        },
+        "qname_label": {
+          "змінне поле": 70,
+          "константа": 50
+        },
+        "qname_end": {
+          "тип запису": 60
+        },
+        "qtype": {
+          "константа": 12,
+          "змінне поле": 48
+        },
+        "qclass": {
+          "константа": 60
+        },
+        "rr_end": {
+          "тип запису": 60
+        },
+        "rr_type": {
+          "тип запису": 165
+        },
+        "rr_class": {
+          "тип запису": 165
+        },
+        "rr_ttl": {
+          "константа": 60,
+          "змінне поле": 105
+        },
+        "rr_rdlen": {
+          "довжина": 165
+        },
+        "rr_ptr1": {
+          "тип запису": 105
+        },
+        "rr_ptr2": {
+          "змінне поле": 105
+        },
+        "rr_rdata": {
+          "дані (блок)": 105
+        }
+      }
+    }
+  },
+  "interval_symmetric_difference_count": 0,
+  "role_changes": [],
+  "marker_rules": []
+}
