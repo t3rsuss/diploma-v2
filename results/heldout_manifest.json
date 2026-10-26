@@ -1,0 +1,68 @@
+{
+  "scope": "Held-out set: 12 pktmon captures of DNS (UDP/53) on the author's machine, one domain per file (6 record types, CNAME for www, one random non-existent name). Collected and frozen BEFORE the design of infer2 v3; not used for any design decision. Data files are not stored in the repository (data/ is git-ignored); this manifest fixes their content by SHA-256.",
+  "frozen_on": "2026-10-26",
+  "repository_head_at_freeze": "eebd4a9e7cd578fb7afbc20930918f20cddedc79",
+  "files": [
+    {
+      "name": "cap_01.pcapng",
+      "bytes": 10884,
+      "sha256": "191db9aa2b4a703e4560cde4234e31a9258a59c2c09bd0ecbb933f4a1cf23a32"
+    },
+    {
+      "name": "cap_02.pcapng",
+      "bytes": 9156,
+      "sha256": "210b3a216659bc3d9fd74824776eb607601a2b352e49192ae364d88f88d651df"
+    },
+    {
+      "name": "cap_03.pcapng",
+      "bytes": 12164,
+      "sha256": "bc328723e424df893ca07d5196ee40c280f9e80cfd75980115ada939f1d35d8f"
+    },
+    {
+      "name": "cap_04.pcapng",
+      "bytes": 9876,
+      "sha256": "d936081ed286d1cf79fe9052edf8f21c6282f1d9d26bef7af410b118cfac10c1"
+    },
+    {
+      "name": "cap_05.pcapng",
+      "bytes": 11876,
+      "sha256": "e00be77ac3cce78185f60e5ccc4fb67fb8ba1310d676a73beb8a080e7a5ded55"
+    },
+    {
+      "name": "cap_06.pcapng",
+      "bytes": 10084,
+      "sha256": "d157bc26e97990ed36fe60c1e04cf27e57b762205cb437cbbfd350721e9aa7db"
+    },
+    {
+      "name": "cap_07.pcapng",
+      "bytes": 10276,
+      "sha256": "de19d21ae9af29242273caaa54f2e6cf454bc6cf468f9d9aea2c4e20e8026fc1"
+    },
+    {
+      "name": "cap_08.pcapng",
+      "bytes": 11076,
+      "sha256": "1faa018c446a5c06f0d3d5c5d923fa9378e448b96c6a79ed50b5e60cb6a47d44"
+    },
+    {
+      "name": "cap_09.pcapng",
+      "bytes": 22916,
+      "sha256": "b19cc114c185120a5178bc2afaff8becbb24a1d4fc37ddc1f86473bb10bde42a"
+    },
+    {
+      "name": "cap_10.pcapng",
+      "bytes": 17668,
+      "sha256": "8f1a389e2b8f9a7fcfc0793e9a7cc04578e147964d9b14f162500326bf7e3f8e"
+    },
+    {
+      "name": "cap_11.pcapng",
+      "bytes": 22980,
+      "sha256": "a6d446346a36537daa499f48fc69a10c29c0da5dd1cb13bd3bfe1ffcad8bc999"
+    },
+    {
+      "name": "cap_12.pcapng",
+      "bytes": 21348,
+      "sha256": "7f2d61dd98e5210641f0b9541c19c993b205d438e54dc47275f7f6cad915c80e"
+    }
+  ],
+  "set_sha256": "11eb7f64c85a6ab31cbdf4b6423a6d72349e1900d64b585f8d16154d0b0edfe3"
+}
