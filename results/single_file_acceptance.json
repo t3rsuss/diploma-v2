@@ -1,0 +1,2104 @@
+{
+  "scope": "Regression acceptance check for six established single-file fixtures. Not an independent accuracy evaluation, an ELF check, a UI check, or a threat-detector benchmark.",
+  "commit": "cba5ad4e043208998067d35dd411a7872cc23eee",
+  "python_version": "3.11.16",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "source_hashes": {
+    "app.py": "966bb817c082b500860677a317b731f3dcb4a1dae453940717c79bffc57efefd",
+    "src/pipeline.py": "239d936013c5fb2d0960093fae76a10efc785d02fac49cc5dfab599e5ca8540d",
+    "src/unknown.py": "a3f2adf97d75d7ef045c6a3bcac13fce3b73eb4ef6f2fb886fb319b3d04db6fc",
+    "src/triage/triage.py": "0da723dc89132e55dd4bdb0ad5a3ef56ea248a3f35fdc0e1467848f8ca80132f",
+    "experiments/check_single_file_acceptance.py": "3c7b28405179b5a4e78615568e5aa4fe87cf73e58c92c7051ff058341dfd0487"
+  },
+  "cfg1_source": "data\\demo_ready\\cfg1\\mal_20.cfg",
+  "python_executable_sha256": "db44abe9c1b318e6c6b201dddab44c163146b4ef26363adea3f0eb17c68fa84c",
+  "summary": {
+    "passed": 6,
+    "total": 6
+  },
+  "cases": [
+    {
+      "summary": {
+        "case": "wav",
+        "file": "generated.wav",
+        "input_bytes": 1644,
+        "input_sha256": "c726d333dd159a31423f3480dbb1c5c4a9dfcd30efe1f7e12ade390dc92e8908",
+        "passed": true,
+        "format": "wav",
+        "branch": "відомий формат: опис структури (Kaitai Struct)",
+        "record_candidates": 0,
+        "flags": [
+          "Magika (wav) і модель фрагментів (sqlite) розходяться"
+        ]
+      },
+      "report": {
+        "file": "generated.wav",
+        "size": 1644,
+        "sha256": "c726d333dd159a31423f3480dbb1c5c4a9dfcd30efe1f7e12ade390dc92e8908",
+        "extension": "wav",
+        "extension_class": "wav",
+        "magika": {
+          "label": "wav",
+          "score": 1.0,
+          "class": "wav"
+        },
+        "fragment_model": {
+          "class": "sqlite",
+          "confidence": 0.954,
+          "top3": [
+            [
+              "sqlite",
+              0.954
+            ],
+            [
+              "ole2",
+              0.04
+            ],
+            [
+              "pe",
+              0.006
+            ]
+          ]
+        },
+        "format": "wav",
+        "format_source": "Magika",
+        "confidence": 1.0,
+        "format_status": "recognized",
+        "format_candidate": null,
+        "confidence_kind": "method_score",
+        "branch": "відомий формат: опис структури (Kaitai Struct)",
+        "flags": [
+          "Magika (wav) і модель фрагментів (sqlite) розходяться"
+        ],
+        "structure": {
+          "parser": "kd_wav.Wav",
+          "fields_total": 4,
+          "coverage_top_level": 1.0,
+          "fields": [
+            {
+              "name": "chunk",
+              "start": 0,
+              "end": 1644,
+              "type": "Chunk"
+            },
+            {
+              "name": "_m_parent_chunk_data",
+              "start": 0,
+              "end": 1636,
+              "type": "ParentChunkData"
+            },
+            {
+              "name": "_m_subchunks[0]",
+              "start": 0,
+              "end": 24,
+              "type": "ChunkType"
+            },
+            {
+              "name": "_m_subchunks[1]",
+              "start": 24,
+              "end": 1632,
+              "type": "ChunkType"
+            }
+          ]
+        },
+        "analysis_scope": "single_file"
+      }
+    },
+    {
+      "summary": {
+        "case": "text",
+        "file": "plain_text.txt",
+        "input_bytes": 2700,
+        "input_sha256": "735bb656e7445bbaf80f231c7175442bccef497ddab00f05674e93a02b72cf54",
+        "passed": true,
+        "format": "ini",
+        "branch": "відомий формат без готового опису: карта областей за вмістом",
+        "record_candidates": 0,
+        "flags": []
+      },
+      "report": {
+        "file": "plain_text.txt",
+        "size": 2700,
+        "sha256": "735bb656e7445bbaf80f231c7175442bccef497ddab00f05674e93a02b72cf54",
+        "extension": "txt",
+        "extension_class": "txt",
+        "magika": {
+          "label": "ini",
+          "score": 0.865,
+          "class": "ini"
+        },
+        "fragment_model": {
+          "class": "ini",
+          "confidence": 0.907,
+          "top3": [
+            [
+              "ini",
+              0.907
+            ],
+            [
+              "other",
+              0.079
+            ],
+            [
+              "ttf",
+              0.008
+            ]
+          ]
+        },
+        "format": "ini",
+        "format_source": "Magika",
+        "confidence": 0.865,
+        "format_status": "recognized",
+        "format_candidate": null,
+        "confidence_kind": "method_score",
+        "branch": "відомий формат без готового опису: карта областей за вмістом",
+        "flags": [],
+        "regions": [
+          {
+            "start": 0,
+            "end": 2700,
+            "length": 2700,
+            "cls": "ini",
+            "conf": 0.9072881656036255
+          }
+        ],
+        "analysis_scope": "single_file"
+      }
+    },
+    {
+      "summary": {
+        "case": "random",
+        "file": "random.bin",
+        "input_bytes": 2048,
+        "input_sha256": "1c6cf4e710859290253af373864ab02b00500cba89ecf61e9a23cec2bf044aa1",
+        "passed": true,
+        "format": "unknown",
+        "branch": "невідомий формат: карта областей за вмістом",
+        "record_candidates": 5,
+        "flags": [
+          "Формат не встановлено. Класи моделі фрагментів є припущеннями про вміст, а не підтвердженою структурою."
+        ]
+      },
+      "report": {
+        "file": "random.bin",
+        "size": 2048,
+        "sha256": "1c6cf4e710859290253af373864ab02b00500cba89ecf61e9a23cec2bf044aa1",
+        "extension": "bin",
+        "extension_class": null,
+        "magika": {
+          "label": "unknown",
+          "score": 0.997,
+          "class": null
+        },
+        "fragment_model": {
+          "class": "gz",
+          "confidence": 0.986,
+          "top3": [
+            [
+              "gz",
+              0.986
+            ],
+            [
+              "ole2",
+              0.008
+            ],
+            [
+              "pdf",
+              0.005
+            ]
+          ]
+        },
+        "format": "unknown",
+        "format_source": "формат не встановлено",
+        "confidence": 0.0,
+        "format_status": "unrecognized",
+        "format_candidate": {
+          "format": "gz",
+          "score": 0.986,
+          "source": "модель фрагментів",
+          "interpretation": "Кандидат, а не встановлений формат."
+        },
+        "confidence_kind": "not_applicable",
+        "branch": "невідомий формат: карта областей за вмістом",
+        "flags": [
+          "Формат не встановлено. Класи моделі фрагментів є припущеннями про вміст, а не підтвердженою структурою."
+        ],
+        "unknown_analysis": {
+          "method": "single_file_observations_v1",
+          "size": 2048,
+          "window_bytes": 256,
+          "profile": [
+            {
+              "start": 0,
+              "end": 256,
+              "size": 256,
+              "entropy": 7.2575,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 0.3594,
+              "observation": "high_entropy"
+            },
+            {
+              "start": 256,
+              "end": 512,
+              "size": 256,
+              "entropy": 7.0314,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 0.3555,
+              "observation": "mixed"
+            },
+            {
+              "start": 512,
+              "end": 768,
+              "size": 256,
+              "entropy": 7.0849,
+              "zero_fraction": 0.0039,
+              "ascii_fraction": 0.3438,
+              "observation": "mixed"
+            },
+            {
+              "start": 768,
+              "end": 1024,
+              "size": 256,
+              "entropy": 7.2028,
+              "zero_fraction": 0.0039,
+              "ascii_fraction": 0.3828,
+              "observation": "high_entropy"
+            },
+            {
+              "start": 1024,
+              "end": 1280,
+              "size": 256,
+              "entropy": 7.2849,
+              "zero_fraction": 0.0039,
+              "ascii_fraction": 0.3828,
+              "observation": "high_entropy"
+            },
+            {
+              "start": 1280,
+              "end": 1536,
+              "size": 256,
+              "entropy": 7.1901,
+              "zero_fraction": 0.0078,
+              "ascii_fraction": 0.3164,
+              "observation": "mixed"
+            },
+            {
+              "start": 1536,
+              "end": 1792,
+              "size": 256,
+              "entropy": 7.2546,
+              "zero_fraction": 0.0078,
+              "ascii_fraction": 0.3711,
+              "observation": "high_entropy"
+            },
+            {
+              "start": 1792,
+              "end": 2048,
+              "size": 256,
+              "entropy": 7.1556,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 0.4062,
+              "observation": "mixed"
+            }
+          ],
+          "ascii_strings": [
+            {
+              "start": 135,
+              "end": 139,
+              "preview": "uEu^",
+              "preview_truncated": false
+            },
+            {
+              "start": 276,
+              "end": 280,
+              "preview": "iivM",
+              "preview_truncated": false
+            },
+            {
+              "start": 288,
+              "end": 295,
+              "preview": "qswPE:H",
+              "preview_truncated": false
+            },
+            {
+              "start": 383,
+              "end": 387,
+              "preview": "Js%_",
+              "preview_truncated": false
+            },
+            {
+              "start": 463,
+              "end": 467,
+              "preview": "qwEf",
+              "preview_truncated": false
+            },
+            {
+              "start": 539,
+              "end": 543,
+              "preview": "Bd7V",
+              "preview_truncated": false
+            },
+            {
+              "start": 676,
+              "end": 680,
+              "preview": "8E0W",
+              "preview_truncated": false
+            },
+            {
+              "start": 777,
+              "end": 781,
+              "preview": "n1/o",
+              "preview_truncated": false
+            },
+            {
+              "start": 929,
+              "end": 933,
+              "preview": "?Q(^",
+              "preview_truncated": false
+            },
+            {
+              "start": 1025,
+              "end": 1029,
+              "preview": "IKx:",
+              "preview_truncated": false
+            },
+            {
+              "start": 1186,
+              "end": 1190,
+              "preview": "&KV1",
+              "preview_truncated": false
+            },
+            {
+              "start": 1226,
+              "end": 1230,
+              "preview": "^vo^",
+              "preview_truncated": false
+            },
+            {
+              "start": 1399,
+              "end": 1403,
+              "preview": "A`JJ",
+              "preview_truncated": false
+            },
+            {
+              "start": 1690,
+              "end": 1694,
+              "preview": "LbT|",
+              "preview_truncated": false
+            },
+            {
+              "start": 1777,
+              "end": 1782,
+              "preview": ".OJ\"~",
+              "preview_truncated": false
+            },
+            {
+              "start": 1882,
+              "end": 1887,
+              "preview": "<TJ<:",
+              "preview_truncated": false
+            },
+            {
+              "start": 1958,
+              "end": 1963,
+              "preview": "gL>da",
+              "preview_truncated": false
+            },
+            {
+              "start": 2015,
+              "end": 2019,
+              "preview": "21}n",
+              "preview_truncated": false
+            },
+            {
+              "start": 2033,
+              "end": 2037,
+              "preview": "R.qm",
+              "preview_truncated": false
+            }
+          ],
+          "ascii_strings_limited": false,
+          "zero_runs": [],
+          "zero_runs_limited": false,
+          "numeric_candidates": [],
+          "record_hypotheses": {
+            "method": "fixed_tlv_hypotheses_v2_count",
+            "candidates": [
+              {
+                "start": 0,
+                "end": 2033,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 12,
+                "coverage": 0.99267578125,
+                "unparsed_prefix": 0,
+                "unparsed_suffix": 15,
+                "records": [
+                  {
+                    "start": 0,
+                    "type_end": 1,
+                    "payload_start": 2,
+                    "end": 105,
+                    "tag": 32,
+                    "length": 103
+                  },
+                  {
+                    "start": 105,
+                    "type_end": 106,
+                    "payload_start": 107,
+                    "end": 248,
+                    "tag": 253,
+                    "length": 141
+                  },
+                  {
+                    "start": 248,
+                    "type_end": 249,
+                    "payload_start": 250,
+                    "end": 428,
+                    "tag": 12,
+                    "length": 178
+                  },
+                  {
+                    "start": 428,
+                    "type_end": 429,
+                    "payload_start": 430,
+                    "end": 669,
+                    "tag": 72,
+                    "length": 239
+                  },
+                  {
+                    "start": 669,
+                    "type_end": 670,
+                    "payload_start": 671,
+                    "end": 674,
+                    "tag": 35,
+                    "length": 3
+                  },
+                  {
+                    "start": 674,
+                    "type_end": 675,
+                    "payload_start": 676,
+                    "end": 856,
+                    "tag": 19,
+                    "length": 180
+                  },
+                  {
+                    "start": 856,
+                    "type_end": 857,
+                    "payload_start": 858,
+                    "end": 989,
+                    "tag": 12,
+                    "length": 131
+                  },
+                  {
+                    "start": 989,
+                    "type_end": 990,
+                    "payload_start": 991,
+                    "end": 1151,
+                    "tag": 188,
+                    "length": 160
+                  },
+                  {
+                    "start": 1151,
+                    "type_end": 1152,
+                    "payload_start": 1153,
+                    "end": 1291,
+                    "tag": 97,
+                    "length": 138
+                  },
+                  {
+                    "start": 1291,
+                    "type_end": 1292,
+                    "payload_start": 1293,
+                    "end": 1546,
+                    "tag": 94,
+                    "length": 253
+                  },
+                  {
+                    "start": 1546,
+                    "type_end": 1547,
+                    "payload_start": 1548,
+                    "end": 1797,
+                    "tag": 72,
+                    "length": 249
+                  },
+                  {
+                    "start": 1797,
+                    "type_end": 1798,
+                    "payload_start": 1799,
+                    "end": 2033,
+                    "tag": 139,
+                    "length": 234
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 4,
+                "end": 2033,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 12,
+                "coverage": 0.99072265625,
+                "unparsed_prefix": 4,
+                "unparsed_suffix": 15,
+                "records": [
+                  {
+                    "start": 4,
+                    "type_end": 5,
+                    "payload_start": 6,
+                    "end": 105,
+                    "tag": 133,
+                    "length": 99
+                  },
+                  {
+                    "start": 105,
+                    "type_end": 106,
+                    "payload_start": 107,
+                    "end": 248,
+                    "tag": 253,
+                    "length": 141
+                  },
+                  {
+                    "start": 248,
+                    "type_end": 249,
+                    "payload_start": 250,
+                    "end": 428,
+                    "tag": 12,
+                    "length": 178
+                  },
+                  {
+                    "start": 428,
+                    "type_end": 429,
+                    "payload_start": 430,
+                    "end": 669,
+                    "tag": 72,
+                    "length": 239
+                  },
+                  {
+                    "start": 669,
+                    "type_end": 670,
+                    "payload_start": 671,
+                    "end": 674,
+                    "tag": 35,
+                    "length": 3
+                  },
+                  {
+                    "start": 674,
+                    "type_end": 675,
+                    "payload_start": 676,
+                    "end": 856,
+                    "tag": 19,
+                    "length": 180
+                  },
+                  {
+                    "start": 856,
+                    "type_end": 857,
+                    "payload_start": 858,
+                    "end": 989,
+                    "tag": 12,
+                    "length": 131
+                  },
+                  {
+                    "start": 989,
+                    "type_end": 990,
+                    "payload_start": 991,
+                    "end": 1151,
+                    "tag": 188,
+                    "length": 160
+                  },
+                  {
+                    "start": 1151,
+                    "type_end": 1152,
+                    "payload_start": 1153,
+                    "end": 1291,
+                    "tag": 97,
+                    "length": 138
+                  },
+                  {
+                    "start": 1291,
+                    "type_end": 1292,
+                    "payload_start": 1293,
+                    "end": 1546,
+                    "tag": 94,
+                    "length": 253
+                  },
+                  {
+                    "start": 1546,
+                    "type_end": 1547,
+                    "payload_start": 1548,
+                    "end": 1797,
+                    "tag": 72,
+                    "length": 249
+                  },
+                  {
+                    "start": 1797,
+                    "type_end": 1798,
+                    "payload_start": 1799,
+                    "end": 2033,
+                    "tag": 139,
+                    "length": 234
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 18,
+                "end": 2033,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 11,
+                "coverage": 0.98388671875,
+                "unparsed_prefix": 18,
+                "unparsed_suffix": 15,
+                "records": [
+                  {
+                    "start": 18,
+                    "type_end": 19,
+                    "payload_start": 20,
+                    "end": 249,
+                    "tag": 93,
+                    "length": 229
+                  },
+                  {
+                    "start": 249,
+                    "type_end": 250,
+                    "payload_start": 251,
+                    "end": 428,
+                    "tag": 178,
+                    "length": 177
+                  },
+                  {
+                    "start": 428,
+                    "type_end": 429,
+                    "payload_start": 430,
+                    "end": 669,
+                    "tag": 72,
+                    "length": 239
+                  },
+                  {
+                    "start": 669,
+                    "type_end": 670,
+                    "payload_start": 671,
+                    "end": 674,
+                    "tag": 35,
+                    "length": 3
+                  },
+                  {
+                    "start": 674,
+                    "type_end": 675,
+                    "payload_start": 676,
+                    "end": 856,
+                    "tag": 19,
+                    "length": 180
+                  },
+                  {
+                    "start": 856,
+                    "type_end": 857,
+                    "payload_start": 858,
+                    "end": 989,
+                    "tag": 12,
+                    "length": 131
+                  },
+                  {
+                    "start": 989,
+                    "type_end": 990,
+                    "payload_start": 991,
+                    "end": 1151,
+                    "tag": 188,
+                    "length": 160
+                  },
+                  {
+                    "start": 1151,
+                    "type_end": 1152,
+                    "payload_start": 1153,
+                    "end": 1291,
+                    "tag": 97,
+                    "length": 138
+                  },
+                  {
+                    "start": 1291,
+                    "type_end": 1292,
+                    "payload_start": 1293,
+                    "end": 1546,
+                    "tag": 94,
+                    "length": 253
+                  },
+                  {
+                    "start": 1546,
+                    "type_end": 1547,
+                    "payload_start": 1548,
+                    "end": 1797,
+                    "tag": 72,
+                    "length": 249
+                  },
+                  {
+                    "start": 1797,
+                    "type_end": 1798,
+                    "payload_start": 1799,
+                    "end": 2033,
+                    "tag": 139,
+                    "length": 234
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 30,
+                "end": 2040,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 17,
+                "coverage": 0.9814453125,
+                "unparsed_prefix": 30,
+                "unparsed_suffix": 8,
+                "records": [
+                  {
+                    "start": 30,
+                    "type_end": 31,
+                    "payload_start": 32,
+                    "end": 58,
+                    "tag": 251,
+                    "length": 26
+                  },
+                  {
+                    "start": 58,
+                    "type_end": 59,
+                    "payload_start": 60,
+                    "end": 235,
+                    "tag": 34,
+                    "length": 175
+                  },
+                  {
+                    "start": 235,
+                    "type_end": 236,
+                    "payload_start": 237,
+                    "end": 366,
+                    "tag": 117,
+                    "length": 129
+                  },
+                  {
+                    "start": 366,
+                    "type_end": 367,
+                    "payload_start": 368,
+                    "end": 527,
+                    "tag": 119,
+                    "length": 159
+                  },
+                  {
+                    "start": 527,
+                    "type_end": 528,
+                    "payload_start": 529,
+                    "end": 646,
+                    "tag": 200,
+                    "length": 117
+                  },
+                  {
+                    "start": 646,
+                    "type_end": 647,
+                    "payload_start": 648,
+                    "end": 817,
+                    "tag": 232,
+                    "length": 169
+                  },
+                  {
+                    "start": 817,
+                    "type_end": 818,
+                    "payload_start": 819,
+                    "end": 887,
+                    "tag": 212,
+                    "length": 68
+                  },
+                  {
+                    "start": 887,
+                    "type_end": 888,
+                    "payload_start": 889,
+                    "end": 1021,
+                    "tag": 219,
+                    "length": 132
+                  },
+                  {
+                    "start": 1021,
+                    "type_end": 1022,
+                    "payload_start": 1023,
+                    "end": 1077,
+                    "tag": 234,
+                    "length": 54
+                  },
+                  {
+                    "start": 1077,
+                    "type_end": 1078,
+                    "payload_start": 1079,
+                    "end": 1178,
+                    "tag": 209,
+                    "length": 99
+                  },
+                  {
+                    "start": 1178,
+                    "type_end": 1179,
+                    "payload_start": 1180,
+                    "end": 1189,
+                    "tag": 133,
+                    "length": 9
+                  },
+                  {
+                    "start": 1189,
+                    "type_end": 1190,
+                    "payload_start": 1191,
+                    "end": 1432,
+                    "tag": 49,
+                    "length": 241
+                  },
+                  {
+                    "start": 1432,
+                    "type_end": 1433,
+                    "payload_start": 1434,
+                    "end": 1445,
+                    "tag": 236,
+                    "length": 11
+                  },
+                  {
+                    "start": 1445,
+                    "type_end": 1446,
+                    "payload_start": 1447,
+                    "end": 1619,
+                    "tag": 230,
+                    "length": 172
+                  },
+                  {
+                    "start": 1619,
+                    "type_end": 1620,
+                    "payload_start": 1621,
+                    "end": 1711,
+                    "tag": 197,
+                    "length": 90
+                  },
+                  {
+                    "start": 1711,
+                    "type_end": 1712,
+                    "payload_start": 1713,
+                    "end": 1872,
+                    "tag": 251,
+                    "length": 159
+                  },
+                  {
+                    "start": 1872,
+                    "type_end": 1873,
+                    "payload_start": 1874,
+                    "end": 2040,
+                    "tag": 100,
+                    "length": 166
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 63,
+                "end": 2040,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 17,
+                "coverage": 0.96533203125,
+                "unparsed_prefix": 63,
+                "unparsed_suffix": 8,
+                "records": [
+                  {
+                    "start": 63,
+                    "type_end": 64,
+                    "payload_start": 65,
+                    "end": 92,
+                    "tag": 194,
+                    "length": 27
+                  },
+                  {
+                    "start": 92,
+                    "type_end": 93,
+                    "payload_start": 94,
+                    "end": 250,
+                    "tag": 212,
+                    "length": 156
+                  },
+                  {
+                    "start": 250,
+                    "type_end": 251,
+                    "payload_start": 252,
+                    "end": 342,
+                    "tag": 177,
+                    "length": 90
+                  },
+                  {
+                    "start": 342,
+                    "type_end": 343,
+                    "payload_start": 344,
+                    "end": 527,
+                    "tag": 136,
+                    "length": 183
+                  },
+                  {
+                    "start": 527,
+                    "type_end": 528,
+                    "payload_start": 529,
+                    "end": 646,
+                    "tag": 200,
+                    "length": 117
+                  },
+                  {
+                    "start": 646,
+                    "type_end": 647,
+                    "payload_start": 648,
+                    "end": 817,
+                    "tag": 232,
+                    "length": 169
+                  },
+                  {
+                    "start": 817,
+                    "type_end": 818,
+                    "payload_start": 819,
+                    "end": 887,
+                    "tag": 212,
+                    "length": 68
+                  },
+                  {
+                    "start": 887,
+                    "type_end": 888,
+                    "payload_start": 889,
+                    "end": 1021,
+                    "tag": 219,
+                    "length": 132
+                  },
+                  {
+                    "start": 1021,
+                    "type_end": 1022,
+                    "payload_start": 1023,
+                    "end": 1077,
+                    "tag": 234,
+                    "length": 54
+                  },
+                  {
+                    "start": 1077,
+                    "type_end": 1078,
+                    "payload_start": 1079,
+                    "end": 1178,
+                    "tag": 209,
+                    "length": 99
+                  },
+                  {
+                    "start": 1178,
+                    "type_end": 1179,
+                    "payload_start": 1180,
+                    "end": 1189,
+                    "tag": 133,
+                    "length": 9
+                  },
+                  {
+                    "start": 1189,
+                    "type_end": 1190,
+                    "payload_start": 1191,
+                    "end": 1432,
+                    "tag": 49,
+                    "length": 241
+                  },
+                  {
+                    "start": 1432,
+                    "type_end": 1433,
+                    "payload_start": 1434,
+                    "end": 1445,
+                    "tag": 236,
+                    "length": 11
+                  },
+                  {
+                    "start": 1445,
+                    "type_end": 1446,
+                    "payload_start": 1447,
+                    "end": 1619,
+                    "tag": 230,
+                    "length": 172
+                  },
+                  {
+                    "start": 1619,
+                    "type_end": 1620,
+                    "payload_start": 1621,
+                    "end": 1711,
+                    "tag": 197,
+                    "length": 90
+                  },
+                  {
+                    "start": 1711,
+                    "type_end": 1712,
+                    "payload_start": 1713,
+                    "end": 1872,
+                    "tag": 251,
+                    "length": 159
+                  },
+                  {
+                    "start": 1872,
+                    "type_end": 1873,
+                    "payload_start": 1874,
+                    "end": 2040,
+                    "tag": 100,
+                    "length": 166
+                  }
+                ],
+                "count_evidence": []
+              }
+            ],
+            "search_truncated": false,
+            "steps": 3645,
+            "limitations": [
+              "Tests only type-length-value records with fixed-width integers.",
+              "Length is assumed to count payload bytes only.",
+              "Starts are tested only in the first 64 bytes; trailers up to 16 bytes are allowed.",
+              "Requires at least 3 records, at most 16 distinct tags, and varying lengths.",
+              "Without a prefix-count match, at least 4 records and repeated tags are required.",
+              "Prefix-count matches may be coincidental; overlapping matches are not independent evidence.",
+              "Hypotheses may be coincidental; coverage is not correctness probability."
+            ]
+          },
+          "limitations": [
+            "Profile windows are computational windows, not inferred fields.",
+            "Numeric matches may be coincidental and can overlap.",
+            "Only 2/4-byte integer candidates starting in the first 64 bytes are checked.",
+            "ASCII extraction does not cover all text encodings.",
+            "High entropy does not establish compression, encryption, or maliciousness.",
+            "No reader or reference format schema is used."
+          ]
+        },
+        "regions": [
+          {
+            "start": 0,
+            "end": 2048,
+            "length": 2048,
+            "cls": "gz",
+            "conf": 0.9863345101937953
+          }
+        ],
+        "analysis_scope": "single_file"
+      }
+    },
+    {
+      "summary": {
+        "case": "cfg1",
+        "file": "unknown_cfg1.bin",
+        "input_bytes": 2754,
+        "input_sha256": "17f9900a25e47115e22428cb5b2bd2c3bad9e4d2aaad9589c59d789eec420a44",
+        "passed": true,
+        "exact_cfg1_rank": 1,
+        "format": "unknown",
+        "branch": "невідомий формат: карта областей за вмістом",
+        "record_candidates": 5,
+        "flags": [
+          "Формат не встановлено. Класи моделі фрагментів є припущеннями про вміст, а не підтвердженою структурою."
+        ]
+      },
+      "report": {
+        "file": "unknown_cfg1.bin",
+        "size": 2754,
+        "sha256": "17f9900a25e47115e22428cb5b2bd2c3bad9e4d2aaad9589c59d789eec420a44",
+        "extension": "bin",
+        "extension_class": null,
+        "magika": {
+          "label": "unknown",
+          "score": 0.244,
+          "class": null
+        },
+        "fragment_model": {
+          "class": "ole2",
+          "confidence": 0.986,
+          "top3": [
+            [
+              "ole2",
+              0.986
+            ],
+            [
+              "jpg",
+              0.008
+            ],
+            [
+              "pdf",
+              0.003
+            ]
+          ]
+        },
+        "format": "unknown",
+        "format_source": "формат не встановлено",
+        "confidence": 0.0,
+        "format_status": "unrecognized",
+        "format_candidate": {
+          "format": "ole2",
+          "score": 0.986,
+          "source": "модель фрагментів",
+          "interpretation": "Кандидат, а не встановлений формат."
+        },
+        "confidence_kind": "not_applicable",
+        "branch": "невідомий формат: карта областей за вмістом",
+        "flags": [
+          "Формат не встановлено. Класи моделі фрагментів є припущеннями про вміст, а не підтвердженою структурою."
+        ],
+        "unknown_analysis": {
+          "method": "single_file_observations_v1",
+          "size": 2754,
+          "window_bytes": 256,
+          "profile": [
+            {
+              "start": 0,
+              "end": 256,
+              "size": 256,
+              "entropy": 6.6724,
+              "zero_fraction": 0.0234,
+              "ascii_fraction": 0.5039,
+              "observation": "mixed"
+            },
+            {
+              "start": 256,
+              "end": 512,
+              "size": 256,
+              "entropy": 7.196,
+              "zero_fraction": 0.0078,
+              "ascii_fraction": 0.3984,
+              "observation": "mixed"
+            },
+            {
+              "start": 512,
+              "end": 768,
+              "size": 256,
+              "entropy": 7.156,
+              "zero_fraction": 0.0039,
+              "ascii_fraction": 0.3945,
+              "observation": "mixed"
+            },
+            {
+              "start": 768,
+              "end": 1024,
+              "size": 256,
+              "entropy": 3.7699,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 1024,
+              "end": 1280,
+              "size": 256,
+              "entropy": 3.6775,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 1280,
+              "end": 1536,
+              "size": 256,
+              "entropy": 3.6965,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 1536,
+              "end": 1792,
+              "size": 256,
+              "entropy": 3.6764,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 1792,
+              "end": 2048,
+              "size": 256,
+              "entropy": 3.7877,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 2048,
+              "end": 2304,
+              "size": 256,
+              "entropy": 3.781,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 2304,
+              "end": 2560,
+              "size": 256,
+              "entropy": 3.7354,
+              "zero_fraction": 0.0,
+              "ascii_fraction": 1.0,
+              "observation": "ascii_like"
+            },
+            {
+              "start": 2560,
+              "end": 2754,
+              "size": 194,
+              "entropy": 3.8559,
+              "zero_fraction": 0.0052,
+              "ascii_fraction": 0.9897,
+              "observation": "ascii_like"
+            }
+          ],
+          "ascii_strings": [
+            {
+              "start": 0,
+              "end": 4,
+              "preview": "CFG1",
+              "preview_truncated": false
+            },
+            {
+              "start": 21,
+              "end": 79,
+              "preview": "delta node relay omega delta omega alpha delta cache gamma",
+              "preview_truncated": false
+            },
+            {
+              "start": 250,
+              "end": 254,
+              "preview": "_R7&",
+              "preview_truncated": false
+            },
+            {
+              "start": 267,
+              "end": 272,
+              "preview": "P{.n1",
+              "preview_truncated": false
+            },
+            {
+              "start": 343,
+              "end": 348,
+              "preview": "wb\"> ",
+              "preview_truncated": false
+            },
+            {
+              "start": 373,
+              "end": 377,
+              "preview": "eC;!",
+              "preview_truncated": false
+            },
+            {
+              "start": 572,
+              "end": 576,
+              "preview": "%pX2",
+              "preview_truncated": false
+            },
+            {
+              "start": 677,
+              "end": 682,
+              "preview": "\"a-l0",
+              "preview_truncated": false
+            },
+            {
+              "start": 691,
+              "end": 697,
+              "preview": "jo&$sY",
+              "preview_truncated": false
+            },
+            {
+              "start": 755,
+              "end": 2657,
+              "preview": "relay cache echo alpha bravo echo cache omega bravo node gamma omega cache sigma",
+              "preview_truncated": true
+            },
+            {
+              "start": 2660,
+              "end": 2754,
+              "preview": "relay gamma alpha cache echo alpha gamma node bravo echo gamma relay node relay ",
+              "preview_truncated": true
+            }
+          ],
+          "ascii_strings_limited": false,
+          "zero_runs": [],
+          "zero_runs_limited": false,
+          "numeric_candidates": [],
+          "record_hypotheses": {
+            "method": "fixed_tlv_hypotheses_v2_count",
+            "candidates": [
+              {
+                "start": 8,
+                "end": 2754,
+                "type_width": 1,
+                "length_width": 2,
+                "byte_order": "little",
+                "record_count": 7,
+                "coverage": 0.9970951343500363,
+                "unparsed_prefix": 8,
+                "unparsed_suffix": 0,
+                "records": [
+                  {
+                    "start": 8,
+                    "type_end": 9,
+                    "payload_start": 11,
+                    "end": 13,
+                    "tag": 2,
+                    "length": 2
+                  },
+                  {
+                    "start": 13,
+                    "type_end": 14,
+                    "payload_start": 16,
+                    "end": 18,
+                    "tag": 2,
+                    "length": 2
+                  },
+                  {
+                    "start": 18,
+                    "type_end": 19,
+                    "payload_start": 21,
+                    "end": 79,
+                    "tag": 5,
+                    "length": 58
+                  },
+                  {
+                    "start": 79,
+                    "type_end": 80,
+                    "payload_start": 82,
+                    "end": 84,
+                    "tag": 2,
+                    "length": 2
+                  },
+                  {
+                    "start": 84,
+                    "type_end": 85,
+                    "payload_start": 87,
+                    "end": 752,
+                    "tag": 127,
+                    "length": 665
+                  },
+                  {
+                    "start": 752,
+                    "type_end": 753,
+                    "payload_start": 755,
+                    "end": 2657,
+                    "tag": 5,
+                    "length": 1902
+                  },
+                  {
+                    "start": 2657,
+                    "type_end": 2658,
+                    "payload_start": 2660,
+                    "end": 2754,
+                    "tag": 5,
+                    "length": 94
+                  }
+                ],
+                "count_evidence": [
+                  {
+                    "start": 5,
+                    "end": 7,
+                    "encoding": "little",
+                    "value": 7
+                  }
+                ]
+              },
+              {
+                "start": 13,
+                "end": 2754,
+                "type_width": 1,
+                "length_width": 2,
+                "byte_order": "little",
+                "record_count": 6,
+                "coverage": 0.995279593318809,
+                "unparsed_prefix": 13,
+                "unparsed_suffix": 0,
+                "records": [
+                  {
+                    "start": 13,
+                    "type_end": 14,
+                    "payload_start": 16,
+                    "end": 18,
+                    "tag": 2,
+                    "length": 2
+                  },
+                  {
+                    "start": 18,
+                    "type_end": 19,
+                    "payload_start": 21,
+                    "end": 79,
+                    "tag": 5,
+                    "length": 58
+                  },
+                  {
+                    "start": 79,
+                    "type_end": 80,
+                    "payload_start": 82,
+                    "end": 84,
+                    "tag": 2,
+                    "length": 2
+                  },
+                  {
+                    "start": 84,
+                    "type_end": 85,
+                    "payload_start": 87,
+                    "end": 752,
+                    "tag": 127,
+                    "length": 665
+                  },
+                  {
+                    "start": 752,
+                    "type_end": 753,
+                    "payload_start": 755,
+                    "end": 2657,
+                    "tag": 5,
+                    "length": 1902
+                  },
+                  {
+                    "start": 2657,
+                    "type_end": 2658,
+                    "payload_start": 2660,
+                    "end": 2754,
+                    "tag": 5,
+                    "length": 94
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 10,
+                "end": 2750,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 24,
+                "coverage": 0.9949164851125636,
+                "unparsed_prefix": 10,
+                "unparsed_suffix": 4,
+                "records": [
+                  {
+                    "start": 10,
+                    "type_end": 11,
+                    "payload_start": 12,
+                    "end": 263,
+                    "tag": 0,
+                    "length": 251
+                  },
+                  {
+                    "start": 263,
+                    "type_end": 264,
+                    "payload_start": 265,
+                    "end": 509,
+                    "tag": 6,
+                    "length": 244
+                  },
+                  {
+                    "start": 509,
+                    "type_end": 510,
+                    "payload_start": 511,
+                    "end": 739,
+                    "tag": 39,
+                    "length": 228
+                  },
+                  {
+                    "start": 739,
+                    "type_end": 740,
+                    "payload_start": 741,
+                    "end": 879,
+                    "tag": 39,
+                    "length": 138
+                  },
+                  {
+                    "start": 879,
+                    "type_end": 880,
+                    "payload_start": 881,
+                    "end": 999,
+                    "tag": 97,
+                    "length": 118
+                  },
+                  {
+                    "start": 999,
+                    "type_end": 1000,
+                    "payload_start": 1001,
+                    "end": 1098,
+                    "tag": 103,
+                    "length": 97
+                  },
+                  {
+                    "start": 1098,
+                    "type_end": 1099,
+                    "payload_start": 1100,
+                    "end": 1199,
+                    "tag": 32,
+                    "length": 99
+                  },
+                  {
+                    "start": 1199,
+                    "type_end": 1200,
+                    "payload_start": 1201,
+                    "end": 1302,
+                    "tag": 114,
+                    "length": 101
+                  },
+                  {
+                    "start": 1302,
+                    "type_end": 1303,
+                    "payload_start": 1304,
+                    "end": 1405,
+                    "tag": 104,
+                    "length": 101
+                  },
+                  {
+                    "start": 1405,
+                    "type_end": 1406,
+                    "payload_start": 1407,
+                    "end": 1516,
+                    "tag": 97,
+                    "length": 109
+                  },
+                  {
+                    "start": 1516,
+                    "type_end": 1517,
+                    "payload_start": 1518,
+                    "end": 1550,
+                    "tag": 101,
+                    "length": 32
+                  },
+                  {
+                    "start": 1550,
+                    "type_end": 1551,
+                    "payload_start": 1552,
+                    "end": 1653,
+                    "tag": 104,
+                    "length": 101
+                  },
+                  {
+                    "start": 1653,
+                    "type_end": 1654,
+                    "payload_start": 1655,
+                    "end": 1770,
+                    "tag": 32,
+                    "length": 115
+                  },
+                  {
+                    "start": 1770,
+                    "type_end": 1771,
+                    "payload_start": 1772,
+                    "end": 1871,
+                    "tag": 101,
+                    "length": 99
+                  },
+                  {
+                    "start": 1871,
+                    "type_end": 1872,
+                    "payload_start": 1873,
+                    "end": 1984,
+                    "tag": 118,
+                    "length": 111
+                  },
+                  {
+                    "start": 1984,
+                    "type_end": 1985,
+                    "payload_start": 1986,
+                    "end": 2018,
+                    "tag": 97,
+                    "length": 32
+                  },
+                  {
+                    "start": 2018,
+                    "type_end": 2019,
+                    "payload_start": 2020,
+                    "end": 2052,
+                    "tag": 101,
+                    "length": 32
+                  },
+                  {
+                    "start": 2052,
+                    "type_end": 2053,
+                    "payload_start": 2054,
+                    "end": 2153,
+                    "tag": 32,
+                    "length": 99
+                  },
+                  {
+                    "start": 2153,
+                    "type_end": 2154,
+                    "payload_start": 2155,
+                    "end": 2252,
+                    "tag": 103,
+                    "length": 97
+                  },
+                  {
+                    "start": 2252,
+                    "type_end": 2253,
+                    "payload_start": 2254,
+                    "end": 2286,
+                    "tag": 97,
+                    "length": 32
+                  },
+                  {
+                    "start": 2286,
+                    "type_end": 2287,
+                    "payload_start": 2288,
+                    "end": 2409,
+                    "tag": 97,
+                    "length": 121
+                  },
+                  {
+                    "start": 2409,
+                    "type_end": 2410,
+                    "payload_start": 2411,
+                    "end": 2522,
+                    "tag": 110,
+                    "length": 111
+                  },
+                  {
+                    "start": 2522,
+                    "type_end": 2523,
+                    "payload_start": 2524,
+                    "end": 2633,
+                    "tag": 103,
+                    "length": 109
+                  },
+                  {
+                    "start": 2633,
+                    "type_end": 2634,
+                    "payload_start": 2635,
+                    "end": 2750,
+                    "tag": 32,
+                    "length": 115
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 18,
+                "end": 2754,
+                "type_width": 1,
+                "length_width": 2,
+                "byte_order": "little",
+                "record_count": 5,
+                "coverage": 0.9934640522875817,
+                "unparsed_prefix": 18,
+                "unparsed_suffix": 0,
+                "records": [
+                  {
+                    "start": 18,
+                    "type_end": 19,
+                    "payload_start": 21,
+                    "end": 79,
+                    "tag": 5,
+                    "length": 58
+                  },
+                  {
+                    "start": 79,
+                    "type_end": 80,
+                    "payload_start": 82,
+                    "end": 84,
+                    "tag": 2,
+                    "length": 2
+                  },
+                  {
+                    "start": 84,
+                    "type_end": 85,
+                    "payload_start": 87,
+                    "end": 752,
+                    "tag": 127,
+                    "length": 665
+                  },
+                  {
+                    "start": 752,
+                    "type_end": 753,
+                    "payload_start": 755,
+                    "end": 2657,
+                    "tag": 5,
+                    "length": 1902
+                  },
+                  {
+                    "start": 2657,
+                    "type_end": 2658,
+                    "payload_start": 2660,
+                    "end": 2754,
+                    "tag": 5,
+                    "length": 94
+                  }
+                ],
+                "count_evidence": []
+              },
+              {
+                "start": 7,
+                "end": 2742,
+                "type_width": 1,
+                "length_width": 1,
+                "byte_order": "little",
+                "record_count": 26,
+                "coverage": 0.9931009440813362,
+                "unparsed_prefix": 7,
+                "unparsed_suffix": 12,
+                "records": [
+                  {
+                    "start": 7,
+                    "type_end": 8,
+                    "payload_start": 9,
+                    "end": 11,
+                    "tag": 41,
+                    "length": 2
+                  },
+                  {
+                    "start": 11,
+                    "type_end": 12,
+                    "payload_start": 13,
+                    "end": 45,
+                    "tag": 251,
+                    "length": 32
+                  },
+                  {
+                    "start": 45,
+                    "type_end": 46,
+                    "payload_start": 47,
+                    "end": 155,
+                    "tag": 101,
+                    "length": 108
+                  },
+                  {
+                    "start": 155,
+                    "type_end": 156,
+                    "payload_start": 157,
+                    "end": 397,
+                    "tag": 58,
+                    "length": 240
+                  },
+                  {
+                    "start": 397,
+                    "type_end": 398,
+                    "payload_start": 399,
+                    "end": 473,
+                    "tag": 137,
+                    "length": 74
+                  },
+                  {
+                    "start": 473,
+                    "type_end": 474,
+                    "payload_start": 475,
+                    "end": 712,
+                    "tag": 61,
+                    "length": 237
+                  },
+                  {
+                    "start": 712,
+                    "type_end": 713,
+                    "payload_start": 714,
+                    "end": 788,
+                    "tag": 119,
+                    "length": 74
+                  },
+                  {
+                    "start": 788,
+                    "type_end": 789,
+                    "payload_start": 790,
+                    "end": 889,
+                    "tag": 32,
+                    "length": 99
+                  },
+                  {
+                    "start": 889,
+                    "type_end": 890,
+                    "payload_start": 891,
+                    "end": 996,
+                    "tag": 115,
+                    "length": 105
+                  },
+                  {
+                    "start": 996,
+                    "type_end": 997,
+                    "payload_start": 998,
+                    "end": 1099,
+                    "tag": 100,
+                    "length": 101
+                  },
+                  {
+                    "start": 1099,
+                    "type_end": 1100,
+                    "payload_start": 1101,
+                    "end": 1198,
+                    "tag": 99,
+                    "length": 97
+                  },
+                  {
+                    "start": 1198,
+                    "type_end": 1199,
+                    "payload_start": 1200,
+                    "end": 1314,
+                    "tag": 32,
+                    "length": 114
+                  },
+                  {
+                    "start": 1314,
+                    "type_end": 1315,
+                    "payload_start": 1316,
+                    "end": 1413,
+                    "tag": 109,
+                    "length": 97
+                  },
+                  {
+                    "start": 1413,
+                    "type_end": 1414,
+                    "payload_start": 1415,
+                    "end": 1512,
+                    "tag": 103,
+                    "length": 97
+                  },
+                  {
+                    "start": 1512,
+                    "type_end": 1513,
+                    "payload_start": 1514,
+                    "end": 1624,
+                    "tag": 32,
+                    "length": 110
+                  },
+                  {
+                    "start": 1624,
+                    "type_end": 1625,
+                    "payload_start": 1626,
+                    "end": 1740,
+                    "tag": 32,
+                    "length": 114
+                  },
+                  {
+                    "start": 1740,
+                    "type_end": 1741,
+                    "payload_start": 1742,
+                    "end": 1841,
+                    "tag": 32,
+                    "length": 99
+                  },
+                  {
+                    "start": 1841,
+                    "type_end": 1842,
+                    "payload_start": 1843,
+                    "end": 1952,
+                    "tag": 97,
+                    "length": 109
+                  },
+                  {
+                    "start": 1952,
+                    "type_end": 1953,
+                    "payload_start": 1954,
+                    "end": 2058,
+                    "tag": 112,
+                    "length": 104
+                  },
+                  {
+                    "start": 2058,
+                    "type_end": 2059,
+                    "payload_start": 2060,
+                    "end": 2175,
+                    "tag": 32,
+                    "length": 115
+                  },
+                  {
+                    "start": 2175,
+                    "type_end": 2176,
+                    "payload_start": 2177,
+                    "end": 2209,
+                    "tag": 97,
+                    "length": 32
+                  },
+                  {
+                    "start": 2209,
+                    "type_end": 2210,
+                    "payload_start": 2211,
+                    "end": 2327,
+                    "tag": 108,
+                    "length": 116
+                  },
+                  {
+                    "start": 2327,
+                    "type_end": 2328,
+                    "payload_start": 2329,
+                    "end": 2439,
+                    "tag": 32,
+                    "length": 110
+                  },
+                  {
+                    "start": 2439,
+                    "type_end": 2440,
+                    "payload_start": 2441,
+                    "end": 2542,
+                    "tag": 100,
+                    "length": 101
+                  },
+                  {
+                    "start": 2542,
+                    "type_end": 2543,
+                    "payload_start": 2544,
+                    "end": 2643,
+                    "tag": 32,
+                    "length": 99
+                  },
+                  {
+                    "start": 2643,
+                    "type_end": 2644,
+                    "payload_start": 2645,
+                    "end": 2742,
+                    "tag": 103,
+                    "length": 97
+                  }
+                ],
+                "count_evidence": []
+              }
+            ],
+            "search_truncated": false,
+            "steps": 6024,
+            "limitations": [
+              "Tests only type-length-value records with fixed-width integers.",
+              "Length is assumed to count payload bytes only.",
+              "Starts are tested only in the first 64 bytes; trailers up to 16 bytes are allowed.",
+              "Requires at least 3 records, at most 16 distinct tags, and varying lengths.",
+              "Without a prefix-count match, at least 4 records and repeated tags are required.",
+              "Prefix-count matches may be coincidental; overlapping matches are not independent evidence.",
+              "Hypotheses may be coincidental; coverage is not correctness probability."
+            ]
+          },
+          "limitations": [
+            "Profile windows are computational windows, not inferred fields.",
+            "Numeric matches may be coincidental and can overlap.",
+            "Only 2/4-byte integer candidates starting in the first 64 bytes are checked.",
+            "ASCII extraction does not cover all text encodings.",
+            "High entropy does not establish compression, encryption, or maliciousness.",
+            "No reader or reference format schema is used."
+          ]
+        },
+        "regions": [
+          {
+            "start": 0,
+            "end": 2754,
+            "length": 2754,
+            "cls": "ole2",
+            "conf": 0.9864900413121187
+          }
+        ],
+        "analysis_scope": "single_file"
+      }
+    },
+    {
+      "summary": {
+        "case": "pe",
+        "file": "python.exe",
+        "input_bytes": 105288,
+        "input_sha256": "db44abe9c1b318e6c6b201dddab44c163146b4ef26363adea3f0eb17c68fa84c",
+        "passed": true,
+        "format": "pe",
+        "branch": "виконуваний файл",
+        "record_candidates": 0,
+        "flags": []
+      },
+      "report": {
+        "file": "python.exe",
+        "size": 105288,
+        "sha256": "db44abe9c1b318e6c6b201dddab44c163146b4ef26363adea3f0eb17c68fa84c",
+        "extension": "exe",
+        "extension_class": "pe",
+        "magika": {
+          "label": "pebin",
+          "score": 1.0,
+          "class": "pe"
+        },
+        "fragment_model": {
+          "class": "ico",
+          "confidence": 0.434,
+          "top3": [
+            [
+              "ico",
+              0.434
+            ],
+            [
+              "ole2",
+              0.171
+            ],
+            [
+              "pe",
+              0.154
+            ]
+          ]
+        },
+        "format": "pe",
+        "format_source": "сигнатура",
+        "confidence": 1.0,
+        "format_status": "recognized",
+        "format_candidate": null,
+        "confidence_kind": "method_score",
+        "branch": "виконуваний файл",
+        "flags": [],
+        "executable_analysis": {
+          "kind": "PE",
+          "model": "власна модель",
+          "score": 4.9892836936042215e-05,
+          "level": "low",
+          "raised_by_rules": false,
+          "reasons": [],
+          "agreement_with_section_table": 0.9170731707317074
+        },
+        "analysis_scope": "single_file"
+      }
+    },
+    {
+      "summary": {
+        "case": "disguised_pe",
+        "file": "python_disguised.txt",
+        "input_bytes": 105288,
+        "input_sha256": "db44abe9c1b318e6c6b201dddab44c163146b4ef26363adea3f0eb17c68fa84c",
+        "passed": true,
+        "format": "pe",
+        "branch": "виконуваний файл",
+        "record_candidates": 0,
+        "flags": [
+          "виконуваний файл (pe) під розширенням .txt"
+        ]
+      },
+      "report": {
+        "file": "python_disguised.txt",
+        "size": 105288,
+        "sha256": "db44abe9c1b318e6c6b201dddab44c163146b4ef26363adea3f0eb17c68fa84c",
+        "extension": "txt",
+        "extension_class": "txt",
+        "magika": {
+          "label": "pebin",
+          "score": 1.0,
+          "class": "pe"
+        },
+        "fragment_model": {
+          "class": "ico",
+          "confidence": 0.434,
+          "top3": [
+            [
+              "ico",
+              0.434
+            ],
+            [
+              "ole2",
+              0.171
+            ],
+            [
+              "pe",
+              0.154
+            ]
+          ]
+        },
+        "format": "pe",
+        "format_source": "сигнатура",
+        "confidence": 1.0,
+        "format_status": "recognized",
+        "format_candidate": null,
+        "confidence_kind": "method_score",
+        "branch": "виконуваний файл",
+        "flags": [
+          "виконуваний файл (pe) під розширенням .txt"
+        ],
+        "executable_analysis": {
+          "kind": "PE",
+          "model": "власна модель",
+          "score": 4.9892836936042215e-05,
+          "level": "low",
+          "raised_by_rules": false,
+          "reasons": [],
+          "agreement_with_section_table": 0.9170731707317074
+        },
+        "analysis_scope": "single_file"
+      }
+    }
+  ]
+}
