@@ -1,0 +1,72 @@
+{
+  "scope": "Real DNS messages captured with pktmon on the author's machine (6 names x 5 record types), deduplicated by bytes. Joint inference. Ground truth: RFC 1035 layout read by the author; the reader does not resolve compression pointers. Development run, not held-out.",
+  "commit": "9f47bc8861b6408227880d782c7ac85ab2b5ae0f",
+  "messages": 60,
+  "queries": 30,
+  "infer2_seconds": 0.05,
+  "infer2_sha256": "b790285eea9bb6538992e6b5c67ec5ac760a18c3b96263b1f48139a301488e01",
+  "reader_sha256": "075eab0479fd183dade8b0953c971414a309097844ad007538d588b49364e5ce",
+  "roles_by_field": {
+    "id": {
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 60
+    },
+    "flags": {
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 60
+    },
+    "qdcount": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 60
+    },
+    "ancount": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 41,
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 19
+    },
+    "nscount": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 60
+    },
+    "arcount": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 60
+    },
+    "qname_len": {
+      "\u0442\u0438\u043f \u0437\u0430\u043f\u0438\u0441\u0443": 120
+    },
+    "qname_label": {
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 70,
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 50
+    },
+    "qname_end": {
+      "\u0442\u0438\u043f \u0437\u0430\u043f\u0438\u0441\u0443": 60
+    },
+    "qtype": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 12,
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 48
+    },
+    "qclass": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 60
+    },
+    "rr_end": {
+      "\u0442\u0438\u043f \u0437\u0430\u043f\u0438\u0441\u0443": 60
+    },
+    "rr_type": {
+      "\u0442\u0438\u043f \u0437\u0430\u043f\u0438\u0441\u0443": 165
+    },
+    "rr_class": {
+      "\u0442\u0438\u043f \u0437\u0430\u043f\u0438\u0441\u0443": 165
+    },
+    "rr_ttl": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 60,
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 105
+    },
+    "rr_rdlen": {
+      "\u0434\u043e\u0432\u0436\u0438\u043d\u0430": 165
+    },
+    "rr_ptr1": {
+      "\u0442\u0438\u043f \u0437\u0430\u043f\u0438\u0441\u0443": 105
+    },
+    "rr_ptr2": {
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 105
+    },
+    "rr_rdata": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 105
+    }
+  }
+}
