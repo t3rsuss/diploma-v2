@@ -1,0 +1,804 @@
+{
+  "file": "ok_00.cfg",
+  "size": 1453,
+  "sha256": "84e2486d121ae059bbd86fa9880de501a0584e9d6a4afc111aa8b1d8c987fe66",
+  "extension": "cfg",
+  "extension_class": "ini",
+  "magika": {
+    "label": "unknown",
+    "score": 0.377,
+    "class": null
+  },
+  "fragment_model": {
+    "class": "ole2",
+    "confidence": 0.987,
+    "top3": [
+      [
+        "ole2",
+        0.987
+      ],
+      [
+        "other",
+        0.009
+      ],
+      [
+        "pdf",
+        0.002
+      ]
+    ]
+  },
+  "format": "unknown",
+  "format_source": "формат не встановлено",
+  "confidence": 0.0,
+  "format_status": "unrecognized",
+  "format_candidate": {
+    "format": "ole2",
+    "score": 0.987,
+    "source": "модель фрагментів",
+    "interpretation": "Кандидат, а не встановлений формат."
+  },
+  "confidence_kind": "not_applicable",
+  "branch": "невідомий формат: карта областей за вмістом",
+  "flags": [
+    "Формат не встановлено. Класи моделі фрагментів є припущеннями про вміст, а не підтвердженою структурою."
+  ],
+  "unknown_analysis": {
+    "method": "single_file_observations_v1",
+    "size": 1453,
+    "window_bytes": 256,
+    "profile": [
+      {
+        "start": 0,
+        "end": 256,
+        "size": 256,
+        "entropy": 4.1719,
+        "zero_fraction": 0.0078,
+        "ascii_fraction": 0.9648,
+        "observation": "ascii_like"
+      },
+      {
+        "start": 256,
+        "end": 512,
+        "size": 256,
+        "entropy": 3.6866,
+        "zero_fraction": 0.0,
+        "ascii_fraction": 1.0,
+        "observation": "ascii_like"
+      },
+      {
+        "start": 512,
+        "end": 768,
+        "size": 256,
+        "entropy": 3.5832,
+        "zero_fraction": 0.0,
+        "ascii_fraction": 1.0,
+        "observation": "ascii_like"
+      },
+      {
+        "start": 768,
+        "end": 1024,
+        "size": 256,
+        "entropy": 3.7564,
+        "zero_fraction": 0.0,
+        "ascii_fraction": 1.0,
+        "observation": "ascii_like"
+      },
+      {
+        "start": 1024,
+        "end": 1280,
+        "size": 256,
+        "entropy": 3.7909,
+        "zero_fraction": 0.0,
+        "ascii_fraction": 1.0,
+        "observation": "ascii_like"
+      },
+      {
+        "start": 1280,
+        "end": 1453,
+        "size": 173,
+        "entropy": 4.4135,
+        "zero_fraction": 0.0405,
+        "ascii_fraction": 0.9075,
+        "observation": "ascii_like"
+      }
+    ],
+    "ascii_strings": [
+      {
+        "start": 0,
+        "end": 4,
+        "preview": "CFG1",
+        "preview_truncated": false
+      },
+      {
+        "start": 11,
+        "end": 39,
+        "preview": "https://example.org/echo ech",
+        "preview_truncated": false
+      },
+      {
+        "start": 42,
+        "end": 1388,
+        "preview": "omega delta delta alpha omega node sigma bravo omega cache cache bravo node cach",
+        "preview_truncated": true
+      },
+      {
+        "start": 1396,
+        "end": 1415,
+        "preview": "node-78.example.org",
+        "preview_truncated": false
+      },
+      {
+        "start": 1418,
+        "end": 1446,
+        "preview": "https://example.org/cache si",
+        "preview_truncated": false
+      }
+    ],
+    "ascii_strings_limited": false,
+    "zero_runs": [],
+    "zero_runs_limited": false,
+    "numeric_candidates": [],
+    "record_hypotheses": {
+      "method": "fixed_tlv_hypotheses_v2_count",
+      "candidates": [
+        {
+          "start": 8,
+          "end": 1453,
+          "type_width": 1,
+          "length_width": 2,
+          "byte_order": "little",
+          "record_count": 6,
+          "coverage": 0.9944941500344116,
+          "unparsed_prefix": 8,
+          "unparsed_suffix": 0,
+          "records": [
+            {
+              "start": 8,
+              "type_end": 9,
+              "payload_start": 11,
+              "end": 39,
+              "tag": 4,
+              "length": 28
+            },
+            {
+              "start": 39,
+              "type_end": 40,
+              "payload_start": 42,
+              "end": 1388,
+              "tag": 5,
+              "length": 1346
+            },
+            {
+              "start": 1388,
+              "type_end": 1389,
+              "payload_start": 1391,
+              "end": 1393,
+              "tag": 2,
+              "length": 2
+            },
+            {
+              "start": 1393,
+              "type_end": 1394,
+              "payload_start": 1396,
+              "end": 1415,
+              "tag": 1,
+              "length": 19
+            },
+            {
+              "start": 1415,
+              "type_end": 1416,
+              "payload_start": 1418,
+              "end": 1446,
+              "tag": 4,
+              "length": 28
+            },
+            {
+              "start": 1446,
+              "type_end": 1447,
+              "payload_start": 1449,
+              "end": 1453,
+              "tag": 3,
+              "length": 4
+            }
+          ],
+          "count_evidence": [
+            {
+              "start": 5,
+              "end": 7,
+              "encoding": "little",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "start": 2,
+          "end": 1452,
+          "type_width": 1,
+          "length_width": 1,
+          "byte_order": "little",
+          "record_count": 16,
+          "coverage": 0.9979353062629044,
+          "unparsed_prefix": 2,
+          "unparsed_suffix": 1,
+          "records": [
+            {
+              "start": 2,
+              "type_end": 3,
+              "payload_start": 4,
+              "end": 53,
+              "tag": 71,
+              "length": 49
+            },
+            {
+              "start": 53,
+              "type_end": 54,
+              "payload_start": 55,
+              "end": 155,
+              "tag": 32,
+              "length": 100
+            },
+            {
+              "start": 155,
+              "type_end": 156,
+              "payload_start": 157,
+              "end": 266,
+              "tag": 97,
+              "length": 109
+            },
+            {
+              "start": 266,
+              "type_end": 267,
+              "payload_start": 268,
+              "end": 377,
+              "tag": 111,
+              "length": 109
+            },
+            {
+              "start": 377,
+              "type_end": 378,
+              "payload_start": 379,
+              "end": 411,
+              "tag": 111,
+              "length": 32
+            },
+            {
+              "start": 411,
+              "type_end": 412,
+              "payload_start": 413,
+              "end": 510,
+              "tag": 108,
+              "length": 97
+            },
+            {
+              "start": 510,
+              "type_end": 511,
+              "payload_start": 512,
+              "end": 621,
+              "tag": 97,
+              "length": 109
+            },
+            {
+              "start": 621,
+              "type_end": 622,
+              "payload_start": 623,
+              "end": 720,
+              "tag": 108,
+              "length": 97
+            },
+            {
+              "start": 720,
+              "type_end": 721,
+              "payload_start": 722,
+              "end": 833,
+              "tag": 104,
+              "length": 111
+            },
+            {
+              "start": 833,
+              "type_end": 834,
+              "payload_start": 835,
+              "end": 950,
+              "tag": 32,
+              "length": 115
+            },
+            {
+              "start": 950,
+              "type_end": 951,
+              "payload_start": 952,
+              "end": 1066,
+              "tag": 98,
+              "length": 114
+            },
+            {
+              "start": 1066,
+              "type_end": 1067,
+              "payload_start": 1068,
+              "end": 1179,
+              "tag": 110,
+              "length": 111
+            },
+            {
+              "start": 1179,
+              "type_end": 1180,
+              "payload_start": 1181,
+              "end": 1290,
+              "tag": 103,
+              "length": 109
+            },
+            {
+              "start": 1290,
+              "type_end": 1291,
+              "payload_start": 1292,
+              "end": 1402,
+              "tag": 32,
+              "length": 110
+            },
+            {
+              "start": 1402,
+              "type_end": 1403,
+              "payload_start": 1404,
+              "end": 1450,
+              "tag": 56,
+              "length": 46
+            },
+            {
+              "start": 1450,
+              "type_end": 1451,
+              "payload_start": 1452,
+              "end": 1452,
+              "tag": 13,
+              "length": 0
+            }
+          ],
+          "count_evidence": []
+        },
+        {
+          "start": 0,
+          "end": 1444,
+          "type_width": 1,
+          "length_width": 1,
+          "byte_order": "little",
+          "record_count": 17,
+          "coverage": 0.993805918788713,
+          "unparsed_prefix": 0,
+          "unparsed_suffix": 9,
+          "records": [
+            {
+              "start": 0,
+              "type_end": 1,
+              "payload_start": 2,
+              "end": 72,
+              "tag": 67,
+              "length": 70
+            },
+            {
+              "start": 72,
+              "type_end": 73,
+              "payload_start": 74,
+              "end": 185,
+              "tag": 110,
+              "length": 111
+            },
+            {
+              "start": 185,
+              "type_end": 186,
+              "payload_start": 187,
+              "end": 219,
+              "tag": 97,
+              "length": 32
+            },
+            {
+              "start": 219,
+              "type_end": 220,
+              "payload_start": 221,
+              "end": 253,
+              "tag": 101,
+              "length": 32
+            },
+            {
+              "start": 253,
+              "type_end": 254,
+              "payload_start": 255,
+              "end": 287,
+              "tag": 101,
+              "length": 32
+            },
+            {
+              "start": 287,
+              "type_end": 288,
+              "payload_start": 289,
+              "end": 321,
+              "tag": 101,
+              "length": 32
+            },
+            {
+              "start": 321,
+              "type_end": 322,
+              "payload_start": 323,
+              "end": 432,
+              "tag": 109,
+              "length": 109
+            },
+            {
+              "start": 432,
+              "type_end": 433,
+              "payload_start": 434,
+              "end": 549,
+              "tag": 32,
+              "length": 115
+            },
+            {
+              "start": 549,
+              "type_end": 550,
+              "payload_start": 551,
+              "end": 652,
+              "tag": 109,
+              "length": 101
+            },
+            {
+              "start": 652,
+              "type_end": 653,
+              "payload_start": 654,
+              "end": 753,
+              "tag": 32,
+              "length": 99
+            },
+            {
+              "start": 753,
+              "type_end": 754,
+              "payload_start": 755,
+              "end": 863,
+              "tag": 101,
+              "length": 108
+            },
+            {
+              "start": 863,
+              "type_end": 864,
+              "payload_start": 865,
+              "end": 974,
+              "tag": 111,
+              "length": 109
+            },
+            {
+              "start": 974,
+              "type_end": 975,
+              "payload_start": 976,
+              "end": 1073,
+              "tag": 99,
+              "length": 97
+            },
+            {
+              "start": 1073,
+              "type_end": 1074,
+              "payload_start": 1075,
+              "end": 1193,
+              "tag": 97,
+              "length": 118
+            },
+            {
+              "start": 1193,
+              "type_end": 1194,
+              "payload_start": 1195,
+              "end": 1227,
+              "tag": 97,
+              "length": 32
+            },
+            {
+              "start": 1227,
+              "type_end": 1228,
+              "payload_start": 1229,
+              "end": 1345,
+              "tag": 108,
+              "length": 116
+            },
+            {
+              "start": 1345,
+              "type_end": 1346,
+              "payload_start": 1347,
+              "end": 1444,
+              "tag": 116,
+              "length": 97
+            }
+          ],
+          "count_evidence": []
+        },
+        {
+          "start": 10,
+          "end": 1439,
+          "type_width": 2,
+          "length_width": 1,
+          "byte_order": "big",
+          "record_count": 15,
+          "coverage": 0.9834824501032347,
+          "unparsed_prefix": 10,
+          "unparsed_suffix": 14,
+          "records": [
+            {
+              "start": 10,
+              "type_end": 12,
+              "payload_start": 13,
+              "end": 129,
+              "tag": 104,
+              "length": 116
+            },
+            {
+              "start": 129,
+              "type_end": 131,
+              "payload_start": 132,
+              "end": 229,
+              "tag": 8291,
+              "length": 97
+            },
+            {
+              "start": 229,
+              "type_end": 231,
+              "payload_start": 232,
+              "end": 333,
+              "tag": 25448,
+              "length": 101
+            },
+            {
+              "start": 333,
+              "type_end": 335,
+              "payload_start": 336,
+              "end": 433,
+              "tag": 25959,
+              "length": 97
+            },
+            {
+              "start": 433,
+              "type_end": 435,
+              "payload_start": 436,
+              "end": 539,
+              "tag": 29545,
+              "length": 103
+            },
+            {
+              "start": 539,
+              "type_end": 541,
+              "payload_start": 542,
+              "end": 653,
+              "tag": 24950,
+              "length": 111
+            },
+            {
+              "start": 653,
+              "type_end": 655,
+              "payload_start": 656,
+              "end": 755,
+              "tag": 25441,
+              "length": 99
+            },
+            {
+              "start": 755,
+              "type_end": 757,
+              "payload_start": 758,
+              "end": 790,
+              "tag": 29793,
+              "length": 32
+            },
+            {
+              "start": 790,
+              "type_end": 792,
+              "payload_start": 793,
+              "end": 890,
+              "tag": 25959,
+              "length": 97
+            },
+            {
+              "start": 890,
+              "type_end": 892,
+              "payload_start": 893,
+              "end": 990,
+              "tag": 24864,
+              "length": 97
+            },
+            {
+              "start": 990,
+              "type_end": 992,
+              "payload_start": 993,
+              "end": 1092,
+              "tag": 8293,
+              "length": 99
+            },
+            {
+              "start": 1092,
+              "type_end": 1094,
+              "payload_start": 1095,
+              "end": 1127,
+              "tag": 28001,
+              "length": 32
+            },
+            {
+              "start": 1127,
+              "type_end": 1129,
+              "payload_start": 1130,
+              "end": 1227,
+              "tag": 27764,
+              "length": 97
+            },
+            {
+              "start": 1227,
+              "type_end": 1229,
+              "payload_start": 1230,
+              "end": 1327,
+              "tag": 27764,
+              "length": 97
+            },
+            {
+              "start": 1327,
+              "type_end": 1329,
+              "payload_start": 1330,
+              "end": 1439,
+              "tag": 24941,
+              "length": 109
+            }
+          ],
+          "count_evidence": []
+        },
+        {
+          "start": 10,
+          "end": 1439,
+          "type_width": 2,
+          "length_width": 1,
+          "byte_order": "little",
+          "record_count": 15,
+          "coverage": 0.9834824501032347,
+          "unparsed_prefix": 10,
+          "unparsed_suffix": 14,
+          "records": [
+            {
+              "start": 10,
+              "type_end": 12,
+              "payload_start": 13,
+              "end": 129,
+              "tag": 26624,
+              "length": 116
+            },
+            {
+              "start": 129,
+              "type_end": 131,
+              "payload_start": 132,
+              "end": 229,
+              "tag": 25376,
+              "length": 97
+            },
+            {
+              "start": 229,
+              "type_end": 231,
+              "payload_start": 232,
+              "end": 333,
+              "tag": 26723,
+              "length": 101
+            },
+            {
+              "start": 333,
+              "type_end": 335,
+              "payload_start": 336,
+              "end": 433,
+              "tag": 26469,
+              "length": 97
+            },
+            {
+              "start": 433,
+              "type_end": 435,
+              "payload_start": 436,
+              "end": 539,
+              "tag": 26995,
+              "length": 103
+            },
+            {
+              "start": 539,
+              "type_end": 541,
+              "payload_start": 542,
+              "end": 653,
+              "tag": 30305,
+              "length": 111
+            },
+            {
+              "start": 653,
+              "type_end": 655,
+              "payload_start": 656,
+              "end": 755,
+              "tag": 24931,
+              "length": 99
+            },
+            {
+              "start": 755,
+              "type_end": 757,
+              "payload_start": 758,
+              "end": 790,
+              "tag": 24948,
+              "length": 32
+            },
+            {
+              "start": 790,
+              "type_end": 792,
+              "payload_start": 793,
+              "end": 890,
+              "tag": 26469,
+              "length": 97
+            },
+            {
+              "start": 890,
+              "type_end": 892,
+              "payload_start": 893,
+              "end": 990,
+              "tag": 8289,
+              "length": 97
+            },
+            {
+              "start": 990,
+              "type_end": 992,
+              "payload_start": 993,
+              "end": 1092,
+              "tag": 25888,
+              "length": 99
+            },
+            {
+              "start": 1092,
+              "type_end": 1094,
+              "payload_start": 1095,
+              "end": 1127,
+              "tag": 24941,
+              "length": 32
+            },
+            {
+              "start": 1127,
+              "type_end": 1129,
+              "payload_start": 1130,
+              "end": 1227,
+              "tag": 29804,
+              "length": 97
+            },
+            {
+              "start": 1227,
+              "type_end": 1229,
+              "payload_start": 1230,
+              "end": 1327,
+              "tag": 29804,
+              "length": 97
+            },
+            {
+              "start": 1327,
+              "type_end": 1329,
+              "payload_start": 1330,
+              "end": 1439,
+              "tag": 28001,
+              "length": 109
+            }
+          ],
+          "count_evidence": []
+        }
+      ],
+      "search_truncated": false,
+      "steps": 3672,
+      "limitations": [
+        "Tests only type-length-value records with fixed-width integers.",
+        "Length is assumed to count payload bytes only.",
+        "Starts are tested only in the first 64 bytes; trailers up to 16 bytes are allowed.",
+        "Requires at least 3 records, at most 16 distinct tags, and varying lengths.",
+        "Without a prefix-count match, at least 4 records and repeated tags are required.",
+        "Prefix-count matches may be coincidental; overlapping matches are not independent evidence.",
+        "Hypotheses may be coincidental; coverage is not correctness probability."
+      ]
+    },
+    "limitations": [
+      "Profile windows are computational windows, not inferred fields.",
+      "Numeric matches may be coincidental and can overlap.",
+      "Only 2/4-byte integer candidates starting in the first 64 bytes are checked.",
+      "ASCII extraction does not cover all text encodings.",
+      "High entropy does not establish compression, encryption, or maliciousness.",
+      "No reader or reference format schema is used."
+    ]
+  },
+  "regions": [
+    {
+      "start": 0,
+      "end": 1453,
+      "length": 1453,
+      "cls": "ole2",
+      "conf": 0.9874862217481069
+    }
+  ]
+}

@@ -135,6 +135,27 @@ def render_report(report):
 
         record_search = observations.get("record_hypotheses")
         if record_search:
+            candidates_found = record_search.get("candidates", [])
+            if candidates_found:
+                top = candidates_found[0]
+                st.info(
+                    f"Знайдено структурних гіпотез: {len(candidates_found)}. "
+                    "Назву формату не встановлено; схема не підтверджена."
+                )
+                st.write(
+                    "Перший кандидат за поточним ранжуванням: "
+                    f"{top['record_count']} записів; "
+                    f"можливе поле типу — {top['type_width']} байт(и), "
+                    f"поле довжини — {top['length_width']} байт(и); "
+                    f"порядок байтів — {top['byte_order']}."
+                )
+                st.caption(
+                    f"Інтервал кандидата: {top['start']}..{top['end']}. "
+                    f"Непояснений префікс: {top['unparsed_prefix']} байтів; "
+                    f"суфікс: {top['unparsed_suffix']} байтів. "
+                    "Ранжування є евристичним, а не оцінкою ймовірності."
+                )
+
             st.subheader("Гіпотези повторюваних записів")
             st.caption(
                 "Перевіряється обмежена схема: можливий тип, довжина "
@@ -151,7 +172,7 @@ def render_report(report):
 
             if not record_search["candidates"]:
                 st.write(
-                    "За перевіреними схемами гіпотез не знайдено. "
+                    "За перевіреними схемами гіпотез не знайдено.  "
                     "Це не означає відсутності структури у файлі."
                 )
 
