@@ -1,0 +1,52 @@
+{
+  "scope": "Share of Kaitai field boundaries that coincide with reader read boundaries. Local corpus on the author machine; not a ceiling for infer2, which also splits by cross-sample variance.",
+  "seed": 42,
+  "max_files_per_format": 40,
+  "commit": "c51071cbf3aac7a627efada7417011dbdfe00d72",
+  "results": {
+    "gif": {
+      "files": 39,
+      "kaitai_boundaries_total": 73796,
+      "shared_with_read_boundaries": 436,
+      "share": 0.0059,
+      "kaitai_boundaries_median": 919,
+      "failures": {}
+    },
+    "png": {
+      "files": 39,
+      "kaitai_boundaries_total": 1696,
+      "shared_with_read_boundaries": 573,
+      "share": 0.3379,
+      "kaitai_boundaries_median": 31,
+      "failures": {
+        "kaitai:ValidationNotEqualError": 1
+      }
+    },
+    "ico": {
+      "files": 40,
+      "kaitai_boundaries_total": 2280,
+      "shared_with_read_boundaries": 324,
+      "share": 0.1421,
+      "kaitai_boundaries_median": 51.0,
+      "failures": {}
+    },
+    "wav": {
+      "files": 34,
+      "kaitai_boundaries_total": 747,
+      "shared_with_read_boundaries": 139,
+      "share": 0.1861,
+      "kaitai_boundaries_median": 12.5,
+      "failures": {
+        "reader:Error": 4
+      }
+    },
+    "gz": {
+      "files": 38,
+      "kaitai_boundaries_total": 334,
+      "shared_with_read_boundaries": 106,
+      "share": 0.3174,
+      "kaitai_boundaries_median": 9.0,
+      "failures": {}
+    }
+  }
+}
