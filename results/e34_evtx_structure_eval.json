@@ -1,0 +1,87 @@
+{
+  "scope": "Joint inference over all local EVTX files, first two chunks only (demo/evtx_reader.py:parse_head). Ground truth is the author's reading of the public EVTX layout. Diagnostic development run, not a held-out evaluation.",
+  "commit": "beef2d72aee2603815bc41f4189d82065776ea8c",
+  "files": 40,
+  "events": 52786,
+  "infer2_seconds": 18.3,
+  "infer2_sha256": "c241035d1dc2a94a2dc7a7a18219e4465536794498d2523c72001430be1b2d0d",
+  "reader_sha256": "c3979604ee061060ec803a86996f3ba2026b7e564ba82f2c719d3e21ef30bec1",
+  "base_sha256": "44969ce262e7c9889cc515805869fbbe1b7d149f23463c9db7e0003dff3b4014",
+  "evaluator_sha256": "b5169d00a1542a10aa93cb5a7735bd5bf436e3740a59fbc81069334fd5988446",
+  "anchored_rules": [
+    {
+      "key": [
+        "evtx_reader.parse_file:80",
+        4,
+        "little",
+        "evtx_reader.parse_file:78",
+        4
+      ],
+      "occurrences": 8511,
+      "hits": 8511,
+      "support": 1.0,
+      "distinct_matching_values": 222
+    }
+  ],
+  "anchored_evidence_count": 8511,
+  "roles_by_field_and_position": {
+    "sig/first": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 80
+    },
+    "size/first": {
+      "\u0434\u043e\u0432\u0436\u0438\u043d\u0430": 80
+    },
+    "id/first": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 80
+    },
+    "time/first": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 80
+    },
+    "body/first": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 80
+    },
+    "tail/first": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 80
+    },
+    "sig/middle": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 8351
+    },
+    "size/middle": {
+      "\u0434\u043e\u0432\u0436\u0438\u043d\u0430": 8351
+    },
+    "id/middle": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 8351
+    },
+    "time/middle": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 8351
+    },
+    "body/middle": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 8351
+    },
+    "tail/middle": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 8351
+    },
+    "sig/last": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 80
+    },
+    "size/last": {
+      "\u0434\u043e\u0432\u0436\u0438\u043d\u0430": 80
+    },
+    "id/last": {
+      "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430": 45,
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 34,
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 1
+    },
+    "time/last": {
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 79,
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 1
+    },
+    "body/last": {
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 80
+    },
+    "tail/last": {
+      "\u0437\u043c\u0456\u043d\u043d\u0435 \u043f\u043e\u043b\u0435": 79,
+      "\u0434\u0430\u043d\u0456 (\u0431\u043b\u043e\u043a)": 1
+    }
+  }
+}

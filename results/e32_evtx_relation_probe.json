@@ -1,0 +1,214 @@
+{
+  "scope": "Development EVTX, first two chunks. Truth-assisted diagnostic only; not an inference algorithm and not a held-out evaluation. Offset matches use contiguous prefix sums from v2 following().",
+  "commit": "beef2d72aee2603815bc41f4189d82065776ea8c",
+  "inputs": [
+    {
+      "file": "13c5c4f59b31.evtx",
+      "sha256": "13c5c4f59b3148d3fd1bdff3835ca92162bb86f9af352641329e8ac03cfd8f6c"
+    },
+    {
+      "file": "1be65dab16a6.evtx",
+      "sha256": "1be65dab16a68d5f4fef2faf0ef425d0d3b20654e33b21fbc66296fcf854e991"
+    },
+    {
+      "file": "1cea8431ca5e.evtx",
+      "sha256": "1cea8431ca5e86402c495454b9752183ca50629fed6fae3043e868829b9b5d33"
+    },
+    {
+      "file": "21c8cf441848.evtx",
+      "sha256": "21c8cf4418488d1eca2a9c61374a629b05fd93f861c22aa7c0a0e45283d0c0c9"
+    },
+    {
+      "file": "2d7543dd0f39.evtx",
+      "sha256": "2d7543dd0f39cda7ce36b11a32cded43045b1066e225feef60e32e9860295cb3"
+    },
+    {
+      "file": "3a617a8408ca.evtx",
+      "sha256": "3a617a8408ca4d84e5fe0871d328a4a98fdb51a1f8728663d594f09260d42e80"
+    },
+    {
+      "file": "46c216b11b90.evtx",
+      "sha256": "46c216b11b90aa906d274070a07f6ca891b6b686ff20e4a2d75fed6c8bfcfb5b"
+    },
+    {
+      "file": "4c4fb107aff6.evtx",
+      "sha256": "4c4fb107aff6948da09103cd40a1f56566243e761092cba338ede6b5305e87c2"
+    },
+    {
+      "file": "5aad1181f5e5.evtx",
+      "sha256": "5aad1181f5e5f401d2e9a34e591a8c6ab245d13731e6d09ecfe378c9ada67cc2"
+    },
+    {
+      "file": "5e8da875daf3.evtx",
+      "sha256": "5e8da875daf3ac673b708261c1b18fd983d705ef6fab391de58e3d4a88552341"
+    },
+    {
+      "file": "634319a0d249.evtx",
+      "sha256": "634319a0d2495088080159b14dbc280dcd4226ad3eab8fdcd10b57a2e16636e6"
+    },
+    {
+      "file": "67aa7e0da2db.evtx",
+      "sha256": "67aa7e0da2dbcc2d3bcc45e0ba17af82b7d3aa9313e9cdd13a2c63cd38eb39ca"
+    },
+    {
+      "file": "6e84ad009d4b.evtx",
+      "sha256": "6e84ad009d4bba6d29677b51c4a2a327d26632292573735a91a1b1f6d427c744"
+    },
+    {
+      "file": "6fb3b35a1e47.evtx",
+      "sha256": "6fb3b35a1e4737894072b14a00f3bcbd4aa9fb1bdbed4fb65f3043e3bfd9e028"
+    },
+    {
+      "file": "73a1478de93e.evtx",
+      "sha256": "73a1478de93ea79cb132f05321b201518db9c9364646e2b0f5543d658227975a"
+    },
+    {
+      "file": "75bc1bb38744.evtx",
+      "sha256": "75bc1bb38744168a57a2d4cb00b49f99b534924b0559f7d771015f946d6ce510"
+    },
+    {
+      "file": "7c32d9ef98d0.evtx",
+      "sha256": "7c32d9ef98d0e26ced45d245c79b67d77bb128610e3117c4988903912496b6b3"
+    },
+    {
+      "file": "855d27374086.evtx",
+      "sha256": "855d2737408643b7f231cdbbee3c33e93c5f0cd72001898a06b5ba47e27f9fec"
+    },
+    {
+      "file": "981e1c079926.evtx",
+      "sha256": "981e1c07992647ec432871d9cc6643d4dfcbdc8d50fd9760cef8d7fae80f4cbb"
+    },
+    {
+      "file": "a7cfb3266d12.evtx",
+      "sha256": "a7cfb3266d1282a9a5ebf696e7f626b975254bfe373f78b917c469d253757995"
+    },
+    {
+      "file": "a88fac121243.evtx",
+      "sha256": "a88fac12124303f8398f23b10db0db71ef15c1e6e77ca66f26b16d9f96f5f0e5"
+    },
+    {
+      "file": "aae2fb164986.evtx",
+      "sha256": "aae2fb16498658cc7b1ab120413f71fd31d806d4a0bb4c450e18406b418c5fb3"
+    },
+    {
+      "file": "ae4fb3a8ff22.evtx",
+      "sha256": "ae4fb3a8ff22995956f8e14eae8f5edae5ab5cfd51eb2f1d1642a152d8f2e8d7"
+    },
+    {
+      "file": "b35226be3b72.evtx",
+      "sha256": "b35226be3b7265b4d44bcdc13892ecbb6b8d8f7ef4919d304aa6a7d7f20f2c65"
+    },
+    {
+      "file": "b370ee38ec55.evtx",
+      "sha256": "b370ee38ec553d30568afcbad14c3a72b5e5c8a033b341a32017ea34b5c6704a"
+    },
+    {
+      "file": "b6116dc51d2b.evtx",
+      "sha256": "b6116dc51d2b22b783a0bb20453eb450f5066aaf94de53b4d29a65f0e6f44931"
+    },
+    {
+      "file": "bf716e31bbc5.evtx",
+      "sha256": "bf716e31bbc59e35505fd106b41a3bc386ce76dc87ac9ff3e5b8e918cf6d6101"
+    },
+    {
+      "file": "c0e0c9997352.evtx",
+      "sha256": "c0e0c9997352f36c24cff09ebc73cc07c5df8218eaf352585b0cd73c0fcc1f3d"
+    },
+    {
+      "file": "c620186ff828.evtx",
+      "sha256": "c620186ff828b2e9dc39a747960eb5a8d0f0cfa63ac1285d4eda676ef2e9530c"
+    },
+    {
+      "file": "c6bb2239ef21.evtx",
+      "sha256": "c6bb2239ef21ff8426d37706d7224a4175ef6839455e6149efa91d68abc4975b"
+    },
+    {
+      "file": "c8f45fc21c7b.evtx",
+      "sha256": "c8f45fc21c7b3f9bfa42b36e2c9242d7a8b9c324957b3aa0d5287b37759a910a"
+    },
+    {
+      "file": "cb52b4c29abb.evtx",
+      "sha256": "cb52b4c29abbab9699e3c0fa3745ffecf541e59b5f48d0d14b1527a3e77adf11"
+    },
+    {
+      "file": "d18f2690a523.evtx",
+      "sha256": "d18f2690a523f9088f7f44afa8e2b9e1641ab340f1ffed9c1243c3f0c76b1358"
+    },
+    {
+      "file": "d351c5bc1c4c.evtx",
+      "sha256": "d351c5bc1c4cefd56bf19265e17f0da296d91f1eef4d848cc74c2fd0ce9e5348"
+    },
+    {
+      "file": "d4dd2c557686.evtx",
+      "sha256": "d4dd2c5576861124097e807e44efa59aef6706170fc37b0ca811a164517a5a10"
+    },
+    {
+      "file": "ea3df1a00b0f.evtx",
+      "sha256": "ea3df1a00b0fb305c955249971c5b75c8fff267182a323af2aa185aa937720da"
+    },
+    {
+      "file": "eaed66f5f2b6.evtx",
+      "sha256": "eaed66f5f2b653edf1d9c0a15ab3d740306daa612e44b81226a9c579bf66d27e"
+    },
+    {
+      "file": "eed389cf0eb5.evtx",
+      "sha256": "eed389cf0eb58509b9a2093ed4018cc8dacd232a5d811f40c73a54d11da1f2d6"
+    },
+    {
+      "file": "f1c8b05e7dc1.evtx",
+      "sha256": "f1c8b05e7dc1be138a7145ccb07aa8e8185e240de4c105a10bb1566606a9f94b"
+    },
+    {
+      "file": "f3bc035af6c0.evtx",
+      "sha256": "f3bc035af6c0b30df1658471f8fca3c169816388d0df3db50d780f437927394d"
+    }
+  ],
+  "code_sha256": {
+    "experiments/e20_infer2.py": "b790285eea9bb6538992e6b5c67ec5ac760a18c3b96263b1f48139a301488e01",
+    "experiments/e27_evtx_structure_eval.py": "c9183e946efa2f1a5b86b11c65abab60263683e1d12145921d018f061b3f3d22",
+    "experiments/e32_evtx_relation_probe.py": "cf2d3e02abdf85e3dbabb77f304b00530008d02cdbaeedd52fe4789fb87d7f7b",
+    "demo/evtx_reader.py": "c3979604ee061060ec803a86996f3ba2026b7e564ba82f2c719d3e21ef30bec1"
+  },
+  "by_record_position": {
+    "first": {
+      "records": 80,
+      "signature_read_present": 80,
+      "size_read_present": 80,
+      "start_plus_size_equals_end": 80,
+      "tail_read_present": 80,
+      "tail_value_equals_size": 80,
+      "prefix_match_offset_0": 80,
+      "prefix_match_offset_4": 80,
+      "prefix_match_offset_8": 80,
+      "previous_event_is_signature": 80
+    },
+    "middle": {
+      "records": 8351,
+      "signature_read_present": 8351,
+      "size_read_present": 8351,
+      "start_plus_size_equals_end": 8351,
+      "tail_read_present": 8351,
+      "tail_value_equals_size": 8351,
+      "prefix_match_offset_0": 8351,
+      "prefix_match_offset_4": 8351,
+      "prefix_match_offset_8": 8351,
+      "previous_event_is_signature": 8351
+    },
+    "last": {
+      "records": 80,
+      "signature_read_present": 80,
+      "size_read_present": 80,
+      "start_plus_size_equals_end": 80,
+      "tail_read_present": 80,
+      "tail_value_equals_size": 80,
+      "prefix_match_offset_0": 1,
+      "prefix_match_offset_4": 0,
+      "prefix_match_offset_8": 80,
+      "previous_event_is_signature": 80
+    }
+  },
+  "signature_contexts": {
+    "evtx_reader.parse_file:78": 8511
+  },
+  "structural_check_failures": []
+}

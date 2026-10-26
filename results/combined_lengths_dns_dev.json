@@ -1,0 +1,191 @@
+{
+  "scope": "Development DNS only; combined length mechanisms; no held-out data.",
+  "commit": "beef2d72aee2603815bc41f4189d82065776ea8c",
+  "messages": 60,
+  "skipped": [],
+  "sha256": {
+    "v2": "b790285eea9bb6538992e6b5c67ec5ac760a18c3b96263b1f48139a301488e01",
+    "combined_lengths": "c241035d1dc2a94a2dc7a7a18219e4465536794498d2523c72001430be1b2d0d",
+    "local_marker_base": "44969ce262e7c9889cc515805869fbbe1b7d149f23463c9db7e0003dff3b4014",
+    "reader": "075eab0479fd183dade8b0953c971414a309097844ad007538d588b49364e5ce",
+    "truth_source": "6ef65ec6f03f15f71823421d21db911e0ac8373b22c75ad85803bad31126ded2",
+    "evaluator": "65f72c6e2213e01a8b9b88df18192bbbe9b02d99ccb8e3e81255358bc9993fa8"
+  },
+  "summary": {
+    "v2": {
+      "true_length_fields": 285,
+      "correct_length_labels": 165,
+      "length_recall": 0.5789473684210527,
+      "false_length_labels": 0,
+      "false_length_examples": [],
+      "missing_exact_intervals": 0,
+      "roles_by_field": {
+        "id": {
+          "змінне поле": 60
+        },
+        "flags": {
+          "змінне поле": 60
+        },
+        "qdcount": {
+          "константа": 60
+        },
+        "ancount": {
+          "константа": 41,
+          "змінне поле": 19
+        },
+        "nscount": {
+          "константа": 60
+        },
+        "arcount": {
+          "константа": 60
+        },
+        "qname_len": {
+          "тип запису": 120
+        },
+        "qname_label": {
+          "змінне поле": 70,
+          "константа": 50
+        },
+        "qname_end": {
+          "тип запису": 60
+        },
+        "qtype": {
+          "константа": 12,
+          "змінне поле": 48
+        },
+        "qclass": {
+          "константа": 60
+        },
+        "rr_end": {
+          "тип запису": 60
+        },
+        "rr_type": {
+          "тип запису": 165
+        },
+        "rr_class": {
+          "тип запису": 165
+        },
+        "rr_ttl": {
+          "константа": 60,
+          "змінне поле": 105
+        },
+        "rr_rdlen": {
+          "довжина": 165
+        },
+        "rr_ptr1": {
+          "тип запису": 105
+        },
+        "rr_ptr2": {
+          "змінне поле": 105
+        },
+        "rr_rdata": {
+          "дані (блок)": 105
+        }
+      }
+    },
+    "combined_lengths": {
+      "true_length_fields": 285,
+      "correct_length_labels": 285,
+      "length_recall": 1.0,
+      "false_length_labels": 0,
+      "false_length_examples": [],
+      "missing_exact_intervals": 0,
+      "roles_by_field": {
+        "id": {
+          "змінне поле": 60
+        },
+        "flags": {
+          "змінне поле": 60
+        },
+        "qdcount": {
+          "константа": 60
+        },
+        "ancount": {
+          "константа": 41,
+          "змінне поле": 19
+        },
+        "nscount": {
+          "константа": 60
+        },
+        "arcount": {
+          "константа": 60
+        },
+        "qname_len": {
+          "довжина": 120
+        },
+        "qname_label": {
+          "дані (блок)": 120
+        },
+        "qname_end": {
+          "тип запису": 60
+        },
+        "qtype": {
+          "константа": 12,
+          "змінне поле": 48
+        },
+        "qclass": {
+          "константа": 60
+        },
+        "rr_end": {
+          "тип запису": 60
+        },
+        "rr_type": {
+          "тип запису": 165
+        },
+        "rr_class": {
+          "тип запису": 165
+        },
+        "rr_ttl": {
+          "константа": 60,
+          "змінне поле": 105
+        },
+        "rr_rdlen": {
+          "довжина": 165
+        },
+        "rr_ptr1": {
+          "тип запису": 105
+        },
+        "rr_ptr2": {
+          "змінне поле": 105
+        },
+        "rr_rdata": {
+          "дані (блок)": 105
+        }
+      }
+    }
+  },
+  "interval_symmetric_difference_count": 0,
+  "role_changes": [
+    {
+      "from": "тип запису",
+      "to": "довжина",
+      "count": 120
+    },
+    {
+      "from": "константа",
+      "to": "дані (блок)",
+      "count": 50
+    },
+    {
+      "from": "змінне поле",
+      "to": "дані (блок)",
+      "count": 70
+    }
+  ],
+  "anchored_rules": [],
+  "marker_rules": [
+    {
+      "key": [
+        "dns_reader.read_name:23",
+        1,
+        0,
+        1,
+        "little"
+      ],
+      "excluded_values": [
+        0,
+        192
+      ]
+    }
+  ]
+}
