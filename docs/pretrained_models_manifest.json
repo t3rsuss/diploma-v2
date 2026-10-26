@@ -1,0 +1,38 @@
+{
+  "purpose": "Required pretrained models used by src/detector/verdict.py.",
+  "source_project": "FutureComputing4AI/EMBER2024",
+  "source_model_repository": "joyce8/EMBER2024-benchmark-models",
+  "download_method": "thrember.download_models",
+  "limitations": [
+    "Hashes identify the locally tested model files.",
+    "The upstream download method may retrieve all 14 models.",
+    "An upstream content change must fail verification, not update this manifest automatically."
+  ],
+  "files": [
+    {
+      "name": "EMBER2024_ELF.model",
+      "bytes": 3764582,
+      "sha256": "8e4072938955ac6020f80bca6cff7c12e97865102d578b3099e2011048eb9c43"
+    },
+    {
+      "name": "EMBER2024_Win64.model",
+      "bytes": 3729014,
+      "sha256": "8eddddc26eb346d74810a0dfcc672342eca5709ece4da259934d6d3c77ca971b"
+    },
+    {
+      "name": "EMBER2024_Dot_Net.model",
+      "bytes": 3697641,
+      "sha256": "cbd91b4a823d5dac3f56f38640a5599836501ccbd4fcce273d28c9aed0afc24c"
+    },
+    {
+      "name": "EMBER2024_Win32.model",
+      "bytes": 3741926,
+      "sha256": "b1e9fc174e4fcc6c0aba3ff29eb6d96ee9e240057f76940a8a1d6009ac0a4267"
+    },
+    {
+      "name": "EMBER2024_PE.model",
+      "bytes": 3756042,
+      "sha256": "4252027863492ac138785c8c18576f43dad77d00faddc14e8c0072e8db419f99"
+    }
+  ]
+}

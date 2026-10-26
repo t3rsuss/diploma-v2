@@ -10,7 +10,7 @@ matplotlib==3.11.2
 streamlit==1.65.0
 tqdm==4.70.1
 pytest==9.1.1
-thrember @ git+https://github.com/FutureComputing4AI/EMBER2024.git
+thrember @ git+https://github.com/FutureComputing4AI/EMBER2024.git@0ef753e81d98bf209f71b03cd331dfc190b5b54d
 kaitaistruct==0.11
 magika==1.0.3
 onnxruntime==1.31.0
