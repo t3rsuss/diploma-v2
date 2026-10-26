@@ -1,0 +1,3 @@
+# Preserve serialized model bytes exactly.
+/src/models/*.txt -text
+/src/models/*.joblib -text
