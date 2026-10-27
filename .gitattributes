@@ -1,3 +1,6 @@
 # Preserve serialized model bytes exactly.
 /src/models/*.txt -text
 /src/models/*.joblib -text
+
+# Preserve the checksum of the documented historical report.
+/results/final_cfg1_joint.json -text
