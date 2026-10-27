@@ -33,3 +33,8 @@ results/e13_cache.pkl
 /make_project_snapshot.py
 /cleanup_project_snapshot.py
 /all_code.txt
+
+# Reproducible demo samples (see README.md)
+/demo/samples_xdt3/
+/demo/samples_cfg1/
+/demo/cfg1_labels.json
