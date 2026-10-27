@@ -6,9 +6,7 @@ from analyze_all import analyze_set
 from demo import cfg1
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-PAGE = ROOT / "pages" / (
-    "1_" + "\u0412\u0456\u0434\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f.py"
-)
+PAGE = ROOT / "views" / "recovery.py"
 
 
 def test_recovery_page_opens_without_browser():

@@ -4,7 +4,7 @@ import pathlib
 import pytest
 from streamlit.testing.v1 import AppTest
 
-import app as UI
+from views import single_file as UI
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -29,7 +29,7 @@ def sample_report(fmt="unknown"):
 
 
 def test_single_file_page_opens():
-    page = AppTest.from_file(str(ROOT / "app.py")).run()
+    page = AppTest.from_file(str(ROOT / "views" / "single_file.py")).run()
     assert not page.exception
     assert page.title[0].value == "Аналіз бінарних даних"
     assert any(b.label == "Проаналізувати" for b in page.button)
@@ -68,7 +68,7 @@ def test_upload_preserves_identity_and_cleans_temp_file(monkeypatch):
 
 @pytest.mark.parametrize("fmt", ["unknown", "png"])
 def test_single_file_result_display(fmt):
-    page = AppTest.from_file(str(ROOT / "app.py"))
+    page = AppTest.from_file(str(ROOT / "views" / "single_file.py"))
     page.session_state[UI.REPORT_KEY] = sample_report(fmt)
     page.run()
 
@@ -84,7 +84,7 @@ def test_single_file_result_display(fmt):
 
 
 def test_empty_submission_clears_previous_result():
-    page = AppTest.from_file(str(ROOT / "app.py"))
+    page = AppTest.from_file(str(ROOT / "views" / "single_file.py"))
     page.session_state[UI.REPORT_KEY] = sample_report()
     page.run()
 

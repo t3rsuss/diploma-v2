@@ -176,6 +176,72 @@ if payload:
         )
         report = next(r for r in good if r["input_id"] == selected)
 
+        st.subheader("Що вдалося встановити")
+        st.write(
+            f"Для файла {report['file']} сформовано "
+            f"{len(report['fields'])} гіпотез полів за спостереженнями "
+            f"читача на {len(good)} успішно оброблених зразках."
+        )
+        st.caption(
+            "Назву читача обирає користувач. Алгоритм не отримує "
+            "еталонну схему, але використовує межі й контексти читання. "
+            "Результат — гіпотези структури, а не автоматично "
+            "встановлена назва невідомого формату."
+        )
+
+        role_counts = {}
+        for field in report["fields"]:
+            role = field["role"]
+            role_counts[role] = role_counts.get(role, 0) + 1
+        st.write(
+            "Гіпотези ролей: "
+            + "; ".join(
+                f"{role} — {count}"
+                for role, count in sorted(role_counts.items())
+            )
+            + "."
+        )
+
+        evidence_items = report.get("length_evidence", [])
+        local_matches = [
+            item for item in evidence_items
+            if item.get("local_read_match")
+            and item.get("related_interval") is not None
+        ]
+        st.write(
+            f"Кандидатів правил довжини: {len(evidence_items)}. "
+            f"Із числовим збігом у цьому файлі: {len(local_matches)}."
+        )
+        if local_matches:
+            example = max(
+                local_matches,
+                key=lambda item: (
+                    item.get("event_support", 0),
+                    item.get("matching_events", 0),
+                ),
+            )
+            start, end = example["related_interval"]
+            field_start, field_end = example["field"]
+            st.info(
+                f"Приклад: поле [{field_start}, {field_end}) містить "
+                f"число {example['value']}. Пов'язана ділянка "
+                f"[{start}, {end}) має {end - start} байтів. "
+                "Це числовий збіг на користь гіпотези довжини, "
+                "але не доказ призначення поля."
+            )
+        else:
+            st.info(
+                "Числових збігів для кандидатів довжини в цьому "
+                "файлі не знайдено. Інші гіпотези наведено нижче."
+            )
+
+        st.caption(
+            "Практичний результат: карта ділянок для подальшого "
+            "ручного аналізу та пошуку індикаторів у блоках. "
+            "Контекст на кшталт parse_file:101 у таблиці — місце "
+            "читання в програмі, а не відновлений програмний код."
+        )
+
         st.subheader("Гіпотези полів")
         st.caption(
             f"Розмір: {report['size']} байтів. "

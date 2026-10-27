@@ -1,4 +1,4 @@
-﻿import hashlib
+import hashlib
 import io
 import json
 import pathlib
@@ -12,7 +12,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 import rebin
-from app import MAX_UPLOAD_BYTES, analyze_upload
+from views.single_file import MAX_UPLOAD_BYTES, analyze_upload
 from demo import cfg1
 
 
@@ -213,6 +213,7 @@ def main():
 
     source_paths = [
         "app.py",
+        "views/single_file.py",
         "src/pipeline.py",
         "src/unknown.py",
         "src/triage/triage.py",
