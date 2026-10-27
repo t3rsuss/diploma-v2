@@ -12,7 +12,7 @@
 ## 2. Отримання програми
 
 ```powershell
-git clone [https://github.com/t3rsuss/diploma-v2.git](https://github.com/t3rsuss/diploma-v2.git)
+git clone https://github.com/t3rsuss/diploma-v2.git
 cd diploma-v2
 ```
 
